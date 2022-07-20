@@ -75,7 +75,7 @@ export default function Contact() {
             <div className="md:w-2/5 w-full">
               <p className="text-2xl font-semibold upper md:ml-4">
                 SFJ&
-                <br /> BUISINESS SOLUTIONS
+                <br /> BUSINESS SOLUTIONS
               </p>
 
               <div className="text-base pt-8 text-black md:ml-4">
@@ -131,9 +131,9 @@ export default function Contact() {
                         onChange={changeInterest}
                         className=" block w-full mt-1 rounded-sm border-black focus:border-green-700 focus:ring focus:ring-green-100 focus:ring-opacity-50"
                       >
-                        <option>talet services</option>
-                        <option>Knowledge service</option>
-                        <option>technology services</option>
+                        <option>Talent Services </option>
+                        <option>Knowledge  service</option>
+                        
                         <option>Others</option>
                       </select>
                     </label>

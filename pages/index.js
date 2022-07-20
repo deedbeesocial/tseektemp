@@ -25,7 +25,7 @@ export default function Home() {
       <section>
         <Slider />
       </section>
-      <section className="md:pt-24 md:pb-32 text-zinc-90 bg-orange-50">
+      <section className="md:pt-24 md:pb-32 text-zinc-90 bg-yellow-200">
         <div className="md:container p-4 mx-auto">
           <h1 className="text-4xl tracking-wide font-light text-green-900">
             OUR OFFERINGS
@@ -44,7 +44,7 @@ export default function Home() {
 
                   <div className="flex items-center justify-between z-50 w-full p-4 ">
                     <h1 className="text-4xl tracking-wide drop-shadow-md font-semibold  text-white z-10 w-full">
-                      KNOWLEDGE SERVICES
+                    KNOWLEDGE SERVICES
                     </h1>
                     {rightIcon}
                   </div>
@@ -86,7 +86,7 @@ export default function Home() {
 
                   <div className="flex items-center justify-between z-50 w-full p-4">
                     <h1 className="text-4xl tracking-wide drop-shadow-md font-semibold  text-white z-10 w-full">
-                      It services
+                      IT SERVICE
                     </h1>
                     {rightIcon}
                   </div>
@@ -101,7 +101,7 @@ export default function Home() {
         <Clients />
       </section>
 
-      <section className="text-black bg-yellow-50 body-font overflow-hidden lg:py-12">
+      <section className="text-black bg-green-50 body-font overflow-hidden lg:py-12">
         <div className="container bg-white px-5  py-10 mx-auto lg:shadow-lg lg:rounded-lg">
           <div className="lg:w-4/5 mx-auto flex flex-wrap justify-center">
             <div className="relative border h-[650px]  w-full lg:w-1/2 ">
@@ -114,7 +114,7 @@ export default function Home() {
             </div>
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 ">
               <h1 className="text-black text-3xl title-font font-medium mb-1">
-                The Catcher in the Rye
+                Title
               </h1>
 
               <p className="mt-4 leading-relaxed">
@@ -137,12 +137,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* achivements */}
+      {/* achievements */}
       <section className="text-black ">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
             <h1 className="sm:text-3xl text-2xl font-medium title-font  text-gray-900">
-              our achivement
+            Achievements
             </h1>
           </div>
           <div className="flex flex-wrap justify-center -m-4 text-center">
@@ -230,10 +230,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-white dark:bg-slate-100">
+      <section className="bg-white dark:bg-yellow-50">
         <div className="container px-6 py-10 mx-auto">
           <h1 className="text-3xl font-semibold capitalize lg:text-4xl text-black">
-            Knowledge as a service
+          Knowledge Services
           </h1>
 
           <div className="mt-2">
@@ -306,10 +306,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-white dark:bg-zinc-200">
+      <section className="bg-white dark:bg-green-50">
         <div className="container px-6 py-10 mx-auto">
           <h1 className="text-3xl font-semibold text-black capitalize lg:text-4xl ">
-            Talent as a service
+          Talent Services
           </h1>
 
           <div className="mt-2">
@@ -342,7 +342,7 @@ export default function Home() {
               </div>
 
               <div className="space-y-3">
-                <h1 className="text-2xl font-semiboldtext-black capitalize ">
+                <h1 className="text-2xl font-semibold text-black capitalize ">
                   New Components
                 </h1>
 
@@ -385,20 +385,17 @@ export default function Home() {
         <Testimonials />
       </section>
       {/* blogs */}
-      <section className="text-black bg-slate-200 body-font">
+      <section className="text-black bg-blue-100 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
             <h2 className="text-xs text-black tracking-widest font-medium title-font mb-1">
-              ROOF PARTY POLAROID
+              any heading
             </h2>
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-black">
               Blogs
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-              gentrify, subway tile poke farm-to-table. Franzen you probably
-              havent heard of them man bun deep jianbing selfies heirloom prism
-              food truck ugh squid celiac humblebrag.
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-black">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste iusto quisquam quasi assumenda ad. Natus consectetur voluptate dolorem, quisquam ea voluptatem odio fugiat cumque, error alias fuga autem harum cupiditate necessitatibus qui inventore, explicabo dicta! Et ab odit assumenda, quas ratione eveniet laboriosam alias labore temporibus adipisci eius. Distinctio, accusantium.
             </p>
           </div>
           <div className="flex lg:flex-row  justify-center flex-col">
@@ -415,7 +412,7 @@ export default function Home() {
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
                   What is ai ml block chain?
                 </h2>
-                <p className="leading-relaxed text-base">
+                <p className="leading-relaxed ">
                   Building solutions using artificial intelligence, machine
                   learning and blockchain technologies. Artificial intelligence
                   and machine learning can automate important, but manual and
@@ -437,7 +434,7 @@ export default function Home() {
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
                   is ml used in block chain
                 </h2>
-                <p className="leading-relaxed text-base">
+                <p className="leading-relaxed ">
                   Machine learning models can use the data stored in the
                   blockchain network for making the prediction or for the
                   analysis of data purposes.Blockchain technology has been

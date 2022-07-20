@@ -22,7 +22,7 @@ export default function Layout({ children }) {
     },
 
     {
-      name: "Services",
+      name: "Service",
       path: "/services/services",
       sub: [
         { name: "Knowledge", path: "/services/knowledge" },
@@ -350,9 +350,9 @@ export default function Layout({ children }) {
         </div>
 
         <div className="mx-auto text-left md:text-center text-sm text-zinc-400 pt-4 md:pt-8 md:p-0 p-4 pl-6">
-          <p>SFJ BUSSINESS SOLUTION</p>
+          <p>SFJ BUSINESS SOLUTION</p>
           <p>
-            Copyright © 2022. All Rights Reserved. Designed by Deedbee Social
+            Copyright © 2022. All Rights Reserved. Designed by Deed bee Social
             Ventures.
           </p>
         </div>

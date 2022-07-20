@@ -9,18 +9,25 @@ import 'swiper/css/autoplay';
 export default function Clients() {
 
   const logos = [
-    "/icon.png",
-    "/icon.png",
-    "/icon.png",
-    "/icon.png",
-    "/icon.png",
-    "/icon.png",
-    "/icon.png",
-    "/icon.png",
-    "/icon.png",
-    "/icon.png",
-    
-   
+  
+   "/clients/client1.png",
+   "/clients/client2.png",
+   "/clients/client3.png",
+   "/clients/client4.png",
+   "/clients/client5.png",
+   "/clients/client6.png",
+   "/clients/client7.png",
+   "/clients/client8.png",
+   "/clients/client9.png",
+   "/clients/client10.png",
+   "/clients/client11.png",
+   "/clients/client12.png",
+   "/clients/client13.png",
+   "/clients/client14.png",
+   "/clients/client15.png",
+   "/clients/client16.png",
+   "/clients/client17.png",
+
   ]
 
   return (
@@ -61,67 +68,3 @@ export default function Clients() {
 
 
 
-{/* <div className="xl:w-1/4 md:w-1/2 p-4">
-<div className="bg-gray-100 p-6 rounded-lg">
-  <div className="relative border w-full h-24">
-    <Image
-      className=""
-      objectFit="cover"
-      layout="fill"
-      width={200}
-      height={200}
-      src="/wtwedo5.jpg"
-      alt="content"
-    />
-  </div>
-  <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-    SUBTITLE
-  </h3>
-  <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-    Chichen Itza
-  </h2>
-  <p className="leading-relaxed text-base">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-    quae perspiciatis qui, officiis quidem dignissimos aliquid
-    reprehenderit esse eos odio nisi laboriosam totam ab itaque
-    minima, assumenda accusamus tempora iure! Quidem totam
-    voluptatum ea nam dignissimos atque aliquam repudiandae, quae
-    nihil consectetur perspiciatis eum ipsa at consequuntur
-    similique ipsum. Asperiores.
-  </p>
-</div>
-</div> */}
-
-
-
-
-{/* <div className="xl:w-1/4 md:w-1/2 p-4">
-            <div className="bg-gray-100 p-6 rounded-lg">
-              <div className="relative border w-full h-24">
-                <Image
-                  className=""
-                  objectFit="cover"
-                  layout="fill"
-                  width={200}
-                  height={200}
-                  src="/wtwedo5.jpg"
-                  alt="content"
-                />
-              </div>
-              <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                SUBTITLE
-              </h3>
-              <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                Chichen Itza
-              </h2>
-              <p className="leading-relaxed text-base">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-                quae perspiciatis qui, officiis quidem dignissimos aliquid
-                reprehenderit esse eos odio nisi laboriosam totam ab itaque
-                minima, assumenda accusamus tempora iure! Quidem totam
-                voluptatum ea nam dignissimos atque aliquam repudiandae, quae
-                nihil consectetur perspiciatis eum ipsa at consequuntur
-                similique ipsum. Asperiores.
-              </p>
-            </div>
-          </div> */}
