@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
     <Layout>
       <Head >
         <title>Sfj bussiness solution</title>
-        <meta name="description" content="Official sfj business solution" />
+        <meta name="description" content="Official website for sfj business solution" />
         <link rel="icon" href="/companyicon.png " />
       </Head>
       <Component {...pageProps} />
