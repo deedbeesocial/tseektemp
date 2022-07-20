@@ -401,7 +401,7 @@ export default function Home() {
               food truck ugh squid celiac humblebrag.
             </p>
           </div>
-          <div className="flex lg:flex-row  flex-col">
+          <div className="flex lg:flex-row  justify-center flex-col">
             <div className="xl:w-1/4 lg:w-1/2 p-4">
               <div className="bg-gray-100 h-full p-6 rounded-lg">
                 <div className="relative w-full h-52">
