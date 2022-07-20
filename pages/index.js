@@ -30,10 +30,10 @@ export default function Home() {
           <h1 className="text-4xl tracking-wide font-light text-green-900">
             OUR OFFERINGS
           </h1>
-          <div className="grid grid-cols-1 md:grid-cols-3 md:gap-12 gap-4 pt-4 md:pt-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-12 gap-4 pt-4 lg:pt-8">
             <Link href="/services#turnkey-projects">
               <div className="w-auto relative">
-                <div className="relative w-full md:h-96 h-72 flex justify-start items-end shadow-sm hover:scale-[1.02] transition-all cursor-pointer">
+                <div className="relative w-full lg:h-96 h-72 flex justify-start items-end shadow-sm hover:scale-[1.02] transition-all cursor-pointer">
                   <Image
                     layout="fill"
                     alt=""
@@ -104,7 +104,7 @@ export default function Home() {
       <section className="text-black bg-yellow-50 body-font overflow-hidden lg:py-12">
         <div className="container bg-white px-5  py-10 mx-auto lg:shadow-lg lg:rounded-lg">
           <div className="lg:w-4/5 mx-auto flex flex-wrap justify-center">
-            <div className="relative border h-[650px]  w-full md:w-1/3 ">
+            <div className="relative border h-[650px]  w-full lg:w-1/2 ">
               <Image
                 alt="ecommerce"
                 objectFit="cover"
@@ -146,7 +146,7 @@ export default function Home() {
             </h1>
           </div>
           <div className="flex flex-wrap justify-center -m-4 text-center">
-            <div className="p-4 md:w-1/5 sm:w-1/2 w-full">
+            <div className="p-4 lg:w-1/5 sm:w-1/2 w-full">
               <div className="border-2 border-red-600 px-4 py-6 rounded-lg">
                 <svg
                   fill="none"
@@ -166,7 +166,7 @@ export default function Home() {
                 <p className="leading-relaxed">our clients</p>
               </div>
             </div>
-            <div className="p-4 md:w-1/5 sm:w-1/2 w-full">
+            <div className="p-4 lg:w-1/5 sm:w-1/2 w-full">
               <div className="border-2 border-red-600 px-4 py-6 rounded-lg">
                 <svg
                   fill="none"
@@ -187,7 +187,7 @@ export default function Home() {
                 <p className="leading-relaxed">Users</p>
               </div>
             </div>
-            <div className="p-4 md:w-1/5 sm:w-1/2 w-full">
+            <div className="p-4 lg:w-1/5 sm:w-1/2 w-full">
               <div className="border-2 border-red-600 px-4 py-6 rounded-lg">
                 <svg
                   fill="none"
@@ -207,7 +207,7 @@ export default function Home() {
                 <p className="leading-relaxed">Files</p>
               </div>
             </div>
-            <div className="p-4 md:w-1/5 sm:w-1/2 w-full">
+            <div className="p-4 lg:w-1/5 sm:w-1/2 w-full">
               <div className="border-2 border-red-600 px-4 py-6 rounded-lg">
                 <svg
                   fill="none"
@@ -401,8 +401,8 @@ export default function Home() {
               food truck ugh squid celiac humblebrag.
             </p>
           </div>
-          <div className="flex md:flex-row  flex-col">
-            <div className="xl:w-1/4 md:w-1/2 p-4">
+          <div className="flex lg:flex-row  flex-col">
+            <div className="xl:w-1/4 lg:w-1/2 p-4">
               <div className="bg-gray-100 h-full p-6 rounded-lg">
                 <div className="relative w-full h-52">
                   <Image
@@ -424,7 +424,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
+            <div className="xl:w-1/4 lg:w-1/2 p-4">
               <div className="bg-gray-100 h-full p-6 rounded-lg">
                 <div className="relative w-full h-52">
                   <Image
@@ -450,7 +450,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
+            <div className="xl:w-1/4 lg:w-1/2 p-4">
               <div className="bg-gray-100 h-full p-6 rounded-lg">
                 <div className="relative w-full h-52">
                   <Image
@@ -474,28 +474,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
-              <div className="bg-gray-100 h-full p-6 rounded-lg">
-                <div className="relative w-full h-52">
-                  <Image
-                    layout="fill"
-                    objectFit="cover"
-                    src="/wtwedo5.jpg"
-                    alt="content"
-                  />
-                </div>
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                  What is ai ml block chain?
-                </h2>
-                <p className="leading-relaxed text-base">
-                  Building solutions using artificial intelligence, machine
-                  learning and blockchain technologies. Artificial intelligence
-                  and machine learning can automate important, but manual and
-                  time-consuming tasks, allowing employees to focus on
-                  higher-value work.
-                </p>
-              </div>
-            </div>
+            
           </div>
           <Link href="/blogs">
             <button className="flex mx-auto  text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg mb-5">

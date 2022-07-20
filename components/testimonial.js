@@ -66,7 +66,7 @@ export default function Testimonials() {
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
               testimonial
             </h1>
-            <div className="h-1 w-20 bg-black rounded"></div>
+            <div className="h-1 w-20 bg-bla rounded"></div>
           </div>
         </div>
         <div className="flex flex-wrap -m-4 ">
@@ -90,7 +90,7 @@ export default function Testimonials() {
             {stuff.map(({ text, id }) => (
               <SwiperSlide key={id}>
                 <div className="w-full p-4">
-                  <div className="bg-green-50 p-6 rounded-lg  md:h-[550px]">
+                  <div className="bg-green-50 p-6 rounded-lg ">
                     <div className="relative w-full h-32">
                       <Image
                         className=""
