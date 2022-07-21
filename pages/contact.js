@@ -7,6 +7,7 @@ export default function Contact() {
   const [interest, setInterest] = useState("Contract Manufacturing");
   const [info, setInfo] = useState("");
   const [message, setMessage] = useState(false);
+  const [visible, setVisible] = useState(false);
 
   const sendMessage = async (e) => {
     e.preventDefault();
@@ -62,10 +63,13 @@ export default function Contact() {
   const changeInterest = (e) => {
     setInterest(e.target.value);
   };
+  if(name && email && phone && info && interest){
+  console.log("iam visible");
+  }
 
   return (
     <>
-      <section className="pt-12 pb-12 text-zinc-900 bg-green-50">
+      <section className="pt-12 pb-12 text-zinc-900 bg-gray-100">
         <div className="md:container p-4 mx-auto">
           <h1 className="text-4xl tracking-wide font-light text-green-900 md:ml-4">
             CONTACT
@@ -74,17 +78,18 @@ export default function Contact() {
           <div className="flex flex-col md:flex-row justify-start items-start  rounded pt-8 ">
             <div className="md:w-2/5 w-full">
               <p className="text-2xl font-semibold upper md:ml-4">
-                SFJ&
+                SFJo
                 <br /> BUSINESS SOLUTIONS
               </p>
 
               <div className="text-base pt-8 text-black md:ml-4">
                 <p className=" ">Address</p>
-                <p>292 & 294, 4th Phase,</p>
-                <p>Peenya Industrial Area,</p>
-                <p>Bangalore - 560 058.</p>
-                <p>Phone: +91 - 80 - 23720510 | 88616 99880</p>
-                <p>E-mail: nitin.joshi@madhurpharma.com</p>
+                <p> NASH SQUARE, R-22 3rd cross</p>
+                <p>Electronics City Phase 1,</p>
+                <p>1st Floor Opposite to Prathik Tech Park, above Canara Bank,</p>
+                <p>Bengaluru, Karnataka 560100</p>
+                <p>Phone: +91 -09591059023 </p>
+                <p></p>
               </div>
             </div>
             <div className="md:w-3/5 w-full">
@@ -153,7 +158,7 @@ export default function Contact() {
                         {message}
                       </p>
                     ) : (
-                      <button className="w-32 mt-6 bg-yellow text-black font-bold text-xs  hover:bg-yellow-200 p-3 rounded-sm transition-all">
+                      <button className={`w-32 mt-6 bg-orange text-black font-bold text-xs   p-3 rounded-sm transition-all ${name && email && phone && info && interest?"opacity-100":"opacity-25"}`}>
                         SEND
                       </button>
                     )}

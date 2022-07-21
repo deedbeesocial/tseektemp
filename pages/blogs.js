@@ -12,12 +12,12 @@ function blogs() {
               </h1>
               <p className="mb-8 leading-relaxed">
                 AI and blockchain are proving to be quite a powerful
-                combination, improving virtually every industry in which they’re
+                combination, improving virtually every industry in which they&nbsp;’re
                 implemented. Blockchain and artificial intelligence are
                 combining to upgrade everything from food supply chain logistics
                 and healthcare record sharing to media royalties and financial
                 security. The integration of AI and Blockchain affects many
-                aspects, including Security – AI and blockchain will offer a
+                aspects, including Security –&nbsp;AI and blockchain will offer a
                 double shield against cyber-attacks. AI can effectively mine
                 through a huge dataset and create newer scenarios and discover
                 patterns based on data behavior. Blockchain helps to effectively

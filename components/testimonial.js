@@ -13,7 +13,7 @@ export default function Testimonials() {
       name: "Palash Pandey",
       position: "Co-Founder",
       company: "Renaura Wellness Pvt Ltd",
-      logo: "/icon.png",
+      logo: "/clients/Wipro.png",
       id: 1,
     },
     {
@@ -21,7 +21,7 @@ export default function Testimonials() {
       name: "Megha Kapur",
       position: "President",
       company: "Prima USA, LLC",
-      logo: "/icon.png",
+      logo: "/clients/dodsal.png",
       id: 2,
     },
     {
@@ -29,7 +29,15 @@ export default function Testimonials() {
       name: "Mangesh Gawande",
       position: "Founder & CEO",
       company: "EarthyBlend Pvt Ltd",
-      logo: "/icon.png",
+      logo: "/clients/mandieselicon.png",
+      id: 3,
+    },
+    {
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat beatae explicabo corrupti saepe repudiandae, consequuntur facilis, excepturi esse obcaecati eaque exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
+      name: "Mangesh Gawande",
+      position: "Founder & CEO",
+      company: "EarthyBlend Pvt Ltd",
+      logo: "/clients/Capgemini.png",
       id: 4,
     },
     {
@@ -37,7 +45,7 @@ export default function Testimonials() {
       name: "Mangesh Gawande",
       position: "Founder & CEO",
       company: "EarthyBlend Pvt Ltd",
-      logo: "/icon.png",
+      logo: "/clients/hcl.png",
       id: 5,
     },
     {
@@ -45,31 +53,23 @@ export default function Testimonials() {
       name: "Mangesh Gawande",
       position: "Founder & CEO",
       company: "EarthyBlend Pvt Ltd",
-      logo: "/icon.png",
+      logo: "/clients/Accenture.png",
       id: 6,
-    },
-    {
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat beatae explicabo corrupti saepe repudiandae, consequuntur facilis, excepturi esse obcaecati eaque exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
-      name: "Mangesh Gawande",
-      position: "Founder & CEO",
-      company: "EarthyBlend Pvt Ltd",
-      logo: "/icon.png",
-      id: 7,
     },
   ];
 
   return (
-    <section className="text-black  bg-yellow-200 body-font">
+    <section className="text-black  bg-green body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap w-full mb-20">
-          <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
+          <div className="lg:w-full w-full mb-6 lg:mb-0">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-white text-center">
               Testimonial
             </h1>
             <div className="h-1 w-20 bg-bla rounded"></div>
           </div>
         </div>
-        <div className="flex flex-wrap -m-4 ">
+        <div className="flex flex-wrap -m-4 shadow-md ">
           <Swiper
             modules={[Pagination, Autoplay]}
             slidesPerView={1}
@@ -87,28 +87,23 @@ export default function Testimonials() {
             loop={true}
             speed={800}
           >
-            {stuff.map(({ text, id }) => (
+            {stuff.map(({ text, id, logo }) => (
               <SwiperSlide key={id}>
-                <div className="w-full p-4">
+                <div className="w-full p-4  shadow-md">
                   <div className="bg-green-50 p-6 rounded-lg ">
-                    <div className="relative w-full h-32">
+                    <div className="h-36 w-auto relative cursor-pointer">
                       <Image
-                        className=""
-                        objectFit="cover"
                         layout="fill"
-                        width={200}
-                        height={200}
-                        src="/wtwedo5.jpg"
-                        alt="content"
+                        alt=""
+                        src={logo}
+                        className="absolute inset-0 object-contain"
                       />
                     </div>
-                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                      SUBTITLE
-                    </h3>
-                    <h2 className="text-lg text-black font-medium title-font mb-4">
+
+                    <h2 className="text-lg text-white font-medium title-font mb-4">
                       nulll
                     </h2>
-                    <p className="text-black">{text}</p>
+                    <p className="text-white  ">{text}</p>
                   </div>
                 </div>
               </SwiperSlide>

@@ -2,9 +2,24 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 
 export default function Layout({ children }) {
   const { pathname } = useRouter();
+
+  const [navbr, setNavbr] = useState(false);
+  const changeBackground = () => {
+    if (window.scrollY >= 300) {
+      setNavbr(true);
+    } else {
+      setNavbr(false);
+    }
+  };
+
+  useEffect(() => {
+    changeBackground();
+    window.addEventListener("scroll", changeBackground);
+  });
 
   const menu = [
     {
@@ -15,20 +30,20 @@ export default function Layout({ children }) {
       name: "About us",
       path: "/about",
       sub: [
-        { name: "The company", path: "/about#the-company" },
-        { name: "Core value", path: "/about#core-value" },
-        { name: "core team", path: "/about#core-team" },
+        { name: "The Company", path: "/about#the-company" },
+        { name: "Core Values", path: "/about#core-value" },
+        { name: "Core Teams", path: "/about#core-team" },
       ],
     },
 
     {
-      name: "Service",
-      path: "/services/services",
+      name: "Solutions",
+      path: "/solutions/services",
       sub: [
-        { name: "Knowledge", path: "/services/knowledge" },
-        { name: "Staffing", path: "/services/staffing" },
+        { name: "Knowledge Services ", path: "/solutions/knowledge" },
+        { name: "Staffing Services", path: "/solutions/staffing" },
 
-        { name: "It service", path: "/services/itservices" },
+        { name: "IT Services", path: "/services/itservices" },
       ],
     },
     {
@@ -44,7 +59,7 @@ export default function Layout({ children }) {
       path: "/blogs",
     },
     {
-      name: "career @SFJ",
+      name: "Careers",
       path: "/career",
     },
     {
@@ -59,35 +74,33 @@ export default function Layout({ children }) {
         <title>SFJ BUSINESS SOLUTION</title>
       </Head>
 
-      <header className="border-zinc-100 border-b">
+      <header
+        className={`${
+          navbr
+            ? "md:fixed bg-white z-50 w-full  duration-200 border-zinc-100 border-b"
+            : "border-zinc-100 border-b"
+        }`}
+      >
         <div className="md:container mx-auto flex justify-between items-center text-zinc-900 font-sans">
           <Link href="/">
             <a className="flex">
               <div className="hidden md:block">
-                <Image src="/icon.png" alt="logo" width={100} height={100} />
+                <Image src="/icon.png" alt="logo" width={120} height={120} />
               </div>
               <div className="block md:hidden">
                 <Image src="/icon.png" alt="logo" width={60} height={60} />
-              </div>
-              <div className="pl-2 flex flex-col justify-center pt-3">
-                <span className="leading-4 font-light text-zinc-800 text-2xl pl-1">
-                  SFJ
-                </span>
-                <span className="text-zinc-800 font-light">
-                  <span className="text-base">&&nbsp;</span>business services
-                </span>
               </div>
             </a>
           </Link>
 
           <nav className="text-sm uppercase tracking-tight hidden md:block">
             {menu.map(({ name, path, sub }, index) => (
-              <div key={index} className="group relative inline-flex">
+              <div key={index} className="group relative inline-flex ">
                 <Link href={path}>
                   <a
                     className={`${
                       pathname === path &&
-                      "underline decoration-yellow-300 decoration-2 underline-offset-4 font-bold"
+                      "underline decoration-yellow-300 decoration-2  underline-offset-4 "
                     } hover:font-bold mx-3  2xl:mx-4 transition-all`}
                   >
                     {name}
@@ -146,16 +159,16 @@ export default function Layout({ children }) {
 
       <main className="text-zinc-900 font-sans">{children}</main>
 
-      <footer className="border-zinc-100 border-t mx-auto md:container py-6 md:py-12">
-        <div className="grid grid-cols-2 md:flex md:flex-row justify-between items-start">
+      <footer className="border bg-gray-100 border-t mx-auto r py-6 lg:py-12">
+        <div className="grid grid-cols-2 lg:flex lg:flex-row justify-between items-start">
           <div className="col-span-2 pb-4 md:pb-0 ">
             <Link href="/">
-              <a className="flex justify-start items-center pl-6 md:pl-0">
+              <a className="flex justify-start items-center pl-6 lg:pl-0">
                 <div className="">
                   <Image src="/ICON.png" alt="logo" width={54} height={54} />
                 </div>
                 <div className="pl-2 flex flex-col justify-center">
-                  <span className="leading-4 font-light text-zinc-800 text-xl">
+                  <span className="leading-4  text-zinc-800 text-xl">
                     SFJ BUSINESS SOLUTIONS
                   </span>
                 </div>
@@ -163,50 +176,47 @@ export default function Layout({ children }) {
             </Link>
           </div>
 
-          <div className="text-sm p-4 md:p-0 pl-6 ">
+          <div className="text-sm p-4 lg:p-0 pl-6 ">
             <p className="font-semibold">Office</p>
-            <p>292 & 294, 4th Phase</p>
-            <p>Peenya Industrial Area</p>
-            <p>Bangalore - 560 058</p>
+            <p>NASH SQUARE, R-22 3rd cross</p>
+            <p>Electronics City Phase 1</p>
+            <p>Bengaluru, Karnataka 560100</p>
           </div>
 
-          <div className="text-sm p-4 md:p-0 ">
+          <div className="text-sm p-4 lg:p-0 ">
             <p className="font-semibold">Contact</p>
-            <p className="">+91-00-00000000</p>
+            <p className="">+91-09591059023</p>
             <p className="">0000000000</p>
           </div>
 
-          <div className="text-sm flex flex-col p-4 pl-6 md:p-0 ">
+          <div className="text-sm flex flex-col p-4 pl-6 lg:p-0 ">
             <Link href="/about">
-              <a>About</a>
+              <a>About us</a>
             </Link>
             <Link href="/services">
-              <a>Services</a>
+              <a>Solutions</a>
             </Link>
             <Link href="/products">
-              <a>Products</a>
+              <a>Approach</a>
             </Link>
             <Link href="/team">
-              <a>Team</a>
+              <a>Projects</a>
             </Link>
           </div>
 
-          <div className="text-sm flex flex-col p-4 md:p-0 ">
+          <div className="text-sm flex flex-col p-4 lg:p-0 ">
             <Link href="/strengths">
-              <a>Strengths</a>
+              <a>Blogs</a>
             </Link>
             <Link href="/facilities">
-              <a>Facilities</a>
+              <a>Careers</a>
             </Link>
             <Link href="/customers">
-              <a>Customers</a>
-            </Link>
-            <Link href="/contact">
-              <a>Contact</a>
+              <a>Contact Us</a>
             </Link>
           </div>
 
-          <div className="col-span-2 p-4 md:p-0 pl-6 ">
+          <div className="col-span-2 p-4 lg:p-0 pl-6 ">
             <p className="font-semibold text-sm pb-2 text-zinc-500">
               Find us on
             </p>
@@ -349,7 +359,7 @@ export default function Layout({ children }) {
           </div>
         </div>
 
-        <div className="mx-auto text-left md:text-center text-sm text-zinc-400 pt-4 md:pt-8 md:p-0 p-4 pl-6">
+        <div className="mx-auto text-left lg:text-center text-sm text-zinc-400 pt-4 lg:pt-8 lg:p-0 p-4 pl-6">
           <p>SFJ BUSINESS SOLUTION</p>
           <p>
             Copyright © 2022. All Rights Reserved. Designed by Deed bee Social
