@@ -78,7 +78,7 @@ export default function Layout({ children }) {
         className={`${
           navbr
             ? "md:fixed bg-white z-50 w-full  duration-200 border-zinc-100 border-b"
-            : "border-zinc-100 border-b"
+            : "border-zinc-100 z-50 border-b  duration-200 "
         }`}
       >
         <div className="md:container mx-auto flex justify-between items-center text-zinc-900 font-sans">
@@ -87,8 +87,13 @@ export default function Layout({ children }) {
               <div className="hidden md:block">
                 <Image src="/icon.png" alt="logo" width={120} height={120} />
               </div>
-              <div className="block md:hidden">
+              <div className="block mt-5 md:hidden">
                 <Image src="/icon.png" alt="logo" width={60} height={60} />
+              </div>
+              <div className="lg:pl-2 md:flex  text-center font-extralight lg:font-normal py-3 flex-col justify-center ">
+                <span className="leading-4  text-zinc-800 text-2xl pl-1">
+                  Talent Transformation.Simplified.
+                </span>
               </div>
             </a>
           </Link>
@@ -100,7 +105,7 @@ export default function Layout({ children }) {
                   <a
                     className={`${
                       pathname === path &&
-                      "underline decoration-yellow-300 decoration-2  underline-offset-4 "
+                      "underline decoration-orange decoration-2  underline-offset-4 "
                     } hover:font-bold mx-3  2xl:mx-4 transition-all`}
                   >
                     {name}
@@ -113,7 +118,7 @@ export default function Layout({ children }) {
                       <div className="w-full shadow-md">
                         {sub.map(({ name, path }, index) => (
                           <Link key={index} href={path}>
-                            <a className="w-52 hover:font-bold px-4 bg-white inline-flex p-2 normal-case text-sm whitespace-nowrap border-b border-t border-zinc-100 hover:bg-yellow-200">
+                            <a className="w-52 hover:font-bold px-4 bg-white inline-flex p-2 normal-case text-sm whitespace-nowrap border-b border-t border-zinc-100 hover:bg-orange">
                               {name}
                             </a>
                           </Link>
@@ -159,13 +164,13 @@ export default function Layout({ children }) {
 
       <main className="text-zinc-900 font-sans">{children}</main>
 
-      <footer className="border bg-gray-100 border-t mx-auto r py-6 lg:py-12">
+      <footer className="border bg-gray-200 border-t mx-auto  py-6 lg:py-8">
         <div className="grid grid-cols-2 lg:flex lg:flex-row justify-between items-start">
           <div className="col-span-2 pb-4 md:pb-0 ">
             <Link href="/">
-              <a className="flex justify-start items-center pl-6 lg:pl-0">
+              <a className="flex flex-col justify-start items-center pl-6 lg:pl-0">
                 <div className="">
-                  <Image src="/ICON.png" alt="logo" width={54} height={54} />
+                  <Image src="/ICON.png" alt="logo" width={80} height={80} />
                 </div>
                 <div className="pl-2 flex flex-col justify-center">
                   <span className="leading-4  text-zinc-800 text-xl">
@@ -176,20 +181,20 @@ export default function Layout({ children }) {
             </Link>
           </div>
 
-          <div className="text-sm p-4 lg:p-0 pl-6 ">
+          <div className="text-sm p-4 lg:p-0 pl-6  text-left">
             <p className="font-semibold">Office</p>
             <p>NASH SQUARE, R-22 3rd cross</p>
             <p>Electronics City Phase 1</p>
             <p>Bengaluru, Karnataka 560100</p>
           </div>
 
-          <div className="text-sm p-4 lg:p-0 ">
+          <div className="text-sm p-4 lg:p-0  text-center">
             <p className="font-semibold">Contact</p>
             <p className="">+91-09591059023</p>
             <p className="">0000000000</p>
           </div>
 
-          <div className="text-sm flex flex-col p-4 pl-6 lg:p-0 ">
+          <div className="text-sm flex flex-col p-4 pl-6 lg:p-0 text-center text-left ">
             <Link href="/about">
               <a>About us</a>
             </Link>
@@ -204,7 +209,7 @@ export default function Layout({ children }) {
             </Link>
           </div>
 
-          <div className="text-sm flex flex-col p-4 lg:p-0 ">
+          <div className="text-sm flex flex-col p-4 lg:p-0  text-center">
             <Link href="/strengths">
               <a>Blogs</a>
             </Link>
@@ -216,11 +221,11 @@ export default function Layout({ children }) {
             </Link>
           </div>
 
-          <div className="col-span-2 p-4 lg:p-0 pl-6 ">
-            <p className="font-semibold text-sm pb-2 text-zinc-500">
+          <div className="col-span-2 p-4 lg:p-0 pl-6 mr-6 ">
+            <p className="font-semibold text-sm pb-2 text-zinc-500 text-center">
               Find us on
             </p>
-            <div className="grid-cols-5 gap-2 inline-grid ">
+            <div className="lg:grid-cols-2 flex justify-center gap-2 lg:inline-grid  ">
               <a
                 className="hover:scale-105 transition-all"
                 href="https://www.facebook.com/MadhurPharmaAndResearchLaboratories"
@@ -300,36 +305,7 @@ export default function Layout({ children }) {
                   />
                 </svg>
               </a>
-              <a
-                className="hover:scale-105 transition-all"
-                href="https://www.instagram.com/madhurpharma"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <svg
-                  className="w-8 h-8 instragram"
-                  width="100"
-                  height="100"
-                  viewBox="0 0 384 384"
-                >
-                  <rect
-                    width="384"
-                    height="384"
-                    fill="#fbad50"
-                    rx="37"
-                    ry="37"
-                  />
-                  <path
-                    fill="#fff"
-                    d="M142 59l100 0c22,0 42,9 56,24 14,14 23,34 23,56l0 106c0,22 -9,41 -23,56 -14,14 -34,23 -56,23l-100 0c-22,0 -42,-9 -56,-23 -15,-15 -24,-34 -24,-56l0 -106c0,-22 9,-42 24,-56 14,-15 34,-24 56,-24zm100 23l-100 0c-16,0 -30,6 -41,16 -10,11 -17,25 -17,41l0 106c0,15 7,30 17,40 11,11 25,17 41,17l100 0c16,0 30,-6 40,-17 11,-10 17,-25 17,-40l0 -106c0,-16 -6,-30 -17,-41 -10,-10 -24,-16 -40,-16z"
-                  />
-                  <path
-                    fill="#fff"
-                    d="M192 123c19,0 36,7 48,20 12,12 20,29 20,48 0,19 -8,35 -20,48 -12,12 -29,20 -48,20 -19,0 -36,-8 -48,-20 -13,-13 -20,-29 -20,-48 0,-19 7,-36 20,-48 12,-13 29,-20 48,-20zm32 35c-8,-8 -20,-13 -32,-13 -13,0 -24,5 -33,13 -8,9 -13,20 -13,33 0,12 5,24 13,32 9,8 20,13 33,13 12,0 24,-5 32,-13 8,-8 14,-20 14,-32 0,-13 -6,-24 -14,-33z"
-                  />
-                  <circle cx="265" cy="119" r="16" fill="#fff" />
-                </svg>
-              </a>
+              
               <a
                 className="hover:scale-105 transition-all"
                 href="https://www.youtube.com/channel/UCrqiYW7GmXwgwtOEtjBQXxQ"
@@ -359,10 +335,10 @@ export default function Layout({ children }) {
           </div>
         </div>
 
-        <div className="mx-auto text-left lg:text-center text-sm text-zinc-400 pt-4 lg:pt-8 lg:p-0 p-4 pl-6">
-          <p>SFJ BUSINESS SOLUTION</p>
+        <div className="mx-auto  text-center  text-sm text-zinc-400 pt-4 lg:pt-8 lg:p-0 p-4 pl-6">
+          <p>SFJ BUSINESS SOLUTIONS</p>
           <p>
-            Copyright © 2022. All Rights Reserved. Designed by Deed bee Social
+            Copyright © 2022. All Rights Reserved. Designed by Deedbee Social
             Ventures.
           </p>
         </div>

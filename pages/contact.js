@@ -63,45 +63,55 @@ export default function Contact() {
   const changeInterest = (e) => {
     setInterest(e.target.value);
   };
-  if(name && email && phone && info && interest){
-  console.log("iam visible");
+  if (name && email && phone && info && interest) {
+    console.log("iam visible");
   }
 
   return (
     <>
       <section className="pt-12 pb-12 text-zinc-900 bg-gray-100">
         <div className="md:container p-4 mx-auto">
-          <h1 className="text-4xl tracking-wide font-light text-green-900 md:ml-4">
+          <h1 className="text-4xl tracking-wide text-green-900 md:ml-4">
             CONTACT
           </h1>
 
           <div className="flex flex-col md:flex-row justify-start items-start  rounded pt-8 ">
             <div className="md:w-2/5 w-full">
               <p className="text-2xl font-semibold upper md:ml-4">
-                SFJo
-                <br /> BUSINESS SOLUTIONS
+                SFJ BUSINESS SOLUTIONS
               </p>
 
               <div className="text-base pt-8 text-black md:ml-4">
-                <p className=" ">Address</p>
+                <p className=" ">Address 1</p>
                 <p> NASH SQUARE, R-22 3rd cross</p>
                 <p>Electronics City Phase 1,</p>
-                <p>1st Floor Opposite to Prathik Tech Park, above Canara Bank,</p>
+                <p>
+                  1st Floor Opposite to Prathik Tech Park, above Canara Bank,
+                </p>
                 <p>Bengaluru, Karnataka 560100</p>
+                <p>Phone: +91 -09591059023 </p>
+                <p></p>
+              </div>
+              <div className="text-base pt-8 text-black md:ml-4">
+                <p className=" ">Address 2</p>
+                <p> B wing 607, Kailash Business Park</p>
+                <p>Road: Veer Savarker Marg,,</p>
+                <p>Vikhroli West</p>
+                <p>Mumbai - 400079 Maharashtra, INDIA.</p>
                 <p>Phone: +91 -09591059023 </p>
                 <p></p>
               </div>
             </div>
             <div className="md:w-3/5 w-full">
               <div className="md:pl-12 md:pt-0 pt-12">
-                <h2 className="text-2xl text-black font-light">Write to us</h2>
+                <h2 className="text-2xl text-black ">Write to us</h2>
                 <form className="mt-8" onSubmit={sendMessage}>
-                  <div className="grid grid-cols-2 gap-6">
+                  <div className="lg:grid flex flex-col justify-center lg:grid-cols-2 gap-6">
                     <label className="block">
                       <span className="text-black">Name</span>
                       <input
                         type="text"
-                        className="mt-1 block w-full rounded-sm border focus:border-green-700 focus:ring focus:ring-green-100 focus:ring-opacity-50"
+                        className="block  w-full lg:h-[47px] rounded-sm   focus:border-green-700 focus:ring focus:ring-green-100 focus:ring-opacity-50"
                         placeholder=""
                         value={name}
                         onChange={changeName}
@@ -111,7 +121,7 @@ export default function Contact() {
                       <span className="text-black">Email</span>
                       <input
                         type="email"
-                        className="mt-1 block w-full rounded-sm border focus:border-green-700 focus:ring focus:ring-green-100 focus:ring-opacity-50"
+                        className=" block w-full rounded-sm    lg:h-[47px]  focus:border-green focus:ring focus:ring-green focus:ring-opacity-50"
                         placeholder=""
                         value={email}
                         onChange={changeEmail}
@@ -121,7 +131,7 @@ export default function Contact() {
                       <span className="text-black">Phone</span>
                       <input
                         type="tel"
-                        className="mt-1 block w-full rounded-sm border focus:border-green-700 focus:ring focus:ring-green-100 focus:ring-opacity-50"
+                        className=" block  rounded-sm w-full lg:h-[47px] border focus:border-green-700 focus:ring focus:ring-green-100 focus:ring-opacity-50"
                         placeholder=""
                         value={phone}
                         onChange={changePhone}
@@ -134,11 +144,12 @@ export default function Contact() {
                       </span>
                       <select
                         onChange={changeInterest}
-                        className=" block w-full mt-1 rounded-sm border-black focus:border-green-700 focus:ring focus:ring-green-100 focus:ring-opacity-50"
+                        className=" block w-full    lg:h-[47px] rounded-sm border-black focus:border-green-700 focus:ring focus:ring-green-100 focus:ring-opacity-50"
                       >
-                        <option>Talent Services </option>
-                        <option>Knowledge  service</option>
-                        
+                        <option>Knowledge Services</option>
+                        <option>Staffing Services </option>
+                        <option>IT Services</option>
+
                         <option>Others</option>
                       </select>
                     </label>
@@ -146,7 +157,7 @@ export default function Contact() {
                   <label className="block mt-6">
                     <span className="text-black">Additional details</span>
                     <textarea
-                      className="mt-1 block w-full rounded-sm border focus:border-green-700 focus:ring focus:ring-green-100 focus:ring-opacity-50"
+                      className="mt-1 block w-full   lg:h-[47px] rounded-sm border-black focus:border-green-700 focus:ring focus:ring-green-100 focus:ring-opacity-50"
                       rows="3"
                       value={info}
                       onChange={changeInfo}
@@ -158,7 +169,13 @@ export default function Contact() {
                         {message}
                       </p>
                     ) : (
-                      <button className={`w-32 mt-6 bg-orange text-black font-bold text-xs   p-3 rounded-sm transition-all ${name && email && phone && info && interest?"opacity-100":"opacity-25"}`}>
+                      <button
+                        className={`w-32 mt-6 bg-orange text-black font-bold text-xs   p-3 rounded-sm transition-all ${
+                          name && email && phone && info && interest
+                            ? "opacity-100"
+                            : "opacity-25"
+                        }`}
+                      >
                         SEND
                       </button>
                     )}
@@ -182,4 +199,9 @@ export default function Contact() {
       </section>
     </>
   );
+}
+{
+  /* <button className={`w-32 mt-6 bg-orange text-black font-bold text-xs   p-3 rounded-sm transition-all ${name && email && phone && info && interest?"opacity-100":"opacity-25"}`}>
+SEND
+</button> */
 }

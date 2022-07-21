@@ -3,7 +3,7 @@ import Slider from "../components/slider";
 import Link from "next/link";
 import Clients from "../components/client";
 import Testimonials from "../components/testimonial";
-import { FaBeer, FaDownload } from "react-icons/fa";
+import { FaBeer, FaDownload, FaVideo } from "react-icons/fa";
 
 export default function Home() {
   const rightIcon = (
@@ -59,7 +59,7 @@ export default function Home() {
                   />
                   <div className="w-full h-1/2 absolute bottom-0 left-0 right-0 from-transparent bg-gradient-to-b to-black opacity-60"></div>
 
-                  <div className="flex items-center justify-between z-50 w-full p-4 ">
+                  <div className="flex items-center justify-between z-40 w-full p-4 ">
                     <h1 className="text-4xl tracking-wide drop-shadow-md   text-white z-10 w-full">
                       KNOWLEDGE SERVICES
                     </h1>
@@ -80,7 +80,7 @@ export default function Home() {
                   />
                   <div className="w-full h-1/2 absolute bottom-0 left-0 right-0 from-transparent bg-gradient-to-b to-black opacity-60"></div>
 
-                  <div className="flex items-center justify-between z-50 w-full p-4">
+                  <div className="flex items-center justify-between z-40 w-full p-4">
                     <h1 className="text-4xl tracking-wide drop-shadow-md  text-white z-10 w-full">
                       STAFFING <br /> SERVICES
                     </h1>
@@ -101,7 +101,7 @@ export default function Home() {
                   />
                   <div className="w-full h-1/2 absolute bottom-0 left-0 right-0 from-transparent bg-gradient-to-b to-black opacity-60"></div>
 
-                  <div className="flex items-center justify-between z-50 w-full p-4">
+                  <div className="flex items-center justify-between z-40 w-full p-4">
                     <h1 className="text-4xl tracking-wide drop-shadow-md   text-white z-10 w-full">
                       IT <br /> SERVICES
                     </h1>
@@ -113,10 +113,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       {/* clints data */}
       <section>
         <Clients />
       </section>
+
 
       <section className="text-black bg-green body-font  overflow-hidden lg:py-12">
         <div className="container  px-5  py-10 mx-auto  lg:rounded-lg">
@@ -156,17 +158,19 @@ export default function Home() {
 
       {/* achievements */}
       <section className="text-black ">
-        <div className="container px-5 py-16 mx-auto">
+        <div className=" container px-5 py-16 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
             <h1 className="sm:text-3xl text-2xl font-medium title-font  text-gray-900">
               Our Achievements
             </h1>
           </div>
-          <div className="flex flex-wrap justify-center -m-4 text-center">
-            <div className="p-4 lg:w-1/5 sm:w-1/2 w-full hover:w-1/4 ease-in duration-300">
-              <div className="border-2 border-red-600 px-4 py-6 rounded-lg">
-                <FaDownload size={50} color="red" />
-                <h2 className="title-font font-medium text-3xl text-gray-900">
+          <div className="flex  flex-wrap justify-center -m-4 text-center">
+            <div className="p-4  lg:w-1/5 sm:w-1/2 w-full  hover:w-1/4 ease-in duration-300">
+              <div className="border-2 border-red-600 px-4 py-6 lg:gap-2 rounded-lg flex flex-col justify-center">
+                <div className="flex flex-1 justify-center">
+                  <FaVideo size={50} color="red" alignmentBaseline="middle" />
+                </div>
+                <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
                   2.7K
                 </h2>
                 <p className="leading-relaxed">our clients</p>
@@ -387,6 +391,7 @@ export default function Home() {
       <section>
         <Testimonials />
       </section>
+
       {/* blogs */}
 
       <section className="text-black body-font">
@@ -408,12 +413,12 @@ export default function Home() {
               accusantium.
             </p>
           </div>
-          <div className="flex flex-wrap gap-8 border">
+          <div className="flex flex-wrap gap-8 ">
             {blog.map(({ name, logo, id, desc }) => {
               return (
                 <div
                   key={id}
-                  className=" bg-gray-400 flex flex-col lg:flex-1 py-7 justify-between bg-opacity-75 px-8   rounded-lg overflow-hidden text-center relative"
+                  className=" bg-gray-200  flex flex-col lg:flex-1 py-7 justify-between bg-opacity-75 px-8   rounded-lg overflow-hidden text-center relative"
                 >
                   <div>
                     <div className=" transition duration-150 ease-out hover:ease-in hover:opacity-50">
@@ -432,7 +437,7 @@ export default function Home() {
                     <p className="leading-relaxed mb-3 text-justify ">{desc}</p>
                   </div>
                   <Link href={"/blogs"}>
-                    <p className="text-blue ease-in duration-300 hover:bg-orange hover:text-white  flex justify-center items-center text-center hover:cursor-pointer">
+                    <p className="text-blue ease-in duration-300 hover:bg-blue hover:text-white  flex justify-center items-center text-center hover:cursor-pointer">
                       Read More
                     </p>
                   </Link>
