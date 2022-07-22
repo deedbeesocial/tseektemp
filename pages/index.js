@@ -3,7 +3,15 @@ import Slider from "../components/slider";
 import Link from "next/link";
 import Clients from "../components/client";
 import Testimonials from "../components/testimonial";
-import { FaAccessibleIcon, FaAddressBook, FaAdjust, FaBeer, FaDownload, FaSalesforce, FaVideo } from "react-icons/fa";
+import {
+  FaAccessibleIcon,
+  FaAddressBook,
+  FaAdjust,
+  FaBeer,
+  FaDownload,
+  FaSalesforce,
+  FaVideo,
+} from "react-icons/fa";
 
 export default function Home() {
   const rightIcon = (
@@ -26,19 +34,25 @@ export default function Home() {
       id: 1,
       name: "   how is ml related to block chai",
       logo: "/aiml2.jpg",
-      desc: "  using AI and Big Data in Blockchain Technology: A step closer to the futureThere has been a number of changes in the IT world recently. One of the most talked-about collaborations that can possibly change the entire landscape of the online world is the usage of AI technology in blockchain technology. Additionally, Big Data can contribute to this change quite significantly......",
+      desc: "  using AI and Big Data in Blockchain Technology: A step closer to the futureThere has been a number of changes in the IT world recently......",
     },
     {
       id: 2,
       name: "   how is ml related to block chai",
       logo: "/aiml.jpg",
-      desc: "  Building solutions using artificial intelligence, machine learning and blockchain technologies. Artificial intelligence and machine learning can automate important, but manual andtime-consuming tasks, allowing employees to focus on higher-value work.",
+      desc: "  Building solutions using artificial intelligence, machine learning and blockchain technologies. Artificial intelligence and machine learning can automate important, but manual and time-consuming tasks, allowing employees to focus on higher-value work.",
     },
     {
       id: 3,
       name: "   how is ml related to block chai",
       logo: "/aiandml.jpg",
-      desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis of data purposes.Blockchain technology has been trending in recent years. This technology allows a secure way for individuals to deal directly with each other through a highly secure and decentralized system, without an intermediary. In addition to its own capabilities, machinelearning can help in handling many limitations that blockchain-based systems have.  ",
+      desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis of data purposes......................... ",
+    },
+    {
+      id: 4,
+      name: "   how is ml related to block chai",
+      logo: "/aiandml.jpg",
+      desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis of data purposes...................",
     },
   ];
 
@@ -129,17 +143,16 @@ export default function Home() {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          
         }}
       >
         <div className="container  px-5  py-10 mx-auto  lg:rounded-lg">
           <div className="lg:w-full mx-auto flex flex-col lg:flex-row lg:gap-80 ">
-            <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 ">
-              <h1 className="text-white text-3xl title-font text-center font-medium mb-1 ">
+            <div className="lg:w-1/2 w-full lg:mr-9 lg:py-6 mt-6 lg:mt-0 ">
+              <h1 className="text-white text-3xl title-font text-center lg:mr-16  font-medium mb-1 ">
                 Why work with us
               </h1>
 
-              <p className="mt-4 text-justify leading-relaxed text-white ">
+              <p className="mt-4 lg:mr-16 text-justify leading-relaxed text-white ">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
                 adipisci beatae expedita iusto alias nostrum ipsam asperiores
                 labore commodi delectus aut, vitae maxime similique accusantium
@@ -189,7 +202,11 @@ export default function Home() {
             <div className="  lg:w-1/5 sm:w-1/2 w-full items-start  hover:w-1/4 ease-in duration-300">
               <div className=" rounded-lg flex lg:flex-row flex-col lg:gap-4 lg:items-start justify-center">
                 <div className="flex justify-center">
-                  <FaDownload size={39} color="gray" alignmentBaseline="middle" />
+                  <FaDownload
+                    size={39}
+                    color="gray"
+                    alignmentBaseline="middle"
+                  />
                 </div>
                 <div>
                   <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
@@ -225,7 +242,11 @@ export default function Home() {
             <div className="  lg:w-1/5 sm:w-1/2 w-full items-start  hover:w-1/4 ease-in duration-300">
               <div className=" rounded-lg flex lg:flex-row flex-col lg:gap-4 lg:items-start justify-center">
                 <div className="flex justify-center">
-                  <FaSalesforce size={39} color="gray" alignmentBaseline="middle" />
+                  <FaSalesforce
+                    size={39}
+                    color="gray"
+                    alignmentBaseline="middle"
+                  />
                 </div>
                 <div>
                   <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
@@ -396,7 +417,7 @@ export default function Home() {
           <div className="flex gap-6 justify-center mb-20">
             <span className="inline-block w-32 h-[4px] mt-5 rounded-full bg-white"></span>
             <h1 className="text-3xl font-semibold capitalize lg:text-4xl text-black text-center">
-            Talent as a service
+              Talent as a service
             </h1>
             <span className="inline-block w-32 h-[4px] rounded-full mt-5 bg-white"></span>
           </div>
@@ -564,31 +585,31 @@ export default function Home() {
               accusantium.
             </p>
           </div>
-          <div className="flex flex-wrap gap-8 ">
+          <div className="flex border flex-wrap gap-8 ">
             {blog.map(({ name, logo, id, desc }) => {
               return (
                 <div
                   key={id}
-                  className=" bg-gray-200  flex flex-col lg:flex-1 py-7 justify-between bg-opacity-75 px-8   rounded-lg overflow-hidden text-center relative"
+                  className="w-fit flex flex-col lg:flex-1 py-7 justify-between bg-opacity-75 px-8   rounded-lg overflow-hidden text-center relative"
                 >
                   <div>
-                    <div className=" transition duration-150 ease-out hover:ease-in hover:opacity-50">
+                    <div className=" w-full transition duration-150 ease-out hover:ease-in hover:opacity-50">
                       <Image
-                        className=" flex-shrink-0 object-cover xl:w-[34rem] xl:h-[34rem]"
+                        className=" flex-shrink-0 object-cover xl:w-[100%] xl:h-[34rem]"
                         src={logo}
-                        width={200}
-                        height={200}
+                        width={400}
+                        height={300}
                         alt=""
                       ></Image>
                     </div>
 
-                    <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
+                    <h1 className="title-font sm:text-2xl text-xl text-left font-medium text-gray-900 mb-3">
                       {name}
                     </h1>
                     <p className="leading-relaxed mb-3 text-justify ">{desc}</p>
                   </div>
                   <Link href={"/blogs"}>
-                    <p className="text-blue ease-in duration-300 hover:bg-blue hover:text-white  flex justify-center items-center text-center hover:cursor-pointer">
+                    <p className="text-blue ease-in duration-300 hover:bg-blue hover:text-white  flex justify-center items-center text-left hover:cursor-pointer">
                       Read More
                     </p>
                   </Link>

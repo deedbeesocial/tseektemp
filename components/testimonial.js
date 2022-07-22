@@ -9,7 +9,7 @@ import "swiper/css/autoplay";
 export default function Testimonials() {
   const stuff = [
     {
-      text: "Lorem ipsum dolor sit amet consectetur  consequuntur facilis, excepturi esse obcaecati eaque exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
+      text: "exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
       name: "Palash Pandey",
       position: "Co-Founder",
       company: "Renaura Wellness Pvt Ltd",
@@ -17,7 +17,7 @@ export default function Testimonials() {
       id: 1,
     },
     {
-      text: "Lorem ipsum dolor sit amet consectetur repudiandae, consequuntur facilis, excepturi esse obcaecati eaque exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
+      text: "exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
       name: "Megha Kapur",
       position: "President",
       company: "Prima USA, LLC",
@@ -25,7 +25,7 @@ export default function Testimonials() {
       id: 2,
     },
     {
-      text: "Lorem ipsum dolor sit amet consectetur repudiandae, consequuntur facilis, excepturi esse obcaecati eaque exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
+      text: " incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
       name: "Mangesh Gawande",
       position: "Founder & CEO",
       company: "EarthyBlend Pvt Ltd",
@@ -33,7 +33,7 @@ export default function Testimonials() {
       id: 3,
     },
     {
-      text: "Lorem ipsum dolor sit amet consectetur repudiandae, consequuntur facilis, excepturi esse obcaecati eaque exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
+      text: "cidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
       name: "Mangesh Gawande",
       position: "Founder & CEO",
       company: "EarthyBlend Pvt Ltd",
@@ -41,7 +41,7 @@ export default function Testimonials() {
       id: 4,
     },
     {
-      text: "Lorem ipsum dolor sit amet  eaque exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
+      text: " exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
       name: "Mangesh Gawande",
       position: "Founder & CEO",
       company: "EarthyBlend Pvt Ltd",
@@ -49,7 +49,7 @@ export default function Testimonials() {
       id: 5,
     },
     {
-      text: "Lorem ipsum dolor sit amet consectetur repudiandae, consequuntur facilis, excepturi esse obcaecati eaque exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
+      text: " exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
       name: "Mangesh Gawande",
       position: "Founder & CEO",
       company: "EarthyBlend Pvt Ltd",
@@ -74,24 +74,33 @@ export default function Testimonials() {
             modules={[Pagination, Autoplay]}
             slidesPerView={1}
             spaceBetween={20}
-            slidesPerGroup={4}
+            slidesPerGroup={1}
             breakpoints={{
               768: {
                 slidesPerView: 2,
               },
               1024: {
                 slidesPerView: 4,
+                slidesPerGroup: 4,
+                spaceBetween: 20,
+                autoplay: true,
+                loop: true,
+                speed: 800,
+
+                pagination: {
+                  clickable: true,
+                },
               },
             }}
-            autoplay={true}
+            pagination={{ clickable: true }}
             loop={true}
             speed={800}
           >
-            {stuff.map(({ text, id, logo }) => (
+            {stuff.map(({ text, id, logo, company, position }) => (
               <SwiperSlide key={id}>
-                <div className="w-full  h-[600px] shadow-lg border border-gray-400">
+                <div className="w-full  flex flex-col justify-around h-[550px] shadow-lg border border-gray-400">
                   <div className="bg-green-50 p-6 rounded-lg ">
-                    <div className="h-36 w-auto relative cursor-pointer">
+                    <div className="h-16 w-full relative cursor-pointer">
                       <Image
                         layout="fill"
                         alt=""
@@ -100,9 +109,14 @@ export default function Testimonials() {
                       />
                     </div>
 
-                  
-                    <p className="text-black text-center ">{text}</p>
-                    <p className="text-center text-lg">india</p>
+                    <div>
+                      <p className="text-black text-center mt-14 ">{text}</p>
+                    </div>
+                  </div>
+                  <div>
+                    {" "}
+                    <p className="text-center  mt-4">{company}</p>
+                    <p className="text-center text-sm">{position}</p>
                   </div>
                 </div>
               </SwiperSlide>
