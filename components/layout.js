@@ -87,12 +87,12 @@ export default function Layout({ children }) {
               <div className="hidden md:block">
                 <Image src="/icon.png" alt="logo" width={120} height={120} />
               </div>
-              <div className="block mt-5 md:hidden">
+              <div className="block  md:hidden">
                 <Image src="/icon.png" alt="logo" width={60} height={60} />
               </div>
-              <div className="lg:pl-2 md:flex  text-center font-extralight lg:font-normal py-3 flex-col justify-center ">
-                <span className="leading-4  text-zinc-800 text-2xl pl-1">
-                  Talent Transformation.Simplified.
+              <div className="lg:pl-2 md:flex  text-center  py-3 flex-col justify-center ">
+                <span className="  text-black ">
+                  Talent Transformation. Simplified.
                 </span>
               </div>
             </a>

@@ -12,25 +12,25 @@ export default function Slider() {
     {
       text1: "World class manufacturer of wellness products",
       text2: "Pioneers in research, innovation and best practices",
-      image: "/wtwedo5.jpg",
+      image: "/sliderimage/slider1.jpg",
       id: "slide1",
     },
     {
       text1: "40 years of legacy",
       text2: "Unparalleled product portfolio cutting across several categories",
-      image: "/wtwedo5.jpg",
+      image: "/sliderimage/slider2.jpg",
       id: "slide2",
     },
     {
       text1: "Trusted by some of the world's biggest brands",
       text2: "In cosmetics, pharma and herbal products",
-      image: "/wtwedo5.jpg",
+      image: "/sliderimage/slider3.jpg",
       id: "slide3",
     },
     {
       text1: "Transforming new-age startups",
       text2: "With formulations, licensing, and state-of-the-art manufacturing",
-      image: "/wtwedo5.jpg",
+      image: "/sliderimage/slider4.jpg",
       id: "slide4",
     },
   ];
