@@ -3,9 +3,8 @@ import Slider from "../components/slider";
 import Link from "next/link";
 import Clients from "../components/client";
 import Testimonials from "../components/testimonial";
-import { FaAccessibleIcon, FaAddressBook, FaAdjust, FaBeer, FaDownload, FaSadTear, FaSalesforce, FaVideo } from "react-icons/fa";
-import{AiFillCheckCircle} from "react-icons/ai";
-import {GrServices} from "react-icons/Gr";
+import { FaAccessibleIcon, FaAddressBook, FaAdjust, FaBeer, FaDownload, FaSalesforce, FaVideo } from "react-icons/fa";
+
 export default function Home() {
   const rightIcon = (
     <svg
@@ -208,7 +207,7 @@ export default function Home() {
             <div className="  lg:w-1/5 sm:w-1/2 w-full items-start  hover:w-1/4 ease-in duration-300">
               <div className=" rounded-lg flex lg:flex-row flex-col lg:gap-4 lg:items-start justify-center">
                 <div className="flex justify-center">
-                  <GrServices size={39} color="gray" alignmentBaseline="middle" />
+                  <FaAdjust size={39} color="gray" alignmentBaseline="middle" />
                 </div>
                 <div>
                   <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
