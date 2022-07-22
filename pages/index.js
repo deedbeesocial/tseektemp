@@ -3,8 +3,9 @@ import Slider from "../components/slider";
 import Link from "next/link";
 import Clients from "../components/client";
 import Testimonials from "../components/testimonial";
-import { FaBeer, FaDownload, FaVideo } from "react-icons/fa";
-
+import { FaAccessibleIcon, FaAddressBook, FaAdjust, FaBeer, FaDownload, FaSadTear, FaSalesforce, FaVideo } from "react-icons/fa";
+import{AiFillCheckCircle} from "react-icons/ai";
+import {GrServices} from "react-icons/Gr";
 export default function Home() {
   const rightIcon = (
     <svg
@@ -189,7 +190,7 @@ export default function Home() {
             <div className="  lg:w-1/5 sm:w-1/2 w-full items-start  hover:w-1/4 ease-in duration-300">
               <div className=" rounded-lg flex lg:flex-row flex-col lg:gap-4 lg:items-start justify-center">
                 <div className="flex justify-center">
-                  <FaVideo size={39} color="gray" alignmentBaseline="middle" />
+                  <FaDownload size={39} color="gray" alignmentBaseline="middle" />
                 </div>
                 <div>
                   <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
@@ -207,7 +208,7 @@ export default function Home() {
             <div className="  lg:w-1/5 sm:w-1/2 w-full items-start  hover:w-1/4 ease-in duration-300">
               <div className=" rounded-lg flex lg:flex-row flex-col lg:gap-4 lg:items-start justify-center">
                 <div className="flex justify-center">
-                  <FaVideo size={39} color="gray" alignmentBaseline="middle" />
+                  <GrServices size={39} color="gray" alignmentBaseline="middle" />
                 </div>
                 <div>
                   <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
@@ -225,7 +226,7 @@ export default function Home() {
             <div className="  lg:w-1/5 sm:w-1/2 w-full items-start  hover:w-1/4 ease-in duration-300">
               <div className=" rounded-lg flex lg:flex-row flex-col lg:gap-4 lg:items-start justify-center">
                 <div className="flex justify-center">
-                  <FaVideo size={39} color="gray" alignmentBaseline="middle" />
+                  <FaSalesforce size={39} color="gray" alignmentBaseline="middle" />
                 </div>
                 <div>
                   <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
@@ -300,7 +301,7 @@ export default function Home() {
             <div className="xl:w-1/3 md:w-1/2 p-4">
               <div className=" border-gray-200 p-6 rounded-lg">
                 <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
-                  <FaBeer size={40} color="red" />
+                  <FaAdjust size={40} color="red" />
                 </div>
                 <h2 className="text-lg text-white text-center  mb-2">
                   Shooting Stars
@@ -322,7 +323,7 @@ export default function Home() {
             <div className="xl:w-1/3 md:w-1/2 p-4">
               <div className=" border-gray-200 p-6 rounded-lg">
                 <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
-                  <FaBeer size={40} color="red" />
+                  <FaAddressBook size={40} color="red" />
                 </div>
                 <h2 className="text-lg text-white text-center  mb-2">
                   Shooting Stars
@@ -344,7 +345,7 @@ export default function Home() {
             <div className="xl:w-1/3 md:w-1/2 p-4">
               <div className=" border-gray-200 p-6 rounded-lg">
                 <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
-                  <FaBeer size={40} color="red" />
+                  <FaAccessibleIcon size={40} color="red" />
                 </div>
                 <h2 className="text-lg text-white text-center  mb-2">
                   Shooting Stars
@@ -385,82 +386,157 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <button className="flex mx-auto mt-16 text-black bg-orange border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+          {/* <button className="flex mx-auto mt-16 text-black bg-orange border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Read more
-          </button>
+          </button> */}
         </div>
       </section>
 
-      <section className="bg-white dark:bg-green-50">
-        <div className="container px-6 py-10 mx-auto">
-          <div className="flex gap-6 justify-center">
-            <span className="inline-block w-32 h-[4px] mt-5 rounded-full bg-blue"></span>
-            <h1 className="text-3xl font-semibold capitalize lg:text-4xl text-black  text-center">
-              IT Services
+      <section className="text-white body-font bg-white">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex gap-6 justify-center mb-20">
+            <span className="inline-block w-32 h-[4px] mt-5 rounded-full bg-white"></span>
+            <h1 className="text-3xl font-semibold capitalize lg:text-4xl text-black text-center">
+            Talent as a service
             </h1>
-            <span className="inline-block w-32 h-[4px] rounded-full mt-5 bg-blue"></span>
+            <span className="inline-block w-32 h-[4px] rounded-full mt-5 bg-white"></span>
           </div>
-
-          <div className="mt-8 xl:mt-12 lg:flex gap-56 lg:items-center">
-            <div className="hidden mr-52 lg:flex lg:w-1/2 lg:justify-center">
-              <Image
-                className=" flex-shrink-0 object-cover xl:w-[34rem] xl:h-[34rem]"
-                src={"/profile.jpg"}
-                width={480}
-                height={480}
-                alt=""
-              ></Image>
-            </div>
-            <div className="w-full lg:w-1/2 grid grid-cols-1 gap-8 xl:gap-16 md:grid-cols-2">
-              <div className="space-y-3">
-                <h1 className="text-2xl font-semibold text-black capitalize ">
-                  New Components
-                </h1>
-
-                <p className="text-black">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Provident ab nulla quod dignissimos vel non corrupti doloribus
-                  voluptatum eveniet
+          <div className="flex flex-wrap -m-4">
+            <div className="xl:w-1/3 md:w-1/2 p-4">
+              <div className=" border-gray-200 p-6 rounded-lg">
+                <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
+                  <FaBeer size={40} color="red" />
+                </div>
+                <h2 className="text-lg text-black text-center  mb-2">
+                  Shooting Stars
+                </h2>
+                <p className="leading-relaxed text-black text-center">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
+                  facilis, fugit aperiam minima voluptatum sunt nostrum,
+                  delectus libero reiciendis commodi sed quibusdam obcaecati
+                  praesentium quidem dolorum autem sapiente quod laudantium.
                 </p>
-              </div>
-
-              <div className="space-y-3">
-                <h1 className="text-2xl font-semibold text-black capitalize ">
-                  New Components
-                </h1>
-
-                <p className="text-black">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Provident ab nulla quod dignissimos vel non corrupti doloribus
-                  voluptatum eveniet
-                </p>
-              </div>
-
-              <div className="space-y-3">
-                <h1 className="text-2xl font-semibold text-black capitalize ">
-                  New Components
-                </h1>
-
-                <p className="text-black">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Provident ab nulla quod dignissimos vel non corrupti doloribus
-                  voluptatum eveniet
-                </p>
-              </div>
-
-              <div className="space-y-3">
-                <h1 className="text-2xl font-semibold  capitalize ">
-                  New Components
-                </h1>
-
-                <p className="text-black">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Provident ab nulla quod dignissimos vel non corrupti doloribus
-                  voluptatum eveniet
-                </p>
+                <div className="flex justify-center">
+                  <button className="hover:text-black  hover:text-base p-1 hover:underline decoration-red-700 rounded-sm text-orange">
+                    Read more..
+                  </button>
+                </div>
               </div>
             </div>
+
+            <div className="xl:w-1/3 md:w-1/2 p-4">
+              <div className=" border-gray-200 p-6 rounded-lg">
+                <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
+                  <FaBeer size={40} color="red" />
+                </div>
+                <h2 className="text-lg text-black text-center  mb-2">
+                  Shooting Stars
+                </h2>
+                <p className="leading-relaxed text-black text-center">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
+                  facilis, fugit aperiam minima voluptatum sunt nostrum,
+                  delectus libero reiciendis commodi sed quibusdam obcaecati
+                  praesentium quidem dolorum autem sapiente quod laudantium.
+                </p>
+                <div className="flex justify-center">
+                  <button className="hover:text-black  hover:text-base p-1 hover:underline decoration-red-700 rounded-sm text-orange">
+                    Read more..
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div className="xl:w-1/3 md:w-1/2 p-4">
+              <div className=" border-gray-200 p-6 rounded-lg">
+                <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
+                  <FaAdjust size={40} color="red" />
+                </div>
+                <h2 className="text-lg text-black text-center  mb-2">
+                  Shooting Stars
+                </h2>
+                <p className="leading-relaxed text-black text-center">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
+                  facilis, fugit aperiam minima voluptatum sunt nostrum,
+                  delectus libero reiciendis commodi sed quibusdam obcaecati
+                  praesentium quidem dolorum autem sapiente quod laudantium.
+                </p>
+                <div className="flex justify-center">
+                  <button className="hover:text-black  hover:text-base p-1 hover:underline decoration-red-700 rounded-sm text-orange">
+                    Read more..
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div className="xl:w-1/3 md:w-1/2 p-4">
+              <div className=" border-gray-200 p-6 rounded-lg">
+                <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
+                  <FaAddressBook size={40} color="red" />
+                </div>
+                <h2 className="text-lg text-black text-center  mb-2">
+                  Shooting Stars
+                </h2>
+                <p className="leading-relaxed text-black text-center">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
+                  facilis, fugit aperiam minima voluptatum sunt nostrum,
+                  delectus libero reiciendis commodi sed quibusdam obcaecati
+                  praesentium quidem dolorum autem sapiente quod laudantium.
+                </p>
+                <div className="flex justify-center">
+                  <button className="hover:text-black  hover:text-base p-1 hover:underline decoration-red-700 rounded-sm text-orange">
+                    Read more..
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div className="xl:w-1/3 md:w-1/2 p-4">
+              <div className=" border-gray-200 p-6 rounded-lg">
+                <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
+                  <FaAccessibleIcon size={40} color="red" />
+                </div>
+                <h2 className="text-lg text-black text-center  mb-2">
+                  Shooting Stars
+                </h2>
+                <p className="leading-relaxed text-black text-center">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
+                  facilis, fugit aperiam minima voluptatum sunt nostrum,
+                  delectus libero reiciendis commodi sed quibusdam obcaecati
+                  praesentium quidem dolorum autem sapiente quod laudantium.
+                </p>
+                <div className="flex justify-center">
+                  <button className="hover:text-black  hover:text-base p-1 hover:underline decoration-red-700 rounded-sm text-orange">
+                    Read more..
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div className="xl:w-1/3 md:w-1/2 p-4">
+              <div className=" border-gray-200 p-6 rounded-lg">
+                <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
+                  <FaBeer size={40} color="red" />
+                </div>
+                <h2 className="text-lg text-white text-center  mb-2">
+                  Shooting Stars
+                </h2>
+                <p className="leading-relaxed text-black text-center">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
+                  facilis, fugit aperiam minima voluptatum sunt nostrum,
+                  delectus libero reiciendis commodi sed quibusdam obcaecati
+                  praesentium quidem dolorum autem sapiente quod laudantium.
+                </p>
+                <div className="flex justify-center">
+                  <button className="hover:text-black  hover:text-base p-1 hover:underline decoration-red-700 rounded-sm text-orange">
+                    Read more..
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
+          {/* <button className="flex mx-auto mt-16 text-black bg-orange border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            Read more
+          </button> */}
         </div>
       </section>
 

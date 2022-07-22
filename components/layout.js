@@ -203,7 +203,7 @@ export default function Layout({ children }) {
 
           <div className="text-sm flex flex-col p-4 pl-6 lg:p-0 text-center text-left ">
             <Link href="/about">
-              <a>About us</a>
+              <a>About Us</a>
             </Link>
             <Link href="/services">
               <a>Solutions</a>
