@@ -244,7 +244,7 @@ export default function Home() {
       </section>
 
       <section className="text-white body-font bg-blue">
-        <div class="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-24 mx-auto">
           <div className="flex gap-6 justify-center mb-20">
             <span className="inline-block w-32 h-[4px] mt-5 rounded-full bg-white"></span>
             <h1 className="text-3xl font-semibold capitalize lg:text-4xl text-white  text-center">
