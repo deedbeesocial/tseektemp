@@ -182,12 +182,19 @@ export default function Layout({ children }) {
           </div>
 
           <div className="text-sm p-4 lg:p-0 pl-6  text-left">
-            <p className="font-semibold">Office</p>
+            <p className="font-semibold">INDIA - HEAD OFFICE</p>
             <p>NASH SQUARE, R-22 3rd cross</p>
             <p>Electronics City Phase 1</p>
+            <p>Hosur Main Road, KudluGate,</p>
             <p>Bengaluru, Karnataka 560100</p>
           </div>
-
+          <div className="text-sm p-4 lg:p-0 pl-6  text-left">
+            <p className="font-semibold">INDIA - MUMBAI OFFICE</p>
+            <p>B wing 607, Kailash Business Park,</p>
+            <p>Road: Veer Savarker Marg,</p>
+            <p>Vikhroli West,</p>
+            <p>Mumbai - 400079 Maharashtra, INDIA.</p>
+          </div>
           <div className="text-sm p-4 lg:p-0  text-center">
             <p className="font-semibold">Contact</p>
             <p className="">+91-09591059023</p>
