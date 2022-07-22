@@ -9,7 +9,7 @@ import "swiper/css/autoplay";
 export default function Testimonials() {
   const stuff = [
     {
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat beatae explicabo corrupti saepe repudiandae, consequuntur facilis, excepturi esse obcaecati eaque exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
+      text: "Lorem ipsum dolor sit amet consectetur  consequuntur facilis, excepturi esse obcaecati eaque exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
       name: "Palash Pandey",
       position: "Co-Founder",
       company: "Renaura Wellness Pvt Ltd",
@@ -17,7 +17,7 @@ export default function Testimonials() {
       id: 1,
     },
     {
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat beatae explicabo corrupti saepe repudiandae, consequuntur facilis, excepturi esse obcaecati eaque exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
+      text: "Lorem ipsum dolor sit amet consectetur repudiandae, consequuntur facilis, excepturi esse obcaecati eaque exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
       name: "Megha Kapur",
       position: "President",
       company: "Prima USA, LLC",
@@ -25,7 +25,7 @@ export default function Testimonials() {
       id: 2,
     },
     {
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat beatae explicabo corrupti saepe repudiandae, consequuntur facilis, excepturi esse obcaecati eaque exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
+      text: "Lorem ipsum dolor sit amet consectetur repudiandae, consequuntur facilis, excepturi esse obcaecati eaque exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
       name: "Mangesh Gawande",
       position: "Founder & CEO",
       company: "EarthyBlend Pvt Ltd",
@@ -33,7 +33,7 @@ export default function Testimonials() {
       id: 3,
     },
     {
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat beatae explicabo corrupti saepe repudiandae, consequuntur facilis, excepturi esse obcaecati eaque exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
+      text: "Lorem ipsum dolor sit amet consectetur repudiandae, consequuntur facilis, excepturi esse obcaecati eaque exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
       name: "Mangesh Gawande",
       position: "Founder & CEO",
       company: "EarthyBlend Pvt Ltd",
@@ -41,7 +41,7 @@ export default function Testimonials() {
       id: 4,
     },
     {
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat beatae explicabo corrupti saepe repudiandae, consequuntur facilis, excepturi esse obcaecati eaque exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
+      text: "Lorem ipsum dolor sit amet  eaque exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
       name: "Mangesh Gawande",
       position: "Founder & CEO",
       company: "EarthyBlend Pvt Ltd",
@@ -49,7 +49,7 @@ export default function Testimonials() {
       id: 5,
     },
     {
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat beatae explicabo corrupti saepe repudiandae, consequuntur facilis, excepturi esse obcaecati eaque exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
+      text: "Lorem ipsum dolor sit amet consectetur repudiandae, consequuntur facilis, excepturi esse obcaecati eaque exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
       name: "Mangesh Gawande",
       position: "Founder & CEO",
       company: "EarthyBlend Pvt Ltd",
@@ -69,7 +69,7 @@ export default function Testimonials() {
             <div className="h-1 w-20 bg-bla rounded"></div>
           </div>
         </div>
-        <div className="flex flex-wrap -m-4 shadow-md ">
+        <div className="flex flex-wrap -m-4  justify-center py-3 ">
           <Swiper
             modules={[Pagination, Autoplay]}
             slidesPerView={1}
@@ -80,7 +80,7 @@ export default function Testimonials() {
                 slidesPerView: 2,
               },
               1024: {
-                slidesPerView: 3,
+                slidesPerView: 4,
               },
             }}
             autoplay={true}
@@ -89,7 +89,7 @@ export default function Testimonials() {
           >
             {stuff.map(({ text, id, logo }) => (
               <SwiperSlide key={id}>
-                <div className="w-full p-4  shadow-md">
+                <div className="w-full  h-[600px] shadow-lg border border-gray-400">
                   <div className="bg-green-50 p-6 rounded-lg ">
                     <div className="h-36 w-auto relative cursor-pointer">
                       <Image
@@ -100,10 +100,9 @@ export default function Testimonials() {
                       />
                     </div>
 
-                    <h2 className="text-lg text-white font-medium title-font mb-4">
-                      nulll
-                    </h2>
-                    <p className="text-black  ">{text}</p>
+                  
+                    <p className="text-black text-center ">{text}</p>
+                    <p className="text-center text-lg">india</p>
                   </div>
                 </div>
               </SwiperSlide>
