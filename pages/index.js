@@ -569,23 +569,11 @@ export default function Home() {
       <section className="text-black bg-white body-font">
         <div className="container px-5 py-14 mx-auto">
           <div className="flex flex-col flex-wrap text-center w-full mb-20 ">
-            <h2 className="text-xs text-black tracking-widest font-medium title-font mb-1">
-              any heading
-            </h2>
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-black">
               Blogs
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-black">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
-              iusto quisquam quasi assumenda ad. Natus consectetur voluptate
-              dolorem, quisquam ea voluptatem odio fugiat cumque, error alias
-              fuga autem harum cupiditate necessitatibus qui inventore,
-              explicabo dicta! Et ab odit assumenda, quas ratione eveniet
-              laboriosam alias labore temporibus adipisci eius. Distinctio,
-              accusantium.
-            </p>
           </div>
-          <div className="flex border flex-wrap gap-8 ">
+          <div className="flex  flex-wrap gap-8 ">
             {blog.map(({ name, logo, id, desc }) => {
               return (
                 <div
@@ -609,7 +597,7 @@ export default function Home() {
                     <p className="leading-relaxed mb-3 text-justify ">{desc}</p>
                   </div>
                   <Link href={"/blogs"}>
-                    <p className="text-blue ease-in duration-300 hover:bg-blue hover:text-white  flex justify-center items-center text-left hover:cursor-pointer">
+                    <p className="text-blue ease-in duration-300 hover:bg-orange hover:text-black  flex justify-center items-center text-left hover:cursor-pointer">
                       Read More
                     </p>
                   </Link>
