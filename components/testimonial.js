@@ -59,11 +59,11 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="text-black  bg-green body-font">
+    <section className="text-black  bg-coustom1 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap w-full mb-20">
           <div className="lg:w-full w-full mb-6 lg:mb-0">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-white text-center">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-lack text-center">
               Testimonial
             </h1>
             <div className="h-1 w-20 bg-bla rounded"></div>
@@ -103,7 +103,7 @@ export default function Testimonials() {
                     <h2 className="text-lg text-white font-medium title-font mb-4">
                       nulll
                     </h2>
-                    <p className="text-white  ">{text}</p>
+                    <p className="text-black  ">{text}</p>
                   </div>
                 </div>
               </SwiperSlide>
