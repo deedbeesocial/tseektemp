@@ -23,16 +23,19 @@ export default function Home() {
 
   const blog = [
     {
+      id: 1,
       name: "   how is ml related to block chai",
       logo: "/aiml2.jpg",
       desc: "  using AI and Big Data in Blockchain Technology: A step closer to the futureThere has been a number of changes in the IT world recently. One of the most talked-about collaborations that can possibly change the entire landscape of the online world is the usage of AI technology in blockchain technology. Additionally, Big Data can contribute to this change quite significantly......",
     },
     {
+      id: 2,
       name: "   how is ml related to block chai",
       logo: "/aiml.jpg",
       desc: "  Building solutions using artificial intelligence, machine learning and blockchain technologies. Artificial intelligence and machine learning can automate important, but manual andtime-consuming tasks, allowing employees to focus on higher-value work.",
     },
     {
+      id: 3,
       name: "   how is ml related to block chai",
       logo: "/aiandml.jpg",
       desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis of data purposes.Blockchain technology has been trending in recent years. This technology allows a secure way for individuals to deal directly with each other through a highly secure and decentralized system, without an intermediary. In addition to its own capabilities, machinelearning can help in handling many limitations that blockchain-based systems have.  ",
@@ -119,7 +122,6 @@ export default function Home() {
         <Clients />
       </section>
 
-
       <section className="text-black bg-green body-font  overflow-hidden lg:py-12">
         <div className="container  px-5  py-10 mx-auto  lg:rounded-lg">
           <div className="lg:w-full mx-auto flex flex-col lg:flex-row lg:gap-80 ">
@@ -164,76 +166,76 @@ export default function Home() {
               Our Achievements
             </h1>
           </div>
-          <div className="flex  flex-wrap justify-center -m-4 text-center">
-            <div className="p-4  lg:w-1/5 sm:w-1/2 w-full  hover:w-1/4 ease-in duration-300">
-              <div className="border-2 border-red-600 px-4 py-6 lg:gap-2 rounded-lg flex flex-col justify-center">
-                <div className="flex flex-1 justify-center">
-                  <FaVideo size={50} color="red" alignmentBaseline="middle" />
+          <div className="flex  flex-wrap justify-center lg:gap-3 gap-7 -m-4 text-center">
+            <div className="  lg:w-1/5 sm:w-1/2 w-full items-start  hover:w-1/4 ease-in duration-300">
+              <div className=" rounded-lg flex lg:flex-row flex-col lg:gap-4 lg:items-start justify-center">
+                <div className="flex justify-center">
+                  <FaVideo size={39} color="gray" alignmentBaseline="middle" />
                 </div>
-                <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
-                  2.7K
-                </h2>
-                <p className="leading-relaxed">our clients</p>
+                <div>
+                  <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
+                    5
+                  </h2>
+                  <div className="flex justify-center">
+                    <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
+                  </div>
+
+                  <p className="leading-relaxed">lorem ip</p>
+                </div>
               </div>
             </div>
-            <div className="p-4 lg:w-1/5 sm:w-1/2 w-full hover:w-1/4 ease-in duration-300 ">
-              <div className="border-2 border-red-600 px-4 py-6 rounded-lg">
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="text-indigo-500 w-12 h-12 mb-3 inline-block"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
-                  <circle cx="9" cy="7" r="4"></circle>
-                  <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
-                </svg>
-                <h2 className="title-font font-medium text-3xl text-gray-900">
-                  1.3K
-                </h2>
-                <p className="leading-relaxed">Users</p>
+
+            <div className="  lg:w-1/5 sm:w-1/2 w-full items-start  hover:w-1/4 ease-in duration-300">
+              <div className=" rounded-lg flex lg:flex-row flex-col lg:gap-4 lg:items-start justify-center">
+                <div className="flex justify-center">
+                  <FaVideo size={39} color="gray" alignmentBaseline="middle" />
+                </div>
+                <div>
+                  <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
+                    2.7K
+                  </h2>
+                  <div className="flex justify-center">
+                    <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
+                  </div>
+
+                  <p className="leading-relaxed">Lorem ip</p>
+                </div>
               </div>
             </div>
-            <div className="p-4 lg:w-1/5 sm:w-1/2 w-full hover:w-1/4 ease-in duration-300">
-              <div className="border-2 border-red-600 px-4 py-6 rounded-lg">
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="text-indigo-500 w-12 h-12 mb-3 inline-block"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M3 18v-6a9 9 0 0118 0v6"></path>
-                  <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"></path>
-                </svg>
-                <h2 className="title-font font-medium text-3xl text-gray-900">
-                  74
-                </h2>
-                <p className="leading-relaxed">Files</p>
+
+            <div className="  lg:w-1/5 sm:w-1/2 w-full items-start  hover:w-1/4 ease-in duration-300">
+              <div className=" rounded-lg flex lg:flex-row flex-col lg:gap-4 lg:items-start justify-center">
+                <div className="flex justify-center">
+                  <FaVideo size={39} color="gray" alignmentBaseline="middle" />
+                </div>
+                <div>
+                  <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
+                    2.7K
+                  </h2>
+                  <div className="flex justify-center">
+                    <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
+                  </div>
+
+                  <p className="leading-relaxed">Lorem ips</p>
+                </div>
               </div>
             </div>
-            <div className="p-4 lg:w-1/5 sm:w-1/2 w-full hover:w-1/4 ease-in duration-300">
-              <div className="border-2 border-red-600 px-4 py-6 rounded-lg">
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="text-indigo-500 w-12 h-12 mb-3 inline-block"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                </svg>
-                <h2 className="title-font font-medium text-3xl text-gray-900">
-                  46
-                </h2>
-                <p className="leading-relaxed">Places</p>
+
+            <div className="  lg:w-1/5 sm:w-1/2 w-full items-start  hover:w-1/4 ease-in duration-300">
+              <div className=" rounded-lg flex lg:flex-row flex-col lg:gap-4 lg:items-start justify-center">
+                <div className="flex justify-center">
+                  <FaVideo size={39} color="gray" alignmentBaseline="middle" />
+                </div>
+                <div>
+                  <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
+                    2.7K
+                  </h2>
+                  <div className="flex justify-center">
+                    <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
+                  </div>
+
+                  <p className="leading-relaxed">Lor ips</p>
+                </div>
               </div>
             </div>
           </div>

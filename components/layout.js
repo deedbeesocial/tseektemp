@@ -91,8 +91,8 @@ export default function Layout({ children }) {
                 <Image src="/icon.png" alt="logo" width={60} height={60} />
               </div>
               <div className="lg:pl-2 md:flex  text-center  py-3 flex-col justify-center ">
-                <span className="  text-black ">
-                  Talent Transformation. Simplified.
+                <span className="  text-black capitalize">
+                  TALENT TRANSFORMATION. SIMPLIFIED.
                 </span>
               </div>
             </a>

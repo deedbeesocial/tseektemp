@@ -41,15 +41,21 @@ function project() {
             </div>
 
             <div className="w-auto">
-              <h2 className="text-xl ">
-                Enabling Start-ups to Scale
-              </h2>
+              <h2 className="text-xl ">Enabling Start-ups to Scale</h2>
               <p className="prose pt-8">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam sunt, aut, harum obcaecati accusantium porro inventore fuga ex fugiat ullam optio id, nam error explicabo quasi iusto veritatis labore! Pariatur perspiciatis culpa ea necessitatibus? Necessitatibus quae accusantium in reiciendis iure?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Laboriosam sunt, aut, harum obcaecati accusantium porro
+                inventore fuga ex fugiat ullam optio id, nam error explicabo
+                quasi iusto veritatis labore! Pariatur perspiciatis culpa ea
+                necessitatibus? Necessitatibus quae accusantium in reiciendis
+                iure?
               </p>
 
               <p className="prose pt-8">
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vero ipsum quae eveniet voluptatem, cum, quibusdam quod doloremque quisquam natus numquam ea voluptatibus, maiores beatae! Aut corporis odio minus fugit.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
+                vero ipsum quae eveniet voluptatem, cum, quibusdam quod
+                doloremque quisquam natus numquam ea voluptatibus, maiores
+                beatae! Aut corporis odio minus fugit.
               </p>
             </div>
 
@@ -74,22 +80,38 @@ function project() {
             <div className="w-auto">
               <h2 className="text-xl ">Pioneers in Innovation</h2>
               <p className="prose pt-8">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repudiandae modi eveniet accusamus! Quia dolor deserunt unde porro laborum officiis iusto laboriosam magnam accusamus asperiores sit vero nesciunt facilis tenetur, non neque consequatur, exercitationem nemo et saepe dolores quos. Dolores.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                repudiandae modi eveniet accusamus! Quia dolor deserunt unde
+                porro laborum officiis iusto laboriosam magnam accusamus
+                asperiores sit vero nesciunt facilis tenetur, non neque
+                consequatur, exercitationem nemo et saepe dolores quos. Dolores.
               </p>
 
               <p className="prose pt-8">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi iste a laudantium quia quasi. Voluptate nulla nobis, neque autem consectetur error nisi dolorem perspiciatis. Error qui excepturi magni iste non commodi iusto ipsam, vitae doloribus sunt impedit, architecto iure sit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eligendi iste a laudantium quia quasi. Voluptate nulla nobis,
+                neque autem consectetur error nisi dolorem perspiciatis. Error
+                qui excepturi magni iste non commodi iusto ipsam, vitae
+                doloribus sunt impedit, architecto iure sit.
               </p>
             </div>
 
             <div className="w-auto">
               <h2 className="text-xl ">Campus Connect</h2>
               <p className="prose pt-8">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos error ut, libero, est possimus, fuga consequatur dolorum nostrum obcaecati quis similique earum ea repudiandae dolore pariatur saepe maiores nulla consequuntur eos deserunt placeat! Ratione, illum id? Veritatis harum molestias error.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos error ut, libero, est possimus, fuga consequatur
+                dolorum nostrum obcaecati quis similique earum ea repudiandae
+                dolore pariatur saepe maiores nulla consequuntur eos deserunt
+                placeat! Ratione, illum id? Veritatis harum molestias error.
               </p>
 
               <p className="prose pt-8">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe consequatur voluptatem ipsam voluptates quod eius inventore consequuntur in, quis repellat recusandae magni totam facere deserunt dolore quos. Dolore eaque sequi ad maxime possimus nisi vel impedit necessitatibus odit illo. Quo?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                consequatur voluptatem ipsam voluptates quod eius inventore
+                consequuntur in, quis repellat recusandae magni totam facere
+                deserunt dolore quos. Dolore eaque sequi ad maxime possimus nisi
+                vel impedit necessitatibus odit illo. Quo?
               </p>
             </div>
 
