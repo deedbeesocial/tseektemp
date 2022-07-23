@@ -3,10 +3,12 @@ import { ImMinus } from "react-icons/Im";
 import useCollapse from "react-collapsed";
 import { useState } from "react";
 
-function careercard({ id, title, description }) {
+function Careercard({ id, title, description }) {
   const [isExpanded, setExpanded] = useState(false);
   const [isExpanded1, setExpanded1] = useState(false);
   const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
+  
+
 
   return (
     <>
@@ -87,7 +89,7 @@ function careercard({ id, title, description }) {
                 />
               </div>
               <div className="relative mb-4">
-                <label for="email" class="leading-7 text-sm text-gray-600">
+                <label htmlFor="email" class="leading-7 text-sm text-gray-600">
                   Email
                 </label>
                 <input
@@ -127,4 +129,4 @@ function careercard({ id, title, description }) {
     </>
   );
 }
-export default careercard;
+export default Careercard;

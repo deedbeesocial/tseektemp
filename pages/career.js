@@ -57,7 +57,7 @@ export default function Career() {
             </div>
           </div>
           <div className="lg:w-2/5 flex-1 w-full border relative h-[200px] lg:h-full   ">
-            <Image src="/careers.jpg" objectFit="cover" layout="fill" />
+            <Image src="/careers.jpg" objectFit="cover" alt="career" layout="fill" />
           </div>
         </div>
       </section>
@@ -74,14 +74,14 @@ export default function Career() {
 
               {careerdata.map(({ id, description, title }) => {
                 return (
-                  <Careercard id={id} description={description} title={title} />
+                  <Careercard key={id} description={description} title={title} />
                 );
               })}
             </div>
             <div className=" flex gap-4 flex-col flex-1">
               {careerdata.map(({ id, description, title }) => {
                 return (
-                  <Careercard id={id} description={description} title={title} />
+                  <Careercard key={id} description={description} title={title} />
                 );
               })}
             </div>
