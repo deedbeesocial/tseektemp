@@ -1,6 +1,6 @@
-function knowledge(){
+function Knowledge(){
     return (
         <></>
     )
 }
-export default knowledge;
+export default Knowledge;

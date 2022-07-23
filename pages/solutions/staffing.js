@@ -1,6 +1,6 @@
-function staffing(){
+function Staffing(){
     return (
         <></>
     )
 }
-export default staffing;
+export default Staffing;

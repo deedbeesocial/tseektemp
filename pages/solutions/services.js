@@ -1,8 +1,8 @@
-function solutions(){
+function Solutions(){
  return(
     <>
-    <div className="w-screen h-screen">Services</div>
+    <div className="w-full h-[600px]">Services</div>
     </>
  )
 }
-export default solutions;
+export default Solutions;

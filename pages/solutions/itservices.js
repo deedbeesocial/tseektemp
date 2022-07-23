@@ -1,6 +1,7 @@
-function itservices(){
+function Itservices(){
     return (
-        <></>
+        <>
+        <div className="w-full h-[600px]">text</div></>
     )
 }
-export default itservices;
+export default Itservices;
