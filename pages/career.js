@@ -55,13 +55,19 @@ export default function Career() {
               </div>
             </div>
           </div>
-          <div className="lg:w-2/5 flex-1 w-full border relative h-[200px] lg:h-full   ">
+          <div className="lg:w-2/5 flex-1 w-full border group relative  lg:h-full   ">
             <Image
               src="/careers.jpg"
               objectFit="cover"
               alt="career"
               layout="fill"
             />
+
+            <div className="absolute text-black top-0 left-0 w-full h-0 flex flex-col justify-center bg-opacity-70 bg-white items-center opacity-0 group-hover:h-full group-hover:opacity-100 duration-700 ">
+              <p className="text-4xl text-center">
+                If opportunity doesn't knock, build a door.
+              </p>
+            </div>
           </div>
         </div>
       </section>
