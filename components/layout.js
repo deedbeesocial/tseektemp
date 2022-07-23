@@ -77,8 +77,8 @@ export default function Layout({ children }) {
       <header
         className={`${
           navbr
-            ? "md:fixed bg-white z-50 w-full ease-in  duration-200 border-zinc-100 border-b"
-            :  "w-full border-zinc-100 z-50 border-b  ease-in duration-200 "
+            ? "md:fixed bg-white z-50 w-full ease-in  duration-700 border-zinc-100 border-b"
+            :  "w-full border-zinc-100 z-50 border-b  ease-in duration-700 "
         }`}
       >
         <div className="md:container mx-auto flex justify-between items-center text-zinc-900 font-sans">
