@@ -89,7 +89,7 @@ function Careercard({ id, title, description }) {
                 />
               </div>
               <div className="relative mb-4">
-                <label htmlFor="email" class="leading-7 text-sm text-gray-600">
+                <label htmlFor="email" className="leading-7 text-sm text-gray-600">
                   Email
                 </label>
                 <input
