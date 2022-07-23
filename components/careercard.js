@@ -13,7 +13,7 @@ function Careercard({ id, title, description }) {
 
   return (
     <>
-      <div key={id} className="   w-full  flex   flex-col">
+      <div key={id} className="w-full  flex   flex-col">
         <div className="bg-gray-200 w-full  rounded flex  p-4 h-full items-center">
           <div
             {...getToggleProps({
@@ -59,7 +59,7 @@ function Careercard({ id, title, description }) {
         </div>
       </div>
       {isExpanded1 && (
-        <div
+        <div onClick={() => setExpanded1((prevExpanded) => !prevExpanded)}
           className={`fixed flex justify-center items-center bg-opacity-50 z-50 top-0   left-0 w-screen h-screen bg-black`}
         >
           <div
@@ -68,7 +68,7 @@ function Careercard({ id, title, description }) {
                " w-full lg:w-fit lg:h-fit h-full   flex flex-row lg:flex-col justify-center bg-gray bg-opacity-100"
         `}
           >
-            <div className="lg:w-fit p-5 md:py-16 md:px-10  bg-white flex flex-col justify-center w-full  ">
+            <div onClick={() => setExpanded1((prevExpanded) => !prevExpanded)} className="lg:w-fit p-5 md:py-16 md:px-10  bg-white flex flex-col justify-center w-full  ">
               <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
                 Feedback
               </h2>

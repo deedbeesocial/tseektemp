@@ -69,7 +69,7 @@ export default function Career() {
             </h1>
           </div>
           <div className="flex  flex-row  w-full  gap-7 flex-wrap ">
-            <div className=" flex flex-col gap-4  flex-1 ">
+            <div className=" flex flex-col gap-4  flex-1">
 
               {careerdata.map(({ id, description, title }) => {
                 return (
