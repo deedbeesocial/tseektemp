@@ -15,19 +15,19 @@ export default function Career() {
       id: 1,
       title: "Frontend Developer",
       description:
-        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     },
     {
       id: 2,
       title: "Backend Developer",
       description:
-        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     },
     {
       id: 3,
       title: "Full Stack Developer",
       description:
-        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     },
   ];
 
@@ -66,11 +66,11 @@ export default function Career() {
         </div>
       </section>
 
-      <section className="text-black body-font">
+      <section className="text-black ">
         <div className=" container px-5 py-24 mx-auto">
           <div className="text-center mb-20">
             <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-black mb-4">
-            Current Openings
+              Current Openings
             </h1>
           </div>
           <div className="flex  flex-row  w-full  gap-7 flex-wrap ">

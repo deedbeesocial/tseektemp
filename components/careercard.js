@@ -24,9 +24,9 @@ function Careercard({ id, title, description }) {
             })}
           >
             {isExpanded ? (
-              <BiMinus size={20} className=" text-indigo-500 w- h-6 mr-4" />
+              <BiMinus size={15} className=" text-indigo-500 w- h-6 mr-4" />
             ) : (
-              <BsPlusLg size={10} className=" text-indigo-500 w- h-6 mr-4" />
+              <BsPlusLg size={15} className=" text-indigo-500 w- h-6 mr-4" />
             )}
           </div>
 
@@ -63,7 +63,7 @@ function Careercard({ id, title, description }) {
       </div>
       {isExpanded1 && (
         <div onClick={() => setExpanded1((prevExpanded) => !prevExpanded)}
-          className={`fixed flex justify-center items-center bg-opacity-50 z-50 top-0   left-0 w-screen h-screen bg-black`}
+          className={`fixed flex justify-center items-center bg-opacity-80 z-50 top-0   left-0 w-screen h-screen bg-black`}
         >
           <div
             className={`
