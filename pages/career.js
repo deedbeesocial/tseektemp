@@ -33,17 +33,17 @@ export default function Career() {
 
   return (
     <>
-      <section>
+      {/* <section>
         <div className="w-full h-32 ">
           <p className="text-center text-4xl p-6 ">Careers</p>
         </div>
-      </section>
+      </section> */}
       <section className="bg-coustom1 lg:py-9 lg:p-20">
         <div className="w-full h-[900px] lg:h-[500px] flex lg:flex-row lg:py-5 py-16 flex-col justify-around  ">
           <div className="p-4 lg:w-1/2 w-full h-full flex-1 md:w-full">
             <div className="flex  rounded-lg  lg:p-8 sm:flex-row flex-col">
               <div className="flex-grow">
-                <h2 className="text-black text-2xl   mb-3">Lorem ipsum</h2>
+                <h2 className="text-black text-2xl   mb-3">Career</h2>
                 <p className="leading-relaxed text-lg">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
                   asperiores illum beatae atque distinctio, maiores odio
