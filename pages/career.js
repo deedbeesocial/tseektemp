@@ -56,7 +56,12 @@ export default function Career() {
             </div>
           </div>
           <div className="lg:w-2/5 flex-1 w-full border relative h-[200px] lg:h-full   ">
-            <Image src="/careers.jpg" objectFit="cover" alt="career" layout="fill" />
+            <Image
+              src="/careers.jpg"
+              objectFit="cover"
+              alt="career"
+              layout="fill"
+            />
           </div>
         </div>
       </section>
@@ -65,22 +70,29 @@ export default function Career() {
         <div className=" container px-5 py-24 mx-auto">
           <div className="text-center mb-20">
             <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-black mb-4">
-              choose your career
+            Current Openings
             </h1>
           </div>
           <div className="flex  flex-row  w-full  gap-7 flex-wrap ">
             <div className=" flex flex-col gap-4  flex-1">
-
               {careerdata.map(({ id, description, title }) => {
                 return (
-                  <Careercard key={id} description={description} title={title} />
+                  <Careercard
+                    key={id}
+                    description={description}
+                    title={title}
+                  />
                 );
               })}
             </div>
             <div className=" flex gap-4 flex-col flex-1">
               {careerdata.map(({ id, description, title }) => {
                 return (
-                  <Careercard key={id} description={description} title={title} />
+                  <Careercard
+                    key={id}
+                    description={description}
+                    title={title}
+                  />
                 );
               })}
             </div>

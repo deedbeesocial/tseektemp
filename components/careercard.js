@@ -7,7 +7,10 @@ import { useState } from "react";
 function Careercard({ id, title, description }) {
   const [isExpanded, setExpanded] = useState(false);
   const [isExpanded1, setExpanded1] = useState(false);
-  const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
+  const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded,
+  easing:"cubic-bezier(0.37, 0, 0.63, 1)",
+  duration:600,
+  });
   
 
 
@@ -23,7 +26,7 @@ function Careercard({ id, title, description }) {
             {isExpanded ? (
               <BiMinus size={20} className=" text-indigo-500 w- h-6 mr-4" />
             ) : (
-              <BsPlusLg size={20} className=" text-indigo-500 w- h-6 mr-4" />
+              <BsPlusLg size={10} className=" text-indigo-500 w- h-6 mr-4" />
             )}
           </div>
 
@@ -34,10 +37,10 @@ function Careercard({ id, title, description }) {
             <div className="flex">
               <div className="p-4 lg:w-full">
                 <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                  <h2 className="tracking-widest text-xs title-font  text-gray-400 mb-1">
+                  <h2 className="tracking-widest text-xs title-font  text-black mb-1">
                     CATEGORY
                   </h2>
-                  <h1 className="title-font sm:text-2xl text-xl  text-gray-900 mb-3">
+                  <h1 className=" sm:text-2xl text-xl  text-gray-900 mb-3">
                     {title}
                   </h1>
                   <p className="leading-relaxed mb-3">{description}</p>
