@@ -65,7 +65,7 @@ export default function Career() {
 
             <div className="absolute text-black top-0 left-0 w-full h-0 flex flex-col justify-center bg-opacity-70 bg-white items-center opacity-0 group-hover:h-full group-hover:opacity-100 duration-700 ">
               <p className="text-4xl text-center">
-                If opportunity doesn&apos;'t knock&apos;, build a door.
+                If opportunity doesnt knock, build a door.
               </p>
             </div>
           </div>
