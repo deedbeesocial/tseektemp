@@ -55,6 +55,7 @@ export default function Slider() {
             <SwiperSlide key={id}>
               <div className="h-[60vh] w-full relative flex justify-center items-center">
                 <Image
+                
                   className="object-cover w-full h-full"
                   layout="fill"
                   src={image}

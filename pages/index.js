@@ -3,6 +3,7 @@ import Slider from "../components/slider";
 import Link from "next/link";
 import Clients from "../components/client";
 import Testimonials from "../components/testimonial";
+
 import {
   FaAccessibleIcon,
   FaAddressBook,
@@ -40,7 +41,7 @@ export default function Home() {
       id: 2,
       name: "   how is ml related to block chai",
       logo: "/aiml.jpg",
-      desc: "  Building solutions using artificial intelligence, machine learning and blockchain technologies. Artificial intelligence and machine learning can automate important, but manual and time-consuming tasks, allowing employees to focus on higher-value work.",
+      desc: "  Building solutions using artificial intelligence, machine learning and blockchain technologies. Artificial intelligence and machine learning can automate important, but manual and time-consuming tasks, allowing employees to focus on higher-value work.....",
     },
     {
       id: 3,
@@ -277,7 +278,7 @@ export default function Home() {
             <div className="xl:w-1/3 md:w-1/2 p-4">
               <div className=" border-gray-200 p-6 rounded-lg">
                 <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
-                  <FaBeer size={40} color="red" />
+                  <FaBeer size={40} color="white" />
                 </div>
                 <h2 className="text-lg text-white text-center  mb-2">
                   Shooting Stars
@@ -299,7 +300,7 @@ export default function Home() {
             <div className="xl:w-1/3 md:w-1/2 p-4">
               <div className=" border-gray-200 p-6 rounded-lg">
                 <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
-                  <FaBeer size={40} color="red" />
+                  <FaBeer size={40} color="white" />
                 </div>
                 <h2 className="text-lg text-white text-center  mb-2">
                   Shooting Stars
@@ -321,7 +322,7 @@ export default function Home() {
             <div className="xl:w-1/3 md:w-1/2 p-4">
               <div className=" border-gray-200 p-6 rounded-lg">
                 <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
-                  <FaAdjust size={40} color="red" />
+                  <FaAdjust size={40} color="white" />
                 </div>
                 <h2 className="text-lg text-white text-center  mb-2">
                   Shooting Stars
@@ -343,7 +344,7 @@ export default function Home() {
             <div className="xl:w-1/3 md:w-1/2 p-4">
               <div className=" border-gray-200 p-6 rounded-lg">
                 <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
-                  <FaAddressBook size={40} color="red" />
+                  <FaAddressBook size={40} color="white" />
                 </div>
                 <h2 className="text-lg text-white text-center  mb-2">
                   Shooting Stars
@@ -365,7 +366,7 @@ export default function Home() {
             <div className="xl:w-1/3 md:w-1/2 p-4">
               <div className=" border-gray-200 p-6 rounded-lg">
                 <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
-                  <FaAccessibleIcon size={40} color="red" />
+                  <FaAccessibleIcon size={40} color="white" />
                 </div>
                 <h2 className="text-lg text-white text-center  mb-2">
                   Shooting Stars
@@ -387,7 +388,7 @@ export default function Home() {
             <div className="xl:w-1/3 md:w-1/2 p-4">
               <div className=" border-gray-200 p-6 rounded-lg">
                 <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
-                  <FaBeer size={40} color="red" />
+                  <FaBeer size={40} color="white" />
                 </div>
                 <h2 className="text-lg text-white text-center  mb-2">
                   Shooting Stars
@@ -573,12 +574,12 @@ export default function Home() {
               Blogs
             </h1>
           </div>
-          <div className="flex  flex-wrap gap-8 ">
+          <div className="flex  flex-wrap gap-1 ">
             {blog.map(({ name, logo, id, desc }) => {
               return (
                 <div
                   key={id}
-                  className="w-fit flex flex-col lg:flex-1 py-7 justify-between bg-opacity-75 px-8   rounded-lg overflow-hidden text-center relative"
+                  className="w-fit flex flex-col lg:flex-1 py-4 justify-between bg-opacity-75 px-8   rounded-lg overflow-hidden text-center relative"
                 >
                   <div>
                     <div className=" w-full transition duration-150 ease-out hover:ease-in hover:opacity-50">
@@ -594,7 +595,9 @@ export default function Home() {
                     <h1 className="title-font sm:text-2xl text-xl text-left font-medium text-gray-900 mb-3">
                       {name}
                     </h1>
-                    <p className="leading-relaxed mb-3 text-justify ">{desc}</p>
+                    <p className="leading-relaxed mt-10 text-justify ">
+                      {desc}
+                    </p>
                   </div>
                   <Link href={"/blogs"}>
                     <p className="text-blue ease-in duration-300 hover:bg-orange hover:text-black  flex justify-center items-center text-left hover:cursor-pointer">

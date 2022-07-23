@@ -78,7 +78,7 @@ export default function Layout({ children }) {
         className={`${
           navbr
             ? "md:fixed bg-white z-50 w-full  duration-200 border-zinc-100 border-b"
-            : "border-zinc-100 z-50 border-b  duration-200 "
+            :  "  w-full border-zinc-100 z-50 border-b  duration-200 "
         }`}
       >
         <div className="md:container mx-auto flex justify-between items-center text-zinc-900 font-sans">
@@ -312,7 +312,7 @@ export default function Layout({ children }) {
                   />
                 </svg>
               </a>
-              
+
               <a
                 className="hover:scale-105 transition-all"
                 href="https://www.youtube.com/channel/UCrqiYW7GmXwgwtOEtjBQXxQ"
