@@ -1,5 +1,6 @@
-import { BsPlusLg } from "react-icons/bs";
-import { ImMinus } from "react-icons/Im";
+import { BsPlusLg} from "react-icons/bs";
+import { BiMinus } from "react-icons/bi";
+
 import useCollapse from "react-collapsed";
 import { useState } from "react";
 
@@ -20,7 +21,7 @@ function Careercard({ id, title, description }) {
             })}
           >
             {isExpanded ? (
-              <ImMinus size={20} className=" text-indigo-500 w- h-6 mr-4" />
+              <BiMinus size={20} className=" text-indigo-500 w- h-6 mr-4" />
             ) : (
               <BsPlusLg size={20} className=" text-indigo-500 w- h-6 mr-4" />
             )}

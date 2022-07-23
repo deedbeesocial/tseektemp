@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { FaAddressBook } from "react-icons/fa";
-import { BsPlusLg } from "react-icons/bs";
-import { ImMinus } from "react-icons/Im";
+
 import useCollapse from "react-collapsed";
 import { useState } from "react";
 import Careercard from "../components/careercard";
