@@ -23,7 +23,7 @@ export default function Slider() {
     },
     {
       text1: "Trusted by some of the world's biggest brands",
-      text2: "In cosmetics, pharma and herbal products",
+      text2: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
       image: "/sliderimage/slider3.jpg",
       id: "slide3",
     },
@@ -53,7 +53,7 @@ export default function Slider() {
         >
           {slides.map(({ text1, text2, image, id }) => (
             <SwiperSlide key={id}>
-              <div className="h-[60vh] w-full relative flex justify-center items-center">
+              <div className="h-[65vh] w-full relative flex justify-center items-center">
                 <Image
                 
                   className="object-cover w-full h-full"
