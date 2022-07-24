@@ -47,8 +47,8 @@ export default function Layout({ children }) {
       ],
     },
     {
-      name: "Approach",
-      path: "/approach",
+      name: "Capabilities",
+      path: "/capabilities",
     },
    
     {
