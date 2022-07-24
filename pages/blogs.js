@@ -4,13 +4,23 @@ function blogs() {
     <>
       <div classNameName="w-screen h-screen flex justify-center">
         <section className="text-black bg-slate-100 body-font">
-          <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-            <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <div className="container mx-auto justify-center gap-24 flex   md:flex-row flex-col items-center">
+            <div className=" md:w-1/2  flex flex-col justify-start   items-center text-center">
+              
+            <div className="relative h-[400px] lg:w-1/2 flex-col   w-5/6 flex justify-center">
+                <Image
+                  layout="fill"
+                  objectFit="cover"
+                  src="/wtwedo5.jpg"
+                  alt="content"
+                />
+              </div>
+              <div className="lg:w- flex-col   w-5/6 flex justify-center">
               <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                 AI and blockchain
                 <br className="hidden lg:inline-block" />
               </h1>
-              <p className="mb-8 leading-relaxed">
+              <p className="mb-8 text-justify leading-relaxed">
                 AI and blockchain are proving to be quite a powerful
                 combination, improving virtually every industry in which they&nbsp;’re
                 implemented. Blockchain and artificial intelligence are
@@ -29,17 +39,50 @@ function blogs() {
                 blockchain infrastructure can be used to create marketing
                 automation through AI.
               </p>
-            </div>
-            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-              <div className="relative w-full h-[600px]">
-                <Image
-                  layout="fill"
-                  objectFit="cover"
-                  src="/wtwedo5.jpg"
-                  alt="content"
-                />
               </div>
             </div>
+            
+
+            <div className=" md:w-1/2  flex flex-col justify-start   items-center text-center">
+              
+              <div className="relative h-[400px] lg:w-1/2 flex-col   w-5/6 flex justify-center">
+                  <Image
+                    layout="fill"
+                    objectFit="cover"
+                    src="/wtwedo5.jpg"
+                    alt="content"
+                  />
+                </div>
+                <div className="lg:w- flex-col   w-5/6 flex justify-center">
+                <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+                  AI and blockchain
+                  <br className="hidden lg:inline-block" />
+                </h1>
+                <p className="mb-8 text-justify leading-relaxed">
+                  AI and blockchain are proving to be quite a powerful
+                  combination, improving virtually every industry in which they&nbsp;’re
+                  implemented. Blockchain and artificial intelligence are
+                  combining to upgrade everything from food supply chain logistics
+                  and healthcare record sharing to media royalties and financial
+                  security. The integration of AI and Blockchain affects many
+                  aspects, including Security –&nbsp;AI and blockchain will offer a
+                  double shield against cyber-attacks. AI can effectively mine
+                  through a huge dataset and create newer scenarios and discover
+                  patterns based on data behavior. Blockchain helps to effectively
+                  remove bugs and fraudulent data sets. New classifiers and
+                  patterns created by AI can be verified on a decentralized
+                  blockchain infrastructure and verify their authenticity. This
+                  can be used in any consumer-facing business, such as retail
+                  transactions. Data acquired from the customers through
+                  blockchain infrastructure can be used to create marketing
+                  automation through AI.
+                </p>
+                </div>
+              </div>
+           
+
+
+
           </div>
         </section>
 

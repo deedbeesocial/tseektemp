@@ -79,7 +79,7 @@ export default function Career() {
               Current Openings
             </h1>
           </div>
-          <div className="flex  flex-row  w-full  gap-7 flex-wrap ">
+          <div className="flex  lg:flex-row flex-col  w-full  gap-7 flex-wrap ">
             <div className=" flex flex-col gap-4  flex-1">
               {careerdata.map(({ id, description, title }) => {
                 return (
