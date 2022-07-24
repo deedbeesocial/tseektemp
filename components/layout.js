@@ -50,13 +50,10 @@ export default function Layout({ children }) {
       name: "Approach",
       path: "/approach",
     },
-    {
-      name: "projects",
-      path: "/project",
-    },
+   
     {
       name: "Blogs",
-      path: "/blogs",
+      path: "/blog/blogs",
     },
     {
       name: "Careers",
@@ -90,7 +87,7 @@ export default function Layout({ children }) {
               <div className="block  md:hidden">
                 <Image src="/icon.png" alt="logo" width={60} height={60} />
               </div>
-              <div className="lg:pl-2 md:flex  text-center  py-3 flex-col justify-center ">
+              <div className="lg:pl-2 lg:flex  text-center  py-3 flex-col justify-center ">
                 <span className="  text-black capitalize">
                   TALENT TRANSFORMATION. SIMPLIFIED.
                 </span>

@@ -33,25 +33,25 @@ export default function Home() {
   const blog = [
     {
       id: 1,
-      name: "   how is ml related to block chai",
+      name: "   how is ml related to block chain",
       logo: "/aiml2.jpg",
       desc: "  using AI and Big Data in Blockchain Technology: A step closer to the futureThere has been a number of changes in the IT world recently......",
     },
     {
       id: 2,
-      name: "   how is ml related to block chai",
+      name: "   how is ml related to block chain",
       logo: "/aiml.jpg",
       desc: "  Building solutions using artificial intelligence, machine learning and blockchain technologies. Artificial intelligence and machine learning can automate important, but manual and time-consuming tasks, allowing employees to focus on higher-value work.....",
     },
     {
       id: 3,
-      name: "   how is ml related to block chai",
+      name: "   how is ml related to block chain",
       logo: "/aiandml.jpg",
       desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis of data purposes......................... ",
     },
     {
       id: 4,
-      name: "   how is ml related to block chai",
+      name: "   how is ml related to block chain",
       logo: "/aiandml.jpg",
       desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis of data purposes...................",
     },
@@ -599,7 +599,7 @@ export default function Home() {
                       {desc}
                     </p>
                   </div>
-                  <Link href={"/blogs"}>
+                  <Link href={"/blog/blogs"}>
                     <p className="text-blue ease-in duration-300 hover:bg-orange hover:text-black  flex justify-center items-center text-left hover:cursor-pointer">
                       Read More
                     </p>

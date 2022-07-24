@@ -10,26 +10,26 @@ import "swiper/css/autoplay";
 export default function Slider() {
   const slides = [
     {
-      text1: "World class manufacturer of wellness products",
-      text2: "Pioneers in research, innovation and best practices",
+      text1: "Bringing agility and scale with the right strategy",
+     
       image: "/sliderimage/slider1.jpg",
       id: "slide1",
     },
     {
-      text1: "40 years of legacy",
-      text2: "Unparalleled product portfolio cutting across several categories",
+      text1: "Nurturing and empowering a future-ready workforce",
+      
       image: "/sliderimage/slider2.jpg",
       id: "slide2",
     },
     {
-      text1: "Trusted by some of the world's biggest brands",
-      text2: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+      text1: "Mobilizing the right talent for your business needs",
+     
       image: "/sliderimage/slider3.jpg",
       id: "slide3",
     },
     {
-      text1: "Transforming new-age startups",
-      text2: "With formulations, licensing, and state-of-the-art manufacturing",
+      text1: "A thought leader and trusted partner for over a decade",
+      
       image: "/sliderimage/slider4.jpg",
       id: "slide4",
     },
@@ -51,7 +51,7 @@ export default function Slider() {
           // onSlideChange={() => console.log('slide change')}
           // onSwiper={(swiper) => console.log(swiper)}
         >
-          {slides.map(({ text1, text2, image, id }) => (
+          {slides.map(({ text1,  image, id }) => (
             <SwiperSlide key={id}>
               <div className="h-[65vh] w-full relative flex justify-center items-center">
                 <Image
@@ -66,9 +66,7 @@ export default function Slider() {
                   <h1 className="text-4xl md:text-5xl  text-white drop-shadow-md py-4">
                     {text1}
                   </h1>
-                  <h2 className="text-white leading-snug  text-2xl md:text-3xl drop-shadow-md">
-                    {text2}
-                  </h2>
+                  
                 </div>
               </div>
             </SwiperSlide>
