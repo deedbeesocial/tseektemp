@@ -49,8 +49,18 @@ export default function Layout({ children }) {
     {
       name: "Capabilities",
       path: "/capabilities",
+      sub: [
+        { name: "Consulting ", path: "/capabilities" },
+        { name: "Analytics", path: "/capabilities" },
+
+        { name: "Mobility", path: "/capabilities" },
+
+        { name: "Cloud", path: "/capabilities" },
+        { name: "Security", path: "/capabilities" },
+        { name: "Upskilling", path: "/capabilities" },
+      ],
     },
-   
+
     {
       name: "Blogs",
       path: "/blog/blogs",
@@ -75,17 +85,17 @@ export default function Layout({ children }) {
         className={`${
           navbr
             ? "md:fixed bg-white z-50 w-full ease-in  duration-700 border-zinc-100 border-b"
-            :  "w-full border-zinc-100 z-50 border-b  ease-in duration-700 "
+            : "w-full border-zinc-100 z-50 border-b  ease-in duration-700 "
         }`}
       >
         <div className="md:container mx-auto flex justify-between items-center text-zinc-900 font-sans">
           <Link href="/">
             <a className="flex">
               <div className="hidden md:block">
-                <Image src="/icon.png" alt="logo" width={120} height={120} />
+                <Image src="/header.png" alt="logo" width={100} height={100} />
               </div>
-              <div className="block  md:hidden">
-                <Image src="/icon.png" alt="logo" width={60} height={60} />
+              <div className="block   md:hidden">
+                <Image src="/header.png" alt="logo" width={100} height={100} />
               </div>
               <div className="lg:pl-2 lg:flex  text-center  py-3 flex-col justify-center ">
                 <span className="  text-black capitalize">
