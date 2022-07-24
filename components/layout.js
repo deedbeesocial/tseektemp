@@ -31,8 +31,8 @@ export default function Layout({ children }) {
       path: "/about",
       sub: [
         { name: "The Company", path: "/about#the-company" },
-        { name: "Core Values", path: "/about#core-value" },
-        { name: "Core Teams", path: "/about#core-team" },
+        { name: "Core Values", path: "/about#core-values" },
+        { name: "Core Teams", path: "/about#core-teams" },
       ],
     },
 
