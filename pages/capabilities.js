@@ -225,7 +225,7 @@ function Capabilities() {
             </div>
 
             <div className="w-auto">
-              <h2 className="text-xl font-semibold">Campus Connect</h2>
+              <h2 className="text-xl">Campus Connect</h2>
               <p className="prose pt-8">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
                 esse nemo fugit, adipisci soluta optio ullam placeat corrupti
