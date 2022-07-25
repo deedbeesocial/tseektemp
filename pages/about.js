@@ -220,9 +220,9 @@ function About() {
 
           <divs className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
             
-            { team.map(({name,image,role,description}) => {
+            { team.map(({name,image,role,description,id}) => {
               return (
-            <div className="flex flex-col items-center p-5">
+            <div key={id} className="flex flex-col items-center p-5">
               <div className="relative lg:w-[400px] lg:h-[400px]  md:w-[300px] md:h-[300px] w-[200px]  h-[200px]  rounded-full">
               <Image 
               className="rounded-full"
