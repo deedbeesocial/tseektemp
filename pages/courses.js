@@ -26,7 +26,7 @@ function Courses(){
       ];
     
     return(
-        <>
+        <div className="bg-coustom1">
  <div className="w-full h-72 relative ">
         <Image
           layout="fill"
@@ -36,8 +36,8 @@ function Courses(){
         />
         <div className="w-full    h-full  flex  justify-center">
           <div className="text-white relative md:container max-auto  h-full flex justify-center items-center">
-            <h1 className=" text-4xl   text-bold  w-full     text-black">
-              Lorem ipsum dolor sit amet.
+            <h1 className=" text-4xl   text-bold  w-full     text-white   ">
+              Courses
             </h1>
           </div>
         </div>
@@ -100,7 +100,7 @@ function Courses(){
         </div>
       </section>
     
-        </>
+        </div>
     )
 }
 export default Courses;

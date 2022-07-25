@@ -69,7 +69,7 @@ export default function Contact() {
 
   return (
     <>
-      <section className="pt-12 pb-12 text-zinc-900 bg-gray-100">
+      <section className="pt-12 pb-12 text-zinc-900 bg-coustom1">
         <div className="md:container p-4 mx-auto">
           <h1 className="text-4xl tracking-wide text-green-900 md:ml-4 text-center">
             Contact

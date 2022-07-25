@@ -59,8 +59,8 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="text-black  bg-coustom1 body-font">
-      <div className="container px-5 py-24 mx-auto">
+    <section className="text-black md:pt-14 md:pb-10 pt-7 pb-5  bg-white body-font">
+      <div className="container px-5  mx-auto">
         <div className="flex gap-4 justify-center mb-8">
           <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
           <h1 className="text-3xl font-semibold capitalize lg:text-4xl text-black  text-center">
@@ -76,21 +76,31 @@ export default function Testimonials() {
             slidesPerGroup={1}
             breakpoints={{
               768: {
-                slidesPerView: 2,
+                slidesPerView: 4,
+                slidesPerGroup: 4,
+                spaceBetween: 20,
+                Autoplay: true,
+                loop: true,
+                speed: 800,
+
+                pagination: {
+                 
+                },
               },
               1024: {
                 slidesPerView: 4,
                 slidesPerGroup: 4,
                 spaceBetween: 20,
-                autoplay: true,
+                Autoplay: true,
                 loop: true,
                 speed: 800,
 
                 pagination: {
-                  clickable: true,
+                 
                 },
               },
             }}
+            autoplay={true}
             pagination={{ clickable: true }}
             loop={true}
             speed={800}

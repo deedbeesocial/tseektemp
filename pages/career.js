@@ -32,9 +32,9 @@ export default function Career() {
   ];
 
   return (
-    <>
+    <div className="bg-coustom1">
      
-     <div className="w-full h-72 relative ">
+     <div className="w-full h-72 relative bg-coustom1 ">
         <Image
           layout="fill"
           alt="ser"
@@ -44,13 +44,13 @@ export default function Career() {
         <div className="w-full    h-full  flex  justify-center">
           <div className="text-white relative md:container max-auto  h-full flex justify-center items-center">
             <h1 className=" text-4xl   text-bold  w-full     text-white">
-              Lorem ipsum dolor sit amet.
+               <br />Nothing will work unless you do
             </h1>
           </div>
         </div>
       </div>
       <section className="text-black  ">
-        <div className="container px-5 py-11 mx-auto">
+        <div className="container px-5 py-11 mx-auto bg-coustom1">
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
             error in asperiores tempore neque similique doloremque. Aut nesciunt
@@ -69,14 +69,14 @@ export default function Career() {
         </div>
       </section>
 
-      <section className="text-black ">
-        <div className=" container px-5 py-16 mx-auto">
+      <section className="text-black bg-coustom1 ">
+        <div className=" container px-5 md:pt-14 md:pb-10 pt-7 pb-5 mx-auto">
           <div className="text-center mb-20">
             <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-black mb-4">
               Current Openings
             </h1>
           </div>
-          <div className="flex  lg:flex-row flex-col  w-full  gap-7 flex-wrap ">
+          <div className="flex  lg:flex-row flex-col   w-full  gap-7 flex-wrap ">
             <div className=" flex flex-col gap-4  flex-1">
               {careerdata.map(({ id, description, title }) => {
                 return (
@@ -106,6 +106,6 @@ export default function Career() {
           </button> */}
         </div>
       </section>
-    </>
+    </div>
   );
 }

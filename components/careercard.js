@@ -17,20 +17,20 @@ function Careercard({ id, title, description }) {
   return (
     <>
       <div key={id} className="w-full  flex   flex-col">
-        <div className="bg-gray-200 w-full  rounded flex  p-4 h-full items-center">
+        <div className="bg-blue shadow-sm w-full  rounded flex  p-4 h-full items-center">
           <div
             {...getToggleProps({
               onClick: () => setExpanded((prevExpanded) => !prevExpanded),
             })}
           >
             {isExpanded ? (
-              <BiMinus size={15} className=" text-indigo-500 w- h-6 mr-4" />
+              <BiMinus size={15} className=" text-white w- h-6 mr-4" />
             ) : (
-              <BsPlusLg size={15} className=" text-indigo-500 w- h-6 mr-4" />
+              <BsPlusLg size={15} className=" text-white w- h-6 mr-4" />
             )}
           </div>
 
-          <span className="title-font ">{title}</span>
+          <span className="text-white font-bold ">{title}</span>
         </div>
         <div>
           <section {...getCollapseProps()}>
@@ -40,7 +40,7 @@ function Careercard({ id, title, description }) {
                   <h2 className="tracking-widest text-xs title-font  text-black mb-1">
                     CATEGORY
                   </h2>
-                  <h1 className=" sm:text-2xl text-xl  text-gray-900 mb-3">
+                  <h1 className=" sm:text-2xl text-xl  text-black mb-3">
                     {title}
                   </h1>
                   <p className="leading-relaxed mb-3">{description}</p>

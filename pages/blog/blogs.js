@@ -50,32 +50,38 @@ export default function Blogs() {
     {
       id: 1,
       name: "   how is ml related to block chain",
-      logo: "/blogimage/blog2.jpg",
+      logo: "/aiml2.jpg",
       desc: "  using AI and Big Data in Blockchain Technology: A step closer to the futureThere has been a number of changes in the IT world recently......",
     },
     {
       id: 2,
       name: "   how is ml related to block chain",
       logo: "/aiml.jpg",
-      desc: "  Building solutions using artificial intelligence, machine learning and blockchain technologies. Artificial intelligence and machine learning can automate important, but manual and time-consuming tasks, allowing employees to focus on higher-value work.....",
+      desc: "  Building solutions using artificial intelligence, machine learning and blockchain technologies. Artificial intelligence and machine learning ....",
     },
     {
       id: 3,
       name: "   how is ml related to block chain",
       logo: "/aiandml.jpg",
-      desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis of data purposes......................... ",
+      desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis of data ........... ",
     },
     {
       id: 4,
       name: "   how is ml related to block chain",
       logo: "/aiandml.jpg",
-      desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis of data purposes...................",
+      desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis ...........",
     },
     {
       id: 5,
       name: "   how is ml related to block chain",
       logo: "/aiandml.jpg",
-      desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis of data purposes...................",
+      desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis ...........",
+    },
+    {
+      id: 6,
+      name: "   how is ml related to block chain",
+      logo: "/aiandml.jpg",
+      desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis ...........",
     },
   ];
 
@@ -83,7 +89,7 @@ export default function Blogs() {
     <>
       
 
-      <section className="text-black bg-white body-font">
+      <section className="text-black bg-coustom1 body-font">
         <div className="container px-5 py-14 mx-auto">
           <div className="flex flex-col flex-wrap text-center w-full mb-20 ">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-black">
@@ -115,13 +121,13 @@ export default function Blogs() {
                       {desc}
                     </p>
                   </div>
-                 <div className="flex justify-center ">
-                 <Link href={"/blog/blogs"}>
-                    <p className="text-black font-bold   underline decoration-black p-2 w-fit ease-in duration-300 hover:bg-orange hover:text-black  flex justify-center items-center text-left hover:cursor-pointer">
-                      Read More
-                    </p>
-                  </Link>
-                 </div>
+                  <div className="flex justify-center">
+                    <Link href={"/blog/blogs"}>
+                      <p className="text-black  p-2 font-bold ease-in duration-300 rounded-md  hover:bg-orange  flex justify-center items-center text-left hover:cursor-pointer">
+                        Read More
+                      </p>
+                    </Link>
+                  </div>
                 </div>
               );
             })}

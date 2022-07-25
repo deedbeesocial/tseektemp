@@ -51,7 +51,7 @@ function About() {
       <section className="md:py-12 text-white bg-blue" id="the-company">
         <div className="p-4 md:container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-16">
-            <div className="w-auto pb-8">
+            <div className="w-auto  pb-10">
               <h1 className="text-4xl text-center tracking-wide  text-green-900">
                 The Company
               </h1>
@@ -62,7 +62,7 @@ function About() {
                 molestias minus quos expedita, mollitia dolorem laborum?
                 Adipisci.
               </p>
-              <p className="prose pt-8">
+              <p className="pt-8">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
                 atque porro aliquam omnis unde obcaecati dignissimos ipsum rerum
                 illum maxime cumque saepe hic maiores nam amet perspiciatis quae
@@ -84,7 +84,7 @@ function About() {
       </section>
 
       <section
-        className="p-4 md:container mx-auto md:pt-12 text-zinc-900"
+        className="p-4 md:container mx-auto md:pt-14  text-zinc-900"
         id="core-values"
       >
         <h1 className="text-4xl tracking-wide text-center  text-green-900">
@@ -206,17 +206,13 @@ function About() {
       </section>
       {/* core teaaaaaaaaaaaaaaaaaaaaaaam */}
 
-      <section className="bg-coustom1 " id="core-team">
-        <div className="container px-6 py-10 mx-auto">
+      <section className="bg-coustom1 md:pt-14 md:pb-10 " id="core-team">
+        <div className="container px-6  mx-auto">
           <h1 className="text-3xl font-semibold text-center text-black capitalize lg:text-4xl ">
             Our Team
           </h1>
 
-          <p className="max-w-2xl mx-auto my-6 text-center text-black ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-            incidunt ex placeat modi magni quia error alias, adipisci rem
-            similique, at omnis eligendi optio eos harum.
-          </p>
+       
 
           <divs className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
             
@@ -236,10 +232,10 @@ function About() {
                 {name}
               </h1>
               <div className="flex flex-col gap-5 justify-center">
-              <p className=" text-black capitalize font-bold ">
+              <p className=" text-black capitalize text-center font-bold ">
                 {role}
               </p>
-              <h1 className="w-full h-[2px]  bg-red-600 mb-5"></h1>
+              <h1 className="md:w-[255px] h-[2px]  bg-blue mb-5"></h1>
               </div>
               <p className="text-center">
                 {description}

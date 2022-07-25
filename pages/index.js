@@ -3,6 +3,7 @@ import Slider from "../components/slider";
 import Link from "next/link";
 import Clients from "../components/client";
 import Testimonials from "../components/testimonial";
+import KnowledgeCard from "../components/knowledgecard";
 
 import {
   FaAccessibleIcon,
@@ -14,8 +15,98 @@ import {
   FaVideo,
 } from "react-icons/fa";
 import Footprint from "../components/footprint";
+import Itservicescard from "../components/itservicescard";
 
 export default function Home() {
+  const Itservice = [
+    {
+      name: "Accessibility",
+      icon: <FaAccessibleIcon size={40} color="white" />,
+      description:
+        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+      id: 1,
+    },
+    {
+      name: "Design",
+      icon: <FaAddressBook size={40} color="white" />,
+      description:
+        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+      id: 2,
+    },
+    {
+      name: "Development",
+      icon: <FaAdjust size={40} color="white" />,
+      description:
+        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+      id: 3,
+    },
+    {
+      name: "Marketing",
+      icon: <FaBeer size={40} color="white" />,
+      description:
+        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+      id: 4,
+    },
+    {
+      name: "Sales",
+      icon: <FaDownload size={40} color="white" />,
+      description:
+        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+      id: 5,
+    },
+    {
+      name: "Video",
+      icon: <FaVideo size={40} color="white" />,
+      description:
+        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+      id: 6,
+    },
+  ];
+  const Knowledge = [
+    {
+      name: "Accessibility",
+      icon: <FaAccessibleIcon size={40} color="black" />,
+      description:
+        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+      id: 1,
+    },
+    {
+      name: "Design",
+      icon: <FaAddressBook size={40} color="black" />,
+      description:
+        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+      id: 2,
+    },
+    {
+      name: "Development",
+      icon: <FaAdjust size={40} color="black" />,
+      description:
+        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+      id: 3,
+    },
+    {
+      name: "Marketing",
+      icon: <FaBeer size={40} color="black" />,
+      description:
+        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+      id: 4,
+    },
+    {
+      name: "Sales",
+      icon: <FaDownload size={40} color="black" />,
+      description:
+        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+      id: 5,
+    },
+    {
+      name: "Video",
+      icon: <FaVideo size={40} color="black" />,
+      description:
+        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+      id: 6,
+    },
+  ];
+
   const rightIcon = (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -42,19 +133,19 @@ export default function Home() {
       id: 2,
       name: "   how is ml related to block chain",
       logo: "/aiml.jpg",
-      desc: "  Building solutions using artificial intelligence, machine learning and blockchain technologies. Artificial intelligence and machine learning can automate important, but manual and time-consuming tasks, allowing employees to focus on higher-value work.....",
+      desc: "  Building solutions using artificial intelligence, machine learning and blockchain technologies. Artificial intelligence and machine learning ....",
     },
     {
       id: 3,
       name: "   how is ml related to block chain",
       logo: "/aiandml.jpg",
-      desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis of data purposes......................... ",
+      desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis of data ........... ",
     },
     {
       id: 4,
       name: "   how is ml related to block chain",
       logo: "/aiandml.jpg",
-      desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis of data purposes...................",
+      desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis ...........",
     },
   ];
 
@@ -63,17 +154,17 @@ export default function Home() {
       <section>
         <Slider />
       </section>
-      <section className="md:pt-24 md:pb-32 text-zinc-90 bg-coustom1">
+      <section className="md:pt-14 md:pb-10 text-zinc-90 bg-white">
         <div className="lg:container p-4 mx-auto">
           <div className="flex gap-4 justify-center mb-4">
             <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
-            <h1 className="text-3xl font-semibold capitalize lg:text-4xl text-black  text-center">
+            <h1 className="text-3xl  capitalize lg:text-4xl text-black  text-center">
               Our Offerings
             </h1>
             <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-black"></span>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-12 gap-4 pt-4 lg:pt-8">
-            <Link href="/services#turnkey-projects">
+            <Link href="/solutions/knowledge">
               <div className="w-auto relative">
                 <div className="relative w-full lg:h-96 h-72 flex justify-start items-end shadow-sm ease-in duration-150 hover:scale-[1.02] transition-all cursor-pointer">
                   <Image
@@ -94,7 +185,7 @@ export default function Home() {
               </div>
             </Link>
 
-            <Link href="/services#product-development">
+            <Link href="/solutions/staffing">
               <div className="w-auto relative">
                 <div className="relative w-full md:h-96 h-72 flex justify-start items-end shadow-sm ease-in duration-300 hover:scale-[1.02] transition-all cursor-pointer">
                   <Image
@@ -115,7 +206,7 @@ export default function Home() {
               </div>
             </Link>
 
-            <Link href="/services#contract-manufacturing">
+            <Link href="/solutions/itservices">
               <div className="w-auto relative">
                 <div className="relative w-full md:h-96 h-72 flex justify-start items-end shadow-sm ease-linear duration-300 hover:scale-[1.02] transition-all cursor-pointer">
                   <Image
@@ -153,14 +244,18 @@ export default function Home() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="container  px-5  py-10 mx-auto  lg:rounded-lg">
+        <div className="container mx-auto  lg:rounded-lg">
           <div className="lg:w-full mx-auto flex flex-col lg:flex-row lg:gap-80 ">
             <div className="lg:w-1/2 w-full lg:mr-9 lg:py-6 mt-6 lg:mt-0 ">
-              <h1 className="text-white text-3xl title-font text-center lg:mr-16  font-medium mb-1 ">
-                Why work with us
-              </h1>
+            <div className="flex gap-4 justify-center mb-4">
+            <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-white"></span>
+            <h1 className="text-3xl  capitalize  text-white  text-center">
+              Why Work With Us
+            </h1>
+            <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-white"></span>
+          </div>
 
-              <p className="mt-4 lg:mr-16 text-justify leading-relaxed text-white ">
+              <p className="mt-4 lg:p-0 p-5 leading-relaxed text-white ">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
                 adipisci beatae expedita iusto alias nostrum ipsam asperiores
                 labore commodi delectus aut, vitae maxime similique accusantium
@@ -185,295 +280,55 @@ export default function Home() {
         <Footprint />
       </section>
 
-      <section className="text-white body-font bg-blue">
-        <div className="container px-5 py-24 mx-auto">
+      <section className="text-black md:pt-14 md:pb-10 pt-7 pb-5 body-font bg-coustom1">
+        <div className="container px-5  mx-auto">
           <div className="flex gap-6 justify-center mb-20">
-            <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-white"></span>
-            <h1 className="text-3xl font-semibold capitalize lg:text-4xl text-white  text-center">
+            <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
+            <h1 className="text-3xl capitalize lg:text-4xl text-black text-center">
               Knowledge As A service
             </h1>
-            <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-white"></span>
+            <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-black"></span>
           </div>
-          <div className="flex flex-wrap -m-4">
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className=" border-gray-200 p-6 rounded-lg">
-                <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
-                  <FaBeer size={40} color="white" />
-                </div>
-                <h2 className="text-lg text-white text-center  mb-2">
-                  Shooting Stars
-                </h2>
-                <p className="leading-relaxed text-white text-center">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
-                  facilis, fugit aperiam minima voluptatum sunt nostrum,
-                  delectus libero reiciendis commodi sed quibusdam obcaecati
-                  praesentium quidem dolorum autem sapiente quod laudantium.
-                </p>
-                <div className="flex justify-center">
-                  <button className="hover:text-black  font-bold hover:text-base p-1 underline decoration-red-white rounded-sm text-white">
-                    Read more..
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className=" border-gray-200 p-6 rounded-lg">
-                <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
-                  <FaBeer size={40} color="white" />
-                </div>
-                <h2 className="text-lg text-white text-center  mb-2">
-                  Shooting Stars
-                </h2>
-                <p className="leading-relaxed text-white text-center">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
-                  facilis, fugit aperiam minima voluptatum sunt nostrum,
-                  delectus libero reiciendis commodi sed quibusdam obcaecati
-                  praesentium quidem dolorum autem sapiente quod laudantium.
-                </p>
-                <div className="flex justify-center">
-                  <button className="hover:text-black  font-bold hover:text-base p-1 underline decoration-red-white rounded-sm text-white">
-                    Read more..
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className=" border-gray-200 p-6 rounded-lg">
-                <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
-                  <FaAdjust size={40} color="white" />
-                </div>
-                <h2 className="text-lg text-white text-center  mb-2">
-                  Shooting Stars
-                </h2>
-                <p className="leading-relaxed text-white text-center">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
-                  facilis, fugit aperiam minima voluptatum sunt nostrum,
-                  delectus libero reiciendis commodi sed quibusdam obcaecati
-                  praesentium quidem dolorum autem sapiente quod laudantium.
-                </p>
-                <div className="flex justify-center">
-                  <button className="hover:text-black  font-bold hover:text-base p-1 underline decoration-white rounded-sm text-white">
-                    Read more..
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className=" border-gray-200 p-6 rounded-lg">
-                <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
-                  <FaAddressBook size={40} color="white" />
-                </div>
-                <h2 className="text-lg text-white text-center  mb-2">
-                  Shooting Stars
-                </h2>
-                <p className="leading-relaxed text-white text-center">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
-                  facilis, fugit aperiam minima voluptatum sunt nostrum,
-                  delectus libero reiciendis commodi sed quibusdam obcaecati
-                  praesentium quidem dolorum autem sapiente quod laudantium.
-                </p>
-                <div className="flex justify-center">
-                  <button className="hover:text-black  font-bold hover:text-base p-1 underline decoration-white rounded-sm text-white">
-                    Read more..
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className=" border-gray-200 p-6 rounded-lg">
-                <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
-                  <FaAccessibleIcon size={40} color="white" />
-                </div>
-                <h2 className="text-lg text-white text-center  mb-2">
-                  Shooting Stars
-                </h2>
-                <p className="leading-relaxed text-white text-center">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
-                  facilis, fugit aperiam minima voluptatum sunt nostrum,
-                  delectus libero reiciendis commodi sed quibusdam obcaecati
-                  praesentium quidem dolorum autem sapiente quod laudantium.
-                </p>
-                <div className="flex justify-center">
-                  <button className="hover:text-black  font-bold hover:text-base p-1 underline decoration-white rounded-sm text-white">
-                    Read more..
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className=" border-gray-200 p-6 rounded-lg">
-                <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
-                  <FaBeer size={40} color="white" />
-                </div>
-                <h2 className="text-lg text-white text-center  mb-2">
-                  Shooting Stars
-                </h2>
-                <p className="leading-relaxed text-white text-center">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
-                  facilis, fugit aperiam minima voluptatum sunt nostrum,
-                  delectus libero reiciendis commodi sed quibusdam obcaecati
-                  praesentium quidem dolorum autem sapiente quod laudantium.
-                </p>
-                <div className="flex justify-center">
-                  <button className="hover:text-black  font-bold hover:text-base p-1 underline decoration-white rounded-sm text-white">
-                    Read more..
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
+          <divs className="flex flex-wrap -m-4">
+            {Knowledge.map(({ name, icon, description, id }) => {
+              return (
+                <KnowledgeCard
+                  key={id}
+                  name={name}
+                  icon={icon}
+                  description={description}
+                  id={id}
+                />
+              );
+            })}
+          </divs>
           {/* <button className="flex mx-auto mt-16 text-black bg-orange border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Read more
           </button> */}
         </div>
       </section>
 
-      <section className="text-white body-font bg-white">
-        <div className="container px-5 py-24 mx-auto">
+      <section className="text-white md:pt-14 pt-7 pb-5 md:pb-10 body-font bg-blue">
+        <div className="container px-5  mx-auto">
           <div className="flex gap-6 justify-center mb-20">
-            <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
-            <h1 className="text-3xl font-semibold capitalize lg:text-4xl text-black text-center">
+            <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-white"></span>
+            <h1 className="text-3xl font-semibold capitalize lg:text-4xl text-white text-center">
               Talent as a service
             </h1>
-            <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-black"></span>
+            <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-white"></span>
           </div>
           <div className="flex flex-wrap -m-4">
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className=" border-gray-200 p-6 rounded-lg">
-                <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
-                  <FaBeer size={40} color="red" />
-                </div>
-                <h2 className="text-lg text-black text-center  mb-2">
-                  Shooting Stars
-                </h2>
-                <p className="leading-relaxed text-black text-center">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
-                  facilis, fugit aperiam minima voluptatum sunt nostrum,
-                  delectus libero reiciendis commodi sed quibusdam obcaecati
-                  praesentium quidem dolorum autem sapiente quod laudantium.
-                </p>
-                <div className="flex justify-center">
-                  <button className="hover:text-red-700 font-bold  hover:text-base p-1 underline decoration-black rounded-sm text-black">
-                    Read more..
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className=" border-gray-200 p-6 rounded-lg">
-                <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
-                  <FaBeer size={40} color="red" />
-                </div>
-                <h2 className="text-lg text-black text-center  mb-2">
-                  Shooting Stars
-                </h2>
-                <p className="leading-relaxed text-black text-center">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
-                  facilis, fugit aperiam minima voluptatum sunt nostrum,
-                  delectus libero reiciendis commodi sed quibusdam obcaecati
-                  praesentium quidem dolorum autem sapiente quod laudantium.
-                </p>
-                <div className="flex justify-center">
-                  <button className="hover:text-red-700 font-bold  hover:text-base p-1 underline decoration-black rounded-sm text-black">
-                    Read more..
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className=" border-gray-200 p-6 rounded-lg">
-                <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
-                  <FaAdjust size={40} color="red" />
-                </div>
-                <h2 className="text-lg text-black text-center  mb-2">
-                  Shooting Stars
-                </h2>
-                <p className="leading-relaxed text-black text-center">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
-                  facilis, fugit aperiam minima voluptatum sunt nostrum,
-                  delectus libero reiciendis commodi sed quibusdam obcaecati
-                  praesentium quidem dolorum autem sapiente quod laudantium.
-                </p>
-                <div className="flex justify-center">
-                  <button className="hover:text-red-700 font-bold  hover:text-base p-1 underline decoration-black rounded-sm text-black">
-                    Read more..
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className=" border-gray-200 p-6 rounded-lg">
-                <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
-                  <FaAddressBook size={40} color="red" />
-                </div>
-                <h2 className="text-lg text-black text-center  mb-2">
-                  Shooting Stars
-                </h2>
-                <p className="leading-relaxed text-black text-center">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
-                  facilis, fugit aperiam minima voluptatum sunt nostrum,
-                  delectus libero reiciendis commodi sed quibusdam obcaecati
-                  praesentium quidem dolorum autem sapiente quod laudantium.
-                </p>
-                <div className="flex justify-center">
-                  <button className="hover:text-red-700 font-bold  text-base p-1 underline decoration-black rounded-sm text-black">
-                    Read more..
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className=" border-gray-200 p-6 rounded-lg">
-                <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
-                  <FaAccessibleIcon size={40} color="red" />
-                </div>
-                <h2 className="text-lg text-black text-center  mb-2">
-                  Shooting Stars
-                </h2>
-                <p className="leading-relaxed text-black text-center">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
-                  facilis, fugit aperiam minima voluptatum sunt nostrum,
-                  delectus libero reiciendis commodi sed quibusdam obcaecati
-                  praesentium quidem dolorum autem sapiente quod laudantium.
-                </p>
-                <div className="flex justify-center">
-                  <button className="hover:text-red-700 font-bold  text-base p-1 underline decoration-black rounded-sm text-black">
-                    Read more..
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className=" border-gray-200 p-6 rounded-lg">
-                <div className="w-full flex items-center justify-center rounded-full  text-indigo-500 mb-4">
-                  <FaBeer size={40} color="red" />
-                </div>
-                <h2 className="text-lg text-white text-center  mb-2">
-                  Shooting Stars
-                </h2>
-                <p className="leading-relaxed text-black text-center">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
-                  facilis, fugit aperiam minima voluptatum sunt nostrum,
-                  delectus libero reiciendis commodi sed quibusdam obcaecati
-                  praesentium quidem dolorum autem sapiente quod laudantium.
-                </p>
-                <div className="flex justify-center">
-                  <button className="hover:text-red-700 font-bold text-base p-1 underline decoration-black rounded-sm text-black">
-                    Read more..
-                  </button>
-                </div>
-              </div>
-            </div>
+            {Itservice.map(({ name, icon, description, id }) => {
+              return (
+                <Itservicescard
+                  key={id}
+                  name={name}
+                  icon={icon}
+                  description={description}
+                  id={id}
+                />
+              );
+            })}
           </div>
           {/* <button className="flex mx-auto mt-16 text-black bg-orange border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Read more
@@ -487,8 +342,8 @@ export default function Home() {
 
       {/* blogs */}
 
-      <section className="text-black bg-white body-font">
-        <div className="container px-5 py-14 mx-auto">
+      <section className="text-black bg-coustom1 body-font md:pt-14 md:pb-10 pt-7 pb-5">
+        <div className="container px-5  mx-auto">
           <div className="flex gap-4 justify-center mb-4">
             <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
             <h1 className="text-3xl font-semibold capitalize lg:text-4xl text-black  text-center">
@@ -522,7 +377,7 @@ export default function Home() {
                   </div>
                   <div className="flex justify-center">
                     <Link href={"/blog/blogs"}>
-                      <p className="text-black  p-2 font-bold ease-in duration-300  hover:bg-orange  flex justify-center items-center text-left hover:cursor-pointer">
+                      <p className="text-black  p-2 font-bold ease-in duration-300 rounded-md  hover:bg-orange  flex justify-center items-center text-left hover:cursor-pointer">
                         Read More
                       </p>
                     </Link>

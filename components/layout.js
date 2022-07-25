@@ -28,7 +28,7 @@ export default function Layout({ children }) {
     },
     {
       name: "About us",
-      path: "/about",
+      path: "",
       sub: [
         { name: "The Company", path: "/about#the-company" },
         { name: "Core Values", path: "/about#core-values" },
@@ -38,27 +38,27 @@ export default function Layout({ children }) {
 
     {
       name: "Solutions",
-      path: "/solutions/services",
+      path: "",
       sub: [
         { name: "Knowledge Services ", path: "/solutions/knowledge" },
         { name: "Staffing Services", path: "/solutions/staffing" },
 
-        { name: "IT Services", path: "/services/itservices" },
+        { name: "IT Services", path: "/solutions/itservices" },
       ],
     },
     {
       name: "Capabilities",
-      path: "/capabilities",
+      path: "",
       sub: [
-        { name: "Consulting ", path: "/capabilities" },
-        { name: "Analytics", path: "/capabilities" },
+        { name: "Consulting ", path: "/capabilities#Consulting" },
+        { name: "Analytics", path: "/capabilities#Analytics" },
 
-        { name: "Mobility", path: "/capabilities" },
+        { name: "Mobility", path: "/capabilities#Mobility" },
 
-        { name: "Cloud", path: "/capabilities" },
+        { name: "Cloud", path: "/capabilities#Cloud" },
         { name: "Outsourcing", path: "/capabilities" },
-        { name: "Upskilling", path: "/capabilities" },
-        { name: "Staffing", path: "/capabilities" },
+        { name: "Upskilling", path: "/capabilities#Upskilling" },
+        { name: "Staffing", path: "/capabilities#Staffing" },
       ],
     },
     {
@@ -177,7 +177,7 @@ export default function Layout({ children }) {
 
       <main className="text-zinc-900 font-sans">{children}</main>
 
-      <footer className="border bg-gray-200 border-t mx-auto  py-6 lg:py-8">
+      <footer className="border bg-white border-t mx-auto  py-6 lg:py-8">
         <div className="grid grid-cols-2 lg:flex lg:flex-row justify-between items-start">
           <div className="col-span-2 pb-4 md:pb-0 ">
             <Link href="/">

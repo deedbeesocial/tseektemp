@@ -3,10 +3,10 @@ function Capabilities() {
   return (
     <>
       <section
-        className="md:pt-12 pb-24 text-zinc-900 bg-slate-100"
+        className="pt-14 pb-10 text-zinc-900 bg-coustom1"
         id="success-stories"
       >
-        <div className="md:container p-4 mx-auto">
+        <div className="md:container p-4 mx-auto" id="Consulting">
           <h1 className="text-4xl tracking-wide font-light text-center  text-black">
             Capabilities
           </h1>
@@ -20,8 +20,8 @@ function Capabilities() {
               />
             </div>
 
-            <div className="w-auto">
-              <h2 className="text-xl font-semibold">lorem</h2>
+            <div className="w-auto" >
+              <h2 className="text-xl ">Consulting</h2>
               <p className="prose pt-8">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
                 esse nemo fugit, adipisci soluta optio ullam placeat corrupti
@@ -41,9 +41,9 @@ function Capabilities() {
               </p>
             </div>
 
-            <div className="w-auto">
-              <h2 className="text-xl font-semibold">
-                Enabling Start-ups to Scale
+            <div className="w-auto" id="Analytics">
+              <h2 className="text-xl">
+              Analytics
               </h2>
               <p className="prose pt-8">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
@@ -82,8 +82,8 @@ function Capabilities() {
               />
             </div>
 
-            <div className="w-auto">
-              <h2 className="text-xl font-semibold">Pioneers in Innovation</h2>
+            <div className="w-auto" id="Mobility">
+              <h2 className="text-xl ">Mobility</h2>
               <p className="prose pt-8">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
                 esse nemo fugit, adipisci soluta optio ullam placeat corrupti
@@ -103,8 +103,8 @@ function Capabilities() {
               </p>
             </div>
 
-            <div className="w-auto">
-              <h2 className="text-xl font-semibold">Campus Connect</h2>
+            <div className="w-auto"id="Cloud">
+              <h2 className="text-xl ">Cloud</h2>
               <p className="prose pt-8">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
                 esse nemo fugit, adipisci soluta optio ullam placeat corrupti
@@ -141,8 +141,8 @@ function Capabilities() {
               />
             </div>
 
-            <div className="w-auto">
-              <h2 className="text-xl font-semibold">lorem</h2>
+            <div className="w-auto" id="Outsourcing">
+              <h2 className="text-xl ">Outsourcing</h2>
               <p className="prose pt-8">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
                 esse nemo fugit, adipisci soluta optio ullam placeat corrupti
@@ -162,9 +162,9 @@ function Capabilities() {
               </p>
             </div>
 
-            <div className="w-auto">
-              <h2 className="text-xl font-semibold">
-                Enabling Start-ups to Scale
+            <div className="w-auto" id="Upskilling">
+              <h2 className="text-xl ">
+              Upskilling
               </h2>
               <p className="prose pt-8">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
@@ -203,8 +203,8 @@ function Capabilities() {
               />
             </div>
 
-            <div className="w-auto">
-              <h2 className="text-xl font-semibold">Pioneers in Innovation</h2>
+            <div className="w-auto" id="Staffing">
+              <h2 className="text-xl ">Staffing</h2>
               <p className="prose pt-8">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
                 esse nemo fugit, adipisci soluta optio ullam placeat corrupti

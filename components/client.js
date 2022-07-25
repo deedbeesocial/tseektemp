@@ -27,8 +27,8 @@ export default function Clients() {
   ];
 
   return (
-    <section className="p-2 lg:pt- relative">
-      <div className="flex gap-4 justify-center mb-4">
+  <section className=" md:pt-14  pb-5 pt-7 bg-coustom1   relative">
+      <div className="flex gap-4 justify-center ">
         <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
         <h1 className="text-3xl  capitalize lg:text-4xl text-black  text-center">
         Our Customers
@@ -36,18 +36,18 @@ export default function Clients() {
         <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-black"></span>
       </div>
 
-      <div className="lg:container  mx-auto pt-8 pb-16">
+      <div className="lg:container  mx-auto  lg:pb-5">
         <Swiper
           modules={[Autoplay]}
           slidesPerView={4}
           spaceBetween={40}
           slidesPerGroup={4}
-          breakpoints={{
-            768: {
-              slidesPerView: "auto",
-            },
-            1024: {},
-          }}
+          // breakpoints={{
+          //   768: {
+          //     slidesPerView: "auto",
+          //   },
+          //   1024: {},
+          // }}
           autoplay={true}
           loop={true}
           speed={800}
