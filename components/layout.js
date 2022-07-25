@@ -56,8 +56,9 @@ export default function Layout({ children }) {
         { name: "Mobility", path: "/capabilities" },
 
         { name: "Cloud", path: "/capabilities" },
-        { name: "Security", path: "/capabilities" },
+        { name: "Outsourcing", path: "/capabilities" },
         { name: "Upskilling", path: "/capabilities" },
+        { name: "Staffing", path: "/capabilities" },
       ],
     },
 
@@ -204,7 +205,7 @@ export default function Layout({ children }) {
           </div>
           <div className="text-sm p-4 lg:p-0  text-center">
             <p className="font-semibold">Contact</p>
-            <p className="">+91-09591059023</p>
+            <p className="">+91-9591059023</p>
             <p className="">0000000000</p>
           </div>
 

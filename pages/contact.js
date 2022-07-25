@@ -82,7 +82,7 @@ export default function Contact() {
               </p>
 
               <div className="text-base pt-8 text-black md:ml-4">
-                <p className=" ">Address 1</p>
+                <p className=" ">INDIA - HEAD OFFICE</p>
                 <p> NASH SQUARE, R-22 3rd cross</p>
                 <p>Electronics City Phase 1,</p>
                 <p>
@@ -93,7 +93,7 @@ export default function Contact() {
                 <p></p>
               </div>
               <div className="text-base pt-8 text-black md:ml-4">
-                <p className=" ">Address 2</p>
+                <p className=" ">INDIA - MUMBAI OFFICE</p>
                 <p> B wing 607, Kailash Business Park</p>
                 <p>Road: Veer Savarker Marg,,</p>
                 <p>Vikhroli West</p>
@@ -157,7 +157,7 @@ export default function Contact() {
                   <label className="block mt-6">
                     <span className="text-black">Additional details</span>
                     <textarea
-                      className="mt-1 block w-full   lg:h-[47px] rounded-sm border-black focus:border-green-700 focus:ring focus:ring-green-100 focus:ring-opacity-50"
+                      className="mt-1 block w-full   lg:h-28 rounded-sm border-black focus:border-green-700 focus:ring focus:ring-green-100 focus:ring-opacity-50"
                       rows="3"
                       value={info}
                       onChange={changeInfo}
