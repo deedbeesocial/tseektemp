@@ -1,56 +1,54 @@
 import Image from "next/image";
 function About() {
-    const team = [
-        {
-            name: "tom",
-            image: "/about/team1.jpg",
-            role: "Founder & Managing Director"
-        },
-        {
-            name: "jerry",
-            image: "/about/team2.jpg",
-            role: "CEO"
-        },
-        {
-            name: "james",
-            image: "/about/team3.jpg",
-            role: "General Manager"
-        },
-        {
+  const team = [
+    {
+      name: "tom",
+      image: "/about/team1.jpg",
+      role: "Founder & Managing Director",
+      description:"lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
 
-            name: "james",
-            image: "/about/team4.jpg",
-            role: "Head of Sourcing"
-        },
-        {
-
-            name: "james",
-            image: "/about/team5.jpg",
-            role: "Head of Quality"
-        },
-        {
-
-            name: "james",
-            image: "/about/team6.jpg",
-            role: "Head of Research"
-        },
-        {
-
-            name: "james",
-            image: "/about/team7.jpg",
-            role: "Head of Research"
-        }
-
-
+    },
+    {
+      name: "jerry",
+      image: "/about/team2.jpg",
+      role: "CEO",
+      description:"lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+    },
+    {
+      name: "james",
+      image: "/about/team3.jpg",
+      role: "General Manager",
+      description:"lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",  
+    },
+    {
+      name: "james",
+      image: "/about/team4.jpg",
+      role: "Head of Sourcing",
         
-        
-    ]
+      description:"lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+    },
+    {
+      name: "james",
+      image: "/about/team5.jpg",
+      role: "Head of Quality",
+      description:"lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+    },
+    {
+      name: "james",
+      image: "/about/team6.jpg",
+      role: "Head of Research",
+      description:"lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+    },
+    {
+      name: "james",
+      image: "/about/team7.jpg",
+      role: "Head of Research",
+      description:"lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+    },
+  ];
   return (
     <>
-      <section
-        className="md:py-12 text-white bg-blue"
-        id="the-company"
-      >
+      <section className="md:py-12 text-white bg-blue" id="the-company">
         <div className="p-4 md:container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-16">
             <div className="w-auto pb-8">
@@ -117,14 +115,16 @@ function About() {
             </div>
             <div className="md:h-64 w-full text-zinc-900 pt-4 pb-2 flex items-start justify-center">
               <p className="text-base">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex vel modi debitis officia explicabo. Ullam!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex vel
+                modi debitis officia explicabo. Ullam!
               </p>
             </div>
           </div>
           <div className="flex md:flex-col flex-col-reverse">
             <div className="md:h-40 w-full text-zinc-900 pt-4 pb-2 md:pb-4 flex items-end justify-center">
               <p className="text-base">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, reprehenderit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
+                reprehenderit.
               </p>
             </div>
             <div className="h-64 w-full bg-zinc-200 relative">
@@ -155,14 +155,16 @@ function About() {
             </div>
             <div className="md:h-64 w-full text-zinc-900 pt-4 pb-2 md:pb-4 flex items-start justify-center">
               <p className="text-base">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quasi blanditiis aliquam et laboriosam. Vitae.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam quasi blanditiis aliquam et laboriosam. Vitae.
               </p>
             </div>
           </div>
           <div className="flex md:flex-col flex-col-reverse">
             <div className="md:h-40 w-full text-zinc-900 pt-4 pb-2 md:pb-4 flex items-end justify-center">
               <p className="text-base">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, nihil. 
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Obcaecati, nihil.
               </p>
             </div>
             <div className="h-64 w-full bg-zinc-200 relative">
@@ -193,16 +195,61 @@ function About() {
             </div>
             <div className="md:h-64 w-full text-zinc-900 pt-4 pb-2 flex items-start justify-center">
               <p className="text-base">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis distinctio expedita quas fuga repellendus, voluptatum amet laboriosam adipisci id quae, doloremque tempora, recusandae asperiores. Voluptatem!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Facilis distinctio expedita quas fuga repellendus, voluptatum
+                amet laboriosam adipisci id quae, doloremque tempora, recusandae
+                asperiores. Voluptatem!
               </p>
             </div>
           </div>
         </div>
       </section>
-        {/* core teaaaaaaaaaaaaaaaaaaaaaaam */}
-      
+      {/* core teaaaaaaaaaaaaaaaaaaaaaaam */}
 
+      <section className="bg-coustom1 " id="core-team">
+        <div className="container px-6 py-10 mx-auto">
+          <h1 className="text-3xl font-semibold text-center text-black capitalize lg:text-4xl ">
+            Our Team
+          </h1>
 
+          <p className="max-w-2xl mx-auto my-6 text-center text-black ">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+            incidunt ex placeat modi magni quia error alias, adipisci rem
+            similique, at omnis eligendi optio eos harum.
+          </p>
+
+          <divs className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
+            
+            { team.map(({name,image,role,description}) => {
+              return (
+            <div className="flex flex-col items-center p-5">
+              <div className="relative lg:w-[400px] lg:h-[400px]  md:w-[300px] md:h-[300px] w-[200px]  h-[200px]  rounded-full">
+              <Image 
+              className="rounded-full"
+              alt="profle"
+              src={image}
+              objectFit="cover"
+              layout="fill"
+              />
+              </div>
+              <h1 className="mt-4 text-2xl  text-black capitalize font-bold ">
+                {name}
+              </h1>
+              <div className="flex flex-col gap-5 justify-center">
+              <p className=" text-black capitalize font-bold ">
+                {role}
+              </p>
+              <h1 className="w-full h-[2px]  bg-red-600 mb-5"></h1>
+              </div>
+              <p className="text-center">
+                {description}
+              </p>
+            </div>
+             )}) }
+
+          </divs>
+        </div>
+      </section>
     </>
   );
 }
