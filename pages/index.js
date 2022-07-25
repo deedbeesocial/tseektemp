@@ -190,7 +190,7 @@ export default function Home() {
           <div className="flex gap-6 justify-center mb-20">
             <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-white"></span>
             <h1 className="text-3xl font-semibold capitalize lg:text-4xl text-white  text-center">
-              Knowledge Services
+              Knowledge As A service
             </h1>
             <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-white"></span>
           </div>
@@ -358,7 +358,7 @@ export default function Home() {
                   praesentium quidem dolorum autem sapiente quod laudantium.
                 </p>
                 <div className="flex justify-center">
-                  <button className="hover:text-red-700 font-bold  hover:text-base p-1 underline decoration-red-700 rounded-sm text-black">
+                  <button className="hover:text-red-700 font-bold  hover:text-base p-1 underline decoration-black rounded-sm text-black">
                     Read more..
                   </button>
                 </div>
@@ -380,7 +380,7 @@ export default function Home() {
                   praesentium quidem dolorum autem sapiente quod laudantium.
                 </p>
                 <div className="flex justify-center">
-                  <button className="hover:text-red-700 font-bold  hover:text-base p-1 underline decoration-red-700 rounded-sm text-black">
+                  <button className="hover:text-red-700 font-bold  hover:text-base p-1 underline decoration-black rounded-sm text-black">
                     Read more..
                   </button>
                 </div>
@@ -402,7 +402,7 @@ export default function Home() {
                   praesentium quidem dolorum autem sapiente quod laudantium.
                 </p>
                 <div className="flex justify-center">
-                  <button className="hover:text-red-700 font-bold  hover:text-base p-1 underline decoration-red-700 rounded-sm text-black">
+                  <button className="hover:text-red-700 font-bold  hover:text-base p-1 underline decoration-black rounded-sm text-black">
                     Read more..
                   </button>
                 </div>
@@ -424,7 +424,7 @@ export default function Home() {
                   praesentium quidem dolorum autem sapiente quod laudantium.
                 </p>
                 <div className="flex justify-center">
-                  <button className="hover:text-red-700 font-bold  hover:text-base p-1 hover:underline decoration-red-700 rounded-sm text-black">
+                  <button className="hover:text-red-700 font-bold  text-base p-1 underline decoration-black rounded-sm text-black">
                     Read more..
                   </button>
                 </div>
@@ -446,7 +446,7 @@ export default function Home() {
                   praesentium quidem dolorum autem sapiente quod laudantium.
                 </p>
                 <div className="flex justify-center">
-                  <button className="hover:text-red-700 font-bold  hover:text-base p-1 hover:underline decoration-red-700 rounded-sm text-black">
+                  <button className="hover:text-red-700 font-bold  text-base p-1 underline decoration-black rounded-sm text-black">
                     Read more..
                   </button>
                 </div>
@@ -468,7 +468,7 @@ export default function Home() {
                   praesentium quidem dolorum autem sapiente quod laudantium.
                 </p>
                 <div className="flex justify-center">
-                  <button className="hover:text-red-700 font-bold  hover:text-base p-1 hover:underline decoration-red-700 rounded-sm text-black">
+                  <button className="hover:text-red-700 font-bold text-base p-1 underline decoration-black rounded-sm text-black">
                     Read more..
                   </button>
                 </div>
@@ -518,15 +518,15 @@ export default function Home() {
                     <h1 className="title-font sm:text-2xl text-xl text-left font-medium text-gray-900 mb-3">
                       {name}
                     </h1>
-                    <p className="leading-relaxed mt-10 text-left ">
-                      {desc}
-                    </p>
+                    <p className="leading-relaxed mt-10 text-left ">{desc}</p>
                   </div>
-                  <Link href={"/blog/blogs"}>
-                    <p className="text-black font-bold ease-in duration-300  hover:text-orange  flex justify-center items-center text-left hover:cursor-pointer">
-                      Read More
-                    </p>
-                  </Link>
+                  <div className="flex justify-center">
+                    <Link href={"/blog/blogs"}>
+                      <p className="text-black  p-2 font-bold ease-in duration-300  hover:bg-orange  flex justify-center items-center text-left hover:cursor-pointer">
+                        Read More
+                      </p>
+                    </Link>
+                  </div>
                 </div>
               );
             })}

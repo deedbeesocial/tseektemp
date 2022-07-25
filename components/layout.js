@@ -61,14 +61,19 @@ export default function Layout({ children }) {
         { name: "Staffing", path: "/capabilities" },
       ],
     },
-
     {
-      name: "Blogs",
-      path: "/blog/blogs",
+      name: "Courses",
+      path: "/Courses",
     },
+
+    
     {
       name: "Careers",
       path: "/career",
+    },
+    {
+      name: "Blogs",
+      path: "/blog/blogs",
     },
     {
       name: "contact us",

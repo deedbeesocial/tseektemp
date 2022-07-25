@@ -239,14 +239,15 @@ function Footprint() {
                       />
                     </div>
                     <div>
-                      <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
-                        5+
+                      <h2 className=" flex-1   text-black">
+                      Manufacturing
+
                       </h2>
                       <div className="flex justify-center">
                         <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
                       </div>
 
-                      <p className="leading-relaxed">lorem ip</p>
+                      {/* <p className="leading-relaxed">lorem ip</p> */}
                     </div>
                   </div>
                 </div>
@@ -261,14 +262,15 @@ function Footprint() {
                       />
                     </div>
                     <div>
-                      <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
-                        5+
+                      <h2 className=" flex-1   text-black">
+                        BFSI
+
                       </h2>
                       <div className="flex justify-center">
                         <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
                       </div>
 
-                      <p className="leading-relaxed">lorem ip</p>
+                      {/* <p className="leading-relaxed">lorem ip</p> */}
                     </div>
                   </div>
                 </div>
@@ -283,14 +285,15 @@ function Footprint() {
                       />
                     </div>
                     <div>
-                      <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
-                        5+
+                      <h2 className=" flex-1  text-black">
+                      Travel And <br /> Transportation 
+
                       </h2>
                       <div className="flex justify-center">
                         <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
                       </div>
 
-                      <p className="leading-relaxed">lorem ip</p>
+                      {/* <p className="leading-relaxed">lorem ip</p> */}
                     </div>
                   </div>
                 </div>
@@ -305,14 +308,14 @@ function Footprint() {
                       />
                     </div>
                     <div>
-                      <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
-                        5+
+                      <h2 className=" flex-1   text-black">
+                        Media
                       </h2>
                       <div className="flex justify-center">
                         <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
                       </div>
 
-                      <p className="leading-relaxed">lorem ip</p>
+                      {/* <p className="leading-relaxed">lorem ip</p> */}
                     </div>
                   </div>
                 </div>
@@ -327,14 +330,14 @@ function Footprint() {
                       />
                     </div>
                     <div>
-                      <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
-                        5+
+                      <h2 className=" flex-1  text-black">
+                        Health care
                       </h2>
                       <div className="flex justify-center">
                         <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
                       </div>
 
-                      <p className="leading-relaxed">lorem ip</p>
+                      {/* <p className="leading-relaxed">lorem ip</p> */}
                     </div>
                   </div>
                 </div>
@@ -348,14 +351,14 @@ function Footprint() {
                       />
                     </div>
                     <div>
-                      <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
-                        5+
+                      <h2 className=" flex-1  text-black">
+                        Energy And <br /> Utilities
                       </h2>
                       <div className="flex justify-center">
                         <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
                       </div>
 
-                      <p className="leading-relaxed">lorem ip</p>
+                      {/* <p className="leading-relaxed">lorem ip</p> */}
                     </div>
                   </div>
                 </div>
@@ -370,14 +373,14 @@ function Footprint() {
                       />
                     </div>
                     <div>
-                      <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
-                        2.7K+
+                      <h2 className=" flex-1   text-black">
+                        Consumer Goods
                       </h2>
                       <div className="flex justify-center">
                         <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
                       </div>
 
-                      <p className="leading-relaxed">Lorem ip</p>
+                      {/* <p className="leading-relaxed">Lorem ip</p> */}
                     </div>
                   </div>
                 </div>
@@ -392,14 +395,14 @@ function Footprint() {
                       />
                     </div>
                     <div>
-                      <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
-                        2.7K+
+                      <h2 className="flex-1 text-black">
+                       Retail
                       </h2>
                       <div className="flex justify-center">
                         <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
                       </div>
 
-                      <p className="leading-relaxed">Lor ips</p>
+                      {/* <p className="leading-relaxed">Lor ips</p> */}
                     </div>
                   </div>
                 </div>

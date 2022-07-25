@@ -115,11 +115,13 @@ export default function Blogs() {
                       {desc}
                     </p>
                   </div>
-                  <Link href={"/blog/blogs"}>
-                    <p className="text-black font-bold ease-in duration-300  hover:text-orange  flex justify-center items-center text-left hover:cursor-pointer">
+                 <div className="flex justify-center ">
+                 <Link href={"/blog/blogs"}>
+                    <p className="text-black font-bold   underline decoration-black p-2 w-fit ease-in duration-300 hover:bg-orange hover:text-black  flex justify-center items-center text-left hover:cursor-pointer">
                       Read More
                     </p>
                   </Link>
+                 </div>
                 </div>
               );
             })}
