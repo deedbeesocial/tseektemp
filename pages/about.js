@@ -112,7 +112,7 @@ function About() {
               />
               <div className="absolute inset-0 bg-black opacity-20"></div>
               <div className="absolute inset-0 text-white p-8 flex items-center justify-center">
-                <p className=" text-3xl text-white">Innovation</p>
+                <p className=" text-3xl text-white">Lorem</p>
               </div>
             </div>
             <div className="md:h-64 w-full text-zinc-900 pt-4 pb-2 flex items-start justify-center">
@@ -136,7 +136,7 @@ function About() {
               />
               <div className="absolute inset-0 bg-black opacity-20"></div>
               <div className="absolute inset-0 text-white p-8 flex items-center justify-center">
-                <p className=" text-3xl text-white">Expertise</p>
+                <p className=" text-3xl text-white">Lorem</p>
               </div>
             </div>
           </div>
@@ -150,7 +150,7 @@ function About() {
               />
               <div className="absolute inset-0 bg-black opacity-20"></div>
               <div className="absolute inset-0 text-white p-8 flex items-center justify-center">
-                <p className=" text-3xl text-white">Honesty</p>
+                <p className=" text-3xl text-white">FOOBar</p>
               </div>
             </div>
             <div className="md:h-64 w-full text-zinc-900 pt-4 pb-2 md:pb-4 flex items-start justify-center">
@@ -174,7 +174,7 @@ function About() {
               />
               <div className="absolute inset-0 bg-black opacity-20"></div>
               <div className="absolute inset-0 text-white p-8 flex items-center justify-center">
-                <p className=" text-3xl text-white">Integrity</p>
+                <p className=" text-3xl text-white">Foobar</p>
               </div>
             </div>
           </div>
@@ -188,7 +188,7 @@ function About() {
               />
               <div className="absolute inset-0 bg-black opacity-20"></div>
               <div className="absolute inset-0 text-white p-8 flex items-center justify-center">
-                <p className=" text-3xl text-white">Safety</p>
+                <p className=" text-3xl text-white">Foobar</p>
               </div>
             </div>
             <div className="md:h-64 w-full text-zinc-900 pt-4 pb-2 flex items-start justify-center">
@@ -200,45 +200,7 @@ function About() {
         </div>
       </section>
         {/* core teaaaaaaaaaaaaaaaaaaaaaaam */}
-      <section className="pt-12 pb-24 text-zinc-900 bg-coustom1" id="core-teams">
-      <div className='md:container p-4 mx-auto'>
-        <h1 className="text-4xl tracking-wide  text-green-900">MEET THE TEAM</h1>
-        
-        <div className="grid md:grid-cols-3 grid-cols-2 gap-2 md:py-12 py-6">
-            {team.map(({name, image, role}, index) => (
-            <div key={index} className="flex flex-col justify-start items-start rounded-sm pb-2 md:pb-0">
-              <div className="w-full h-52 bg-zinc-100 shadow-sm relative">
-                <Image layout='fill' className="absolute inset-0 object-cover" alt="" src={image}/>
-              </div>
-              
-              <p className="text-lg pt-2">{name}</p>
-              <p className="text-md text-black leading-tight">{role}</p>
-            </div>
-          ))}
-        </div>
-          
-        <p className=" text-zinc-900">
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita laborum esse ducimus in deserunt eveniet vel commodi aspernatur animi cum, exercitationem beatae impedit asperiores a necessitatibus minima eligendi corporis facere, ab delectus libero, eius aliquam deleniti sit. Praesentium officia minus alias sapiente molestiae. Totam consequuntur amet fugit tempore? Libero earum possimus nemo culpa pariatur reprehenderit ab non quas reiciendis consectetur.
-        </p>
-          
-        <div className='grid md:grid-cols-2 grid-cols-1 gap-4 pt-12'>
-            <div className='w-auto h-72 bg-gray-100 relative'>
-              <Image layout='fill' className="absolute inset-0 object-cover" alt="" src="/about/group1.jpg"/>
-            </div>  
-            <div className='w-auto h-72 bg-gray-100 relative'>
-              <Image layout='fill' className="absolute inset-0 object-cover" alt="" src="/about/group2.jpg"/>
-            </div>  
-            <div className='w-auto h-72 bg-gray-100 relative'>
-              <Image layout='fill' className="absolute inset-0 object-cover" alt="" src="/about/group3.jpg"/>
-            </div>  
-            <div className='w-auto h-72 bg-gray-100 relative'>
-              <Image layout='fill' className="absolute inset-0 object-cover" alt="" src="/about/group3.jpg"/>
-            </div>  
-        </div>
-          
-      </div>
-      </section>
-
+      
 
 
     </>

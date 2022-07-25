@@ -63,7 +63,7 @@ export default function Layout({ children }) {
     },
     {
       name: "Courses",
-      path: "/Courses",
+      path: "/courses",
     },
 
     
