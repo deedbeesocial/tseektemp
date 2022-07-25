@@ -84,7 +84,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>SFJ BUSINESS SOLUTION</title>
+        <title>SFJ Business Solutions</title>
       </Head>
 
       <header
