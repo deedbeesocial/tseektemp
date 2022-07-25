@@ -12,18 +12,14 @@ function Solutions() {
         />
         <div className="w-full    h-full  flex  justify-center">
           <div className="text-white relative md:container max-auto  h-full flex justify-center items-center">
-            
-            
-                <h1 className=" text-3xl  text-bold  w-full     text-white">
-                  Lorem ipsum dolor sit amet.
-                </h1>
-           
-            
+            <h1 className=" text-4xl   text-bold  w-full     text-white">
+              Lorem ipsum dolor sit amet.
+            </h1>
           </div>
         </div>
       </div>
-      <section class="text-black  ">
-        <div class="container px-5 py-24 mx-auto">
+      <section className="text-black  ">
+        <div className="container px-5 py-24 mx-auto">
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
             error in asperiores tempore neque similique doloremque. Aut nesciunt
@@ -31,11 +27,15 @@ function Solutions() {
             dolore corrupti, libero repellendus vitae nihil quisquam fuga nemo
             quasi id dolor consequuntur veniam? Odit quos porro natus atque,
             repellat architecto dolorem neque soluta necessitatibus a at fugiat
-            suscipit temporibus ipsum quaerat.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis velit, delectus quam eius suscipit fugit aspernatur doloremque deleniti odio! Aspernatur non dignissimos ducimus aliquam incidunt reiciendis vero dicta quasi omnis aut voluptas hic quas tempora modi impedit voluptatem repellat quia, laborum rem. Cupiditate doloribus, illum cum amet reprehenderit consequuntur?
+            suscipit temporibus ipsum quaerat. Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Eum omnis velit, delectus quam eius
+            suscipit fugit aspernatur doloremque deleniti odio! Aspernatur non
+            dignissimos ducimus aliquam incidunt reiciendis vero dicta quasi
+            omnis aut voluptas hic quas tempora modi impedit voluptatem repellat
+            quia, laborum rem. Cupiditate doloribus, illum cum amet
+            reprehenderit consequuntur?
           </p>
         </div>
-       
       </section>
 
       <section className="text-black flex flex-col">
@@ -54,36 +54,38 @@ function Solutions() {
               suscipit minus voluptatibus provident, nemo fuga. elit. Nobis
               suscipit illum quasi voluptatem laudantium, omnis delectus vero
               mollitia facere, nemo rem adipisci, fugiat sed fuga nesciunt
-              similique consectetur iste qui.
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, culpa. Natus eligendi vitae numquam atque ducimus repellat aliquam corrupti autem cupiditate optio omnis, ex nisi veritatis alias ab blanditiis sed obcaecati adipisci officiis! Ipsa blanditiis veritatis doloremque, rem hic minus quae. Esse quod, nam veritatis aspernatur vel modi fugit ut.
+              similique consectetur iste qui. Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Deserunt, culpa. Natus eligendi
+              vitae numquam atque ducimus repellat aliquam corrupti autem
+              cupiditate optio omnis, ex nisi veritatis alias ab blanditiis sed
+              obcaecati adipisci officiis! Ipsa blanditiis veritatis doloremque,
+              rem hic minus quae. Esse quod, nam veritatis aspernatur vel modi
+              fugit ut.
             </p>
           </div>
           <div className="h-64 w-1/2 flex items-start  relative">
-              <Image
-                className=""
-                layout="fill"
-                objectFit="cover"
-                alt="ser"
-                src="/about/abt4.jpg"
-              />
-              
-            </div>
-          
+            <Image
+              className=""
+              layout="fill"
+              objectFit="cover"
+              alt="ser"
+              src="/about/abt4.jpg"
+            />
+          </div>
         </div>
 
         <hr />
         <div className="container mx-auto lg:gap-16  flex px-5 py-14 md:items-start items-center md:flex-row flex-col ">
-        <div className="h-64 w-1/2 flex items-start  relative">
-              <Image
-                className=""
-                layout="fill"
-                objectFit="cover"
-                alt="ser"
-                src="/about/abt4.jpg"
-              />
-              
-            </div>
-         
+          <div className="h-64 w-1/2 flex items-start  relative">
+            <Image
+              className=""
+              layout="fill"
+              objectFit="cover"
+              alt="ser"
+              src="/about/abt4.jpg"
+            />
+          </div>
+
           <div className="lg:flex-grow md:w-1/2  flex  flex-col  text-left  md:mb-0  ">
             <h1 className="text-3xl mb-4  text-gray-900">
               Lorem ipsum dolor sit amet consectetur adipisicing.
@@ -98,15 +100,17 @@ function Solutions() {
               suscipit minus voluptatibus provident, nemo fuga. elit. Nobis
               suscipit illum quasi voluptatem laudantium, omnis delectus vero
               mollitia facere, nemo rem adipisci, fugiat sed fuga nesciunt
-              similique consectetur iste qui.
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, culpa. Natus eligendi vitae numquam atque ducimus repellat aliquam corrupti autem cupiditate optio omnis, ex nisi veritatis alias ab blanditiis sed obcaecati adipisci officiis! Ipsa blanditiis veritatis doloremque, rem hic minus quae. Esse quod, nam veritatis aspernatur vel modi fugit ut.
+              similique consectetur iste qui. Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Deserunt, culpa. Natus eligendi
+              vitae numquam atque ducimus repellat aliquam corrupti autem
+              cupiditate optio omnis, ex nisi veritatis alias ab blanditiis sed
+              obcaecati adipisci officiis! Ipsa blanditiis veritatis doloremque,
+              rem hic minus quae. Esse quod, nam veritatis aspernatur vel modi
+              fugit ut.
             </p>
           </div>
-          
-          
         </div>
         <hr />
-
 
         <div className="container mx-auto lg:gap-16  flex px-5 py-14 md:items-start items-center md:flex-row flex-col ">
           <div className="lg:flex-grow md:w-1/2  flex  flex-col  text-left  md:mb-0  ">
@@ -123,36 +127,38 @@ function Solutions() {
               suscipit minus voluptatibus provident, nemo fuga. elit. Nobis
               suscipit illum quasi voluptatem laudantium, omnis delectus vero
               mollitia facere, nemo rem adipisci, fugiat sed fuga nesciunt
-              similique consectetur iste qui.
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, culpa. Natus eligendi vitae numquam atque ducimus repellat aliquam corrupti autem cupiditate optio omnis, ex nisi veritatis alias ab blanditiis sed obcaecati adipisci officiis! Ipsa blanditiis veritatis doloremque, rem hic minus quae. Esse quod, nam veritatis aspernatur vel modi fugit ut.
+              similique consectetur iste qui. Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Deserunt, culpa. Natus eligendi
+              vitae numquam atque ducimus repellat aliquam corrupti autem
+              cupiditate optio omnis, ex nisi veritatis alias ab blanditiis sed
+              obcaecati adipisci officiis! Ipsa blanditiis veritatis doloremque,
+              rem hic minus quae. Esse quod, nam veritatis aspernatur vel modi
+              fugit ut.
             </p>
           </div>
           <div className="h-64 w-1/2 flex items-start  relative">
-              <Image
-                className=""
-                layout="fill"
-                objectFit="cover"
-                alt="ser"
-                src="/about/abt4.jpg"
-              />
-              
-            </div>
-          
+            <Image
+              className=""
+              layout="fill"
+              objectFit="cover"
+              alt="ser"
+              src="/about/abt4.jpg"
+            />
+          </div>
         </div>
         <hr />
 
         <div className="container mx-auto lg:gap-16  flex px-5 py-14 md:items-start items-center md:flex-row flex-col ">
-        <div className="h-64 w-1/2 flex items-start  relative">
-              <Image
-                className=""
-                layout="fill"
-                objectFit="cover"
-                alt="ser"
-                src="/about/abt4.jpg"
-              />
-              
-            </div>
-          
+          <div className="h-64 w-1/2 flex items-start  relative">
+            <Image
+              className=""
+              layout="fill"
+              objectFit="cover"
+              alt="ser"
+              src="/about/abt4.jpg"
+            />
+          </div>
+
           <div className="lg:flex-grow md:w-1/2  flex  flex-col  text-left  md:mb-0  ">
             <h1 className="text-3xl mb-4  text-gray-900">
               Lorem ipsum dolor sit amet consectetur adipisicing.
@@ -167,12 +173,15 @@ function Solutions() {
               suscipit minus voluptatibus provident, nemo fuga. elit. Nobis
               suscipit illum quasi voluptatem laudantium, omnis delectus vero
               mollitia facere, nemo rem adipisci, fugiat sed fuga nesciunt
-              similique consectetur iste qui.
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, culpa. Natus eligendi vitae numquam atque ducimus repellat aliquam corrupti autem cupiditate optio omnis, ex nisi veritatis alias ab blanditiis sed obcaecati adipisci officiis! Ipsa blanditiis veritatis doloremque, rem hic minus quae. Esse quod, nam veritatis aspernatur vel modi fugit ut.
+              similique consectetur iste qui. Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Deserunt, culpa. Natus eligendi
+              vitae numquam atque ducimus repellat aliquam corrupti autem
+              cupiditate optio omnis, ex nisi veritatis alias ab blanditiis sed
+              obcaecati adipisci officiis! Ipsa blanditiis veritatis doloremque,
+              rem hic minus quae. Esse quod, nam veritatis aspernatur vel modi
+              fugit ut.
             </p>
           </div>
-          
-          
         </div>
       </section>
     </>
