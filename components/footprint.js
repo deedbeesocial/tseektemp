@@ -223,7 +223,7 @@ function Footprint() {
             <SwiperSlide>
             <div className="flex gap-5 justify-center ">
                 <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
-                <h1 className="text-3xl  capitalize lg:text-4xl text-black  text-center">
+                <h1 className="text-3xl lg:w-[250px]  capitalize lg:text-4xl text-black  text-center">
                  Industries
                 </h1>
                 <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-black"></span>
@@ -239,11 +239,11 @@ function Footprint() {
                       />
                     </div>
                     <div>
-                      <h2 className="title-font flex-1 text-center  font-medium lg:text-3xl text-black">
+                      <h2 className="title-font lg:w-[250px] flex-1 text-center  font-medium lg:text-3xl text-black">
                         Manufacturing
                       </h2>
                       <div className="flex justify-center">
-                        <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
+                        <h1 className="lg:w-[150px] w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
                       </div>
 
                       {/* <p className="leading-relaxed">lorem ip</p> */}
@@ -261,11 +261,11 @@ function Footprint() {
                       />
                     </div>
                     <div>
-                      <h2 className="title-font flex-1 lg:text-3xl text-center font-medium  text-black">
+                      <h2 className="title-font lg:w-[250px] flex-1 lg:text-3xl text-center font-medium  text-black">
                        BFSI
                       </h2>
                       <div className="flex justify-center">
-                        <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
+                        <h1 className="lg:w-[150px] w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
                       </div>
 
                       {/* <p className="leading-relaxed">lorem ip</p> */}
@@ -283,12 +283,12 @@ function Footprint() {
                       />
                     </div>
                     <div>
-                      <h2 className="title-font flex-1 font-medium lg:text-3xl text-center text-gray-900">
+                      <h2 className="title-font lg:w-[250px] flex-1 font-medium lg:text-3xl text-center text-gray-900">
                         Travel &<br />
                         Transportation
                       </h2>
                       <div className="flex justify-center">
-                        <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
+                        <h1 className="lg:w-[100px] w-[60px] lg:ml-0  h-[3px] bg-orange"></h1>
                       </div>
 
                       {/* <p className="leading-relaxed">lorem ip</p> */}
@@ -306,11 +306,11 @@ function Footprint() {
                       />
                     </div>
                     <div>
-                      <h2 className="title-font flex-1 font-medium text-center lg:text-3xl text-gray-900">
+                      <h2 className="title-font lg:w-[250px] flex-1 font-medium text-center lg:text-3xl text-gray-900">
                         Media
                       </h2>
                       <div className="flex justify-center">
-                        <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
+                        <h1 className="lg:w-[150px] w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
                       </div>
 
                       {/* <p className="leading-relaxed"></p> */}
@@ -328,11 +328,11 @@ function Footprint() {
                       />
                     </div>
                     <div>
-                      <h2 className="title-font flex-1 font-medium text-center lg:text-3xl text-gray-900">
+                      <h2 className="title-font lg:w-[250px] flex-1 font-medium text-center lg:text-3xl text-gray-900">
                        Healthcare
                       </h2>
                       <div className="flex justify-center">
-                        <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
+                        <h1 className="lg:w-[150px] w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
                       </div>
 
                       {/* <p className="leading-relaxed">lorem ip</p> */}
@@ -350,11 +350,11 @@ function Footprint() {
                       />
                     </div>
                     <div>
-                      <h2 className="title-font flex-1 font-medium text-center lg:text-3xl text-gray-900">
-                     Energy And Utilities
+                      <h2 className="title-font lg:w-[250px] flex-1 font-medium text-center lg:text-3xl text-gray-900">
+                     Energy &<br /> Utilities
                       </h2>
                       <div className="flex justify-center">
-                        <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
+                        <h1 className="lg:w-[150px] w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
                       </div>
 
                       {/* <p className="leading-relaxed">lorem ip</p> */}
@@ -372,11 +372,11 @@ function Footprint() {
                       />
                     </div>
                     <div>
-                      <h2 className="title-font flex-1 font-medium text-center lg:text-3xl text-gray-900">
+                      <h2 className="title-font lg:w-[250px] flex-1 font-medium text-center lg:text-3xl text-gray-900">
                       Consumer Goods
                       </h2>
                       <div className="flex justify-center">
-                        <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
+                        <h1 className="lg:w-[150px] w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
                       </div>
 
                       {/* <p className="leading-relaxed">lorem ip</p> */}
@@ -394,11 +394,11 @@ function Footprint() {
                       />
                     </div>
                     <div>
-                      <h2 className="title-font flex-1 font-medium text-center lg:text-3xl text-gray-900">
+                      <h2 className="title-font lg:w-[250px]  flex-1 font-medium text-center lg:text-3xl text-gray-900">
                        Retail
                       </h2>
                       <div className="flex justify-center">
-                        <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
+                        <h1 className="lg:w-[150px] w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
                       </div>
 
                       {/* <p className="leading-relaxed">lorem ip</p> */}
