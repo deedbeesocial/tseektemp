@@ -56,7 +56,7 @@ export default function Layout({ children }) {
         { name: "Mobility", path: "/capabilities#Mobility" },
 
         { name: "Cloud", path: "/capabilities#Cloud" },
-        { name: "Outsourcing", path: "/capabilities" },
+        { name: "Outsourcing", path: "/capabilities#Outsourcing" },
         { name: "Upskilling", path: "/capabilities#Upskilling" },
         { name: "Staffing", path: "/capabilities#Staffing" },
       ],
