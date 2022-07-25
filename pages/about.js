@@ -117,15 +117,14 @@ function About() {
             </div>
             <div className="md:h-64 w-full text-zinc-900 pt-4 pb-2 flex items-start justify-center">
               <p className="text-base">
-                Driven by changing consumer needs, environment and
-                sustainability aspects
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex vel modi debitis officia explicabo. Ullam!
               </p>
             </div>
           </div>
           <div className="flex md:flex-col flex-col-reverse">
             <div className="md:h-40 w-full text-zinc-900 pt-4 pb-2 md:pb-4 flex items-end justify-center">
               <p className="text-base">
-                deleniti voluptate facilis consequuntur quasi, impedit corporis?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, reprehenderit.
               </p>
             </div>
             <div className="h-64 w-full bg-zinc-200 relative">
@@ -156,16 +155,14 @@ function About() {
             </div>
             <div className="md:h-64 w-full text-zinc-900 pt-4 pb-2 md:pb-4 flex items-start justify-center">
               <p className="text-base">
-                Provide the right solutions for each customer by placing their
-                interests first
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quasi blanditiis aliquam et laboriosam. Vitae.
               </p>
             </div>
           </div>
           <div className="flex md:flex-col flex-col-reverse">
             <div className="md:h-40 w-full text-zinc-900 pt-4 pb-2 md:pb-4 flex items-end justify-center">
               <p className="text-base">
-                Uncompromised product quality and manufacturing standards at all
-                times
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, nihil. 
               </p>
             </div>
             <div className="h-64 w-full bg-zinc-200 relative">
@@ -196,8 +193,7 @@ function About() {
             </div>
             <div className="md:h-64 w-full text-zinc-900 pt-4 pb-2 flex items-start justify-center">
               <p className="text-base">
-                Extensive investments in R&D resulting in formulations that are
-                safe and compliant
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis distinctio expedita quas fuga repellendus, voluptatum amet laboriosam adipisci id quae, doloremque tempora, recusandae asperiores. Voluptatem!
               </p>
             </div>
           </div>

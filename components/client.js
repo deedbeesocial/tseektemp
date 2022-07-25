@@ -30,8 +30,8 @@ export default function Clients() {
     <section className="p-2 lg:pt- relative">
       <div className="flex gap-4 justify-center mb-4">
         <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
-        <h1 className="text-3xl font-semibold capitalize lg:text-4xl text-black  text-center">
-          Our Achievements
+        <h1 className="text-3xl  capitalize lg:text-4xl text-black  text-center">
+        Our Customers
         </h1>
         <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-black"></span>
       </div>
