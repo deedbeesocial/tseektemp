@@ -13,6 +13,7 @@ import {
   FaSalesforce,
   FaVideo,
 } from "react-icons/fa";
+import Footprint from "../components/footprint";
 
 export default function Home() {
   const rightIcon = (
@@ -64,7 +65,13 @@ export default function Home() {
       </section>
       <section className="md:pt-24 md:pb-32 text-zinc-90 bg-coustom1">
         <div className="lg:container p-4 mx-auto">
-          <h1 className="text-4xl text-black tracking-wide  ">OUR OFFERINGS</h1>
+          <div className="flex gap-4 justify-center mb-4">
+            <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
+            <h1 className="text-3xl font-semibold capitalize lg:text-4xl text-black  text-center">
+              Our Offerings
+            </h1>
+            <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-black"></span>
+          </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-12 gap-4 pt-4 lg:pt-8">
             <Link href="/services#turnkey-projects">
               <div className="w-auto relative">
@@ -79,7 +86,7 @@ export default function Home() {
 
                   <div className="flex items-center justify-between z-40 w-full p-4 ">
                     <h1 className="text-4xl tracking-wide drop-shadow-md   text-white z-10 w-full">
-                      KNOWLEDGE SERVICES
+                      Knowledge <br /> Services
                     </h1>
                     {rightIcon}
                   </div>
@@ -100,7 +107,7 @@ export default function Home() {
 
                   <div className="flex items-center justify-between z-40 w-full p-4">
                     <h1 className="text-4xl tracking-wide drop-shadow-md  text-white z-10 w-full">
-                      STAFFING <br /> SERVICES
+                      Staffing <br /> Services
                     </h1>
                     {rightIcon}
                   </div>
@@ -121,7 +128,7 @@ export default function Home() {
 
                   <div className="flex items-center justify-between z-40 w-full p-4">
                     <h1 className="text-4xl tracking-wide drop-shadow-md   text-white z-10 w-full">
-                      IT <br /> SERVICES
+                      IT <br /> Services
                     </h1>
                     {rightIcon}
                   </div>
@@ -174,105 +181,18 @@ export default function Home() {
       </section>
 
       {/* achievements */}
-      <section className="text-black  bg-coustom1">
-        <div className=" container px-5 py-16 mx-auto">
-          <div className="flex flex-col text-center w-full mb-12">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font  text-gray-900">
-              Our Achievements
-            </h1>
-          </div>
-          <div className="flex  flex-wrap justify-center lg:gap-3 gap-7 -m-4 text-center">
-            <div className="  lg:w-1/5 sm:w-1/2 w-full items-start  hover:w-1/4 ease-in duration-300">
-              <div className=" rounded-lg flex lg:flex-row flex-col lg:gap-4 lg:items-start justify-center">
-                <div className="flex justify-center">
-                  <FaVideo size={39} color="gray" alignmentBaseline="middle" />
-                </div>
-                <div>
-                  <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
-                    5+
-                  </h2>
-                  <div className="flex justify-center">
-                    <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
-                  </div>
-
-                  <p className="leading-relaxed">lorem ip</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="  lg:w-1/5 sm:w-1/2 w-full items-start  hover:w-1/4 ease-in duration-300">
-              <div className=" rounded-lg flex lg:flex-row flex-col lg:gap-4 lg:items-start justify-center">
-                <div className="flex justify-center">
-                  <FaDownload
-                    size={39}
-                    color="gray"
-                    alignmentBaseline="middle"
-                  />
-                </div>
-                <div>
-                  <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
-                    2.7K+
-                  </h2>
-                  <div className="flex justify-center">
-                    <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
-                  </div>
-
-                  <p className="leading-relaxed">Lorem ip</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="  lg:w-1/5 sm:w-1/2 w-full items-start  hover:w-1/4 ease-in duration-300">
-              <div className=" rounded-lg flex lg:flex-row flex-col lg:gap-4 lg:items-start justify-center">
-                <div className="flex justify-center">
-                  <FaAdjust size={39} color="gray" alignmentBaseline="middle" />
-                </div>
-                <div>
-                  <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
-                    2.7K+
-                  </h2>
-                  <div className="flex justify-center">
-                    <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
-                  </div>
-
-                  <p className="leading-relaxed">Lorem ips</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="  lg:w-1/5 sm:w-1/2 w-full items-start  hover:w-1/4 ease-in duration-300">
-              <div className=" rounded-lg flex lg:flex-row flex-col lg:gap-4 lg:items-start justify-center">
-                <div className="flex justify-center">
-                  <FaSalesforce
-                    size={39}
-                    color="gray"
-                    alignmentBaseline="middle"
-                  />
-                </div>
-                <div>
-                  <h2 className="title-font flex-1 font-medium text-3xl text-gray-900">
-                    2.7K+
-                  </h2>
-                  <div className="flex justify-center">
-                    <h1 className="lg:w-full w-[70px] lg:ml-0  h-[3px] bg-orange"></h1>
-                  </div>
-
-                  <p className="leading-relaxed">Lor ips</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <section>
+        <Footprint />
       </section>
 
       <section className="text-white body-font bg-blue">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex gap-6 justify-center mb-20">
-            <span className="inline-block w-32 h-[4px] mt-5 rounded-full bg-white"></span>
+            <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-white"></span>
             <h1 className="text-3xl font-semibold capitalize lg:text-4xl text-white  text-center">
               Knowledge Services
             </h1>
-            <span className="inline-block w-32 h-[4px] rounded-full mt-5 bg-white"></span>
+            <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-white"></span>
           </div>
           <div className="flex flex-wrap -m-4">
             <div className="xl:w-1/3 md:w-1/2 p-4">
@@ -290,7 +210,7 @@ export default function Home() {
                   praesentium quidem dolorum autem sapiente quod laudantium.
                 </p>
                 <div className="flex justify-center">
-                  <button className="hover:text-black  hover:text-base p-1 underline decoration-red-700 rounded-sm text-orange">
+                  <button className="hover:text-black  font-bold hover:text-base p-1 underline decoration-red-white rounded-sm text-white">
                     Read more..
                   </button>
                 </div>
@@ -312,7 +232,7 @@ export default function Home() {
                   praesentium quidem dolorum autem sapiente quod laudantium.
                 </p>
                 <div className="flex justify-center">
-                  <button className="hover:text-black  hover:text-base p-1 underline decoration-red-700 rounded-sm text-orange">
+                  <button className="hover:text-black  font-bold hover:text-base p-1 underline decoration-red-white rounded-sm text-white">
                     Read more..
                   </button>
                 </div>
@@ -334,7 +254,7 @@ export default function Home() {
                   praesentium quidem dolorum autem sapiente quod laudantium.
                 </p>
                 <div className="flex justify-center">
-                  <button className="hover:text-black  hover:text-base p-1 underline decoration-red-700 rounded-sm text-orange">
+                  <button className="hover:text-black  font-bold hover:text-base p-1 underline decoration-white rounded-sm text-white">
                     Read more..
                   </button>
                 </div>
@@ -356,7 +276,7 @@ export default function Home() {
                   praesentium quidem dolorum autem sapiente quod laudantium.
                 </p>
                 <div className="flex justify-center">
-                  <button className="hover:text-black  hover:text-base p-1 underline decoration-red-700 rounded-sm text-orange">
+                  <button className="hover:text-black  font-bold hover:text-base p-1 underline decoration-white rounded-sm text-white">
                     Read more..
                   </button>
                 </div>
@@ -378,7 +298,7 @@ export default function Home() {
                   praesentium quidem dolorum autem sapiente quod laudantium.
                 </p>
                 <div className="flex justify-center">
-                  <button className="hover:text-black  hover:text-base p-1 underline decoration-red-700 rounded-sm text-orange">
+                  <button className="hover:text-black  font-bold hover:text-base p-1 underline decoration-white rounded-sm text-white">
                     Read more..
                   </button>
                 </div>
@@ -400,7 +320,7 @@ export default function Home() {
                   praesentium quidem dolorum autem sapiente quod laudantium.
                 </p>
                 <div className="flex justify-center">
-                  <button className="hover:text-black  hover:text-base p-1 underline decoration-red-700 rounded-sm text-orange">
+                  <button className="hover:text-black  font-bold hover:text-base p-1 underline decoration-white rounded-sm text-white">
                     Read more..
                   </button>
                 </div>
@@ -416,11 +336,11 @@ export default function Home() {
       <section className="text-white body-font bg-white">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex gap-6 justify-center mb-20">
-            <span className="inline-block w-32 h-[4px] mt-5 rounded-full bg-white"></span>
+            <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
             <h1 className="text-3xl font-semibold capitalize lg:text-4xl text-black text-center">
               Talent as a service
             </h1>
-            <span className="inline-block w-32 h-[4px] rounded-full mt-5 bg-white"></span>
+            <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-black"></span>
           </div>
           <div className="flex flex-wrap -m-4">
             <div className="xl:w-1/3 md:w-1/2 p-4">
@@ -438,7 +358,7 @@ export default function Home() {
                   praesentium quidem dolorum autem sapiente quod laudantium.
                 </p>
                 <div className="flex justify-center">
-                  <button className="hover:text-black  hover:text-base p-1 hover:underline decoration-red-700 rounded-sm text-orange">
+                  <button className="hover:text-red-700 font-bold  hover:text-base p-1 underline decoration-red-700 rounded-sm text-black">
                     Read more..
                   </button>
                 </div>
@@ -460,7 +380,7 @@ export default function Home() {
                   praesentium quidem dolorum autem sapiente quod laudantium.
                 </p>
                 <div className="flex justify-center">
-                  <button className="hover:text-black  hover:text-base p-1 hover:underline decoration-red-700 rounded-sm text-orange">
+                  <button className="hover:text-red-700 font-bold  hover:text-base p-1 underline decoration-red-700 rounded-sm text-black">
                     Read more..
                   </button>
                 </div>
@@ -482,7 +402,7 @@ export default function Home() {
                   praesentium quidem dolorum autem sapiente quod laudantium.
                 </p>
                 <div className="flex justify-center">
-                  <button className="hover:text-black  hover:text-base p-1 hover:underline decoration-red-700 rounded-sm text-orange">
+                  <button className="hover:text-red-700 font-bold  hover:text-base p-1 underline decoration-red-700 rounded-sm text-black">
                     Read more..
                   </button>
                 </div>
@@ -504,7 +424,7 @@ export default function Home() {
                   praesentium quidem dolorum autem sapiente quod laudantium.
                 </p>
                 <div className="flex justify-center">
-                  <button className="hover:text-black  hover:text-base p-1 hover:underline decoration-red-700 rounded-sm text-orange">
+                  <button className="hover:text-red-700 font-bold  hover:text-base p-1 hover:underline decoration-red-700 rounded-sm text-black">
                     Read more..
                   </button>
                 </div>
@@ -526,7 +446,7 @@ export default function Home() {
                   praesentium quidem dolorum autem sapiente quod laudantium.
                 </p>
                 <div className="flex justify-center">
-                  <button className="hover:text-black  hover:text-base p-1 hover:underline decoration-red-700 rounded-sm text-orange">
+                  <button className="hover:text-red-700 font-bold  hover:text-base p-1 hover:underline decoration-red-700 rounded-sm text-black">
                     Read more..
                   </button>
                 </div>
@@ -548,7 +468,7 @@ export default function Home() {
                   praesentium quidem dolorum autem sapiente quod laudantium.
                 </p>
                 <div className="flex justify-center">
-                  <button className="hover:text-black  hover:text-base p-1 hover:underline decoration-red-700 rounded-sm text-orange">
+                  <button className="hover:text-red-700 font-bold  hover:text-base p-1 hover:underline decoration-red-700 rounded-sm text-black">
                     Read more..
                   </button>
                 </div>
@@ -569,11 +489,14 @@ export default function Home() {
 
       <section className="text-black bg-white body-font">
         <div className="container px-5 py-14 mx-auto">
-          <div className="flex flex-col flex-wrap text-center w-full mb-20 ">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-black">
+          <div className="flex gap-4 justify-center mb-4">
+            <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
+            <h1 className="text-3xl font-semibold capitalize lg:text-4xl text-black  text-center">
               Blogs
             </h1>
+            <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-black"></span>
           </div>
+
           <div className="flex  flex-wrap gap-1 ">
             {blog.map(({ name, logo, id, desc }) => {
               return (
@@ -595,12 +518,12 @@ export default function Home() {
                     <h1 className="title-font sm:text-2xl text-xl text-left font-medium text-gray-900 mb-3">
                       {name}
                     </h1>
-                    <p className="leading-relaxed mt-10 text-justify ">
+                    <p className="leading-relaxed mt-10 text-left ">
                       {desc}
                     </p>
                   </div>
                   <Link href={"/blog/blogs"}>
-                    <p className="text-blue ease-in duration-300 hover:bg-orange hover:text-black  flex justify-center items-center text-left hover:cursor-pointer">
+                    <p className="text-black font-bold ease-in duration-300  hover:text-orange  flex justify-center items-center text-left hover:cursor-pointer">
                       Read More
                     </p>
                   </Link>

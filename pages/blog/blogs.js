@@ -46,36 +46,79 @@ export default function Blogs() {
       links:"/blog/blog3",
     },
   ];
+  const blog = [
+    {
+      id: 1,
+      name: "   how is ml related to block chain",
+      logo: "/blogimage/blog2.jpg",
+      desc: "  using AI and Big Data in Blockchain Technology: A step closer to the futureThere has been a number of changes in the IT world recently......",
+    },
+    {
+      id: 2,
+      name: "   how is ml related to block chain",
+      logo: "/aiml.jpg",
+      desc: "  Building solutions using artificial intelligence, machine learning and blockchain technologies. Artificial intelligence and machine learning can automate important, but manual and time-consuming tasks, allowing employees to focus on higher-value work.....",
+    },
+    {
+      id: 3,
+      name: "   how is ml related to block chain",
+      logo: "/aiandml.jpg",
+      desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis of data purposes......................... ",
+    },
+    {
+      id: 4,
+      name: "   how is ml related to block chain",
+      logo: "/aiandml.jpg",
+      desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis of data purposes...................",
+    },
+    {
+      id: 5,
+      name: "   how is ml related to block chain",
+      logo: "/aiandml.jpg",
+      desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis of data purposes...................",
+    },
+  ];
 
   return (
     <>
-      <section className="pt-12 pb-24 text-zinc-900 bg-coustom1">
-        <div className="md:container p-4 mx-auto">
-          <h1 className="text-4xl tracking-wide font-light text-green-900">
-            Blogs
-          </h1>
+      
 
-          <div className="grid grid-cols-1 md:grid-cols-2 md:gap-16 gap-4 pt-12">
-            {blogs.map(({ id, title, image,heading,links }) => {
+      <section className="text-black bg-white body-font">
+        <div className="container px-5 py-14 mx-auto">
+          <div className="flex flex-col flex-wrap text-center w-full mb-20 ">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-black">
+              Blogs
+            </h1>
+          </div>
+          <div className="flex lg:grid lg:grid-cols-4 flex-wrap gap-1 ">
+            {blog.map(({ name, logo, id, desc }) => {
               return (
-                <div key={id} className="w-auto relative shadow-lg p-2">
-                  <div className="relative w-full h-64 flex justify-start items-end shadow-sm hover:scale-[1.02] transition-all cursor-pointer">
-                    <Image
-                      layout="fill"
-                      alt=""
-                      src={image}
-                      className="h-64 w-full object-cover absolute inset-0"
-                    />
-                    <div className="absolute inset-0 bg-black opacity-20"></div>
-                    <h1 className="md:text-3xl text-xl tracking-wide drop-shadow-lg   text-white z-10 w-full p-4">
-                      {heading}
+                <div
+                  key={id}
+                  className="w-fit flex flex-col lg:flex-1 py-4 justify-between bg-opacity-75 px-8   rounded-lg overflow-hidden text-center relative"
+                >
+                  <div>
+                    <div className=" w-full transition duration-150 ease-out hover:ease-in hover:opacity-50">
+                      <Image
+                        className=" flex-shrink-0 object-cover xl:w-[100%] xl:h-[34rem]"
+                        src={logo}
+                        width={400}
+                        height={300}
+                        alt=""
+                      ></Image>
+                    </div>
+
+                    <h1 className="title-font sm:text-2xl text-xl text-left font-medium text-gray-900 mb-3">
+                      {name}
                     </h1>
+                    <p className="leading-relaxed mt-10 text-justify ">
+                      {desc}
+                    </p>
                   </div>
-                  <p className="pt-8 pb-4">{title}</p>
-                  <Link href={links} >
-                  <div className="flex  justify-center  align-middle pb-2">
-                    <button className="w-fit  bg-orange   p-1">Read more</button>
-                  </div>
+                  <Link href={"/blog/blogs"}>
+                    <p className="text-black font-bold ease-in duration-300  hover:text-orange  flex justify-center items-center text-left hover:cursor-pointer">
+                      Read More
+                    </p>
                   </Link>
                 </div>
               );
@@ -83,6 +126,8 @@ export default function Blogs() {
           </div>
         </div>
       </section>
+
+
     </>
   );
 }

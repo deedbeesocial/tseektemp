@@ -28,11 +28,15 @@ export default function Clients() {
 
   return (
     <section className="p-2 lg:pt- relative  border">
-      <h1 className="lg:container mx-auto text-center text-4xl  tracking-wide text-black">
-        OUR CUSTOMERS
-      </h1>
+      <div className="flex gap-4 justify-center mb-4">
+        <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
+        <h1 className="text-3xl font-semibold capitalize lg:text-4xl text-black  text-center">
+          Our Achievements
+        </h1>
+        <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-black"></span>
+      </div>
 
-      <div className="lg:container  mx-auto pt-8 pb-16">
+      <div className="lg:container border mx-auto pt-8 pb-16">
         <Swiper
           modules={[Autoplay]}
           slidesPerView={4}
@@ -50,7 +54,7 @@ export default function Clients() {
         >
           {logos.map((x, index) => (
             <SwiperSlide key={index}>
-              <div className="h-36 w-auto relative cursor-pointer">
+              <div className="h-36 w-auto border relative cursor-pointer">
                 <Image
                   layout="fill"
                   alt=""

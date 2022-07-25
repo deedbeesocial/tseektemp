@@ -54,8 +54,8 @@ function About() {
         <div className="p-4 md:container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-16">
             <div className="w-auto pb-8">
-              <h1 className="text-4xl tracking-wide  text-green-900">
-                THE COMPANY
+              <h1 className="text-4xl text-center tracking-wide  text-green-900">
+                The Company
               </h1>
               <p className="prose pt-8">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -89,8 +89,8 @@ function About() {
         className="p-4 md:container mx-auto md:pt-12 text-zinc-900"
         id="core-values"
       >
-        <h1 className="text-4xl tracking-wide  text-green-900">
-          CORE VALUES
+        <h1 className="text-4xl tracking-wide text-center  text-green-900">
+          Core Values
         </h1>
         <p className="md:pt-8 pt-4">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere,
@@ -208,7 +208,7 @@ function About() {
       <div className='md:container p-4 mx-auto'>
         <h1 className="text-4xl tracking-wide  text-green-900">MEET THE TEAM</h1>
         
-        <div className="grid md:grid-cols-7 grid-cols-2 gap-2 md:py-12 py-6">
+        <div className="grid md:grid-cols-3 grid-cols-2 gap-2 md:py-12 py-6">
             {team.map(({name, image, role}, index) => (
             <div key={index} className="flex flex-col justify-start items-start rounded-sm pb-2 md:pb-0">
               <div className="w-full h-52 bg-zinc-100 shadow-sm relative">

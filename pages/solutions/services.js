@@ -1,7 +1,9 @@
+import Footprint from "../../components/footprint";
+
 function Solutions(){
  return(
     <>
-    <div className="w-full h-[600px]">Services</div>
+   
     </>
  )
 }

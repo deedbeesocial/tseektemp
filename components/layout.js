@@ -85,14 +85,14 @@ export default function Layout({ children }) {
         className={`${
           navbr
             ? "md:fixed bg-white z-50 w-full ease-in  duration-700 border-zinc-100 border-b"
-            : "w-full border-zinc-100 z-50 border-b  ease-in duration-700 "
+            : "w-full border-zinc-100 z-50 border-b    ease-in duration-700 "
         }`}
       >
         <div className="md:container mx-auto flex justify-between items-center text-zinc-900 font-sans">
           <Link href="/">
             <a className="flex">
               <div className="hidden md:block">
-                <Image src="/header.png" alt="logo" width={100} height={100} />
+                <Image src="/header.png" alt="logo" width={90} height={90} />
               </div>
               <div className="block   md:hidden">
                 <Image src="/header.png" alt="logo" width={100} height={100} />

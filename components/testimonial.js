@@ -61,13 +61,12 @@ export default function Testimonials() {
   return (
     <section className="text-black  bg-coustom1 body-font">
       <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-wrap w-full mb-20">
-          <div className="lg:w-full w-full mb-6 lg:mb-0">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-lack text-center">
-              Testimonial
-            </h1>
-            <div className="h-1 w-20 bg-bla rounded"></div>
-          </div>
+        <div className="flex gap-4 justify-center mb-8">
+          <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
+          <h1 className="text-3xl font-semibold capitalize lg:text-4xl text-black  text-center">
+            Testimonial
+          </h1>
+          <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-black"></span>
         </div>
         <div className="flex flex-wrap -m-4  justify-center py-3 ">
           <Swiper

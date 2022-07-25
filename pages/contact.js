@@ -71,8 +71,8 @@ export default function Contact() {
     <>
       <section className="pt-12 pb-12 text-zinc-900 bg-gray-100">
         <div className="md:container p-4 mx-auto">
-          <h1 className="text-4xl tracking-wide text-green-900 md:ml-4">
-            CONTACT
+          <h1 className="text-4xl tracking-wide text-green-900 md:ml-4 text-center">
+            Contact
           </h1>
 
           <div className="flex flex-col md:flex-row justify-start items-start  rounded pt-8 ">

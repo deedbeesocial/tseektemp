@@ -7,7 +7,7 @@ function Capabilities() {
         id="success-stories"
       >
         <div className="md:container p-4 mx-auto">
-          <h1 className="text-4xl tracking-wide font-light text-green-900">
+          <h1 className="text-4xl tracking-wide font-light text-center  text-black">
             Capabilities
           </h1>
           <div className="grid md:grid-cols-2 grid-cols-1 md:gap-24 gap-4 md:pt-12 pt-4">
