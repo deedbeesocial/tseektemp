@@ -284,7 +284,7 @@ function Footprint() {
                     </div>
                     <div>
                       <h2 className=" lg:w-full flex-1  lg:text-xl font-medium text-center text-black">
-                        Travel 
+                        Travel &
                         Transportation
                       </h2>
                       <div className="flex justify-center">
@@ -351,7 +351,7 @@ function Footprint() {
                     </div>
                     <div>
                       <h2 className="title-font lg:w-fit flex-1 font-medium  text-center lg:text-xl text-black">
-                     Energy  Utilities
+                     Energy And Utilities
                       </h2>
                       <div className="flex justify-center">
                         <h1 className="w-full lg:ml-0  h-[2px] bg-orange"></h1>
