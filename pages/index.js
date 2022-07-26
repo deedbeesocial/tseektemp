@@ -258,22 +258,22 @@ export default function Home() {
           </div>
           <div className="p-10">
               <ul className="grid grid-cols-3 p-5 gap-14 ">
-              <li className="mt-4 text-xl text-center lg:p-0 p-5 leading-relaxed text-white ">
+              <li className="mt-4 text-lg text-center lg:p-0 p-5 leading-relaxed text-white ">
               Cost-effective and just-in-time staffing through a strong network of technology professionals.
               </li>
-              <li className="mt-4 text-xl text-center lg:p-0 p-5 leading-relaxed text-white ">
+              <li className="mt-4 text-lg text-center lg:p-0 p-5 leading-relaxed text-white ">
               Right-sized partner for all your talent transformation needs. Build your future-ready workforce.
               </li>
-              <li className="mt-4 text-xl text-center lg:p-0 p-5 leading-relaxed text-white ">
+              <li className="mt-4 text-lg text-center lg:p-0 p-5 leading-relaxed text-white ">
               Deep expertise in digital transformations that can add disproportionate value for your business.
               </li>
-              <li className="mt-4 text-xl text-center lg:p-0 p-5 leading-relaxed text-white ">
+              <li className="mt-4 text-lg text-center lg:p-0 p-5 leading-relaxed text-white ">
               Specialists in Enterprise IT Strategy, Consulting, and Managed services via SAP and Oracle.
               </li>
-              <li className="mt-4 text-xl text-center lg:p-0 p-5 leading-relaxed text-white ">
+              <li className="mt-4 text-lg text-center lg:p-0 p-5 leading-relaxed text-white ">
               A strong portfolio of capabilities and a proven track record across 8 industries across the globe.
               </li>
-              <li className="mt-4 text-xl text-center lg:p-0 p-5 leading-relaxed text-white ">
+              <li className="mt-4 text-lg text-center lg:p-0 p-5 leading-relaxed text-white ">
               An organization driven by empathy, integrity, expertise and focused on delivering consistent value.
               </li>
               </ul>
