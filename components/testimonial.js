@@ -61,7 +61,7 @@ export default function Testimonials() {
   return (
     <section className="text-black md:pt-14 md:pb-10 pt-7 pb-5  bg-white body-font">
       <div className="container px-5  mx-auto">
-        <div className="flex gap-4 justify-center mb-8">
+        <div className="flex gap-4 justify-center mb-10">
           <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
           <h1 className="text-3xl capitalize lg:text-4xl text-black  text-center">
             Testimonials
@@ -123,7 +123,7 @@ export default function Testimonials() {
                     </div>
                   </div>
                   <div>
-                    {" "}
+                    
                     <p className="text-center  mt-4">{company}</p>
                     <p className="text-center text-sm">{position}</p>
                   </div>

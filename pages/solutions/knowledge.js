@@ -2,7 +2,8 @@ import Image from "next/image";
 function Knowledge(){
     return (
         <>
-         <div className="w-full h-72 relative ">
+        <div className="bg-coustom1">
+         <div className="w-full  h-72 relative ">
         <Image
           layout="fill"
           alt="ser"
@@ -183,7 +184,7 @@ function Knowledge(){
           </div>
         </div>
       </section>
-
+      </div>
         
         </>
     )

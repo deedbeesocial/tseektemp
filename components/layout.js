@@ -6,10 +6,9 @@ import { useEffect, useState } from "react";
 
 export default function Layout({ children }) {
   const { pathname } = useRouter();
-
   const [navbr, setNavbr] = useState(false);
   const changeBackground = () => {
-    if (window.scrollY >= 300) {
+    if (window.scrollY >= 90) {
       setNavbr(true);
     } else {
       setNavbr(false);
@@ -20,7 +19,6 @@ export default function Layout({ children }) {
     changeBackground();
     window.addEventListener("scroll", changeBackground);
   });
-
   const menu = [
     {
       name: "Home",
@@ -35,27 +33,27 @@ export default function Layout({ children }) {
         { name: "Core Team", path: "/about#core-team" },
       ],
     },
-  
+
     {
       name: "Solutions",
       path: "",
       sub: [
         { name: "Knowledge Services ", path: "/solutions/knowledge" },
         { name: "Staffing Services", path: "/solutions/staffing" },
-  
+
         { name: "IT Services", path: "/solutions/itservices" },
       ],
     },
     {
       name: "Capabilities",
       path: "",
-      
+
       sub: [
         { name: "Consulting ", path: "/capabilities#Consulting" },
         { name: "Analytics", path: "/capabilities#Analytics" },
-  
+
         { name: "Mobility", path: "/capabilities#Mobility" },
-  
+
         { name: "Cloud", path: "/capabilities#Cloud" },
         { name: "Outsourcing", path: "/capabilities#Outsourcing" },
         { name: "Upskilling", path: "/capabilities#Upskilling" },
@@ -66,8 +64,7 @@ export default function Layout({ children }) {
       name: "Courses",
       path: "/courses",
     },
-  
-    
+
     {
       name: "Careers",
       path: "/career",
@@ -80,60 +77,58 @@ export default function Layout({ children }) {
       name: "contact us",
       path: "/contact",
     },
+  ];
+  const menu2 = [
+    {
+      name2: "Home",
+      path2: "/",
+    },
 
+    {
+      name2: "About us",
+      path2: "/about",
+    },
+    {
+      name2: "Knowledge Services",
+      path2: "/solutions/knowledge",
+    },
+    {
+      name2: "Staffing Services",
+      path2: "/solutions/staffing",
+    },
+    {
+      name2: "IT Services",
+      path2: "/solutions/itservices",
+    },
+    {
+      name2: "Capabilities",
+      path2: "/capabilities",
+    },
 
-];
-const menu2 = [
-{
-  name2: "Home",
-  path2: "/",
-},
-
-  {
-    name2: "About us",
-    path2:"/about",
-  },
-  {
-    name2: "Knowledge Services",
-    path2:"/solutions/knowledge",
-  },
-  {
-    name2: "Staffing Services",
-    path2:"/solutions/staffing",
-  },
-  {
-    name2: "IT Services",
-    path2:"/solutions/itservices",
-  },
-  {
-    name2: "Capabilities",
-    path2:"/capabilities",
-  },
-  
-  {
-    name2:"Courses",
-    path2:"/courses",
-  },
-  {
-    name2:"Careers",
-    path2:"/career",
-  },
-  {
-    name2:"Blogs",
-    path2:"/blog/blogs",
-  },
-  {
-    name2:"Contact Us",
-    path2:"/contact",
-  }
-];
+    {
+      name2: "Courses",
+      path2: "/courses",
+    },
+    {
+      name2: "Careers",
+      path2: "/career",
+    },
+    {
+      name2: "Blogs",
+      path2: "/blog/blogs",
+    },
+    {
+      name2: "Contact Us",
+      path2: "/contact",
+    },
+  ];
 
   return (
     <>
       <Head>
         <title>SFJ Business Solutions</title>
       </Head>
-
+      <div className="w-full lg:h-[95px]">
       <header
         className={`${
           navbr
@@ -221,8 +216,9 @@ const menu2 = [
           </nav>
         </div>
       </header>
+      </div>
 
-      <main className="text-zinc-900 font-sans">{children}</main>
+      <main className="text-zinc-900 font-sans  ">{children}</main>
 
       <footer className="border bg-white border-t mx-auto  py-6 lg:py-8">
         <div className="grid grid-cols-2 lg:flex lg:flex-row justify-between items-start">

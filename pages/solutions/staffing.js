@@ -2,6 +2,7 @@ import Image from "next/image";
 function Staffing(){
     return (
         <>
+        <div className="bg-coustom1">
          <div className="w-full h-72 relative ">
         <Image
           layout="fill"
@@ -183,6 +184,7 @@ function Staffing(){
           </div>
         </div>
       </section>
+      </div>
         </>
     )
 }

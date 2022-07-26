@@ -156,7 +156,7 @@ export default function Home() {
       </section>
       <section className="md:pt-14 md:pb-10 text-zinc-90 bg-white">
         <div className="lg:container p-4 mx-auto">
-          <div className="flex gap-4 justify-center mb-4">
+          <div className="flex gap-4 justify-center mb-10">
             <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
             <h1 className="text-3xl  capitalize lg:text-4xl text-black  text-center">
               Our Offerings
@@ -246,30 +246,34 @@ export default function Home() {
       >
         <div className="container mx-auto  lg:rounded-lg">
           <div className="lg:w-full mx-auto flex flex-col lg:flex-row lg:gap-80 ">
-            <div className="lg:w-1/2 w-full lg:mr-9 lg:py-6 mt-6 lg:mt-0 ">
-            <div className="flex gap-4 justify-center mb-4">
+            <div className="lg:w-full w-full lg:mr-9 lg:py-6 mt-6 lg:mt-0 ">
+            <div className="lg:ml-28 w-full flex gap-4 lg:justify-left mb-12">
             <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-white"></span>
-            <h1 className="text-3xl  capitalize  text-white  text-center">
+            <h1 className="text-3xl  capitalize  text-white text-center   lg:text-right">
               Why Work With Us
             </h1>
             <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-white"></span>
           </div>
 
               <p className="mt-4 lg:p-0 p-5 leading-relaxed text-white ">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
-                adipisci beatae expedita iusto alias nostrum ipsam asperiores
-                labore commodi delectus aut, vitae maxime similique accusantium
-                voluptate. Rem reprehenderit, veritatis vel vitae delectus
-                ullam. Odio veritatis, voluptatum natus cumque doloribus
-                eligendi neque dolorum ea reiciendis sequi, nobis, inventore
-                alias iste nam optio excepturi? Voluptas cumque obcaecati magnam
-                cupiditate. Unde laboriosam distinctio eaque adipisci ut
-                exercitationem amet tempora, cupiditate aspernatur hic
-                doloremque non, dolorem debitis autem impedit explicabo optio
-                neque itaque? Tempore numquam in, quidem tempora dignissimos
-                assumenda blanditiis a repellat fuga voluptas mollitia labore
-                quisquam est sit maiores fugit reprehenderit ipsa?
+              Cost-effective and just-in-time staffing through a strong network of technology professionals.
               </p>
+              <p className="mt-4 lg:p-0 p-5 leading-relaxed text-white ">
+              Right-sized partner for all your talent transformation needs. Build your future-ready workforce.
+              </p>
+              <p className="mt-4 lg:p-0 p-5 leading-relaxed text-white ">
+              Deep expertise in digital transformations that can add disproportionate value for your business.
+              </p>
+              <p className="mt-4 lg:p-0 p-5 leading-relaxed text-white ">
+              Specialists in Enterprise IT Strategy, Consulting, and Managed services via SAP and Oracle.
+              </p>
+              <p className="mt-4 lg:p-0 p-5 leading-relaxed text-white ">
+              A strong portfolio of capabilities and a proven track record across 8 industries across the globe.
+              </p>
+              <p className="mt-4 lg:p-0 p-5 leading-relaxed text-white ">
+              An organization driven by empathy, integrity, expertise and focused on delivering consistent value.
+              </p>
+              
             </div>
           </div>
         </div>
@@ -282,14 +286,14 @@ export default function Home() {
 
       <section className="text-black md:pt-14 md:pb-10 pt-7 pb-5 body-font bg-coustom1">
         <div className="container px-5  mx-auto">
-          <div className="flex gap-6 justify-center mb-20">
+          <div className="flex gap-6 justify-center mb-10">
             <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
             <h1 className="text-3xl capitalize lg:text-4xl text-black text-center">
               Knowledge As A service
             </h1>
             <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-black"></span>
           </div>
-          <divs className="flex flex-wrap -m-4">
+          <div className="flex flex-wrap -m-4">
             {Knowledge.map(({ name, icon, description, id }) => {
               return (
                 <KnowledgeCard
@@ -301,7 +305,7 @@ export default function Home() {
                 />
               );
             })}
-          </divs>
+          </div>
           {/* <button className="flex mx-auto mt-16 text-black bg-orange border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Read more
           </button> */}
@@ -310,7 +314,7 @@ export default function Home() {
 
       <section className="text-white md:pt-14 pt-7 pb-5 md:pb-10 body-font bg-blue">
         <div className="container px-5  mx-auto">
-          <div className="flex gap-6 justify-center mb-20">
+          <div className="flex gap-6 justify-center mb-10">
             <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-white"></span>
             <h1 className="text-3xl capitalize lg:text-4xl text-white text-center">
               Talent as a service
@@ -344,7 +348,7 @@ export default function Home() {
 
       <section className="text-black bg-coustom1 body-font md:pt-14 md:pb-10 pt-7 pb-5">
         <div className="container px-5  mx-auto">
-          <div className="flex gap-4 justify-center mb-4">
+          <div className="flex gap-4 justify-center mb-10">
             <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
             <h1 className="text-3xl  capitalize lg:text-4xl text-black  text-center">
               Blogs
@@ -375,7 +379,7 @@ export default function Home() {
                     </h1>
                     <p className="leading-relaxed mt-10 text-left ">{desc}</p>
                   </div>
-                  <div className="flex justify-center">
+                  <div className="flex justify-center mt-4">
                     <Link href={"/blog/blogs"}>
                       <p className="text-black  p-2 font-bold ease-in duration-300 rounded-md  hover:bg-orange  flex justify-center items-center text-left hover:cursor-pointer">
                         Read More

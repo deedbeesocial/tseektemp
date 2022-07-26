@@ -12,7 +12,7 @@ function KnowledgeCard({name,icon,description,id}) {
                 <p className="leading-relaxed text-black text-center">
                  {description }
                 </p>
-                <div className="flex justify-center">
+                <div className="flex justify-center mt-4">
                     <Link href={"/solutions/knowledge.js"}>
                       <p className="text-black  p-2 font-bold ease-in duration-300 rounded-md  hover:bg-orange  flex justify-center items-center text-left hover:cursor-pointer">
                         Learn More

@@ -121,7 +121,7 @@ export default function Blogs() {
                       {desc}
                     </p>
                   </div>
-                  <div className="flex justify-center">
+                  <div className="flex justify-center mt-6 ">
                     <Link href={"/blog/blogs"}>
                       <p className="text-black  p-2 font-bold ease-in duration-300 rounded-md  hover:bg-orange  flex justify-center items-center text-left hover:cursor-pointer">
                         Read More

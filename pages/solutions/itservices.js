@@ -2,7 +2,8 @@ import Image from "next/image";
 function Itservices(){
     return (
         <>
-         <div className="w-full h-72 relative ">
+        <div className="bg-coustom1">
+         <div className="w-full bg-coustom1 h-72 relative ">
         <Image
           layout="fill"
           alt="ser"
@@ -183,6 +184,7 @@ function Itservices(){
           </div>
         </div>
       </section>
+      </div>
         </>
     )
 }

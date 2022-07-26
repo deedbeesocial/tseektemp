@@ -49,7 +49,7 @@ function CoursesCard({ id, title, description }) {
                       onClick={() =>
                         setExpanded1((prevExpanded) => !prevExpanded)
                       }
-                      className="flex mx-auto mt-16 text-white bg-green border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg "
+                      className="flex mx-auto mt-16 text-white bg-green border-0 py-2 px-8 focus:outline-none hover:bg-orange ease-in duration-300 hover:text-black rounded text-lg "
                     >
                       Apply
                     </button>

@@ -48,7 +48,8 @@ function About() {
   ];
   return (
     <>
-      <section className="md:py-12 text-white bg-blue" id="the-company">
+    
+      <section className="md:pt-14 text-white bg-blue" id="the-company" >
         <div className="p-4 md:container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-16">
             <div className="w-auto  pb-10">
@@ -82,10 +83,13 @@ function About() {
           </div>
         </div>
       </section>
-
+      
+      
+      
+      <div className="w-full h-[100px]"id="core-values" ></div>
       <section
-        className="p-4 md:container mx-auto md:pt-14  text-zinc-900"
-        id="core-values"
+        className=" md:container mx-auto md: text-zinc-900"
+        
       >
         <h1 className="text-4xl tracking-wide text-center  text-green-900">
           Core Values
@@ -99,7 +103,7 @@ function About() {
           voluptatem obcaecati, molestiae quod veniam aut rerum repudiandae.
         </p>
 
-        <div className="md:pt-8 pt-4 grid md:grid-cols-5 grid-cols-1 md:gap-8 gap-4">
+        <div className="md:pt-12 pt-4 grid md:grid-cols-5 grid-cols-1 md:gap-8 gap-4">
           <div className="flex flex-col">
             <div className="h-64 w-full bg-zinc-200 relative">
               <Image
@@ -205,8 +209,8 @@ function About() {
         </div>
       </section>
       {/* core teaaaaaaaaaaaaaaaaaaaaaaam */}
-
-      <section className="bg-coustom1 md:pt-14 md:pb-10 " id="core-team">
+        <div className="w-full h-[50px]" id="core-team"></div>
+      <section className="bg-coustom1 md:pt-24 md:pb-10 " >
         <div className="container px-6  mx-auto">
           <h1 className="text-3xl text-center text-black capitalize lg:text-4xl ">
             Our Team
