@@ -4,7 +4,7 @@ function Capabilities() {
     <>
       <section
         className="pt-14 pb-10 text-zinc-900 bg-coustom1"
-        id="success-stories"
+        id="Capabilities"
       >
         <div className="md:container p-4 mx-auto" id="Consulting">
           <h1 className="text-4xl tracking-wide font-light text-center  text-black">

@@ -35,26 +35,27 @@ export default function Layout({ children }) {
         { name: "Core Team", path: "/about#core-team" },
       ],
     },
-
+  
     {
       name: "Solutions",
       path: "",
       sub: [
         { name: "Knowledge Services ", path: "/solutions/knowledge" },
         { name: "Staffing Services", path: "/solutions/staffing" },
-
+  
         { name: "IT Services", path: "/solutions/itservices" },
       ],
     },
     {
       name: "Capabilities",
       path: "",
+      
       sub: [
         { name: "Consulting ", path: "/capabilities#Consulting" },
         { name: "Analytics", path: "/capabilities#Analytics" },
-
+  
         { name: "Mobility", path: "/capabilities#Mobility" },
-
+  
         { name: "Cloud", path: "/capabilities#Cloud" },
         { name: "Outsourcing", path: "/capabilities#Outsourcing" },
         { name: "Upskilling", path: "/capabilities#Upskilling" },
@@ -65,7 +66,7 @@ export default function Layout({ children }) {
       name: "Courses",
       path: "/courses",
     },
-
+  
     
     {
       name: "Careers",
@@ -79,7 +80,53 @@ export default function Layout({ children }) {
       name: "contact us",
       path: "/contact",
     },
-  ];
+
+
+];
+const menu2 = [
+{
+  name2: "Home",
+  path2: "/",
+},
+
+  {
+    name2: "About us",
+    path2:"/about",
+  },
+  {
+    name2: "Knowledge Services",
+    path2:"/solutions/knowledge",
+  },
+  {
+    name2: "Staffing Services",
+    path2:"/solutions/staffing",
+  },
+  {
+    name2: "IT Services",
+    path2:"/solutions/itservices",
+  },
+  {
+    name2: "Capabilities",
+    path2:"/capabilities",
+  },
+  
+  {
+    name2:"Courses",
+    path2:"/courses",
+  },
+  {
+    name2:"Careers",
+    path2:"/career",
+  },
+  {
+    name2:"Blogs",
+    path2:"/blog/blogs",
+  },
+  {
+    name2:"Contact Us",
+    path2:"/contact",
+  }
+];
 
   return (
     <>
@@ -161,10 +208,10 @@ export default function Layout({ children }) {
             <div className="bg-transparent w-auto absolute top-6 right-0 flex-col z-50 rounded-sm invisible group-active:visible group-hover:visible transition-all">
               <div className="pt-4 w-auto">
                 <div className="w-full shadow-md">
-                  {menu.map(({ name, path }, index) => (
-                    <Link key={index} href={path}>
+                  {menu2.map(({ name2, path2 }, index) => (
+                    <Link key={index} href={path2}>
                       <a className="w-48 hover:bg-green-100 px-4 bg-white inline-flex p-2 normal-case text-md whitespace-nowrap border-b border-t border-black-100">
-                        {name}
+                        {name2}
                       </a>
                     </Link>
                   ))}

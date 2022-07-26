@@ -34,7 +34,7 @@ export default function Career() {
   return (
     <div className="bg-coustom1">
      
-     <div className="w-full h-72 relative bg-coustom1 ">
+     <div className="w-full h-80 relative bg-coustom1 ">
         <Image
           layout="fill"
           alt="ser"
@@ -42,9 +42,9 @@ export default function Career() {
           objectFit="cover "
         />
         <div className="w-full    h-full  flex  justify-center">
-          <div className="text-white relative md:container max-auto  h-full flex justify-center items-center">
+          <div className="text-white relative    h-full flex justify-center items-center">
             <h1 className=" text-4xl   text-bold  w-full     text-white">
-               <br />Nothing will work unless you do
+             Careers
             </h1>
           </div>
         </div>
@@ -72,7 +72,7 @@ export default function Career() {
       <section className="text-black bg-coustom1 ">
         <div className=" container px-5 md:pt-14 md:pb-10 pt-7 pb-5 mx-auto">
           <div className="text-center mb-20">
-            <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-black mb-4">
+            <h1 className="sm:text-3xl text-2xl  text-center title-font text-black mb-4">
               Current Openings
             </h1>
           </div>

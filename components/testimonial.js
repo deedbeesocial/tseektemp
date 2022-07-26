@@ -63,8 +63,8 @@ export default function Testimonials() {
       <div className="container px-5  mx-auto">
         <div className="flex gap-4 justify-center mb-8">
           <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
-          <h1 className="text-3xl font-semibold capitalize lg:text-4xl text-black  text-center">
-            Testimonial
+          <h1 className="text-3xl capitalize lg:text-4xl text-black  text-center">
+            Testimonials
           </h1>
           <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-black"></span>
         </div>

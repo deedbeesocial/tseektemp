@@ -10,7 +10,7 @@ function Knowledge(){
           objectFit="cover "
         />
         <div className="w-full    h-full  flex  justify-center">
-          <div className="text-white relative md:container max-auto  h-full flex justify-center items-center">
+          <div className="text-white relative   h-full flex justify-center items-center">
             <h1 className=" text-4xl   text-bold  w-full     text-white">
              Knowledge Services
             </h1>

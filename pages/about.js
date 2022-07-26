@@ -208,7 +208,7 @@ function About() {
 
       <section className="bg-coustom1 md:pt-14 md:pb-10 " id="core-team">
         <div className="container px-6  mx-auto">
-          <h1 className="text-3xl font-semibold text-center text-black capitalize lg:text-4xl ">
+          <h1 className="text-3xl text-center text-black capitalize lg:text-4xl ">
             Our Team
           </h1>
 
@@ -232,7 +232,7 @@ function About() {
                 {name}
               </h1>
               <div className="flex flex-col gap-5 justify-center">
-              <p className=" text-black capitalize text-center font-bold ">
+              <p className=" text-black capitalize text-center  ">
                 {role}
               </p>
               <h1 className="md:w-[255px] h-[2px]  bg-blue mb-5"></h1>

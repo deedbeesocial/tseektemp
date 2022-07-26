@@ -28,7 +28,7 @@ export default function Clients() {
 
   return (
   <section className=" md:pt-14  pb-5 pt-7 bg-coustom1   relative">
-      <div className="flex gap-4 justify-center ">
+      <div className="flex gap-4 justify-center mb-8 ">
         <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
         <h1 className="text-3xl  capitalize lg:text-4xl text-black  text-center">
         Our Customers

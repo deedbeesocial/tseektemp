@@ -92,7 +92,7 @@ export default function Blogs() {
       <section className="text-black bg-coustom1 body-font">
         <div className="container px-5 py-14 mx-auto">
           <div className="flex flex-col flex-wrap text-center w-full mb-20 ">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-black">
+            <h1 className="sm:text-3xl text-2xl  title-font mb-4 text-black">
               Blogs
             </h1>
           </div>
@@ -114,10 +114,10 @@ export default function Blogs() {
                       ></Image>
                     </div>
 
-                    <h1 className="title-font sm:text-2xl text-xl text-left font-medium text-gray-900 mb-3">
+                    <h1 className="title-font sm:text-2xl text-xl text-left  text-gray-900 mb-3">
                       {name}
                     </h1>
-                    <p className="leading-relaxed mt-10 text-justify ">
+                    <p className="leading-relaxed mt-10 text-left ">
                       {desc}
                     </p>
                   </div>

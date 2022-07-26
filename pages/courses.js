@@ -1,7 +1,5 @@
 import Image from "next/image"
-import useCollapse from "react-collapsed";
-import { useState } from "react";
-import Careercard from "../components/careercard";
+import CoursesCard from "../components/coursescard";
 
 function Courses(){
     const careerdata = [
@@ -27,7 +25,7 @@ function Courses(){
     
     return(
         <div className="bg-coustom1">
- <div className="w-full h-72 relative ">
+ <div className="w-full h-80 relative ">
         <Image
           layout="fill"
           alt="ser"
@@ -35,7 +33,7 @@ function Courses(){
           objectFit="cover "
         />
         <div className="w-full    h-full  flex  justify-center">
-          <div className="text-white relative md:container max-auto  h-full flex justify-center items-center">
+          <div className="text-white relative   max-auto  h-full flex justify-center items-center">
             <h1 className=" text-4xl   text-bold  w-full     text-white   ">
               Courses
             </h1>
@@ -65,7 +63,7 @@ function Courses(){
       <section className="text-black ">
         <div className=" container px-5 py-16 mx-auto">
           <div className="text-center mb-20">
-            <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-black mb-4">
+            <h1 className="sm:text-3xl text-2xl  text-center title-font text-black mb-4">
             Courses Available
             </h1>
           </div>
@@ -73,7 +71,7 @@ function Courses(){
             <div className=" flex flex-col gap-4  flex-1">
               {careerdata.map(({ id, description, title }) => {
                 return (
-                  <Careercard
+                  <CoursesCard
                     key={id}
                     description={description}
                     title={title}
@@ -84,7 +82,7 @@ function Courses(){
             <div className=" flex gap-4 flex-col flex-1">
               {careerdata.map(({ id, description, title }) => {
                 return (
-                  <Careercard
+                  <CoursesCard
                     key={id}
                     description={description}
                     title={title}
@@ -104,3 +102,10 @@ function Courses(){
     )
 }
 export default Courses;
+
+
+
+
+const menu = [
+ 
+];

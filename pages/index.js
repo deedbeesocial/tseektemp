@@ -312,7 +312,7 @@ export default function Home() {
         <div className="container px-5  mx-auto">
           <div className="flex gap-6 justify-center mb-20">
             <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-white"></span>
-            <h1 className="text-3xl font-semibold capitalize lg:text-4xl text-white text-center">
+            <h1 className="text-3xl capitalize lg:text-4xl text-white text-center">
               Talent as a service
             </h1>
             <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-white"></span>
@@ -346,7 +346,7 @@ export default function Home() {
         <div className="container px-5  mx-auto">
           <div className="flex gap-4 justify-center mb-4">
             <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
-            <h1 className="text-3xl font-semibold capitalize lg:text-4xl text-black  text-center">
+            <h1 className="text-3xl  capitalize lg:text-4xl text-black  text-center">
               Blogs
             </h1>
             <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-black"></span>
