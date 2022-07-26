@@ -238,7 +238,7 @@ export default function Home() {
       <section
         className="text-black bg-green body-font  overflow-hidden lg:py-12"
         style={{
-          backgroundImage: `url(${"/whyworkwithus.jpg"})`,
+          backgroundImage: `url(${"/aiml.jpg"})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -246,37 +246,40 @@ export default function Home() {
         }}
       >
         <div className=" container mx-auto  lg:rounded-lg text-left">
-          <div className="lg:w-full mx-auto flex flex-col lg:flex-row lg:gap-80 ">
-            <div className="lg:w-full w-full lg:mr-9 lg:py-6 mt-6 lg:mt-0 ">
-            <div className="lg:ml-24 w-full flex gap-4 lg:justify-left mb-12">
+          <div className="lg:w-full mx-auto flex flex-col lg:flex-col ">
+            <div className="lg:w-full w-full lg:mr-9  mt-6 lg:mt-0 ">
+            <div className="w-full flex gap-4 lg:justify-center ">
             <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-white"></span>
-            <h1 className=" capitalize text-3xl lg:text-4xl  text-white text-center lg:text-right">
+            <h1 className=" capitalize text-3xl lg:text-4xl  text-white text-center ">
               Why Work With Us
             </h1>
             <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-white"></span>
           </div>
-              <ul className="list-disc">
-              <li className="mt-4 text-xl lg:p-0 p-5 leading-relaxed text-white ">
+          </div>
+          <div className="p-10">
+              <ul className="grid grid-cols-3 p-5 gap-14 ">
+              <li className="mt-4 text-xl text-center lg:p-0 p-5 leading-relaxed text-white ">
               Cost-effective and just-in-time staffing through a strong network of technology professionals.
               </li>
-              <li className="mt-4 text-xl lg:p-0 p-5 leading-relaxed text-white ">
+              <li className="mt-4 text-xl text-center lg:p-0 p-5 leading-relaxed text-white ">
               Right-sized partner for all your talent transformation needs. Build your future-ready workforce.
               </li>
-              <li className="mt-4 text-xl lg:p-0 p-5 leading-relaxed text-white ">
+              <li className="mt-4 text-xl text-center lg:p-0 p-5 leading-relaxed text-white ">
               Deep expertise in digital transformations that can add disproportionate value for your business.
               </li>
-              <li className="mt-4 text-xl lg:p-0 p-5 leading-relaxed text-white ">
+              <li className="mt-4 text-xl text-center lg:p-0 p-5 leading-relaxed text-white ">
               Specialists in Enterprise IT Strategy, Consulting, and Managed services via SAP and Oracle.
               </li>
-              <li className="mt-4 text-xl lg:p-0 p-5 leading-relaxed text-white ">
+              <li className="mt-4 text-xl text-center lg:p-0 p-5 leading-relaxed text-white ">
               A strong portfolio of capabilities and a proven track record across 8 industries across the globe.
               </li>
-              <li className="mt-4 text-xl lg:p-0 p-5 leading-relaxed text-white ">
+              <li className="mt-4 text-xl text-center lg:p-0 p-5 leading-relaxed text-white ">
               An organization driven by empathy, integrity, expertise and focused on delivering consistent value.
               </li>
               </ul>
+              </div>
               
-            </div>
+           
           </div>
         </div>
       </section>
