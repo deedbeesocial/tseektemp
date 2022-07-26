@@ -14,7 +14,7 @@ function Itservicescard({name,icon,description,id}) {
        {description}
         </p>
         <div className="flex justify-center mt-4">
-                    <Link href={"/solution/itsevices"}>
+                    <Link href={"/solutions/itservices"}>
                       <p className="text-white  p-2 font-bold ease-in duration-300 rounded-md hover:text-black hover:bg-orange  flex justify-center items-center text-left hover:cursor-pointer">
                        Learn More
                       </p>

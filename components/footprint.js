@@ -228,7 +228,7 @@ function Footprint() {
                 </h1>
                 <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-black"></span>
               </div>
-              <div className="grid  lg:grid-cols-4 grid-cols-2   mt-12 mb-10  h-fit gap-5 lg:gap-12 justify-center  items-center">
+              <div className="grid  lg:grid-cols-4 grid-cols-2   mt-12 mb-10  h-fit gap-5 lg:gap-10 justify-center  items-center">
                 <div className=" w-full items-start">
                   <div className=" rounded-lg flex flex-col lg:flex-row gap-4 lg:items-start justify-center">
                     <div className="flex justify-center">

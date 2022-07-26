@@ -40,7 +40,7 @@ function Courses(){
           </div>
         </div>
       </div>
-      <section className="text-black  ">
+      <section className="text-black py-10 ">
         <div className="container px-5 py-11 mx-auto">
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
@@ -61,13 +61,13 @@ function Courses(){
       </section>
 
       <section className="text-black ">
-        <div className=" container px-5 py-16 mx-auto">
-          <div className="text-center mb-20">
+        <div className=" container px-5 py-4 mx-auto">
+          <div className="text-center mb-14">
             <h1 className="sm:text-3xl text-2xl  text-center title-font text-black mb-4">
             Courses Available
             </h1>
           </div>
-          <div className="flex  lg:flex-row flex-col  w-full  gap-7 flex-wrap ">
+          <div className="flex  lg:flex-row flex-col  w-full mb-8  gap-7 flex-wrap ">
             <div className=" flex flex-col gap-4  flex-1">
               {careerdata.map(({ id, description, title }) => {
                 return (

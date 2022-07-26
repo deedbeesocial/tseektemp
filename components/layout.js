@@ -8,7 +8,7 @@ export default function Layout({ children }) {
   const { pathname } = useRouter();
   const [navbr, setNavbr] = useState(false);
   const changeBackground = () => {
-    if (window.scrollY >= 90) {
+    if (window.scrollY >= 300) {
       setNavbr(true);
     } else {
       setNavbr(false);
