@@ -28,9 +28,9 @@ export default function Layout({ children }) {
       name: "About us",
       path: "",
       sub: [
-        { name: "The Company", path: "/about#the-company" },
-        { name: "Core Values", path: "/about#core-values" },
-        { name: "Core Team", path: "/about#core-team" },
+        { name: "Who We Are", path: "/about#WhoWe-Are" },
+        { name: "Our DNA", path: "/about#our-dna" },
+        { name: "Meet Our Team", path: "/about#MeetOur-Team" },
       ],
     },
 
