@@ -12,25 +12,25 @@ export default function Slider() {
     {
       text1: "Bringing agility and scale with the right strategy",
      
-      image: "/sliderimage/slider1.jpg",
+      image: "/carosel/strategy.png",
       id: "slide1",
     },
     {
       text1: "Nurturing and empowering a future-ready workforce",
       
-      image: "/sliderimage/slider2.jpg",
+      image: "/carosel/nurture.png",
       id: "slide2",
     },
     {
       text1: "Mobilizing the right talent for your business needs",
      
-      image: "/sliderimage/slider3.jpg",
+      image: "/carosel/mobilize.png",
       id: "slide3",
     },
     {
       text1: "A thought leader and trusted partner for over a decade",
       
-      image: "/sliderimage/slider4.jpg",
+      image: "/carosel/thought.png",
       id: "slide4",
     },
   ];
