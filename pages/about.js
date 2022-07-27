@@ -92,10 +92,10 @@ function About() {
         </div>
       </section>
 
-      <div className="w-full h-[100px]" id="our-dna"></div>
+      <div className="w-full h-[100px]" id="Core-values"></div>
       <section className=" md:container mx-auto  text-black">
         <h1 className="text-4xl tracking-wide mb-10 text-center  text-green-900">
-          Our DNA
+          Core Values
         </h1>
 
         <div className="container mb-10  mx-auto">
@@ -197,7 +197,7 @@ function About() {
             {team.map(({ name, image, role, description, id }) => {
               return (
                 <div key={id} className="flex flex-col items-center p-5">
-                  <div className="relative lg:w-[400px] lg:h-[400px]  md:w-[300px] md:h-[300px] w-[200px]  h-[200px]  rounded-full">
+                  <div className="relative lg:w-[300px] lg:h-[300px]  md:w-[300px] md:h-[300px] w-[200px]  h-[200px]  rounded-full">
                     <Image
                       className="rounded-full"
                       alt="profle"
