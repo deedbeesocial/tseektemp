@@ -25,7 +25,7 @@ export default function Layout({ children }) {
       path: "/",
     },
     {
-      name: "About us",
+      name: "About",
       path: "",
       sub: [
         { name: "Who We Are", path: "/about#WhoWe-Are" },
@@ -85,7 +85,7 @@ export default function Layout({ children }) {
     },
 
     {
-      name2: "About us",
+      name2: "About",
       path2: "/about",
     },
     {

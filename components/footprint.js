@@ -79,7 +79,7 @@ function Footprint() {
     },
     {
       id: 6,
-      title: "  Energy And Utilities",
+      title: "  Energy & Utilities",
     },
     {
       id: 7,
@@ -152,7 +152,7 @@ function Footprint() {
                       <div className=" rounded-lg flex flex-col lg:flex-row gap-4 lg:items-start justify-center">
                         {/* icon */}
                         <div>
-                          <h2 className="title-font lg:w-fit flex-1 font-medium text-center   lg:text-xl text-black">
+                          <h2 className="title-font lg:w-fit  flex-1 font-medium text-center   lg:text-2xl text-black">
                             {title}
                           </h2>
                           <div className="flex justify-center">

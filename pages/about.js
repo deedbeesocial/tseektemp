@@ -55,7 +55,7 @@ function About() {
 
   return (
     <>
-      <section className="md:pt-14 text-white bg-blue "  id="WhoWe-Are">
+      <section className="md:pt-14 text-white bg-blue " id="WhoWe-Are">
         <div className="p-4 md:container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 mb-12 gap-4 md:gap-16">
             <div className="w-auto  pb-10">
@@ -79,27 +79,36 @@ function About() {
                 through our strong network of staff, consultants, trainers and
                 partners.
               </p>
+              {/* <p className="pt-8">
+              Our Mantra: Solve business challenges.Foster agility and growth.Jubilate customer success.
+              </p> */}
             </div>
-            <div className="w-full lg:h-[400px] h-[700px] md:h-[400px] relative">
+            <div className="w-full lg:h-[400px] h-[700px] md:h-[400px] relative ">
               <Image
                 className="absolute inset-0 object-cover"
                 layout="fill"
                 alt=""
-                src="/aboutus/company3.png"
+                src="/aboutus/comapany6.png"
               />
-                  <div className="w-full h-full text-white  gap-6 p-16  flex flex-col justify-center items-center absolute ">
-                    <div className="">
-                      <p className="text-center text-xl mb-2 ">Our Vision</p>
-                      <p className="text-center">To be a market leader in creating a technology workforce for the future through disruptions in upskilling and staffing. </p>
-                    </div>
-                    <div>
-                      <p className="text-center text-xl mb-2  ">Our Mission</p>
-                     <p className="text-center"> To help our customers achieve scale through innovative, agile and efficient talent transformation solutions.</p>
-                    </div>
-                    <div></div>
 
-                  </div>
-
+              <div className="w-full h-full text-black   gap-10 p-16  flex flex-col justify-center items-center absolute ">
+                <div className="">
+                  <p className="text-center text-xl mb-2 font-semibold ">Our Vision</p>
+                  <p className="text-center">
+                    To be a market leader in creating a technology workforce for
+                    the future through disruptions in upskilling and staffing.
+                  </p>
+                </div>
+                <div>
+                  <p className="text-center text-xl mb-2 font-semibold ">Our Mission</p>
+                  <p className="text-center">
+                   
+                    To help our customers achieve scale through innovative,
+                    agile and efficient talent transformation solutions.
+                  </p>
+                </div>
+                <div></div>
+              </div>
             </div>
           </div>
         </div>
@@ -116,8 +125,7 @@ function About() {
             <div className="p-4 md:w-[400px] ">
               <div className="h-full rounded-lg ">
                 <div className="h-60 w-full flex justify-center relative">
-                  <div className="w-[300px] h-full relative">
-                 
+                  <div className="w-[300px] h-full relative ">
                     <Image
                       className="absolute inset-0 object-cover"
                       layout="fill"
@@ -128,7 +136,7 @@ function About() {
                   </div>
                   <div className="absolute inset-0 "></div>
                   <div className="absolute inset-0 text-white p-8 flex items-center justify-center">
-                    <p className=" text-4xl font-bold text-white">Passion</p>
+                    <p className=" text-3xl font-semibold text-white">Passion</p>
                   </div>
                 </div>
                 <div className="mt-5 text-center ">
@@ -144,7 +152,6 @@ function About() {
               <div className="h-full flex flex-col-reverse rounded-lg ">
                 <div className="h-60 w-full flex justify-center relative">
                   <div className="w-[300px] h-full relative">
-                  
                     <Image
                       className="absolute inset-0 object-cover"
                       layout="fill"
@@ -155,7 +162,7 @@ function About() {
                   </div>
                   <div className="absolute inset-0 "></div>
                   <div className="absolute inset-0 text-white p-8 flex items-center justify-center">
-                    <p className=" text-4xl font-bold text-white">Expertise</p>
+                    <p className=" text-3xl font-semibold text-white">Expertise</p>
                   </div>
                 </div>
                 <div className="mt-5 text-center ">
@@ -171,7 +178,6 @@ function About() {
               <div className="h-full rounded-lg ">
                 <div className="h-60 w-full flex justify-center relative">
                   <div className="w-[300px] h-full relative">
-                 
                     <Image
                       className="absolute inset-0 object-cover"
                       layout="fill"
@@ -182,7 +188,7 @@ function About() {
                   </div>
                   <div className="absolute inset-0 "></div>
                   <div className="absolute inset-0  p-8 flex items-center justify-center">
-                    <p className=" text-4xl font-bold  text-white">Empathy</p>
+                    <p className=" text-3xl font-semibold  text-white">Empathy</p>
                   </div>
                 </div>
                 <div className="mt-5 text-center ">
@@ -195,8 +201,6 @@ function About() {
             </div>
           </div>
         </div>
-
-      
       </section>
       {/* core teaaaaaaaaaaaaaaaaaaaaaaam */}
       <div className="w-full h-[50px]" id="MeetOur-Team"></div>
@@ -206,7 +210,7 @@ function About() {
             Meet Our Team
           </h1>
 
-          <divs className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
+          <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
             {team.map(({ name, image, role, description, id }) => {
               return (
                 <div key={id} className="flex flex-col items-center p-5">
@@ -232,7 +236,7 @@ function About() {
                 </div>
               );
             })}
-          </divs>
+          </div>
         </div>
       </section>
     </>
