@@ -29,7 +29,7 @@ export default function Layout({ children }) {
       path: "",
       sub: [
         { name: "Who We Are", path: "/about#WhoWe-Are" },
-        { name: "Core Values", path: "/about#core-values" },
+        { name: "Core Values", path: "/about#Core-values" },
         { name: "Meet Our Team", path: "/about#MeetOur-Team" },
       ],
     },

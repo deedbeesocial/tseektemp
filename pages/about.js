@@ -80,13 +80,26 @@ function About() {
                 partners.
               </p>
             </div>
-            <div className="w-auto h-48 md:h-auto relative">
+            <div className="w-full lg:h-[400px] h-[700px] md:h-[400px] relative">
               <Image
                 className="absolute inset-0 object-cover"
                 layout="fill"
                 alt=""
-                src="/aboutus/company.png"
+                src="/aboutus/company3.png"
               />
+                  <div className="w-full h-full text-white  gap-6 p-16  flex flex-col justify-center items-center absolute ">
+                    <div className="">
+                      <p className="text-center text-xl mb-2 ">Our Vision</p>
+                      <p className="text-center">To be a market leader in creating a technology workforce for the future through disruptions in upskilling and staffing. </p>
+                    </div>
+                    <div>
+                      <p className="text-center text-xl mb-2  ">Our Mission</p>
+                     <p className="text-center"> To help our customers achieve scale through innovative, agile and efficient talent transformation solutions.</p>
+                    </div>
+                    <div></div>
+
+                  </div>
+
             </div>
           </div>
         </div>
@@ -115,7 +128,7 @@ function About() {
                   </div>
                   <div className="absolute inset-0 "></div>
                   <div className="absolute inset-0 text-white p-8 flex items-center justify-center">
-                    <p className=" text-3xl text-white">Passion</p>
+                    <p className=" text-4xl font-bold text-white">Passion</p>
                   </div>
                 </div>
                 <div className="mt-5 text-center ">
@@ -142,7 +155,7 @@ function About() {
                   </div>
                   <div className="absolute inset-0 "></div>
                   <div className="absolute inset-0 text-white p-8 flex items-center justify-center">
-                    <p className=" text-3xl text-white">Expertise</p>
+                    <p className=" text-4xl font-bold text-white">Expertise</p>
                   </div>
                 </div>
                 <div className="mt-5 text-center ">
@@ -168,8 +181,8 @@ function About() {
                     />
                   </div>
                   <div className="absolute inset-0 "></div>
-                  <div className="absolute inset-0 text-white p-8 flex items-center justify-center">
-                    <p className=" text-3xl text-white">Empathy</p>
+                  <div className="absolute inset-0  p-8 flex items-center justify-center">
+                    <p className=" text-4xl font-bold  text-white">Empathy</p>
                   </div>
                 </div>
                 <div className="mt-5 text-center ">
