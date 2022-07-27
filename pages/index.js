@@ -174,6 +174,29 @@ export default function Home() {
       text: "   An organization driven by empathy, integrity, expertise and focused on delivering consistent value.",
     },
   ];
+  const offerings = [
+    {
+      id: 1,
+      name1: " Knowledge ",
+      name2: "Services",
+      images: "/ouroffering/knowledge1.png",
+      links: "/solutions/knowledge",
+    },
+    {
+      id: 2,
+      name1: "Staffing",
+      name2: "Services",
+      images: "/ouroffering/talent1.png",
+      links: "/solutions/staffing",
+    },
+    {
+      id: 1,
+      name1: "   IT ",
+      name2: "Services",
+      images: "/ouroffering/it1.png",
+      links: "/solutions/itservices",
+    },
+  ];
 
   return (
     <>
@@ -190,77 +213,37 @@ export default function Home() {
             <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-black"></span>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-12 gap-4 pt-4 lg:pt-8">
-            <Link href="/solutions/knowledge">
-              <div className="w-auto relative">
-                <div className="relative w-full lg:h-96 h-72 flex justify-start items-end shadow-sm ease-in duration-150 hover:scale-[1.02] transition-all cursor-pointer">
-                  <Image
-                    layout="fill"
-                    alt=""
-                    objectFit="cover"
-                    src="/ouroffering/knowledge1.png"
-                  />
-                  <div className="w-full h-1/2 absolute bottom-0 left-0 right-0 from-transparent bg-gradient-to-b to-black opacity-60"></div>
+            {offerings.map(({ name1, name2, images, id, links }) => (
+              <Link href={links}>
+                <div key={id} className="w-auto relative">
+                  <div className="relative w-full lg:h-96 h-72 flex justify-start items-end shadow-sm ease-in duration-150 hover:scale-[1.02] transition-all cursor-pointer">
+                    <Image
+                      layout="fill"
+                      alt=""
+                      objectFit="cover"
+                      src={images}
+                    />
+                    <div className="w-full h-1/2 absolute bottom-0 left-0 right-0 from-transparent bg-gradient-to-b to-black opacity-60"></div>
 
-                  <div className="flex items-center justify-between z-40 w-full p-4 ">
-                    <h1 className="text-4xl tracking-wide drop-shadow-md   text-white z-10 w-full">
-                      Knowledge <br /> Services
-                    </h1>
-                    {rightIcon}
+                    <div className="flex items-center justify-between z-40 w-full p-4 ">
+                      <h1 className="text-4xl tracking-wide drop-shadow-md   text-white z-10 w-full">
+                        {name1} <br /> {name2}
+                      </h1>
+                      {rightIcon}
+                    </div>
                   </div>
                 </div>
-              </div>
-            </Link>
-
-            <Link href="/solutions/staffing">
-              <div className="w-auto relative">
-                <div className="relative w-full md:h-96 h-72 flex justify-start items-end shadow-sm ease-in duration-300 hover:scale-[1.02] transition-all cursor-pointer">
-                  <Image
-                    layout="fill"
-                    alt=""
-                    src="/ouroffering/talent1.png"
-                    className="absolute inset-0 object-cover"
-                  />
-                  <div className="w-full h-1/2 absolute bottom-0 left-0 right-0 from-transparent bg-gradient-to-b to-black opacity-60"></div>
-
-                  <div className="flex items-center justify-between z-40 w-full p-4">
-                    <h1 className="text-4xl tracking-wide drop-shadow-md  text-white z-10 w-full">
-                      Staffing <br /> Services
-                    </h1>
-                    {rightIcon}
-                  </div>
-                </div>
-              </div>
-            </Link>
-
-            <Link href="/solutions/itservices">
-              <div className="w-auto relative">
-                <div className="relative w-full md:h-96 h-72 flex justify-start items-end shadow-sm ease-linear duration-300 hover:scale-[1.02] transition-all cursor-pointer">
-                  <Image
-                    layout="fill"
-                    alt=""
-                    src="/ouroffering/it1.png"
-                    className="absolute inset-0 object-cover"
-                  />
-                  <div className="w-full h-1/2 absolute bottom-0 left-0 right-0 from-transparent bg-gradient-to-b to-black opacity-60"></div>
-
-                  <div className="flex items-center justify-between z-40 w-full p-4">
-                    <h1 className="text-4xl tracking-wide drop-shadow-md   text-white z-10 w-full">
-                      IT <br /> Services
-                    </h1>
-                    {rightIcon}
-                  </div>
-                </div>
-              </div>
-            </Link>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* clints data */}
+      {/* clints data////////////////////////////////////////////////////////// */}
       <section>
         <Clients />
       </section>
-
+      {/* whyworkwithus/////////////////////////////////////////////////// */}
       <section
         className="text-black bg-green body-font  overflow-hidden lg:py-12"
         style={{
