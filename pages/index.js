@@ -148,6 +148,32 @@ export default function Home() {
       desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis ...........",
     },
   ];
+  const whyworkwithus = [
+    {
+      id: 1,
+      text: "Cost-effective and just-in-time staffing through a strong network of technology professionals.",
+    },
+    {
+      id: 2,
+      text: "  Right-sized partner for all your talent transformation needs. Build your future-ready workforce.",
+    },
+    {
+      id: 3,
+      text: " Deep expertise in digital transformations that can add disproportionate value for your business.",
+    },
+    {
+      id: 4,
+      text: "  Specialists in Enterprise IT Strategy, Consulting, and Managed services via SAP and Oracle.",
+    },
+    {
+      id: 5,
+      text: "   A strong portfolio of capabilities and a proven track record across 8 industries across the globe.",
+    },
+    {
+      id: 6,
+      text: "   An organization driven by empathy, integrity, expertise and focused on delivering consistent value.",
+    },
+  ];
 
   return (
     <>
@@ -171,7 +197,7 @@ export default function Home() {
                     layout="fill"
                     alt=""
                     objectFit="cover"
-                    src="/services1.jpg"
+                    src="/ouroffering/knowledge1.png"
                   />
                   <div className="w-full h-1/2 absolute bottom-0 left-0 right-0 from-transparent bg-gradient-to-b to-black opacity-60"></div>
 
@@ -191,7 +217,7 @@ export default function Home() {
                   <Image
                     layout="fill"
                     alt=""
-                    src="/knowledgeserv.jpg"
+                    src="/ouroffering/talent1.png"
                     className="absolute inset-0 object-cover"
                   />
                   <div className="w-full h-1/2 absolute bottom-0 left-0 right-0 from-transparent bg-gradient-to-b to-black opacity-60"></div>
@@ -212,7 +238,7 @@ export default function Home() {
                   <Image
                     layout="fill"
                     alt=""
-                    src="/itserv.jpg"
+                    src="/ouroffering/it1.png"
                     className="absolute inset-0 object-cover"
                   />
                   <div className="w-full h-1/2 absolute bottom-0 left-0 right-0 from-transparent bg-gradient-to-b to-black opacity-60"></div>
@@ -238,48 +264,37 @@ export default function Home() {
       <section
         className="text-black bg-green body-font  overflow-hidden lg:py-12"
         style={{
-          backgroundImage: `url(${"/aiml.jpg"})`,
+          backgroundImage: `url(${"whywork.png"})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-         
         }}
       >
         <div className=" container mx-auto  lg:rounded-lg text-left">
           <div className="lg:w-full mx-auto flex flex-col lg:flex-col ">
             <div className="lg:w-full w-full lg:mr-9  mt-6 lg:mt-0 ">
-            <div className="w-full flex gap-4 lg:justify-center ">
-            <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-white"></span>
-            <h1 className=" capitalize text-3xl lg:text-4xl  text-white text-center ">
-              Why Work With Us
-            </h1>
-            <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-white"></span>
-          </div>
-          </div>
-          <div className="p-10">
-              <ul className="grid grid-cols-3 p-5 gap-14 ">
-              <li className="mt-4 text-lg text-center lg:p-0 p-5 leading-relaxed text-white ">
-              Cost-effective and just-in-time staffing through a strong network of technology professionals.
-              </li>
-              <li className="mt-4 text-lg text-center lg:p-0 p-5 leading-relaxed text-white ">
-              Right-sized partner for all your talent transformation needs. Build your future-ready workforce.
-              </li>
-              <li className="mt-4 text-lg text-center lg:p-0 p-5 leading-relaxed text-white ">
-              Deep expertise in digital transformations that can add disproportionate value for your business.
-              </li>
-              <li className="mt-4 text-lg text-center lg:p-0 p-5 leading-relaxed text-white ">
-              Specialists in Enterprise IT Strategy, Consulting, and Managed services via SAP and Oracle.
-              </li>
-              <li className="mt-4 text-lg text-center lg:p-0 p-5 leading-relaxed text-white ">
-              A strong portfolio of capabilities and a proven track record across 8 industries across the globe.
-              </li>
-              <li className="mt-4 text-lg text-center lg:p-0 p-5 leading-relaxed text-white ">
-              An organization driven by empathy, integrity, expertise and focused on delivering consistent value.
-              </li>
-              </ul>
+              <div className="w-full flex gap-4 lg:justify-center ">
+                <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-white"></span>
+                <h1 className=" capitalize text-3xl lg:text-4xl  text-white text-center ">
+                  Why Work With Us
+                </h1>
+                <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-white"></span>
               </div>
-              
-           
+            </div>
+            <div className="p-10">
+              <ul className="grid grid-cols-3 p-5 gap-14 ">
+                {whyworkwithus.map(({ text, id }) => {
+                  return (
+                    <li
+                      key={id}
+                      className="mt-4 text-lg text-center lg:p-0 p-5 leading-relaxed text-white "
+                    >
+                      {text}
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
           </div>
         </div>
       </section>
