@@ -1,5 +1,5 @@
 import Image from "next/image";
-function Staffing(){
+function Talent(){
     return (
         <>
         <div className="bg-coustom1">
@@ -13,7 +13,7 @@ function Staffing(){
         <div className="w-full    h-full  flex  justify-center">
           <div className="text-white relative  h-full flex justify-center items-center">
             <h1 className=" text-4xl   text-bold  w-full     text-white">
-              Staffing Services
+             Talent As A Service
             </h1>
           </div>
         </div>
@@ -188,4 +188,4 @@ function Staffing(){
         </>
     )
 }
-export default Staffing;
+export default Talent;

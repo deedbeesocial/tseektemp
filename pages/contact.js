@@ -75,12 +75,12 @@ export default function Contact() {
             Contact
           </h1>
 
-          <div className="flex flex-col md:flex-row justify-start items-start  rounded pt-8 ">
+          <div className="flex flex-col md:flex-row justify-between items-start rounded pt-8 ">
             <div className="md:w-2/5 w-full">
               <p className="text-2xl font-semibold upper md:ml-4">
                 SFJ BUSINESS SOLUTIONS
               </p>
-              <div className="md:grid md:grid-cols-2 flex flex-col">
+              <div className="grid gap-5 grid-cols-2 ">
                 <div className="text-base pt-8 text-black md:ml-4">
                   <p className="font-semibold">SFJ Business Solutions Pvt. Ltd.</p>
                   <p> Uma Sree Dream World, Unit -2,</p>
@@ -125,7 +125,7 @@ export default function Contact() {
                
               </div>
             </div>
-            <div className="md:w-3/5 w-full">
+            <div className="md:w-1/2 w-full">
               <div className="md:pl-12 md:pt-0 pt-12">
                 <h2 className="text-2xl text-black ">Write to us</h2>
                 <form className="mt-8" onSubmit={sendMessage}>
@@ -169,9 +169,9 @@ export default function Contact() {
                         onChange={changeInterest}
                         className=" block w-full    lg:h-[47px] rounded-sm border-black focus:border-green-700 focus:ring focus:ring-green-100 focus:ring-opacity-50"
                       >
-                        <option>Knowledge Services</option>
-                        <option>Staffing Services </option>
-                        <option>IT Services</option>
+                        <option>Knowledge As A  Service</option>
+                        <option>Talent As A Service </option>
+                        <option>Consulting/IT Services.</option>
 
                         <option>Others</option>
                       </select>

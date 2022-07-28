@@ -13,7 +13,7 @@ function Knowledge(){
         <div className="w-full    h-full  flex  justify-center">
           <div className="text-white relative   h-full flex justify-center items-center">
             <h1 className=" text-4xl   text-bold  w-full     text-white">
-             Knowledge Services
+             Knowledge As A Service
             </h1>
           </div>
         </div>

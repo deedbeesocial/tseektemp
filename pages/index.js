@@ -177,21 +177,21 @@ export default function Home() {
   const offerings = [
     {
       id: 1,
-      name1: " Knowledge ",
-      name2: "Services",
+      name1: " Knowledge  ",
+      name2: "As A Service",
       images: "/ouroffering/knowledge1.png",
       links: "/solutions/knowledge",
     },
     {
       id: 2,
-      name1: "Staffing",
-      name2: "Services",
+      name1: "Talent ",
+      name2: "As A Service",
       images: "/ouroffering/talent1.png",
       links: "/solutions/staffing",
     },
     {
       id: 1,
-      name1: "   IT ",
+      name1: "IT  ",
       name2: "Services",
       images: "/ouroffering/it1.png",
       links: "/solutions/itservices",

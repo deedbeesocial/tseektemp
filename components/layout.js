@@ -39,7 +39,7 @@ export default function Layout({ children }) {
       path: "",
       sub: [
         { name: "Knowledge As A Service ", path: "/solutions/knowledge" },
-        { name: "Talent As A Service", path: "/solutions/staffing" },
+        { name: "Talent As A Service", path: "/solutions/talent" },
 
         { name: "IT Services", path: "/solutions/itservices" },
       ],
@@ -94,7 +94,7 @@ export default function Layout({ children }) {
     },
     {
       name2: "Talent As A Service",
-      path2: "/solutions/staffing",
+      path2: "/solutions/talent",
     },
     {
       name2: "IT Services",
