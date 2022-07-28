@@ -35,7 +35,7 @@ function  Education(){
         <div className="w-full    h-full  flex  justify-center">
           <div className="text-white relative   max-auto  h-full flex justify-center items-center">
             <h1 className=" text-4xl   text-bold  w-full     text-white   ">
-              Courses
+            Education
             </h1>
           </div>
         </div>
