@@ -5,7 +5,6 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    
     extend: {
 
       colors: {
@@ -13,7 +12,9 @@ module.exports = {
         green: "#57b33e",
         orange:"#ffb511",
         coustom1: "#f7f5f0",
-        
+      },
+      screens: {
+        '3xl': '104 0px',
       },
     },
   },

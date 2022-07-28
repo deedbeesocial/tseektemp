@@ -57,7 +57,7 @@ function About() {
     <>
       <section className="md:pt-14 text-white bg-blue " id="WhoWe-Are">
         <div className="p-4 md:container mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 xl:flex-col   mb-12 gap-4 md:gap-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2  mb-12 gap-4 md:gap-16">
             <div className="w-auto  pb-10">
               <h1 className="text-4xl text-center tracking-wide  text-green-900">
                 Who We Are
@@ -80,14 +80,14 @@ function About() {
                 partners.
               </p>
               <p className="pt-8">
-              Our  Motto: <b>S</b>olve business challenges. <b>F</b>oster agility and growth.<b>J</b>ubilate customer success.
+              Our  Motto: <b className="text-lg">S</b>olve business challenges. <b className="text-lg">F</b>oster agility and growth. <b className="text-lg">J</b>ubilate customer success.
               </p>
             </div>
-            <div className="w-full flex lg:flex-row  lg:w-full md:h-[400px] sm:flex-col md:flex-col flex-col   ">
+            <div className="w-full flex lg:flex-row  lg:w-full md:h-[400px]  sm:flex-col md:flex-col flex-col   ">
               <div className="lg:w-1/2  w-full lg:h-full  md:h-[700px]  h-[300px] relative">
                 <Image layout="fill" alt="" objectFit=" cover " src="/aboutus/visionn.png" />
 
-                <div className="w-full h-full text-white    lg:p-20  p-24 flex flex-col justify-center items-center absolute ">
+                <div className="w-full h-full text-white    lg:p-20  p-24 flex flex-col justify-center items-center relative  ">
                  
                     <p className="text-center text-xl mb-2 font-semibold ">
                       Our Vision
@@ -105,7 +105,7 @@ function About() {
               <div className="lg:w-1/2 w-full lg:h-full md:h-[700px] h-[300px] relative">
                 <Image layout="fill" alt="" objectFit=" cover  " src="/aboutus/mission.png" />
 
-                <div className="w-full h-full text-white   gap-10 lg:p-20 p-24   flex flex-col justify-center items-center absolute ">
+                <div className="w-full h-full text-white   gap-10 lg:p-20 p-24   flex flex-col justify-center items-center relative">
                   
                   <div>
                     <p className="text-center text-xl mb-2 font-semibold ">

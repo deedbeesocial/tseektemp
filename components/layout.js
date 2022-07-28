@@ -226,7 +226,7 @@ export default function Layout({ children }) {
       <main className="text-zinc-900 font-sans  ">{children}</main>
 
       <footer className="border bg-white border-t mx-auto  py-6 lg:py-8">
-        <div className="grid grid-cols-2 lg:flex lg:flex-row justify-between items-start">
+        <div className="grid grid-cols-2 lg:flex lg:flex-row justify-around items-start">
           <div className="col-span-2 pb-4 md:pb-0 ">
             <Link href="/">
               <a className="flex flex-col justify-start items-center pl-6 lg:pl-0">
@@ -243,14 +243,14 @@ export default function Layout({ children }) {
           </div>
 
           <div className="text-sm p-4 lg:p-0 pl-6  text-left">
-            <p className="font-semibold">SFJ Business Solutions Pvt. Ltd.</p>
+            <p className="font-semibold">INDIA - HEAD OFFICE</p>
             <p>Uma Sree Dream World, Unit -2,</p>
             <p>B-Block, 4th Floor, Kudlu Gate,</p>
             <p>Hosur Main Road,</p>
             <p>Bangalore – 560068. Karnataka, INDIA</p>
             <p>Tel : 080 4158333</p>
           </div>
-          <div className="text-sm p-4 lg:p-0 pl-6  text-left">
+          {/* <div className="text-sm p-4 lg:p-0 pl-6  text-left">
             <p className="font-semibold">SFJ Computers Consulting</p>
             <p>
               214, Blue Tower, Sheikh Zayed Road, <br />
@@ -262,14 +262,14 @@ export default function Layout({ children }) {
               Tel : +971 43 425125 <br />
               Fax : +971 43 425126
             </p>
-          </div>
-          <div className="text-sm p-4 lg:p-0  text-center">
+          </div> */}
+          <div className="text-sm p-4 lg:p-4  text-center">
             <p className="font-semibold">Contact</p>
             <p className="">+91-0804158333</p>
             <p className="">+971 43 425125</p>
           </div>
 
-          <div className="text-sm flex flex-col p-4 pl-6 lg:p-0  text-left ">
+          <div className="text-sm flex flex-col p-4 pl-6 lg:p-0  gap-2 text-center ">
             <Link href="/about">
               <a>About</a>
             </Link>
@@ -284,7 +284,7 @@ export default function Layout({ children }) {
             </Link>
           </div>
 
-          <div className="text-sm flex flex-col p-4 lg:p-0  text-center">
+          <div className="text-sm flex flex-col p-4 lg:p-0 gap-2 text-center">
             <Link href="/strengths">
               <a>Careers</a>
             </Link>
@@ -297,7 +297,7 @@ export default function Layout({ children }) {
           </div>
 
           <div className="col-span-2 p-4 lg:p-0 pl-6 mr-6 ">
-            <p className="font-semibold text-sm pb-2 text-zinc-500 text-center">
+            <p className="font-semibold text-sm pb-2 text-black text-center">
               Find us on
             </p>
             <div className="lg:grid-cols-2 flex justify-center gap-2 lg:inline-grid  ">
