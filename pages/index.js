@@ -214,8 +214,8 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-12 gap-4 pt-4 lg:pt-8">
             {offerings.map(({ name1, name2, images, id, links }) => (
-              <Link key={id}  href={links}>
-                <div  className="w-auto relative">
+              <Link key={id} href={links}>
+                <div className="w-auto relative">
                   <div className="relative w-full lg:h-96 h-72 flex justify-start items-end shadow-sm ease-in duration-150 hover:scale-[1.02] transition-all cursor-pointer">
                     <Image
                       layout="fill"
@@ -265,7 +265,7 @@ export default function Home() {
               </div>
             </div>
             <div className="p-10">
-              <ul className="grid grid-cols-3 p-5 gap-14 ">
+              <ul className="grid lg:grid-cols-3 grid-cols-1 lg:p-5 lg:gap-14 ">
                 {whyworkwithus.map(({ text, id }) => {
                   return (
                     <li

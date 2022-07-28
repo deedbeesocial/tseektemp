@@ -39,9 +39,35 @@ export default function Clients() {
       <div className="lg:container  mx-auto  lg:pb-5">
         <Swiper
           modules={[Autoplay]}
-          slidesPerView={4}
+          slidesPerView={3}
           spaceBetween={40}
-          slidesPerGroup={4}
+          slidesPerGroup={3}
+          breakpoints={{
+            768: {
+              slidesPerView: 4,
+              slidesPerGroup: 4,
+              spaceBetween: 20,
+              Autoplay: true,
+              loop: true,
+              speed: 800,
+
+              pagination: {
+               
+              },
+            },
+            1024: {
+              slidesPerView: 4,
+              slidesPerGroup: 4,
+              spaceBetween: 20,
+              Autoplay: true,
+              loop: true,
+              speed: 800,
+
+              pagination: {
+               
+              },
+            },
+          }}
           // breakpoints={{
           //   768: {
           //     slidesPerView: "auto",

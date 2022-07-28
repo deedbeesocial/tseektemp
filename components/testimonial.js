@@ -75,7 +75,7 @@ export default function Testimonials() {
             spaceBetween={20}
             slidesPerGroup={1}
             breakpoints={{
-              768: {
+              769: {
                 slidesPerView: 4,
                 slidesPerGroup: 4,
                 spaceBetween: 20,

@@ -57,7 +57,7 @@ function About() {
     <>
       <section className="md:pt-14 text-white bg-blue " id="WhoWe-Are">
         <div className="p-4 md:container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 mb-12 gap-4 md:gap-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:flex-col   mb-12 gap-4 md:gap-16">
             <div className="w-auto  pb-10">
               <h1 className="text-4xl text-center tracking-wide  text-green-900">
                 Who We Are
@@ -83,46 +83,57 @@ function About() {
               Our Mantra: Solve business challenges.Foster agility and growth.Jubilate customer success.
               </p> */}
             </div>
-            <div className="w-full lg:h-[400px] h-[700px] md:h-[400px] relative ">
-              <Image
-                className="absolute inset-0 object-cover"
-                layout="fill"
-                alt=""
-                src="/aboutus/comapany6.png"
-              />
+            <div className="w-full flex lg:flex-row  lg:w-full md:h-[400px] sm:flex-col md:flex-col flex-col   ">
+              <div className="lg:w-1/2  w-full lg:h-full  md:h-[700px]  h-[300px] relative">
+                <Image layout="fill" alt="" src="/aboutus/visionn.png" />
 
-              <div className="w-full h-full text-black   gap-10 p-16  flex flex-col justify-center items-center absolute ">
-                <div className="">
-                  <p className="text-center text-xl mb-2 font-semibold ">Our Vision</p>
-                  <p className="text-center">
-                    To be a market leader in creating a technology workforce for
-                    the future through disruptions in upskilling and staffing.
-                  </p>
+                <div className="w-full h-full text-white    lg:p-20  p-24 flex flex-col justify-center items-center absolute ">
+                 
+                    <p className="text-center text-xl mb-2 font-semibold ">
+                      Our Vision
+                    </p>
+                    <p className="text-center">
+                      To be a market leader in creating a technology workforce
+                      for the future through disruptions in upskilling and
+                      staffing.
+                    </p>
+           
+                  
                 </div>
-                <div>
-                  <p className="text-center text-xl mb-2 font-semibold ">Our Mission</p>
-                  <p className="text-center">
-                   
-                    To help our customers achieve scale through innovative,
-                    agile and efficient talent transformation solutions.
-                  </p>
-                </div>
-                <div></div>
               </div>
+
+              <div className="lg:w-1/2 w-full lg:h-full md:h-[700px] h-[300px] relative">
+                <Image layout="fill" alt="" src="/aboutus/mission.png" />
+
+                <div className="w-full h-full text-white   gap-10 lg:p-20 p-24   flex flex-col justify-center items-center absolute ">
+                  
+                  <div>
+                    <p className="text-center text-xl mb-2 font-semibold ">
+                      Our Mission
+                    </p>
+                    <p className="text-center">
+                      To help our customers achieve scale through innovative,
+                      agile and efficient talent transformation solutions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
             </div>
           </div>
         </div>
       </section>
 
       <div className="w-full h-[100px]" id="Core-values"></div>
-      <section className=" md:container mx-auto  text-black">
+      <section className=" lg:container mx-auto  text-black">
         <h1 className="text-4xl tracking-wide mb-10 text-center  text-green-900">
           Core Values
         </h1>
 
-        <div className="container mb-10  mx-auto">
-          <div className="flex md:flex-row flex-col gap-5 justify-center items-center">
-            <div className="p-4 md:w-[400px] ">
+        <div className="lg:container mb-10  mx-auto">
+          <div className="flex lg:flex-row  flex-col gap-5 justify-center items-center">
+            <div className="p-4 lg:w-[400px] ">
               <div className="h-full rounded-lg ">
                 <div className="h-60 w-full flex justify-center relative">
                   <div className="w-[300px] h-full relative ">
@@ -136,7 +147,9 @@ function About() {
                   </div>
                   <div className="absolute inset-0 "></div>
                   <div className="absolute inset-0 text-white p-8 flex items-center justify-center">
-                    <p className=" text-3xl font-semibold text-white">Passion</p>
+                    <p className=" text-3xl font-semibold text-white">
+                      Passion
+                    </p>
                   </div>
                 </div>
                 <div className="mt-5 text-center ">
@@ -148,7 +161,7 @@ function About() {
               </div>
             </div>
 
-            <div className="p-4 md:w-[400px] ">
+            <div className="p-4 lg:w-[400px] ">
               <div className="h-full flex flex-col-reverse rounded-lg ">
                 <div className="h-60 w-full flex justify-center relative">
                   <div className="w-[300px] h-full relative">
@@ -162,7 +175,9 @@ function About() {
                   </div>
                   <div className="absolute inset-0 "></div>
                   <div className="absolute inset-0 text-white p-8 flex items-center justify-center">
-                    <p className=" text-3xl font-semibold text-white">Expertise</p>
+                    <p className=" text-3xl font-semibold text-white">
+                      Expertise
+                    </p>
                   </div>
                 </div>
                 <div className="mt-5 text-center ">
@@ -174,7 +189,7 @@ function About() {
               </div>
             </div>
 
-            <div className="p-4 md:w-[400px] ">
+            <div className="p-4 lg:w-[400px] ">
               <div className="h-full rounded-lg ">
                 <div className="h-60 w-full flex justify-center relative">
                   <div className="w-[300px] h-full relative">
@@ -188,7 +203,9 @@ function About() {
                   </div>
                   <div className="absolute inset-0 "></div>
                   <div className="absolute inset-0  p-8 flex items-center justify-center">
-                    <p className=" text-3xl font-semibold  text-white">Empathy</p>
+                    <p className=" text-3xl font-semibold  text-white">
+                      Empathy
+                    </p>
                   </div>
                 </div>
                 <div className="mt-5 text-center ">

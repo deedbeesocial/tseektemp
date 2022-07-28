@@ -122,7 +122,7 @@ function Footprint() {
                   <div key={id} className=" w-full items-start">
                     <div className=" rounded-lg flex flex-row gap-4 lg:items-start justify-center">
                       <div>
-                        <h2 className="title-font flex-1 text-center font-medium text-3xl text-gray-900">
+                        <h2 className="title-font flex-1 text-center font-medium text-3xl text-black">
                           {name}
                         </h2>
                         <div className="flex justify-center">
@@ -145,7 +145,7 @@ function Footprint() {
                 </h1>
                 <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-black"></span>
               </div>
-              <div className="grid  lg:grid-cols-4 grid-cols-2   mt-12 mb-10  h-fit gap-5 lg:gap-10 justify-center  items-center">
+              <div className="grid  lg:grid-cols-4 grid-cols-2   mt-12 mb-10  h-fit gap-x-7 gap-y-14 lg:gap-10 justify-center  items-center">
                 {industry.map(({ title, id }) => {
                   return (
                     <div key={id} className=" w-full items-start">
