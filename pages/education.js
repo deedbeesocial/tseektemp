@@ -1,7 +1,7 @@
 import Image from "next/image"
 import CoursesCard from "../components/coursescard";
 
-function Courses(){
+function  Education(){
     const careerdata = [
         {
           id: 1,
@@ -101,11 +101,10 @@ function Courses(){
         </div>
     )
 }
-export default Courses;
+export default  Education;
 
 
 
 
-const menu = [
+
  
-];

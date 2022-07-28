@@ -38,8 +38,8 @@ export default function Layout({ children }) {
       name: "Solutions",
       path: "",
       sub: [
-        { name: "Knowledge Services ", path: "/solutions/knowledge" },
-        { name: "Staffing Services", path: "/solutions/staffing" },
+        { name: "Knowledge As A Service ", path: "/solutions/knowledge" },
+        { name: "Talent As A Service", path: "/solutions/staffing" },
 
         { name: "IT Services", path: "/solutions/itservices" },
       ],
@@ -61,8 +61,8 @@ export default function Layout({ children }) {
       ],
     },
     {
-      name: "Courses",
-      path: "/courses",
+      name: " Education",
+      path: "/education",
     },
 
     {
@@ -89,11 +89,11 @@ export default function Layout({ children }) {
       path2: "/about",
     },
     {
-      name2: "Knowledge Services",
+      name2: "Knowledge As A Service",
       path2: "/solutions/knowledge",
     },
     {
-      name2: "Staffing Services",
+      name2: "Talent As A Service",
       path2: "/solutions/staffing",
     },
     {
@@ -129,93 +129,98 @@ export default function Layout({ children }) {
         <title>SFJ Business Solutions</title>
       </Head>
       <div className="w-full lg:h-[95px]">
-      <header
-        className={`${
-          navbr
-            ? "md:fixed bg-white z-50 w-full ease-in  duration-700 border-zinc-100 border-b"
-            : "w-full border-zinc-100 z-50 border-b    ease-in duration-700 "
-        }`}
-      >
-        <div className="md:container mx-auto flex justify-between items-center text-zinc-900 font-sans">
-          <Link href="/">
-            <a className="flex">
-              <div className="hidden md:block">
-                <Image src="/header.png" alt="logo" width={90} height={90} />
-              </div>
-              <div className="block   md:hidden">
-                <Image src="/header.png" alt="logo" width={100} height={100} />
-              </div>
-              <div className="lg:pl-2 lg:flex  text-center  py-3 flex-col justify-center ">
-                <span className="  text-black capitalize">
-                  TALENT TRANSFORMATION. SIMPLIFIED.
-                </span>
-              </div>
-            </a>
-          </Link>
+        <header
+          className={`${
+            navbr
+              ? "md:fixed bg-white z-50 w-full ease-in  duration-700 border-zinc-100 border-b"
+              : "w-full border-zinc-100 z-50 border-b    ease-in duration-700 "
+          }`}
+        >
+          <div className="md:container mx-auto flex justify-between items-center text-zinc-900 font-sans">
+            <Link href="/">
+              <a className="flex">
+                <div className="hidden md:block">
+                  <Image src="/header.png" alt="logo" width={90} height={90} />
+                </div>
+                <div className="block   md:hidden">
+                  <Image
+                    src="/header.png"
+                    alt="logo"
+                    width={100}
+                    height={100}
+                  />
+                </div>
+                <div className="lg:pl-2 lg:flex  text-center  py-3 flex-col justify-center ">
+                  <span className="  text-black capitalize">
+                    TALENT TRANSFORMATION. SIMPLIFIED.
+                  </span>
+                </div>
+              </a>
+            </Link>
 
-          <nav className="text-sm uppercase tracking-tight hidden md:block">
-            {menu.map(({ name, path, sub }, index) => (
-              <div key={index} className="group relative inline-flex ">
-                <Link href={path}>
-                  <a
-                    className={`${
-                      pathname === path &&
-                      "underline decoration-orange decoration-2  underline-offset-4 "
-                    } hover:font-bold mx-3  2xl:mx-4 transition-all`}
-                  >
-                    {name}
-                  </a>
-                </Link>
+            <nav className="text-sm uppercase tracking-tight hidden md:block">
+              {menu.map(({ name, path, sub }, index) => (
+                <div key={index} className="group relative inline-flex ">
+                  <Link href={path}>
+                    <a
+                      className={`${
+                        pathname === path &&
+                        "underline decoration-orange decoration-2  underline-offset-4 "
+                      } hover:font-bold mx-3  2xl:mx-4 transition-all`}
+                    >
+                      {name}
+                    </a>
+                  </Link>
 
-                {sub && (
-                  <div className="bg-transparent w-auto absolute top-4 left-0 flex-col z-50 rounded-sm invisible group-hover:visible transition-all">
-                    <div className="pt-4 w-auto">
-                      <div className="w-full shadow-md">
-                        {sub.map(({ name, path }, index) => (
-                          <Link key={index} href={path}>
-                            <a className="w-52 hover:font-bold px-4 bg-white inline-flex p-2 normal-case text-sm whitespace-nowrap border-b border-t border-zinc-100 hover:bg-orange">
-                              {name}
-                            </a>
-                          </Link>
-                        ))}
+                  {sub && (
+                    <div className="bg-transparent w-auto absolute top-4 left-0 flex-col z-50 rounded-sm invisible group-hover:visible transition-all">
+                      <div className="pt-4 w-auto">
+                        <div className="w-full shadow-md">
+                          {sub.map(({ name, path }, index) => (
+                            <Link key={index} href={path}>
+                              <a className="w-52 hover:font-bold px-4 bg-white inline-flex p-2 normal-case text-sm whitespace-nowrap border-b border-t border-zinc-100 hover:bg-orange">
+                                {name}
+                              </a>
+                            </Link>
+                          ))}
+                        </div>
                       </div>
                     </div>
+                  )}
+                </div>
+              ))}
+            </nav>
+
+            <nav className="block md:hidden mr-2 p-2 relative group">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                  clipRule="evenodd"
+                />
+              </svg>
+
+              <div className="bg-transparent w-auto absolute top-6 right-0 flex-col z-50 rounded-sm invisible group-active:visible group-hover:visible transition-all">
+                <div className="pt-4 w-auto">
+                  <div className="w-full shadow-md">
+                    {menu2.map(({ name2, path2 }, index) => (
+                      <Link key={index} href={path2}>
+                        <a className="w-48 hover:bg-green-100 px-4 bg-white inline-flex p-2 normal-case text-md whitespace-nowrap border-b border-t border-black-100">
+                          {name2}
+                        </a>
+                      </Link>
+                    ))}
                   </div>
-                )}
-              </div>
-            ))}
-          </nav>
-
-          <nav className="block md:hidden mr-2 p-2 relative group">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                fillRule="evenodd"
-                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                clipRule="evenodd"
-              />
-            </svg>
-
-            <div className="bg-transparent w-auto absolute top-6 right-0 flex-col z-50 rounded-sm invisible group-active:visible group-hover:visible transition-all">
-              <div className="pt-4 w-auto">
-                <div className="w-full shadow-md">
-                  {menu2.map(({ name2, path2 }, index) => (
-                    <Link key={index} href={path2}>
-                      <a className="w-48 hover:bg-green-100 px-4 bg-white inline-flex p-2 normal-case text-md whitespace-nowrap border-b border-t border-black-100">
-                        {name2}
-                      </a>
-                    </Link>
-                  ))}
                 </div>
               </div>
-            </div>
-          </nav>
-        </div>
-      </header>
+            </nav>
+          </div>
+        </header>
       </div>
 
       <main className="text-zinc-900 font-sans  ">{children}</main>
@@ -238,46 +243,53 @@ export default function Layout({ children }) {
           </div>
 
           <div className="text-sm p-4 lg:p-0 pl-6  text-left">
-            <p className="font-semibold">INDIA - HEAD OFFICE</p>
-            <p>NASH SQUARE, R-22 3rd cross</p>
-            <p>Electronics City Phase 1</p>
-            <p>Hosur Main Road, KudluGate,</p>
-            <p>Bengaluru, Karnataka 560100</p>
+            <p className="font-semibold">SFJ Business Solutions Pvt. Ltd.</p>
+            <p>Uma Sree Dream World, Unit -2,</p>
+            <p>B-Block, 4th Floor, Kudlu Gate,</p>
+            <p>Hosur Main Road,</p>
+            <p>Bangalore – 560068. Karnataka, INDIA</p>
+            <p>Tel : 080 4158333</p>
           </div>
           <div className="text-sm p-4 lg:p-0 pl-6  text-left">
-            <p className="font-semibold">INDIA - MUMBAI OFFICE</p>
-            <p>B wing 607, Kailash Business Park,</p>
-            <p>Road: Veer Savarker Marg,</p>
-            <p>Vikhroli West,</p>
-            <p>Mumbai - 400079 Maharashtra, INDIA.</p>
+            <p className="font-semibold">SFJ Computers Consulting</p>
+            <p>
+              214, Blue Tower, Sheikh Zayed Road, <br />
+              (Next To Crown Plaza Hotel){" "}
+            </p>
+            <p>P.O. Box : 58575</p>
+            <p>Dubai, UAE</p>
+            <p>
+              Tel : +971 43 425125 <br />
+              Fax : +971 43 425126
+            </p>
           </div>
           <div className="text-sm p-4 lg:p-0  text-center">
             <p className="font-semibold">Contact</p>
-            <p className="">+91-9591059023</p>
-            <p className="">0000000000</p>
+            <p className="">+91-0804158333</p>
+            <p className="">+971 43 425125</p>
           </div>
 
-          <div className="text-sm flex flex-col p-4 pl-6 lg:p-0 text-center text-left ">
+          <div className="text-sm flex flex-col p-4 pl-6 lg:p-0  text-left ">
             <Link href="/about">
-              <a>About Us</a>
+              <a>About</a>
             </Link>
             <Link href="/services">
               <a>Solutions</a>
             </Link>
             <Link href="/products">
-              <a>Approach</a>
+              <a>Capabilities</a>
             </Link>
             <Link href="/team">
-              <a>Projects</a>
+              <a>Education</a>
             </Link>
           </div>
 
           <div className="text-sm flex flex-col p-4 lg:p-0  text-center">
             <Link href="/strengths">
-              <a>Blogs</a>
+              <a>Careers</a>
             </Link>
             <Link href="/facilities">
-              <a>Careers</a>
+              <a>Blogs</a>
             </Link>
             <Link href="/customers">
               <a>Contact Us</a>

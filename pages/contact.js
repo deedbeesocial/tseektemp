@@ -80,26 +80,49 @@ export default function Contact() {
               <p className="text-2xl font-semibold upper md:ml-4">
                 SFJ BUSINESS SOLUTIONS
               </p>
+              <div className="md:grid md:grid-cols-2 flex flex-col">
+                <div className="text-base pt-8 text-black md:ml-4">
+                  <p className="font-semibold">SFJ Business Solutions Pvt. Ltd.</p>
+                  <p> Uma Sree Dream World, Unit -2,</p>
+                  <p>B-Block, 4th Floor, Kudlu Gate,</p>
+                  <p>Hosur Main Road,</p>
+                  <p>Bangalore – 560068. Karnataka, INDIA</p>
+                  <p>Tel : 080 4158333</p>
+                  <p></p>
+                </div>
+                <div className="text-base pt-8 text-black md:ml-4">
+                  <p className="font-semibold">SFJ Business Solutions Sdn. Bhd.</p>
+                  <p>Suite 23, 1B-15, Block 18, </p>
+                  <p>Level 15, Plaza Sentral,</p>
+                  <p>Jalan Stesen Sentral 5,</p>
+                  <p>50470 Kuala Lumpur, Malaysia</p>
+                  <p>Tel :  +603-9236 1125</p>
+                  <p>Fax : +603-9236 1122</p>
+                </div>
+                <div className="text-base pt-8 text-black md:ml-4">
+                  <p className="font-semibold">SFJ Computers Consulting</p>
+                  <p>
+                    214, Blue Tower, Sheikh Zayed Road,
+                  
+                    (Next To Crown Plaza Hotel)
+                  </p>
+                  <p>P.O. Box : 58575, Dubai, UAE</p>
+                  <p></p>
+                  <p>Tel : +971 43 425125</p>
+                  <p>Fax : +971 43 425126</p>
+                  
+                </div>
 
-              <div className="text-base pt-8 text-black md:ml-4">
-                <p className=" ">INDIA - HEAD OFFICE</p>
-                <p> NASH SQUARE, R-22 3rd cross</p>
-                <p>Electronics City Phase 1,</p>
-                <p>
-                  1st Floor Opposite to Prathik Tech Park, above Canara Bank,
-                </p>
-                <p>Bengaluru, Karnataka 560100</p>
-                <p>Phone: +91 -09591059023 </p>
-                <p></p>
-              </div>
-              <div className="text-base pt-8 text-black md:ml-4">
-                <p className=" ">INDIA - MUMBAI OFFICE</p>
-                <p> B wing 607, Kailash Business Park</p>
-                <p>Road: Veer Savarker Marg,,</p>
-                <p>Vikhroli West</p>
-                <p>Mumbai - 400079 Maharashtra, INDIA.</p>
-                <p>Phone: +91 -09591059023 </p>
-                <p></p>
+                <div className="text-base pt-8 text-black md:ml-4">
+                  <p className="font-semibold">SFJ Business Solutions Pte. Ltd.</p>
+                  <p>35 Selegie Road, #09-02,</p>
+                  <p>Parklane Shopping Mall,</p>
+                  <p>Singapore – 188367</p>
+                  <p>Email : sales@sfjbs.com</p>
+                 
+                </div>
+
+               
               </div>
             </div>
             <div className="md:w-3/5 w-full">

@@ -79,13 +79,13 @@ function About() {
                 through our strong network of staff, consultants, trainers and
                 partners.
               </p>
-              {/* <p className="pt-8">
-              Our Mantra: Solve business challenges.Foster agility and growth.Jubilate customer success.
-              </p> */}
+              <p className="pt-8">
+              Our  Motto: <b>S</b>olve business challenges. <b>F</b>oster agility and growth.<b>J</b>ubilate customer success.
+              </p>
             </div>
             <div className="w-full flex lg:flex-row  lg:w-full md:h-[400px] sm:flex-col md:flex-col flex-col   ">
               <div className="lg:w-1/2  w-full lg:h-full  md:h-[700px]  h-[300px] relative">
-                <Image layout="fill" alt="" src="/aboutus/visionn.png" />
+                <Image layout="fill" alt="" objectFit=" cover " src="/aboutus/visionn.png" />
 
                 <div className="w-full h-full text-white    lg:p-20  p-24 flex flex-col justify-center items-center absolute ">
                  
@@ -103,7 +103,7 @@ function About() {
               </div>
 
               <div className="lg:w-1/2 w-full lg:h-full md:h-[700px] h-[300px] relative">
-                <Image layout="fill" alt="" src="/aboutus/mission.png" />
+                <Image layout="fill" alt="" objectFit=" cover  " src="/aboutus/mission.png" />
 
                 <div className="w-full h-full text-white   gap-10 lg:p-20 p-24   flex flex-col justify-center items-center absolute ">
                   
