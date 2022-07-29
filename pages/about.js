@@ -80,7 +80,7 @@ function About() {
                 partners.
               </p>
               <p className="pt-8">
-              Our  Motto: <b className="text-lg">S</b>olve business challenges. <b className="text-lg">F</b>oster agility and growth.<b className="text-lg">J</b>ubilate customer success.
+              Our  Motto: <b className="text-lg">S</b>olve business challenges. <b className="text-lg">F</b>oster agility and growth. <b className="text-lg">J</b>ubilate customer success.
               </p>
             </div>
             <div className="w-full flex lg:flex-row  lg:w-full md:h-[400px]  md:flex-col flex-col   ">
