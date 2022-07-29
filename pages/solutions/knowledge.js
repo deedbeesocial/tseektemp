@@ -7,7 +7,7 @@ function Knowledge() {
           <Image
             layout="fill"
             alt="ser"
-            src="/solutions/solution1.jpg"
+            src="/ouroffering/knowledge1.png"
             objectFit="cover "
           />
           <div className="w-full    h-full  flex  justify-center">

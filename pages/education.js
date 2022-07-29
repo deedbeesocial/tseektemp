@@ -29,7 +29,7 @@ function  Education(){
         <Image
           layout="fill"
           alt="ser"
-          src="/solutions/courses.jpg"
+          src="/edu&car/education.png"
           objectFit="cover "
         />
         <div className="w-full    h-full  flex  justify-center">

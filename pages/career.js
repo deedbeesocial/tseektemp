@@ -38,7 +38,7 @@ export default function Career() {
         <Image
           layout="fill"
           alt="ser"
-          src="/solutions/career.jpg"
+          src="/edu&car/careers.png"
           objectFit="cover "
         />
         <div className="w-full    h-full  flex  justify-center">

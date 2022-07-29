@@ -7,7 +7,7 @@ function Itservices(){
         <Image
           layout="fill"
           alt="ser"
-          src="/solutions/solution1.jpg"
+          src="/ouroffering/it1.png"
           objectFit="cover "
         />
         <div className="w-full    h-full  flex  justify-center">

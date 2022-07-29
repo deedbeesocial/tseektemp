@@ -151,7 +151,7 @@ export default function Layout({ children }) {
                   />
                 </div>
                 <div className="lg:pl-2 lg:flex  text-center  py-3 flex-col justify-center ">
-                  <span className="  text-black capitalize">
+                  <span className="text-sm  text-black capitalize">
                     TALENT TRANSFORMATION. SIMPLIFIED.
                   </span>
                 </div>
@@ -266,7 +266,7 @@ export default function Layout({ children }) {
           <div className="text-sm p-4 lg:p-4  text-center">
             <p className="font-semibold">Contact</p>
             <p className="">+91-0804158333</p>
-            <p className="">+971 43 425125</p>
+            <p className="">Email : sales@sfjbs.com</p>
           </div>
 
           <div className="text-sm flex flex-col p-4 pl-6 lg:p-0  gap-2 text-center ">

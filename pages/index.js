@@ -132,7 +132,7 @@ export default function Home() {
     {
       id: 2,
       name: "   how is ml related to block chain",
-      logo: "/aiml.jpg",
+      logo: "/aiml2.jpg",
       desc: "  Building solutions using artificial intelligence, machine learning and blockchain technologies. Artificial intelligence and machine learning ....",
     },
     {
