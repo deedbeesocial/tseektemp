@@ -248,7 +248,7 @@ export default function Layout({ children }) {
             <p>B-Block, 4th Floor, Kudlu Gate,</p>
             <p>Hosur Main Road,</p>
             <p>Bangalore – 560068. Karnataka, INDIA</p>
-            <p>Tel : 080 4158333</p>
+           
           </div>
           {/* <div className="text-sm p-4 lg:p-0 pl-6  text-left">
             <p className="font-semibold">SFJ Computers Consulting</p>
@@ -265,8 +265,8 @@ export default function Layout({ children }) {
           </div> */}
           <div className="text-sm p-4 lg:p-4  text-center">
             <p className="font-semibold">Contact</p>
-            <p className="">+91-0804158333</p>
-            <p className="">Email : sales@sfjbs.com</p>
+            <p className="">+91 80 4158333</p>
+            <p className="">sales@sfjbs.com</p>
           </div>
 
           <div className="text-sm flex flex-col p-4 pl-6 lg:p-0  gap-2 text-center ">
