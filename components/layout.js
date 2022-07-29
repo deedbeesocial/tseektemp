@@ -106,8 +106,8 @@ export default function Layout({ children }) {
     },
 
     {
-      name2: "Courses",
-      path2: "/courses",
+      name2: "Education",
+      path2: "/education",
     },
     {
       name2: "Careers",

@@ -3,7 +3,7 @@ import Image from "next/image";
 function Pagenotfound(){
     return(
         <>
-        <div className="w-screen h-screen  flex justify-center bg-blue ">
+        <div className="w-screen h-screen  flex justify-center lg:flex-row flex-col  bg-blue ">
             <div className="relative w-1/2 h-[600px] rounded-lg">
                 <Image
                     layout="fill"
