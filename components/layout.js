@@ -303,7 +303,7 @@ export default function Layout({ children }) {
             <div className="lg:grid-cols-2 flex justify-center gap-2 lg:inline-grid  ">
               <a
                 className="hover:scale-105 transition-all"
-                href="https://www.facebook.com/MadhurPharmaAndResearchLaboratories"
+                href=""
                 target="_blank"
                 rel="noreferrer"
               >
@@ -328,7 +328,7 @@ export default function Layout({ children }) {
               </a>
               <a
                 className="hover:scale-105 transition-all"
-                href="https://twitter.com/MadhurPharma"
+                href=""
                 target="_blank"
                 rel="noreferrer"
               >
@@ -353,7 +353,7 @@ export default function Layout({ children }) {
               </a>
               <a
                 className="hover:scale-105 transition-all"
-                href="https://www.linkedin.com/company/madhurpharma/"
+                href=""
                 target="_blank"
                 rel="noreferrer"
               >
@@ -383,7 +383,7 @@ export default function Layout({ children }) {
 
               <a
                 className="hover:scale-105 transition-all"
-                href="https://www.youtube.com/channel/UCrqiYW7GmXwgwtOEtjBQXxQ"
+                href=""
                 target="_blank"
                 rel="noreferrer"
               >
