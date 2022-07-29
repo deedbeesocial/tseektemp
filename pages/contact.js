@@ -87,7 +87,7 @@ export default function Contact() {
                   <p>B-Block, 4th Floor, Kudlu Gate,</p>
                   <p>Hosur Main Road,</p>
                   <p>Bangalore – 560068. Karnataka, INDIA</p>
-                  <p>Tel : 080 4158333</p>
+                  <p>Tel : +91 80 4158333</p>
                   <p></p>
                 </div>
                 <div className="text-base pt-8 text-black md:ml-4">
@@ -118,7 +118,7 @@ export default function Contact() {
                   <p>35 Selegie Road, #09-02,</p>
                   <p>Parklane Shopping Mall,</p>
                   <p>Singapore – 188367</p>
-                  <p>Email : sales@sfjbs.com</p>
+                 
                  
                 </div>
 

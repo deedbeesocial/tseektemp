@@ -264,7 +264,7 @@ export default function Layout({ children }) {
             </p>
           </div> */}
           <div className="text-sm   text-center">
-            <p className="font-semibold">Contact</p>
+            <p className="font-semibold">CONTACT</p>
             <p className="">+91 80 4158333</p>
             <p className="">sales@sfjbs.com</p>
           </div>
@@ -298,7 +298,7 @@ export default function Layout({ children }) {
 
           <div className="col-span-2 p-4 lg:p-0 pl-6 mr-6 ">
             <p className="font-semibold text-sm pb-2 text-black text-center">
-              Find us on
+              FIND US ON
             </p>
             <div className="lg:grid-cols-2 flex justify-center gap-2 lg:inline-grid  ">
               <a
