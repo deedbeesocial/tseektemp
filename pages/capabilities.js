@@ -27,9 +27,9 @@ function Capabilities() {
 
         <div className="md:container p-4 mx-auto" id="Consulting">
         
-          <div className="grid md:grid-cols-2 grid-cols-1 md:gap-x-20 gap-4 md:pt- pt-4">
+          <div className="grid lg:grid-cols-2 grid-cols-1 md:gap-x-20 gap-4 md:pt- pt-4">
             <div className="w-full h-[50px] lg:col-span-2  col-span-1 "></div>
-            <div className="w-auto h-48 md:h-auto relative">
+            <div className="w-auto h-48 lg:h-auto relative">
               <Image
                 layout="fill"
                 className="absolute h-full w-full object-cover"
@@ -80,7 +80,7 @@ function Capabilities() {
               </p>
             </div>
 
-            <div className="w-auto h-48 md:h-auto relative">
+            <div className="w-auto h-48 lg:h-auto relative">
               <Image
                 layout="fill"
                 className="absolute h-full w-full object-cover"
@@ -90,7 +90,7 @@ function Capabilities() {
             </div>
             <div className="w-full h-[100px] lg:col-span-2  col-span-1 " id="Mobility"></div>
 
-            <div className="w-auto h-48 md:h-auto relative">
+            <div className="w-auto h-48 lg:h-auto relative">
               <Image
                 layout="fill"
                 className="absolute h-full w-full object-cover"
@@ -142,7 +142,7 @@ function Capabilities() {
               </p>
             </div>
 
-            <div className="w-auto h-48 md:h-auto relative">
+            <div className="w-auto h-48 lg:h-auto relative">
               <Image
                 layout="fill"
                 className="absolute h-full w-full object-cover"
@@ -151,7 +151,7 @@ function Capabilities() {
               />
             </div>
             <div className="w-full h-[100px] lg:col-span-2  col-span-1 " id="Outsourcing"></div>
-            <div className="w-auto h-48 md:h-auto relative">
+            <div className="w-auto h-48 lg:h-auto relative">
               <Image
                 layout="fill"
                 className="absolute h-full w-full object-cover"
@@ -202,7 +202,7 @@ function Capabilities() {
               </p>
             </div>
 
-            <div className="w-auto h-48 md:h-auto relative">
+            <div className="w-auto h-48 lg:h-auto relative">
               <Image
                 layout="fill"
                 className="absolute h-full w-full object-cover"
