@@ -55,10 +55,10 @@ function About() {
 
   return (
     <>
-      <section className="md:pt-14 text-white bg-blue " id="WhoWe-Are">
-        <div className="p-4 md:container mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2  mb-12 gap-4 md:gap-16">
-            <div className="w-auto  pb-10">
+      <section className="md:pt-14 text-white  bg-blue " id="WhoWe-Are">
+        <div className="p-4 md:container flex flex-wrap gap-10 mx-auto">
+         
+            <div className="w-auto lg:min-w-[500px] flex-1 pb-10">
               <h1 className="text-4xl text-center tracking-wide  text-green-900">
                 Who We Are
               </h1>
@@ -83,10 +83,13 @@ function About() {
               Our  Motto: <b className="text-lg">S</b>olve business challenges. <b className="text-lg">F</b>oster agility and growth. <b className="text-lg">J</b>ubilate customer success.
               </p>
             </div>
-            <div className="w-full flex lg:flex-row  lg:w-full md:h-[400px]  md:flex-col flex-col   ">
-              <div className="lg:w-1/2  w-full lg:h-full  md:h-[700px]  h-[300px] relative">
+            
+            <div className="w-full flex lg:flex-row  flex-1 lg:w-full md:h-fit lg:gap-0 gap-10 items-center  md:flex-col flex-col   ">
+             
+              <div className="lg:w-1/2 max-w-[400px] flex   lg:min-w-[357px]   lg:h-full  md:h-[400px]  h-[300px] relative">
                 <Image layout="fill" alt="" objectFit=" cover " src="/aboutus/visionn.png" />
 
+               
                 <div className="w-full h-full text-white    lg:p-20  p-24 flex flex-col justify-center items-center relative ">
                  
                     <p className="text-center text-xl mb-2 font-semibold ">
@@ -102,7 +105,7 @@ function About() {
                 </div>
               </div>
 
-              <div className="lg:w-1/2 w-full lg:h-full md:h-[700px] h-[300px] relative">
+              <div className="lg:w-1/2 max-w-[400px] lg:min-w-[357px]  lg:h-full md:h-[400px] h-[300px] relative">
                 <Image layout="fill" alt="" objectFit=" cover  " src="/aboutus/mission.png" />
 
                 <div className="w-full h-full text-white   gap-10 lg:p-20 p-24   flex flex-col justify-center items-center relative">
@@ -121,7 +124,7 @@ function About() {
 
 
             </div>
-          </div>
+          
         </div>
       </section>
 

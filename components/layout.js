@@ -136,9 +136,9 @@ export default function Layout({ children }) {
               : "w-full border-zinc-100 z-50 border-b    ease-in duration-700 "
           }`}
         >
-          <div className="md:container mx-auto flex justify-between items-center text-zinc-900 font-sans">
+          <div className="md:container mx-auto flex justify-between  items-center text-zinc-900 font-sans">
             <Link href="/">
-              <a className="flex">
+              <a className="flex  justify-between lg:justify-start items-center ">
                 <div className="hidden md:block">
                   <Image src="/header.png" alt="logo" width={90} height={90} />
                 </div>
@@ -150,15 +150,16 @@ export default function Layout({ children }) {
                     height={100}
                   />
                 </div>
-                <div className="lg:pl-2 lg:flex  text-center  py-3 flex-col justify-center ">
+                
+              </a>
+            </Link>
+            <div className="lg:pl-2 lg:flex  text-center  py-3 flex-col justify-center ">
                   <span className="text-sm  text-black capitalize">
                     TALENT TRANSFORMATION. SIMPLIFIED.
                   </span>
                 </div>
-              </a>
-            </Link>
 
-            <nav className="text-sm uppercase tracking-tight hidden md:block">
+            <nav className="text-sm uppercase  tracking-tight hidden  lg:flex justify-end flex-1">
               {menu.map(({ name, path, sub }, index) => (
                 <div key={index} className="group relative inline-flex ">
                   <Link href={path}>
@@ -191,7 +192,7 @@ export default function Layout({ children }) {
               ))}
             </nav>
 
-            <nav className="block md:hidden mr-2 p-2 relative group">
+            <nav className=" lg:hidden mr-2 p-2 relative group  flex justify-end ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -263,13 +264,13 @@ export default function Layout({ children }) {
               Fax : +971 43 425126
             </p>
           </div> */}
-          <div className="text-sm   text-center">
+          <div className="text-sm lg:p-0  p-4  text-center">
             <p className="font-semibold">CONTACT</p>
             <p className="">+91 80 4158333</p>
             <p className="">sales@sfjbs.com</p>
           </div>
 
-          <div className="text-sm flex flex-col p-4 pl-6 lg:p-0   text-center ">
+          <div className="text-sm flex flex-col  pl-6 lg:p-0   text-center ">
             <Link href="/about">
               <a>About</a>
             </Link>
