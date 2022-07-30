@@ -75,14 +75,16 @@ export default function Contact() {
             Contact
           </h1>
 
-          <div className="flex flex-col md:flex-row justify-between items-start rounded pt-8 ">
-            <div className="md:w-2/5 w-full">
-              <p className="text-2xl font-semibold upper md:ml-4">
+          <div className="flex flex-col-reverse md:flex-row justify-between items-start rounded pt-8 ">
+            <d  iv className="md:w-2/5 md:mt-0 mt-10 w-full">
+              <p className="text-2xl font-semibold  md:ml-4">
                 SFJ BUSINESS SOLUTIONS
               </p>
               <div className="grid gap-5 grid-cols-2 ">
                 <div className="text-base pt-8 text-black md:ml-4">
-                  <p className="font-semibold">SFJ Business Solutions Pvt. Ltd.</p>
+                  <p className="font-semibold">
+                    SFJ Business Solutions Pvt. Ltd.
+                  </p>
                   <p> Uma Sree Dream World, Unit -2,</p>
                   <p>B-Block, 4th Floor, Kudlu Gate,</p>
                   <p>Hosur Main Road,</p>
@@ -91,40 +93,38 @@ export default function Contact() {
                   <p></p>
                 </div>
                 <div className="text-base pt-8 text-black md:ml-4">
-                  <p className="font-semibold">SFJ Business Solutions Sdn. Bhd.</p>
+                  <p className="font-semibold">
+                    SFJ Business Solutions Sdn. Bhd.
+                  </p>
                   <p>Suite 23, 1B-15, Block 18, </p>
                   <p>Level 15, Plaza Sentral,</p>
                   <p>Jalan Stesen Sentral 5,</p>
                   <p>50470 Kuala Lumpur, Malaysia</p>
-                  <p>Tel :  +603-9236 1125</p>
+                  <p>Tel : +603-9236 1125</p>
                   <p>Fax : +603-9236 1122</p>
                 </div>
                 <div className="text-base pt-8 text-black md:ml-4">
                   <p className="font-semibold">SFJ Computers Consulting</p>
                   <p>
-                    214, Blue Tower, Sheikh Zayed Road,
-                  
-                    (Next To Crown Plaza Hotel)
+                    214, Blue Tower, Sheikh Zayed Road, (Next To Crown Plaza
+                    Hotel)
                   </p>
                   <p>P.O. Box : 58575, Dubai, UAE</p>
                   <p></p>
                   <p>Tel : +971 43 425125</p>
                   <p>Fax : +971 43 425126</p>
-                  
                 </div>
 
                 <div className="text-base pt-8 text-black md:ml-4">
-                  <p className="font-semibold">SFJ Business Solutions Pte. Ltd.</p>
+                  <p className="font-semibold">
+                    SFJ Business Solutions Pte. Ltd.
+                  </p>
                   <p>35 Selegie Road, #09-02,</p>
                   <p>Parklane Shopping Mall,</p>
                   <p>Singapore – 188367</p>
-                 
-                 
                 </div>
-
-               
               </div>
-            </div>
+            </d>
             <div className="md:w-1/2 w-full">
               <div className="md:pl-12 md:pt-0 pt-12">
                 <h2 className="text-2xl text-black ">Write to us</h2>
@@ -169,7 +169,7 @@ export default function Contact() {
                         onChange={changeInterest}
                         className=" block w-full    lg:h-[47px] rounded-sm border-black focus:border-green-700 focus:ring focus:ring-green-100 focus:ring-opacity-50"
                       >
-                        <option>Knowledge As A  Service</option>
+                        <option>Knowledge As A Service</option>
                         <option>Talent As A Service </option>
                         <option>Consulting/IT Services.</option>
 
