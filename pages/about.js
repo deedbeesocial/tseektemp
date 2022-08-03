@@ -58,7 +58,7 @@ function About() {
       <section className="md:pt-14 text-white  bg-blue " id="WhoWe-Are">
         <div className="p-4 md:container flex flex-wrap gap-10 mx-auto">
          
-            <div className="w-auto lg:min-w-[500px] flex-1 pb-10">
+            <div className="w-auto lg:min-w-[700px] flex-1 pb-10">
               <h1 className="text-4xl text-center tracking-wide  text-green-900">
                 Who We Are
               </h1>
