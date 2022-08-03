@@ -86,7 +86,7 @@ function About() {
                 <p className="text-center text-xl mb-2 font-semibold ">
                   Our Vision
                 </p>
-                <p className="text-center">
+                <p className="text-center text-lg">
                   To be a market leader in creating a technology workforce for
                   the future through disruptions in upskilling and staffing.
                 </p>

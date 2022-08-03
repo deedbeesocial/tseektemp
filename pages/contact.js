@@ -82,10 +82,8 @@ export default function Contact() {
               </p>
               <div className="grid gap-5 grid-cols-2 ">
                 <div className="text-base pt-8 text-black md:ml-4">
-                  <p className="font-semibold">
-                    SFJ Business Solutions Pvt. Ltd.
-                  </p>
-                  <p>  ZENITH ENERGY SERVICES PVT</p>
+                  
+                  <p className="font-semibold">  ZENITH ENERGY SERVICES PVT</p>
                   <p>LTD, 3rd floor, Ramky Grandiose,</p>
                   <p>Gachibowli, Hyderabad -500032</p>
                   <p></p>
@@ -164,7 +162,7 @@ export default function Contact() {
                         <option> Carbon Trading</option>
 
                         <option>Others</option>
-                        <option>Others</option>
+                      
                       </select>
                     </label>
                   </div>
