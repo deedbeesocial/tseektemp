@@ -40,21 +40,21 @@ export default function Testimonials() {
       name: "  Lecture 36 Energy Efficiency - I",
       name2: "  EFFICIENT USE OF ENERGY",
       
-      desc:<iframe width="300" height="300" src="https://www.youtube.com/embed/2zWt-pBCU2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+      desc:<iframe width="300" height="300" src="https://www.youtube.com/embed/2zWt-pBCU2I" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
     },
     {
       id: 2,
       name: " MSW to Power - Waste to Energy",
       name2: "  Waste to Energy! Indian Railways converting solid waste into Biogas YouTube 480p",
       
-      desc: <iframe width="300" height="300" src="https://www.youtube.com/embed/Am1yjwG4BKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+      desc: <iframe width="300" height="300" src="https://www.youtube.com/embed/Am1yjwG4BKo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
     },
     {
       id: 3,
       name: "   What is net zero? | The Economist",
       name2: "  What is Net Zero and why is it difficult for India to achieve it?",
       
-      desc:  <iframe width="300" height="300" src="https://www.youtube.com/embed/LgWqCM7IqYE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> ,
+      desc:  <iframe width="300" height="300" src="https://www.youtube.com/embed/LgWqCM7IqYE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> ,
     },
     {
       id: 4,
@@ -62,7 +62,7 @@ export default function Testimonials() {
 
       name2: "Carbon trading",
       
-      desc: <iframe width="300" height="300" src="https://www.youtube.com/embed/Fgno9-NbtEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+      desc: <iframe width="300" height="300" src="https://www.youtube.com/embed/Fgno9-NbtEM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
     },
   ];
   

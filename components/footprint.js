@@ -210,7 +210,7 @@ function Footprint() {
                 <h1 className="text-3xl  capitalize lg:text-4xl text-black  text-center">
                 Sustainable Development Goals
                 </h1>
-                <p className="text-center mb-5 mt-5">Our services are directly aligned with 6 of UN's sustainable development goals for 2030</p>
+                <p className="text-center mb-5 mt-5">Our services are directly aligned with 6 of UN&apos;s sustainable development goals for 2030</p>
               </div>
               <div className="grid  lg:grid-cols-6 grid-cols-2 mt-8 mb-4 gap-5   justify-center   items-center">
                 {sdge.map(({ icons, title, id }) => (
