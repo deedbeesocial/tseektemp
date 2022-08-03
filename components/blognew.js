@@ -184,7 +184,7 @@ export default function Testimonials() {
 
 
               <SwiperSlide>
-              <p className="text-3xl  capitalize lg:text-4xl text-black  text-center mb-7 ">Opinions</p>
+              <p className="text-3xl  capitalize lg:text-4xl text-black  text-center mb-7 ">Blogs</p>
               <div className="flex  flex-wrap gap-1 ">
                 {blog.map(({ name, logo, id, desc }) => {
                   return (
