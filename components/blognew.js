@@ -11,27 +11,27 @@ export default function Testimonials() {
   const blog = [
     {
       id: 1,
-      name: "   how is ml related to block chain",
-      logo: "/aiml2.jpg",
-      desc: "  using AI and Big Data in Blockchain Technology: A step closer to the futureThere has been a number of changes in the IT world recently......",
+      name: "   Clarifier Drive Torque: Operating Use of Torque",
+      logo: "/news/b1.jpg",
+      desc: "  Normally a clarifier runs at one torque value for 90 to 98% of the time. This torque value could be termed the “running torque” of the clarifier.",
     },
     {
       id: 2,
-      name: "   how is ml related to block chain",
-      logo: "/aiml2.jpg",
-      desc: "  Building solutions using artificial intelligence, machine learning and blockchain technologies. Artificial intelligence and machine learning ....",
+      name: "  Rainwater Harvesting: Why simplicity is the ultimate sophistication",
+      logo: "/news/b2.png",
+      desc: "  The most common perception about soil and ground water is that there is a thick layer of dry ",
     },
     {
       id: 3,
-      name: "   how is ml related to block chain",
-      logo: "/aiandml.jpg",
-      desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis of data ........... ",
+      name: "   Monroe Ships X-Flo LT Mobile Clarifier in 2 Days for Emergency ",
+      logo: "/news/b3.jpg",
+      desc: "A Secondary Clarifier at a food processing plant required repairs. A temporary solution was needed to bypass the ",
     },
     {
       id: 4,
-      name: "   how is ml related to block chain",
+      name: " Solving the Water Crisis with SILVERON ",
       logo: "/aiandml.jpg",
-      desc: "  Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis ...........",
+      desc: " On the official invitation of Sh. Arbind Kumar Jha, Asst. Conservator of Forests at the Ranthambore National Park, our CEO Sh. Sunil Sharma ",
     },
   ];
   const blog1 = [
@@ -97,6 +97,7 @@ export default function Testimonials() {
 
     
   ];
+  
 
 
 
