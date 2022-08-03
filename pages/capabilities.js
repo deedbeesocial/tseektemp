@@ -52,7 +52,7 @@ function Capabilities() {
             <div className="w-auto">
               <h2 className="text-xl">Analytics</h2>
               <p className="prose pt-8">
-              In today’s digital business ecosystem where customers call the shots, organizations have to scramble through every data input available to acquire and retain customers. The advent of low cost storage and digital convergence have drastically impacted the way data and analytics are used by businesses. The role played by data sciences in solving business problems is fast gaining momentum and helping business improve efficiencies, business growth and move into newer territories. Our team of experts can help you in analytics discovery, roadmap definition, and transition into a data-driven organization through advanced data visualization and recommendation engines powered by BigData and Machine Learning.
+              In today&apos;s digital business ecosystem where customers call the shots, organizations have to scramble through every data input available to acquire and retain customers. The advent of low cost storage and digital convergence have drastically impacted the way data and analytics are used by businesses. The role played by data sciences in solving business problems is fast gaining momentum and helping business improve efficiencies, business growth and move into newer territories. Our team of experts can help you in analytics discovery, roadmap definition, and transition into a data-driven organization through advanced data visualization and recommendation engines powered by BigData and Machine Learning.
 
               </p>
 
@@ -101,7 +101,7 @@ function Capabilities() {
             <div className="w-auto">
               <h2 className="text-xl ">Outsourcing</h2>
               <p className="prose pt-8">
-              In this age of technology disruption, organizations are constantly riddled with the challenge of 'Changing wheels on the go' to remain competitive. This requires a clear vision and strategy for agility and scale. SFJ has an exceptional track record in managed IT services, and a customer retention ratio of over 90% over the past decade is a testimony to the disproportionate value we added to our customers' businesses. We offer application development, maintenance and support services to help stabilize and scale your business operations. Through our just-in-time and cost-effective sourcing, skilling, staffing strategies, we have helped several organizations achieve their objectives with minimal disruptions to ongoing business operations.
+              In this age of technology disruption, organizations are constantly riddled with the challenge of Changing wheels on the go to remain competitive. This requires a clear vision and strategy for agility and scale. SFJ has an exceptional track record in managed IT services, and a customer retention ratio of over 90% over the past decade is a testimony to the disproportionate value we added to our customers businesses. We offer application development, maintenance and support services to help stabilize and scale your business operations. Through our just-in-time and cost-effective sourcing, skilling, staffing strategies, we have helped several organizations achieve their objectives with minimal disruptions to ongoing business operations.
 
               </p>
 
