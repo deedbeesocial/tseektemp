@@ -182,21 +182,21 @@ export default function Home() {
       name1: "Energy ",
       name2: "Efficiency ",
       images: "/ouroffering/energy.png",
-      links: "/solutions/knowledge",
+      links: "",
     },
     {
       id: 2,
       name1: "Water",
       name2: "Management",
       images: "/ouroffering/water.png",
-      links: "/solutions/staffing",
+      links: "",
     },
     {
       id: 3,
       name1: "Renewable  ",
       name2: "Energy",
       images: "/ouroffering/solar.png",
-      links: "/solutions/itservices",
+      links: "",
     },
 
     {
@@ -204,10 +204,9 @@ export default function Home() {
       name1: "Carbon ",
       name2: "Trading",
       images: "/ouroffering/carbon.png",
-      links: "/solutions/itservices",
+      links: "",
     },
   ];
-
 
   return (
     <>
@@ -233,12 +232,12 @@ export default function Home() {
                 transitioning into a green economy.
               </p>
               <div className="flex justify-center mt-4">
-                        <Link href={"/blog/blogs"}>
-                          <p className="text-black  p-2 font-bold ease-in duration-300 rounded-md  hover:bg-orange1   flex justify-center items-center text-left hover:cursor-pointer">
-                            Read More
-                          </p>
-                        </Link>
-                      </div>
+                <Link href={""}>
+                  <p className="text-black  p-2 font-bold ease-in duration-300 rounded-md  hover:bg-orange1   flex justify-center items-center text-left hover:cursor-pointer">
+                    Read More
+                  </p>
+                </Link>
+              </div>
 
               {/* <Link href="/about">
                 <button className="mt-8 bg-yellow text-black font-bold text-xs hover:text-zinc-700 hover:bg-yellow-800 p-3 rounded-sm transition-all">
@@ -248,14 +247,14 @@ export default function Home() {
             </div>
             <div className="w-auto h-96  md:h-auto relative">
               <Image
-                className="absolute inset-0 object-cover"
+                className="absolute inset-0 brightness-50 object-cover"
                 layout="fill"
                 alt=""
                 src="/ourvison/ov.png"
               />
-              <div className="absolute left-0 top-0 bottom-0 w-full lg:w-full p-12 flex justify-center items-center flex-col">
-                <p className="text-white text-xl text-center">Our Vision</p>
-                <p className="pt-4 text-lg text-white leading-loose">
+              <div className="absolute left-0 top-0 bottom-0 w-full lg:w-full p-14 flex justify-center items-center flex-col">
+                <p className="text-white text-2xl text-center">Our Vision</p>
+                <p className="pt-4 text-xl text-white text-center leading-loose">
                   To be a leader in providing effective and innovative pathways
                   towards water and energy sustainability for businesses and
                   communities around the globe.
@@ -266,19 +265,12 @@ export default function Home() {
         </div>
       </section>
 
-
-
-
-
-
       <section className="md:pt-8 md:pb-10  text-zinc-90 bg-blue">
         <div className="lg:container p-4 mx-auto mb-8">
           <div className="flex gap-4 justify-center mb-10">
-          
             <h1 className="text-3xl  capitalize lg:text-4xl text-black  text-center">
               Our Offerings
             </h1>
-          
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-12 gap-4 pt-4 lg:pt-8">
             {offerings.map(({ name1, name2, images, id, links }) => (
@@ -307,29 +299,21 @@ export default function Home() {
         </div>
       </section>
 
-
-
-
       <section className=" bg-white">
         <div className="md:container p-4 mx-auto md:py-20 text-black">
-          <div className="grid grid-col-1 md:grid-cols-2 md:gap-16 gap-4">
-            <div className="w-auto h-96  md:h- relative">
-              <Image
-                className="absolute inset-0 object-cover"
-                layout="fill"
-                alt=""
-                src="/netzero2.png"
-              />
-              <div className="absolute left-0 top-0 bottom-0 w-full lg:w-2/3 p-12 flex justify-center items-start flex-col text-white">
-                {/* <p className="text-3xl pb-4">NetZero</p>
-                <p className="pt-4 leading-loose">
-                  To be a world-class manufacturer of personal wellness products
-                  that are a hallmark of trust for our customers and consumers
-                </p> */}
+          <div className="flex  justify-between gap-7 ">
+            <div className="w-1/2 flex-1 h-full flex  justify-end ">
+              <div className=" w-[500px]   h-[400px] relative">
+                <Image
+                  layout="fill"
+                  objectFit="cover"
+                  alt=""
+                  src="/netzero2.png"
+                />
               </div>
             </div>
-            <div className="w-auto flex flex-row lg:w-[600px] p-10 ">
-              <div>
+            <div className="w-1/2 flex-1">
+              <div className="">
                 <h1 className="text-4xl tracking-wide  ">NetZero</h1>
                 <p className="prose pt-8 ">
                   Join our flagship net zero program and drive your business
@@ -337,12 +321,19 @@ export default function Home() {
                   future. Go beyond saving costs and reducing carbon footprint.
                   Produce what you consume. Become a Prosumer.
                 </p>
+                <div className="flex justify-start mt-4">
+                  <Link href={""}>
+                    <p className="text-black  p-2 font-bold ease-in duration-300 rounded-md  hover:bg-orange1   flex justify-center items-center text-left hover:cursor-pointer">
+                      Read More
+                    </p>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      
+
       {/* whyworkwithus/////////////////////////////////////////////////// */}
       <section
         className="text-black bg-green body-font  overflow-hidden lg:py-12"
@@ -368,7 +359,7 @@ export default function Home() {
                   return (
                     <li
                       key={id}
-                      className="mt-4 text-lg lg:w-[350px] text-center lg:p-0 p-5 leading-relaxed text-white "
+                      className="mt-4 text-lg lg:w-[350px] text-center lg:p-0 p-5 font-semibold leading-relaxed text-white "
                     >
                       {text}
                     </li>
@@ -380,17 +371,15 @@ export default function Home() {
         </div>
       </section>
 
-
       {/* achievements */}
       <section>
         <Footprint />
       </section>
-      
-      
+
       <section>
         <Projectscard />
       </section>
-     
+
       <section>
         <Clients />
       </section>
@@ -399,10 +388,9 @@ export default function Home() {
         <Testimonials />
       </section>
 
-
       {/* blogs */}
 
-      <Blognew/>
+      <Blognew />
     </>
   );
 }

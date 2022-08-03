@@ -7,7 +7,7 @@ function Projectscard() {
       <section className="text-black bg-blue ">
         <div className="container px-5 pt-10 pb-24 mx-auto">
           <div className="text-center mb-20">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font text-black   mb-4">
+            <h1 className="text-3xl   title-font text-black   mb-4">
               Our Projects
             </h1>
           </div>
@@ -18,7 +18,7 @@ function Projectscard() {
                   <Image
                     layout="fill"
                     alt=""
-                    src="/projectfiles/projectimage1.jpg"
+                    src="/proj/1.png"
                     className="absolute inset-0 object-contain"
                   />
                 </div>
@@ -47,7 +47,7 @@ function Projectscard() {
                   <Image
                     layout="fill"
                     alt=""
-                    src="/projectfiles/projectimage1.jpg"
+                    src="/proj/2.png"
                     className="absolute inset-0 object-contain"
                   />
                 </div>
@@ -76,7 +76,7 @@ function Projectscard() {
                   <Image
                     layout="fill"
                     alt=""
-                    src="/projectfiles/projectimage2.jpg"
+                    src="/proj/3.png"
                     className="absolute inset-0 object-contain"
                   />
                 </div>
@@ -105,7 +105,7 @@ function Projectscard() {
                   <Image
                     layout="fill"
                     alt=""
-                    src="/projectfiles/projectimage1.jpg"
+                    src="/proj/4.png"
                     className="absolute inset-0 object-contain"
                   />
                 </div>

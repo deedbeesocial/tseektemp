@@ -56,7 +56,7 @@ export default function Slider() {
               <div className="h-[65vh] w-full relative flex justify-center items-center">
                 <Image
                 
-                  className="object-cover w-full h-full"
+                  className="object-cover brightness-50 w-full h-full"
                   layout="fill"
                   src={image}
                   alt=""

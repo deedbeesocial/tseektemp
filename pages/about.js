@@ -44,13 +44,7 @@ function About() {
       description:
         "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     },
-    {
-      name: "james",
-      image: "/about/team7.jpg",
-      role: "Head of Research",
-      description:
-        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
-    },
+   
   ];
 
   return (
@@ -59,7 +53,7 @@ function About() {
         <div className="p-4 md:container flex flex-wrap gap-10 mx-auto">
           <div className="w-auto lg:min-w-[700px] flex-1 pb-10">
             <h1 className="text-4xl text-center tracking-wide  text-black">
-              Who We Are
+             About Us
             </h1>
             <p className="prose pt-8 p-5">
               Established in 1991, Zenith is a leading sustainability solutions
@@ -76,6 +70,7 @@ function About() {
           <div className="w-full flex lg:flex-row  flex-1 lg:w-full md:h-fit lg:gap-0 gap-10 items-center  md:flex-col flex-col   ">
             <div className="lg:w-full  flex   lg:min-w-[357px]   lg:h-full  md:h-[400px]  h-[300px] relative">
               <Image
+              className="brightness-50 "
                 layout="fill"
                 alt=""
                 objectFit=" cover "
@@ -83,10 +78,10 @@ function About() {
               />
 
               <div className="w-full h-full text-white    lg:p-20  p-24 flex flex-col justify-center items-center relative ">
-                <p className="text-center text-xl mb-2 font-semibold ">
+                <p className="text-center text-2xl mb-2 font-semibold ">
                   Our Vision
                 </p>
-                <p className="text-center text-lg">
+                <p className="pt-4 text-xl text-white text-center leading-loose">
                   To be a market leader in creating a technology workforce for
                   the future through disruptions in upskilling and staffing.
                 </p>
@@ -111,7 +106,7 @@ function About() {
                   <div className="h-60 w-full flex justify-center relative">
                     <div className="w-[300px] h-full relative">
                       <Image
-                        className="absolute inset-0 object-cover"
+                        className="absolute contrast-50 inset-0 object-cover"
                         layout="fill"
                         objectFit="cover"
                         alt=""
@@ -139,7 +134,7 @@ function About() {
                   <div className="h-60 w-full flex justify-center relative">
                     <div className="w-[300px] contrast-50 h-full relative">
                       <Image
-                        className="absolute inset-0 object-cover"
+                        className="absolute contrast-50 inset-0 object-cover"
                         layout="fill"
                         objectFit="cover"
                         alt=""
@@ -168,19 +163,20 @@ function About() {
                   <div className="h-60 w-full flex justify-center  relative">
                     <div className="w-[300px] contrast-50 h-full relative ">
                       <Image
-                        className="absolute inset-0 object-cover"
+                        className="absolute contrast-50 inset-0 object-cover"
                         layout="fill"
                         objectFit="cover"
                         alt=""
                         src="/sdge/transparency.png"
                       />
                     </div>
-                    <div className="absolute inset-0 "></div>
-                    <div className="absolute inset-0 text-black p-8  items-center justify-center">
-                      <p className=" text-3xl text-center font-semibold text-white">
+                    <div className="absolute inset-0 "></div><div className="absolute inset-0 text-black p-8 flex items-center justify-center">
+                      <p className=" text-3xl font-semibold text-white">
+
                       Transparency
                       </p>
                     </div>
+                    
                   </div>
                   <div className="mt-5 text-center ">
                     <p className="leading-relaxed md:px-5 mb-3">
@@ -197,7 +193,7 @@ function About() {
                   <div className="h-60 w-full  flex justify-center relative">
                     <div className="w-[300px] contrast-50 h-full relative">
                       <Image
-                        className="absolute inset-0 object-cover"
+                        className="absolute contrast-50 inset-0 object-cover"
                         layout="fill"
                         objectFit="cover"
                         alt=""

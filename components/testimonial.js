@@ -13,7 +13,7 @@ export default function Testimonials() {
       name: "Palash Pandey",
       position: "Co-Founder",
       company: "Renaura Wellness Pvt Ltd",
-      logo: "/clients/Wipro.png",
+      logo: "/clients/client1.jpg",
       id: 1,
     },
     {
@@ -21,7 +21,7 @@ export default function Testimonials() {
       name: "Megha Kapur",
       position: "President",
       company: "Prima USA, LLC",
-      logo: "/clients/dodsal.png",
+      logo: "/clients/client2.jpg",
       id: 2,
     },
     {
@@ -29,7 +29,7 @@ export default function Testimonials() {
       name: "Mangesh Gawande",
       position: "Founder & CEO",
       company: "EarthyBlend Pvt Ltd",
-      logo: "/clients/mandieselicon.png",
+      logo: "/clients/client3.jpg",
       id: 3,
     },
     {
@@ -37,7 +37,7 @@ export default function Testimonials() {
       name: "Mangesh Gawande",
       position: "Founder & CEO",
       company: "EarthyBlend Pvt Ltd",
-      logo: "/clients/Capgemini.png",
+      logo: "/clients/client4.jpg",
       id: 4,
     },
     {
@@ -45,7 +45,7 @@ export default function Testimonials() {
       name: "Mangesh Gawande",
       position: "Founder & CEO",
       company: "EarthyBlend Pvt Ltd",
-      logo: "/clients/hcl.png",
+      logo: "/clients/client5.jpg",
       id: 5,
     },
     {
@@ -53,7 +53,7 @@ export default function Testimonials() {
       name: "Mangesh Gawande",
       position: "Founder & CEO",
       company: "EarthyBlend Pvt Ltd",
-      logo: "/clients/Accenture.png",
+      logo: "/clients/client6.jpg",
       id: 6,
     },
   ];
@@ -64,7 +64,7 @@ export default function Testimonials() {
         <div className="flex gap-4 justify-center mb-14">
          
           <h1 className="text-3xl capitalize lg:text-4xl text-black  text-center">
-           What Our Customer Says
+           What Our Customers Says
           </h1>
           
         </div>

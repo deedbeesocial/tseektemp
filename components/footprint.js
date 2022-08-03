@@ -113,10 +113,6 @@ function Footprint() {
     },{
       id: 6,
       icons:"/sdge/sdg6.png"
-    },{
-      id: 7,
-      
-      icons:"/sdge/sdg7.png"
     },
 
   ]
@@ -210,16 +206,17 @@ function Footprint() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex gap-5 justify-center ">
+              <div className="flex flex-col gap-5 justify-center ">
                 <h1 className="text-3xl  capitalize lg:text-4xl text-black  text-center">
-                SGD
+                Sustainable Development Goals
                 </h1>
+                <p className="text-center mb-5 mt-5">Our services are directly aligned with 6 of UN's sustainable development goals for 2030</p>
               </div>
-              <div className="grid  lg:grid-cols-5 grid-cols-2 mt-8 mb-4 gap-5   justify-center   items-center">
+              <div className="grid  lg:grid-cols-6 grid-cols-2 mt-8 mb-4 gap-5   justify-center   items-center">
                 {sdge.map(({ icons, title, id }) => (
                   <div key={id} className=" w-full items-start">
                     <div className=" rounded-lg flex flex-col  lg:items-center justify-center">
-                    <div className="flex items-center w-[256px] h-[160px]  relative justify-center">
+                    <div className="flex items-center w-[200px] h-[160px]  relative justify-center">
                           <div className="flex-1">
                           <Image
                             src={icons}
@@ -244,3 +241,4 @@ function Footprint() {
   );
 }
 export default Footprint;
+

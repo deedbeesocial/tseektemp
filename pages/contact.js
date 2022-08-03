@@ -80,7 +80,7 @@ export default function Contact() {
               <p className="text-2xl font-semibold  md:ml-4">
               Zenith Energy
               </p>
-              <div className="grid gap-5 grid-cols-2 ">
+              <div className="grid gap-10 grid-cols ">
                 <div className="text-base pt-8 text-black md:ml-4">
                   
                   <p className="font-semibold">  ZENITH ENERGY SERVICES PVT</p>
@@ -90,10 +90,120 @@ export default function Contact() {
                   <p>Tel : +91 9988774455</p>
                   <p>Email:Info@zenithenergy.com </p>
                 </div>
-                
-                
+                <div className="p-4 lg:p-0 pl-6 mr-6 ">
+            <p className="font-semibold text-sm pb-2 text-black text-left md:ml-4">
+              FIND US ON
+            </p>
+            <div className="lg:grid-cols-2 flex justify-center gap-4 lg:inline-grid md:ml-4">
+              <a
+                className="hover:scale-105 transition-all"
+                href=""
+                target="_blank"
+                rel="noreferrer"
+              >
+                <svg
+                  className="w-10 h-10 facebook"
+                  width="100"
+                  height="100"
+                  viewBox="0 0 187 187"
+                >
+                  <rect
+                    width="187"
+                    height="187"
+                    fill="#3b5998"
+                    rx="18"
+                    ry="18"
+                  />
+                  <path
+                    fill="#fefefe"
+                    d="M131 79l0 -12c0,-6 4,-7 6,-7 3,0 18,0 18,0l0 -27 -24 0c-27,0 -33,20 -33,32l0 14 -15 0 0 19 0 12 16 0c0,35 0,77 0,77l30 0c0,0 0,-42 0,-77l23 0 1 -12 2 -19 -24 0z"
+                  />
+                </svg>
+              </a>
+              <a
+                className="hover:scale-105 transition-all"
+                href=""
+                target="_blank"
+                rel="noreferrer"
+              >
+                <svg
+                  className="w-10 h-10 twitter"
+                  width="100"
+                  height="100"
+                  viewBox="0 0 384 384"
+                >
+                  <rect
+                    width="384"
+                    height="384"
+                    fill="#1DA1F2"
+                    rx="37"
+                    ry="37"
+                  />
+                  <path
+                    fill="#fefefe"
+                    d="M313 118c-9,4 -19,6 -29,8 11,-7 19,-16 22,-28 -9,6 -20,10 -31,12 -9,-9 -22,-15 -37,-15 -27,0 -49,22 -49,49 0,4 0,7 1,11 -41,-2 -78,-22 -102,-51 -5,7 -7,15 -7,24 0,17 9,32 22,41 -8,0 -16,-2 -23,-6 0,0 0,0 0,1 0,6 2,12 4,17 6,16 20,27 36,31 -4,1 -8,1 -13,1 -3,0 -6,0 -9,-1 6,20 25,34 46,34 -17,14 -38,21 -61,21 -5,0 -8,0 -12,0 22,14 48,22 76,22 78,0 125,-54 138,-110 2,-10 3,-20 3,-30 0,-2 0,-4 0,-6 10,-7 18,-15 25,-25z"
+                  />
+                </svg>
+              </a>
+              <a
+                className="hover:scale-105 transition-all"
+                href=""
+                target="_blank"
+                rel="noreferrer"
+              >
+                <svg
+                  className="w-10 h-10 linkedin"
+                  width="100"
+                  height="100"
+                  viewBox="0 0 201 201"
+                >
+                  <rect
+                    width="201"
+                    height="201"
+                    fill="#0072b1"
+                    rx="19"
+                    ry="19"
+                  />
+                  <polygon
+                    fill="#fefefe"
+                    points="39 102 39 162 68 162 68 97 68 80 39 80"
+                  />
+                  <path
+                    fill="#fefefe"
+                    d="M54 39c-8 0-15 7-15 15 0 7 7 14 15 14 7 0 14-7 14-14 0-8-7-15-14-15zM161 105c-2-15-9-25-30-25-12 0-20 5-24 11l0 0 0-11-23 0 0 16 0 66 24 0 0-41c0-10 2-21 15-21 13 0 14 13 14 22l0 40 25 0 0-45 0 0c0-4 0-8-1-12z"
+                  />
+                </svg>
+              </a>
 
+              <a
+                className="hover:scale-105 transition-all"
+                href=""
+                target="_blank"
+                rel="noreferrer"
+              >
+                <svg
+                  className="w-10 h-10 youtube"
+                  width="100"
+                  height="100"
+                  viewBox="0 0 5067 5067"
+                >
+                  <rect
+                    width="5067"
+                    height="5067"
+                    fill="#c4302b"
+                    rx="489"
+                    ry="489"
+                  />
+                  <path
+                    fill="#fefefe"
+                    d="M3110 2497l-933 504 0 -776 0 -236 421 229 512 279zm1116 -684c0,0 -33,-248 -137,-357 -131,-144 -278,-145 -346,-153 -483,-36 -1208,-36 -1208,-36l-2 0c0,0 -725,0 -1209,36 -67,8 -214,9 -346,153 -103,109 -137,357 -137,357 0,0 -35,292 -35,583l0 36 0 238c0,291 35,583 35,583 0,0 34,248 137,357 132,144 304,139 381,154 277,28 1175,36 1175,36 0,0 726,-1 1209,-37 68,-9 215,-9 346,-153 104,-109 137,-357 137,-357 0,0 35,-292 35,-583l0 -223 0 -51c0,-291 -35,-583 -35,-583z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
               </div>
+              
             </div>
             <div className="md:w-3/5 w-full">
               <div className=" md:pt-0 pt-12">
@@ -156,7 +266,7 @@ export default function Contact() {
                         onChange={changeInterest}
                         className=" block w-full    lg:h-[47px] rounded-sm border-black focus:border-green-700 focus:ring focus:ring-green-100 focus:ring-opacity-50"
                       >
-                       <option>Energy Savings</option>
+                       <option>Energy Efficiency </option>
                         <option>Solar Energy </option>
                         <option>Water Management</option>
                         <option> Carbon Trading</option>

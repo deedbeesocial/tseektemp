@@ -28,7 +28,7 @@ export default function Layout({ children }) {
       name: "About",
       path: "/about",
       sub: [
-        { name: "About us", path: "/about#WhoWe-Are" },
+        { name: "About Us", path: "/about#WhoWe-Are" },
         { name: "Core Values", path: "/about#Core-values" },
         { name: "Meet Our Team", path: "/about#MeetOur-Team" },
       ],
@@ -38,7 +38,7 @@ export default function Layout({ children }) {
       name: "Solutions",
       path: "",
       sub: [
-        { name: "Energy Saving ", path: "" },
+        { name: "Energy Efficiency ", path: "" },
         { name: "Solar Energy", path: "" },
         { name: "Water Management", path: "" },
         { name: "Carbon Trading", path: "" },
@@ -62,7 +62,7 @@ export default function Layout({ children }) {
       // ],
     },
     {
-      name: " Success Stories",
+      name: " Projects",
       path: "",
     },
 
@@ -237,7 +237,7 @@ export default function Layout({ children }) {
             <Link href="/">
               <a className="flex flex-col justify-start items-center pl-6 lg:pl-0">
                 <div className="">
-                  <Image src="/ZLOGO.png" alt="logo" width={250} height={80} />
+                  <Image src="/footzlo.png" alt="logo" width={250} height={80} />
                 </div>
                 <div className="pl-2 flex flex-col justify-center">
                  
