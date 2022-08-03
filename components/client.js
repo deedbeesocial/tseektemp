@@ -8,32 +8,51 @@ import "swiper/css/autoplay";
 
 export default function Clients() {
   const logos = [
-    "/clients/dodsal.png",
-    "/clients/Accenture.png",
-    "/clients/capgemini.png",
-    "/clients/HCL.png",
-    "/clients/wipro.png",
-    "/clients/futt.png",
-    "/clients/DIFCL.png",
-    "/clients/arqaam.png",
-    "/clients/zafco.png",
-    "/clients/cremica.png",
-    "/clients/perfect.png",
-    "/clients/mandiesel.png",
-    "/clients/Atos.png",
-    "/clients/laxmi1.png",
-    "/clients/alseer.png",
-    "/clients/sap.png",
+    "/clients/client1.jpg",
+    "/clients/client2.jpg",
+    "/clients/client3.jpg",
+    "/clients/client4.jpg",
+    "/clients/client5.jpg",
+    "/clients/client6.jpg",
+    "/clients/client7.jpg",
+    "/clients/client8.jpg",
+    "/clients/client9.jpg",
+    "/clients/client10.jpg",
+    "/clients/client11.jpg",
+    "/clients/client12.jpg",
+    "/clients/client13.jpg",
+    "/clients/client14.jpg",
+    "/clients/client15.jpg",
+    "/clients/client16.jpg",
+    "/clients/client17.jpg",
+    "/clients/client18.jpg",
+    "/clients/client19.jpg",
+    "/clients/client20.jpg",
+    "/clients/client21.jpg",
+    "/clients/client22.jpg",
+    "/clients/client23.jpg",
+    "/clients/client24.jpg",
+    "/clients/client25.jpg",
+    "/clients/client26.jpg",
+    "/clients/client27.jpg",
+    "/clients/client28.jpg",
+    "/clients/client29.jpg",
+    "/clients/client30.jpg",
+    "/clients/client31.jpg",
+    "/clients/client32.jpg",
+    "/clients/client33.jpg",
+    "/clients/client34.jpg",
+    "/clients/client35.jpg",
+    "/clients/client36.jpg",
+    "/clients/client37.jpg",
   ];
 
   return (
-  <section className=" md:pt-14  pb-5 pt-7 bg-coustom1   relative">
+    <section className=" md:pt-14  pb-5 pt-7 bg-darkgray  relative">
       <div className="flex gap-4 justify-center mb-8 ">
-        <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
-        <h1 className="text-3xl  capitalize lg:text-4xl text-black  text-center">
-        Our Customers
+        <h1 className="text-3xl  capitalize lg:text-4xl text-white  text-center">
+          Our Customers
         </h1>
-        <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-black"></span>
       </div>
 
       <div className="lg:container  mx-auto  lg:pb-5">
@@ -51,9 +70,7 @@ export default function Clients() {
               loop: true,
               speed: 800,
 
-              pagination: {
-               
-              },
+              pagination: {},
             },
             1024: {
               slidesPerView: 4,
@@ -63,9 +80,7 @@ export default function Clients() {
               loop: true,
               speed: 800,
 
-              pagination: {
-               
-              },
+              pagination: {},
             },
           }}
           // breakpoints={{
@@ -80,7 +95,7 @@ export default function Clients() {
         >
           {logos.map((x, index) => (
             <SwiperSlide key={index}>
-              <div className="h-36 w-auto  relative cursor-pointer">
+              <div className="h-36 w-auto m-10  relative cursor-pointer">
                 <Image
                   layout="fill"
                   alt=""

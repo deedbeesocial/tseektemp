@@ -18,81 +18,111 @@ function Footprint() {
   const footPrints = [
     {
       id: 1,
-      name: " 50+",
-      title: "Clients",
+      name: " 30+",
+      title: "YEARS OF LEGACY",
+      icons:"/footprint/home.png"
     },
     {
       id: 2,
-      name: " 20+",
-      title: "Fortune 100 Clients",
+      name: " 10+",
+      title: "INDUSTRIES IMPACTED",
+      icons:"/footprint/grass.png"
     },
     {
       id: 3,
 
-      name: "  15000+",
-      title: "IT Placements",
+      name: "  800+",
+      title: "ENERGY AUDITS",
+      icons:"/footprint/small-wind-mill-.png"
     },
-    { id: 4, name: "200+ ", title: "CXOs Placed" },
+    { id: 4, name: "2GW+ ", title: "RENEWABLE ENERGY",
+    icons:"/footprint/solar-energy.png"
+  },
 
     {
       id: 5,
-      name: " 30000+",
-      title: "SAP Professionals",
-    },
-    {
-      id: 6,
-
-      name: "10000+",
-      title: "Oracle Professionals",
-    },
-    {
-      id: 7,
-      name: "  5000+",
-      title: "Trainers",
-    },
-    {
-      id: 8,
-      name: "1000+",
-      title: "SMEs",
+      name: " 90+",
+      title: "CDM PROJECTS",
+      icons:"/footprint/save.png"
     },
   ];
   const industry = [
     {
       id: 1,
-      title: " Manufacturing",
+      title: "Cement",
+      icons:"/ind/ind1.png"
     },
     {
       id: 2,
-      title: " BFSI",
+      title: "Power",
+      icons:"/ind/ind2.png"
     },
     {
       id: 3,
-      title: " Travel & Transportation",
+      title: " Paper",
+      icons:"/ind/ind3.png"
     },
     {
       id: 4,
-      title: "    Media",
+      title: " Real Estate",
+      icons:"/ind/ind4.png"
     },
     {
       id: 5,
-      title: " Healthcare",
+      title: " Mining",
+      
+      icons:"/ind/ind5.png"
     },
     {
       id: 6,
-      title: "  Energy & Utilities",
+      title: " Pharma",
+      icons:"/ind/ind6.png"
     },
     {
       id: 7,
-      title: " Consumer Goods",
-    },
-    {
-      id: 8,
-      title: "  Retail",
+      title: "Refineries",
+      icons:"/ind/ind7.png"
     },
   ];
+  const sdge=[
+   
+    {
+      id: 1,
+     
+      icons:"/sdge/sdg1.png"
+    },
+    {
+      id: 2,
+     
+      icons:"/sdge/sdg2.png"
+    },
+    {
+      id: 3,
+      
+      icons:"/sdge/sdg3.png"
+    },
+    {
+      id: 4,
+      
+      icons:"/sdge/sdg4.png"
+    },
+    {
+      id: 5,
+      
+      icons:"/sdge/sdg5.png"
+    },{
+      id: 6,
+      icons:"/sdge/sdg6.png"
+    },{
+      id: 7,
+      
+      icons:"/sdge/sdg7.png"
+    },
+
+  ]
   return (
     <>
-      <section className="text-black md:pt-14 pt-7 pb-6  md:pb-10   bg-white">
+      <section className="text-black md:pt-10 pt-7 pb-6  md:pb-10   bg-lightgray">
         <div className=" container  lg:h-full h-1/2 mx-auto ">
           <Swiper
             modules={[Autoplay]}
@@ -111,18 +141,24 @@ function Footprint() {
           >
             <SwiperSlide>
               <div className="flex gap-5 justify-center m">
-                <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
                 <h1 className="text-3xl  capitalize lg:text-4xl text-black  text-center">
                   Footprint
                 </h1>
-                <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-black"></span>
               </div>
-              <div className="grid  lg:grid-cols-4 grid-cols-2 mt-14 mb-10 gap-5 justify-center   items-center">
-                {footPrints.map(({ name, title, id }) => (
+              <div className="grid  lg:grid-cols-5 grid-cols-2 mt-14 mb-4 gap-5 justify-center   items-center">
+                {footPrints.map(({ name, title, id,icons }) => (
                   <div key={id} className=" w-full items-start">
-                    <div className=" rounded-lg flex flex-row gap-4 lg:items-start justify-center">
+                    <div className=" rounded-lg flex flex-col gap-4 lg:items-center justify-center">
+                    <div className="block">
+                          <Image
+                            src={icons}
+                            alt="logo"
+                            width={60}
+                            height={60}
+                          />
+                        </div>
                       <div>
-                        <h2 className="title-font flex-1 text-center font-medium text-3xl text-black">
+                        <h2 className="title-font flex-1 text-center font-medium text-3xl text-orange1">
                           {name}
                         </h2>
                         <div className="flex justify-center">
@@ -139,18 +175,24 @@ function Footprint() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex gap-5  mt-2  justify-center ">
-                <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
                 <h1 className="text-3xl lg:w-[250px]  capitalize lg:text-4xl text-black  text-center">
                   Industries
                 </h1>
-                <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-black"></span>
               </div>
               <div className="grid  lg:grid-cols-4 grid-cols-2   mt-12 mb-10  h-fit gap-x-7 gap-y-7 lg:gap-10 justify-center  items-center">
-                {industry.map(({ title, id }) => {
+                {industry.map(({ icons,title, id }) => {
                   return (
                     <div key={id} className=" w-full items-start">
                       <div className=" rounded-lg flex flex-col lg:flex-row gap-4 lg:items-start justify-center">
                         {/* icon */}
+                        <div className="block">
+                          <Image
+                            src={icons}
+                            alt="logo"
+                            width={75}
+                            height={75}
+                          />
+                        </div>
                         <div>
                           <h2 className="title-font lg:w-fit  flex-1 font-medium text-center   text-2xl text-black">
                             {title}
@@ -166,6 +208,34 @@ function Footprint() {
                   );
                 })}
               </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex gap-5 justify-center ">
+                <h1 className="text-3xl  capitalize lg:text-4xl text-black  text-center">
+                SGD
+                </h1>
+              </div>
+              <div className="grid  lg:grid-cols-5 grid-cols-2 mt-8 mb-4 gap-5   justify-center   items-center">
+                {sdge.map(({ icons, title, id }) => (
+                  <div key={id} className=" w-full items-start">
+                    <div className=" rounded-lg flex flex-col  lg:items-center justify-center">
+                    <div className="flex items-center w-[256px] h-[160px]  relative justify-center">
+                          <div className="flex-1">
+                          <Image
+                            src={icons}
+                            objectFit="cover"
+                         layout="fill"
+                            alt="logo"
+                          
+                          />
+                          </div>
+                        </div>
+                     
+                    </div>
+                  </div>
+                ))}
+              </div>
+              {/* ////////////////////////////////////// */}
             </SwiperSlide>
           </Swiper>
         </div>

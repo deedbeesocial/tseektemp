@@ -26,9 +26,9 @@ export default function Layout({ children }) {
     },
     {
       name: "About",
-      path: "",
+      path: "/about",
       sub: [
-        { name: "Who We Are", path: "/about#WhoWe-Are" },
+        { name: "About us", path: "/about#WhoWe-Are" },
         { name: "Core Values", path: "/about#Core-values" },
         { name: "Meet Our Team", path: "/about#MeetOur-Team" },
       ],
@@ -38,41 +38,46 @@ export default function Layout({ children }) {
       name: "Solutions",
       path: "",
       sub: [
-        { name: "Knowledge As A Service ", path: "/solutions/knowledge" },
-        { name: "Talent As A Service", path: "/solutions/talent" },
-
-        { name: "IT Services", path: "/solutions/itservices" },
+        { name: "Energy Saving ", path: "" },
+        { name: "Solar Energy", path: "" },
+        { name: "Water Management", path: "" },
+        { name: "Carbon Trading", path: "" },
+       
       ],
     },
     {
-      name: "Capabilities",
+      name: "Netzero",
       path: "",
 
-      sub: [
-        { name: "Consulting ", path: "/capabilities#Consulting" },
-        { name: "Analytics", path: "/capabilities#Analytics" },
+      // sub: [
+      //   { name: "Consulting ", path: "/capabilities#Consulting" },
+      //   { name: "Analytics", path: "/capabilities#Analytics" },
 
-        { name: "Mobility", path: "/capabilities#Mobility" },
+      //   { name: "Mobility", path: "/capabilities#Mobility" },
 
        
-        { name: "Outsourcing", path: "/capabilities#Outsourcing" },
-        { name: "Upskilling", path: "/capabilities#Upskilling" },
-        { name: "Staffing", path: "/capabilities#Staffing" },
-      ],
+      //   { name: "Outsourcing", path: "/capabilities#Outsourcing" },
+      //   { name: "Upskilling", path: "/capabilities#Upskilling" },
+      //   { name: "Staffing", path: "/capabilities#Staffing" },
+      // ],
     },
     {
-      name: " Education",
-      path: "/education",
+      name: " Success Stories",
+      path: "",
     },
 
     {
-      name: "Careers",
-      path: "/career",
+      name: "Resources",
+      path: "",
+      sub: [
+        { name: "News ", path: "" },
+        { name: "Blogs", path: "" },
+        { name: "Media", path: "" },
+       
+       
+      ],
     },
-    {
-      name: "Blogs",
-      path: "/blog/blogs",
-    },
+    
     {
       name: "contact us",
       path: "/contact",
@@ -126,7 +131,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>SFJ Business Solutions</title>
+        <title>Zenith Energy</title>
       </Head>
       <div className="w-full lg:h-[95px]">
         <header
@@ -140,11 +145,11 @@ export default function Layout({ children }) {
             <Link href="/">
               <a className="flex  justify-between lg:justify-start items-center ">
                 <div className="hidden md:block">
-                  <Image src="/header.png" alt="logo" width={90} height={90} />
+                  <Image src="/ZLOGO.png" alt="logo" width={250} height={90} />
                 </div>
                 <div className="block   md:hidden">
                   <Image
-                    src="/header.png"
+                    src="/ZLOGO1.png"
                     alt="logo"
                     width={100}
                     height={100}
@@ -153,11 +158,11 @@ export default function Layout({ children }) {
                 
               </a>
             </Link>
-            <div className="lg:pl-2 lg:flex  text-center  py-3 flex-col justify-center ">
+            {/* <div className="lg:pl-2 lg:flex  text-center  py-3 flex-col justify-center ">
                   <span className="text-sm  text-black capitalize">
                     TALENT TRANSFORMATION. SIMPLIFIED.
                   </span>
-                </div>
+                </div> */}
 
             <nav className="text-sm uppercase  tracking-tight hidden  lg:flex justify-end flex-1">
               {menu.map(({ name, path, sub }, index) => (
@@ -166,7 +171,7 @@ export default function Layout({ children }) {
                     <a
                       className={`${
                         pathname === path &&
-                        "underline decoration-orange decoration-2  underline-offset-4 "
+                        "underline decoration-orange1 decoration-2 font-bold  underline-offset-4 "
                       } hover:font-bold mx-3  2xl:mx-4 transition-all`}
                     >
                       {name}
@@ -179,7 +184,7 @@ export default function Layout({ children }) {
                         <div className="w-full shadow-md">
                           {sub.map(({ name, path }, index) => (
                             <Link key={index} href={path}>
-                              <a className="w-52 hover:font-bold px-4 bg-white inline-flex p-2 normal-case text-sm whitespace-nowrap border-b border-t border-zinc-100 hover:bg-orange">
+                              <a className="w-52 hover:font-bold px-4 bg-white inline-flex p-2 normal-case text-sm whitespace-nowrap border-b border-t border-zinc-100 hover:bg-orange1">
                                 {name}
                               </a>
                             </Link>
@@ -226,30 +231,28 @@ export default function Layout({ children }) {
 
       <main className="text-zinc-900 font-sans  ">{children}</main>
 
-      <footer className="border bg-white border-t mx-auto  py-6 lg:py-8">
+      <footer className="border bg-darkgray border-t mx-auto  py-6 lg:py-8">
         <div className="grid grid-cols-2 lg:flex lg:flex-row justify-around items-start">
           <div className="col-span-2 pb-4 md:pb-0 ">
             <Link href="/">
               <a className="flex flex-col justify-start items-center pl-6 lg:pl-0">
                 <div className="">
-                  <Image src="/ICON.png" alt="logo" width={80} height={80} />
+                  <Image src="/ZLOGO.png" alt="logo" width={250} height={80} />
                 </div>
                 <div className="pl-2 flex flex-col justify-center">
-                  <span className="leading-4  text-zinc-800 text-xl">
-                    SFJ BUSINESS SOLUTIONS
-                  </span>
+                 
                 </div>
               </a>
             </Link>
           </div>
 
-          <div className="text-sm p-4 lg:p-0 pl-6  text-left">
-            <p className="font-semibold">INDIA - HEAD OFFICE</p>
-            <p>Uma Sree Dream World, Unit -2,</p>
-            <p>B-Block, 4th Floor, Kudlu Gate,</p>
-            <p>Hosur Main Road,</p>
-            <p>Bangalore – 560068. Karnataka, INDIA</p>
+          <div className="text-sm p-4 lg:p-0 pl-6 text-white text-left">
            
+          <p className="font-semibold">INDIA - HEAD OFFICE</p>
+            <p>ZENITH ENERGY SERVICES PVT,</p>
+            <p>LTD, 3rd floor, Ramky Grandiose,</p>
+            <p>Gachibowli, Hyderabad -500032</p>
+            <p>Info@zenithenergy.com </p>
           </div>
           {/* <div className="text-sm p-4 lg:p-0 pl-6  text-left">
             <p className="font-semibold">SFJ Computers Consulting</p>
@@ -264,13 +267,13 @@ export default function Layout({ children }) {
               Fax : +971 43 425126
             </p>
           </div> */}
-          <div className="text-sm lg:p-0  p-4  text-center">
+          <div className="text-sm lg:p-0  p-4 text-white text-center">
             <p className="font-semibold">CONTACT</p>
-            <p className="">+91 80 4158333</p>
-            <p className="">sales@sfjbs.com</p>
+            <p className="">+91 9988774455</p>
+            <p className="">Info@zenithenergy.com </p>
           </div>
 
-          <div className="text-sm flex flex-col  pl-6 lg:p-0   text-center ">
+          <div className="text-sm flex flex-col  pl-6 lg:p-0 text-white  text-center ">
             <Link href="/about">
               <a>About</a>
             </Link>
@@ -278,16 +281,16 @@ export default function Layout({ children }) {
               <a>Solutions</a>
             </Link>
             <Link href="/products">
-              <a>Capabilities</a>
+              <a>NetZero</a>
             </Link>
             <Link href="/team">
-              <a>Education</a>
+              <a>Success Stories</a>
             </Link>
           </div>
 
-          <div className="text-sm flex flex-col  lg:p-0  text-center">
+          <div className="text-sm flex flex-col  text-white lg:p-0  text-center">
             <Link href="/strengths">
-              <a>Careers</a>
+              <a>Resources</a>
             </Link>
             <Link href="/facilities">
               <a>Blogs</a>
@@ -298,7 +301,7 @@ export default function Layout({ children }) {
           </div>
 
           <div className="col-span-2 p-4 lg:p-0 pl-6 mr-6 ">
-            <p className="font-semibold text-sm pb-2 text-black text-center">
+            <p className="font-semibold text-sm pb-2 text-white text-center">
               FIND US ON
             </p>
             <div className="lg:grid-cols-2 flex justify-center gap-2 lg:inline-grid  ">
@@ -412,7 +415,7 @@ export default function Layout({ children }) {
         </div>
 
         <div className="mx-auto  text-center  text-sm text-zinc-400 pt-4 lg:pt-8 lg:p-0 p-4 pl-6">
-          <p>SFJ BUSINESS SOLUTIONS</p>
+          <p>Zenith Energy</p>
           <p>
             Copyright © 2022. All Rights Reserved. Designed by Deedbee Social
             Ventures.

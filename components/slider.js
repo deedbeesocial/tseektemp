@@ -10,27 +10,27 @@ import "swiper/css/autoplay";
 export default function Slider() {
   const slides = [
     {
-      text1: "Bringing agility and scale with the right strategy",
+      text1: "Welcome to the future of energy and water management",
      
-      image: "/carosel/strategy.png",
+      image: "/carosel/welcometothe.png",
       id: "slide1",
     },
     {
-      text1: "Nurturing and empowering a future-ready workforce",
+      text1: "Start your journey towards a profitable and green future",
       
-      image: "/carosel/nurture.png",
+      image: "/carosel/startyourjourney (1).png",
       id: "slide2",
     },
     {
-      text1: "Mobilizing the right talent for your business needs",
+      text1: "Meet your growing energy and water needs while saving costs",
      
-      image: "/carosel/mobilize.png",
+      image: "/carosel/meetyourenergy.png",
       id: "slide3",
     },
     {
-      text1: "A thought leader and trusted partner for over a decade",
+      text1: "Create sustainable growth stories with better managed infrastructure ",
       
-      image: "/carosel/thought.png",
+      image: "/carosel/createsustainable.png",
       id: "slide4",
     },
   ];

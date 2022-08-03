@@ -61,14 +61,14 @@ export default function Testimonials() {
   return (
     <section className="text-black md:pt-14 md:pb-10 pt-7 pb-5  bg-white body-font">
       <div className="container px-5  mx-auto">
-        <div className="flex gap-4 justify-center mb-10">
-          <span className="inline-block w-20 h-[2px] mt-5 rounded-full bg-black"></span>
+        <div className="flex gap-4 justify-center mb-14">
+         
           <h1 className="text-3xl capitalize lg:text-4xl text-black  text-center">
-            Testimonials
+           What Our Customer Says
           </h1>
-          <span className="inline-block w-20 h-[2px] rounded-full mt-5 bg-black"></span>
+          
         </div>
-        <div className="flex flex-wrap -m-4  justify-center py-3 ">
+        <div className="flex flex-wrap -m-4  justify-center mt-10 mb-10 ">
           <Swiper
             modules={[Pagination, Autoplay]}
             slidesPerView={1}
