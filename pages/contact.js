@@ -249,9 +249,11 @@ export default function Contact() {
                         onChange={changeInterest}
                         className=" block w-full    lg:h-[47px] rounded-sm border-black focus:border-green-700 focus:ring focus:ring-green-100 focus:ring-opacity-50"
                       >
-                        <option>Knowledge As A Service</option>
-                        <option>Talent As A Service </option>
-                        <option>Consulting/IT Services.</option>
+                        
+                        <option>Energy Efficiency </option>
+                        <option>Solar Energy </option>
+                        <option>Water Management</option>
+                        <option> Carbon Trading</option>
 
                         <option>Others</option>
                       </select>
@@ -266,12 +268,13 @@ export default function Contact() {
                         onChange={changeInterest}
                         className=" block w-full    lg:h-[47px] rounded-sm border-black focus:border-green-700 focus:ring focus:ring-green-100 focus:ring-opacity-50"
                       >
-                       <option>Energy Efficiency </option>
-                        <option>Solar Energy </option>
-                        <option>Water Management</option>
-                        <option> Carbon Trading</option>
+                         <option>Search Engine(Google,Yahoo,etc)</option>
+                        <option> Recommended By Friends </option>
+                        <option>Social Media</option>
+                        <option> Blog Or Publication </option>
 
                         <option>Others</option>
+                       
                       
                       </select>
                     </label>

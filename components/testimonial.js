@@ -10,49 +10,49 @@ export default function Testimonials() {
   const stuff = [
     {
       text: "exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
-      name: "Palash Pandey",
+      name: "John Doe",
       position: "Co-Founder",
-      company: "Renaura Wellness Pvt Ltd",
+      company: "Accenture",
       logo: "/clients/client1.jpg",
       id: 1,
     },
     {
       text: "exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
-      name: "Megha Kapur",
+      name: "lord",
       position: "President",
-      company: "Prima USA, LLC",
+      company: "Atos",
       logo: "/clients/client2.jpg",
       id: 2,
     },
     {
       text: " incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
-      name: "Mangesh Gawande",
+      name: "John Doe",
       position: "Founder & CEO",
-      company: "EarthyBlend Pvt Ltd",
+      company: "Hcl",
       logo: "/clients/client3.jpg",
       id: 3,
     },
     {
       text: "cidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
-      name: "Mangesh Gawande",
+      name: "John Doe",
       position: "Founder & CEO",
-      company: "EarthyBlend Pvt Ltd",
+      company: "capgemini",
       logo: "/clients/client4.jpg",
       id: 4,
     },
     {
       text: " exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
-      name: "Mangesh Gawande",
+      name: "John Doe",
       position: "Founder & CEO",
-      company: "EarthyBlend Pvt Ltd",
+      company: "Wipro",
       logo: "/clients/client5.jpg",
       id: 5,
     },
     {
       text: " exercitationem facere! Repellat, quo. Nostrum molestias magni iste itaque dicta placeat incidunt temporibus quis in, distinctio quas minus voluptatibus similique, possimus aliquam, odit officiis voluptatem soluta maiores. Nam, nostrum voluptatibus?",
-      name: "Mangesh Gawande",
+      name: "John Doe",
       position: "Founder & CEO",
-      company: "EarthyBlend Pvt Ltd",
+      company: "Arqaam",
       logo: "/clients/client6.jpg",
       id: 6,
     },
@@ -64,7 +64,7 @@ export default function Testimonials() {
         <div className="flex gap-4 justify-center mb-14">
          
           <h1 className="text-3xl capitalize lg:text-4xl text-black  text-center">
-           What Our Customers Says
+           What Our Customers Say
           </h1>
           
         </div>

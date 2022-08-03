@@ -44,16 +44,15 @@ function About() {
       description:
         "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     },
-   
   ];
 
   return (
     <>
-      <section className="md:pt-14 text-black bg-lightgray " id="WhoWe-Are">
+      <section className="md:pt-14 text-black bg-blue " id="WhoWe-Are">
         <div className="p-4 md:container flex flex-wrap gap-10 mx-auto">
           <div className="w-auto lg:min-w-[700px] flex-1 pb-10">
             <h1 className="text-4xl text-center tracking-wide  text-black">
-             About Us
+              About Us
             </h1>
             <p className="prose pt-8 p-5">
               Established in 1991, Zenith is a leading sustainability solutions
@@ -67,10 +66,10 @@ function About() {
             </p>
           </div>
 
-          <div className="w-full flex lg:flex-row  flex-1 lg:w-full md:h-fit lg:gap-0 gap-10 items-center  md:flex-col flex-col   ">
+          <div className="w-full flex lg:flex-row  mb-8 flex-1 lg:w-full md:h-fit lg:gap-0 gap-10 items-center  md:flex-col flex-col   ">
             <div className="lg:w-full  flex   lg:min-w-[357px]   lg:h-full  md:h-[400px]  h-[300px] relative">
               <Image
-              className="brightness-50 "
+                className="brightness-50 "
                 layout="fill"
                 alt=""
                 objectFit=" cover "
@@ -82,8 +81,7 @@ function About() {
                   Our Vision
                 </p>
                 <p className="pt-4 text-xl text-white text-center leading-loose">
-                  To be a market leader in creating a technology workforce for
-                  the future through disruptions in upskilling and staffing.
+                To be a leader in providing effective and innovative pathways towards water and energy sustainability for businesses and communities around the globe.
                 </p>
               </div>
             </div>
@@ -92,134 +90,135 @@ function About() {
       </section>
 
       <div className="w-full h-[100px]" id="Core-values"></div>
-      
-        <section className=" lg:container mx-auto   text-black">
-          <h1 className="text-4xl tracking-wide mb-10 text-center  text-black">
-            Core Values
-          </h1>
 
-          <div className="lg:container mb-10  mx-auto">
-            <div className="flex lg:flex-row  flex-col gap-5 justify-center items-center">
-              
+      <section className=" lg:container mx-auto   text-black">
+        <h1 className="text-4xl tracking-wide mb-10 text-center  text-black">
+          Core Values
+        </h1>
+
+        <div className="lg:container mb-10  mx-auto">
+          <div className="flex lg:flex-row  flex-col gap-5 justify-center items-center">
             <div className="p-4 lg:w-[400px] ">
-                <div className="h-full flex flex-col-reverse rounded-lg ">
-                  <div className="h-60 w-full flex justify-center relative">
-                    <div className="w-[300px] h-full relative">
-                      <Image
-                        className="absolute contrast-50 inset-0 object-cover"
-                        layout="fill"
-                        objectFit="cover"
-                        alt=""
-                        src="/sdge/expertise2.png"
-                      />
-                    </div>
-                    <div className="absolute inset-0 "></div>
-                    <div className="absolute inset-0 text-black p-8 flex items-center justify-center">
-                      <p className=" text-3xl font-semibold text-white">
-                        Expertise
-                      </p>
-                    </div>
+              <div className="h-full flex flex-col-reverse rounded-lg ">
+                <div className="h-60 w-full flex justify-center relative">
+                  <div className="w-[300px] h-full relative">
+                    <Image
+                      className="absolute  inset-0 object-cover"
+                      layout="fill"
+                      objectFit="cover"
+                      alt=""
+                      src="/sdge/expertise2.png"
+                    />
                   </div>
-                  <div className="mt-5 text-center ">
-                    <p className="leading-relaxed md:px-5 mb-3">
-                   Expertise is at the core of Zenith, with 3 decades of track record cutting across 10+ sectors, backed by strong leadership, mentors and SMEs.
+                  <div className="absolute inset-0 "></div>
+                  <div className="absolute inset-0 text-black p-8 flex items-center justify-center">
+                    <p className=" text-3xl font-semibold text-darkgray">
+                      Expertise
                     </p>
                   </div>
                 </div>
+                <div className="mt-5 text-center ">
+                  <p className="leading-relaxed md:px-5 mb-3">
+                    Expertise is at the core of Zenith, with 3 decades of track
+                    record cutting across 10+ sectors, backed by strong
+                    leadership, mentors and SMEs.
+                  </p>
+                </div>
               </div>
-              
+            </div>
 
-              <div className="p-4 lg:w-[400px] ">
-                <div className="h-full flex flex-col rounded-lg ">
-                  <div className="h-60 w-full flex justify-center relative">
-                    <div className="w-[300px] contrast-50 h-full relative">
-                      <Image
-                        className="absolute contrast-50 inset-0 object-cover"
-                        layout="fill"
-                        objectFit="cover"
-                        alt=""
-                        src="/sdge/commitment.png"
-                      />
-                    </div>
-                    <div className="absolute inset-0 "></div>
-                    <div className="absolute inset-0 text-black p-8 flex items-center justify-center">
-                      <p className=" text-3xl font-semibold text-white">
-
-                        Commitment
-                      </p>
-                    </div>
+            <div className="p-4 lg:w-[400px] ">
+              <div className="h-full flex flex-col rounded-lg ">
+                <div className="h-60 w-full flex justify-center relative">
+                  <div className="w-[300px] contrast-50 h-full relative">
+                    <Image
+                      className="absolute  inset-0 object-cover"
+                      layout="fill"
+                      objectFit="cover"
+                      alt=""
+                      src="/sdge/commitment.png"
+                    />
                   </div>
-                  <div className="mt-5 text-center ">
-                    <p className="leading-relaxed md:px-5 mb-3">
-                    Committed to achieving the sustainability goals for businesses through efficient water and energy management
+                  <div className="absolute inset-0 "></div>
+                  <div className="absolute inset-0 text-black p-8 flex items-center justify-center">
+                    <p className=" text-3xl font-semibold text-darkgray">
+                      Commitment
                     </p>
                   </div>
                 </div>
+                <div className="mt-5 text-center ">
+                  <p className="leading-relaxed md:px-5 mb-3">
+                    Committed to achieving the sustainability goals for
+                    businesses through efficient water and energy management
+                  </p>
+                </div>
               </div>
-              
-              
-              <div className="p-4 lg:w-[400px] ">
-                <div className="h-full rounded-lg flex flex-col-reverse ">
-                  <div className="h-60 w-full flex justify-center  relative">
-                    <div className="w-[300px] contrast-50 h-full relative ">
-                      <Image
-                        className="absolute contrast-50 inset-0 object-cover"
-                        layout="fill"
-                        objectFit="cover"
-                        alt=""
-                        src="/sdge/transparency.png"
-                      />
-                    </div>
-                    <div className="absolute inset-0 "></div><div className="absolute inset-0 text-black p-8 flex items-center justify-center">
-                      <p className=" text-3xl font-semibold text-white">
+            </div>
 
+            <div className="p-4 lg:w-[400px] ">
+              <div className="h-full rounded-lg flex flex-col-reverse ">
+                <div className="h-60 w-full flex justify-center  relative">
+                  <div className="w-[300px] h-full relative ">
+                    <Image
+                      className="absolute contrast-50   inset-0 object-cover"
+                      layout="fill"
+                      objectFit="cover"
+                      alt=""
+                      src="/sdge/transparency.png"
+                    />
+                  </div>
+                  <div className="absolute inset-0 "></div>
+                  <div className="absolute inset-0 text-black p-8 flex items-center justify-center">
+                    <p className=" text-3xl font-semibold text-darkgray">
                       Transparency
-                      </p>
-                    </div>
-                    
-                  </div>
-                  <div className="mt-5 text-center ">
-                    <p className="leading-relaxed md:px-5 mb-3">
-                  Transparency in assessment, design and execution. Co-creation of solutions and real-time monitoring of assets through modern technologies.
                     </p>
                   </div>
                 </div>
+                <div className="mt-5 text-center ">
+                  <p className="leading-relaxed md:px-5 mb-3">
+                    Transparency in assessment, design and execution.
+                    Co-creation of solutions and real-time monitoring of assets
+                    through modern technologies.
+                  </p>
+                </div>
               </div>
+            </div>
 
-              
-
-              <div className="p-4 lg:w-[400px] ">
-                <div className="h-full rounded-lg ">
-                  <div className="h-60 w-full  flex justify-center relative">
-                    <div className="w-[300px] contrast-50 h-full relative">
-                      <Image
-                        className="absolute contrast-50 inset-0 object-cover"
-                        layout="fill"
-                        objectFit="cover"
-                        alt=""
-                        src="/sdge/accountability.png"
-                      />
-                    </div>
-                    <div className="absolute inset-0 "></div>
-                    <div className="absolute inset-0   p-8 flex items-center justify-center">
-                      <p className=" text-3xl font-semibold  text-white">
-                      Accountability 
-                      </p>
-                    </div>
+            <div className="p-4 lg:w-[400px] ">
+              <div className="h-full rounded-lg ">
+                <div className="h-60 w-full  flex justify-center relative">
+                  <div
+                    className="w-[300px] contrast-50
+                     h-full relative"
+                  >
+                    <Image
+                      className="absolute  inset-0 object-cover"
+                      layout="fill"
+                      objectFit="cover"
+                      alt=""
+                      src="/sdge/accountability.png"
+                    />
                   </div>
-                  <div className="mt-5 text-center ">
-                    <p className="leading-relaxed md:px-5 mb-3">
-                     End-End Accountability on deployment and maintenance of infrastructure. A reliable long-term partner on the path to sustainability.
+                  <div className="absolute inset-0 "></div>
+                  <div className="absolute inset-0   p-8 flex items-center justify-center">
+                    <p className=" text-3xl font-semibold  text-darkgray">
+                      Accountability
                     </p>
                   </div>
                 </div>
+                <div className="mt-5 text-center ">
+                  <p className="leading-relaxed md:px-5 mb-3">
+                    End-End Accountability on deployment and maintenance of
+                    infrastructure. A reliable long-term partner on the path to
+                    sustainability.
+                  </p>
+                </div>
               </div>
-
-              
             </div>
           </div>
-        </section>
-     
+        </div>
+      </section>
+
       {/* core teaaaaaaaaaaaaaaaaaaaaaaam */}
       <div className="w-full h-[50px]" id="MeetOur-Team"></div>
       <section className="bg-lightgray md:pt-24 md:pb-10 ">

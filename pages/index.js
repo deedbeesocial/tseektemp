@@ -302,7 +302,7 @@ export default function Home() {
       <section className=" bg-white">
         <div className="md:container p-4 mx-auto md:py-20 text-black">
           <div className="flex  justify-between gap-7 ">
-            <div className="w-1/2 flex-1 h-full flex  justify-end ">
+            <div className="w-1/2 flex-1 h-full flex  justify-center ">
               <div className=" w-[500px]   h-[400px] relative">
                 <Image
                   layout="fill"
