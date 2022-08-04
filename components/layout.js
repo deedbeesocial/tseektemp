@@ -252,7 +252,7 @@ export default function Layout({ children }) {
             <p>ZENITH ENERGY SERVICES PVT,</p>
             <p>LTD, 3rd floor, Ramky Grandiose,</p>
             <p>Gachibowli, Hyderabad -500032</p>
-            <p>Info@zenithenergy.com </p>
+           
           </div>
           {/* <div className="text-sm p-4 lg:p-0 pl-6  text-left">
             <p className="font-semibold">SFJ Computers Consulting</p>
@@ -420,6 +420,7 @@ export default function Layout({ children }) {
             Copyright © 2022. All Rights Reserved. Designed by Deedbee Social
             Ventures.
           </p>
+          <p>Image Courtesy | unsplash.com | freepik.com</p>
         </div>
       </footer>
     </>
