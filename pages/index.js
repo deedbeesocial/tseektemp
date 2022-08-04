@@ -300,8 +300,8 @@ export default function Home() {
       </section>
 
       <section className=" bg-white">
-        <div className="md:container p-4 mx-auto md:py-20 text-black">
-          <div className="flex  justify-between gap-7 ">
+        <div className="md:container p-4 mx-auto md:py-14 text-black">
+          <div className="flex  justify-between gap-11 ">
             <div className="w-1/2 flex-1 h-full flex  justify-center ">
               <div className=" w-[500px]   h-[400px] relative">
                 <Image
@@ -312,8 +312,8 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="w-1/2 flex-1">
-              <div className="">
+            <div className="w-1/2 flex-1 ml-10">
+              <div className=" flex  flex-col mt-14">
                 <h1 className="text-4xl tracking-wide  ">NetZero</h1>
                 <p className="prose pt-8 ">
                   Join our flagship net zero program and drive your business
