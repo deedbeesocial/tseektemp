@@ -153,27 +153,27 @@ export default function Home() {
   const whyworkwithus = [
     {
       id: 1,
-      text: "Cost-effective and just-in-time staffing through a strong network of technology professionals.",
+      text: "3 Decades of experience in energy audits and consultancy.",
     },
     {
       id: 2,
-      text: "  Right-sized partner for all your talent transformation needs. Build your future-ready workforce.",
+      text: " Technical expertise in over 10 industries pan-India.",
     },
     {
       id: 3,
-      text: " Deep expertise in digital transformations that can add disproportionate value for your business.",
+      text: " Empaneled with the Bureau of Energy Efficiency(BEE), Govt. of India.",
     },
     {
       id: 4,
-      text: "  Specialists in Enterprise IT Strategy, Consulting, and Managed services via SAP and Oracle.",
+      text: "  A team of qualified AEAs, CEAs, Engineers and Trained Technicians ",
     },
     {
       id: 5,
-      text: "   A strong portfolio of capabilities and a proven track record across 8 industries across the globe.",
+      text: " Comprehensive Net Zero solutions customized for each business",
     },
     {
       id: 6,
-      text: "   An organization driven by empathy, integrity, expertise and focused on delivering consistent value.",
+      text: "   Specialization in project registration under CDM and Carbon trading.",
     },
   ];
   const offerings = [
