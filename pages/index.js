@@ -165,11 +165,11 @@ export default function Home() {
     },
     {
       id: 4,
-      text: "  A team of qualified AEAs, CEAs, Engineers and Trained Technicians ",
+      text: "  A team of qualified AEAs, CEAs, Engineers and Trained Technicians. ",
     },
     {
       id: 5,
-      text: " Comprehensive Net Zero solutions customized for each business",
+      text: " Comprehensive Net Zero solutions customized for each business.",
     },
     {
       id: 6,
@@ -247,7 +247,7 @@ export default function Home() {
             </div>
             <div className="w-auto h-96  md:h-auto relative">
               <Image
-                className="absolute inset-0 brightness-50 object-cover"
+                className="absolute inset-0  object-cover"
                 layout="fill"
                 alt=""
                 src="/ourvison/ov.png"

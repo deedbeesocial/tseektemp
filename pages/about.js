@@ -69,7 +69,7 @@ function About() {
           <div className="w-full flex lg:flex-row  mb-8 flex-1 lg:w-full md:h-fit lg:gap-0 gap-10 items-center  md:flex-col flex-col   ">
             <div className="lg:w-full  flex   lg:min-w-[357px]   lg:h-full  md:h-[400px]  h-[300px] relative">
               <Image
-                className="brightness-50 "
+                className=" "
                 layout="fill"
                 alt=""
                 objectFit=" cover "
@@ -103,7 +103,7 @@ function About() {
                 <div className="h-60 w-full flex justify-center relative">
                   <div className="w-[300px] h-full relative">
                     <Image
-                      className="absolute  inset-0 object-cover"
+                      className="absolute brightness-50  inset-0 object-cover"
                       layout="fill"
                       objectFit="cover"
                       alt=""
@@ -112,7 +112,7 @@ function About() {
                   </div>
                   <div className="absolute inset-0 "></div>
                   <div className="absolute inset-0 text-black p-8 flex items-center justify-center">
-                    <p className=" text-2xl font-bold text-darkgray">
+                    <p className=" text-2xl font-bold text-white">
                       Expertise
                     </p>
                   </div>
@@ -130,9 +130,9 @@ function About() {
             <div className="p-4 lg:w-[400px] ">
               <div className="h-full flex flex-col rounded-lg ">
                 <div className="h-60 w-full flex justify-center relative">
-                  <div className="w-[300px] contrast-50 h-full relative">
+                  <div className="w-[300px]  h-full relative">
                     <Image
-                      className="absolute  inset-0 object-cover"
+                      className="absolute brightness-50  inset-0 object-cover"
                       layout="fill"
                       objectFit="cover"
                       alt=""
@@ -141,7 +141,7 @@ function About() {
                   </div>
                   <div className="absolute inset-0 "></div>
                   <div className="absolute inset-0 text-black p-8 flex items-center justify-center">
-                    <p className=" text-2xl font-bold text-darkgray">
+                    <p className=" text-2xl font-bold text-white">
                       Commitment
                     </p>
                   </div>
@@ -160,7 +160,7 @@ function About() {
                 <div className="h-60 w-full flex justify-center  relative">
                   <div className="w-[300px] h-full relative ">
                     <Image
-                      className="absolute contrast-50   inset-0 object-cover"
+                      className="absolute   brightness-50  inset-0 object-cover"
                       layout="fill"
                       objectFit="cover"
                       alt=""
@@ -169,7 +169,7 @@ function About() {
                   </div>
                   <div className="absolute inset-0 "></div>
                   <div className="absolute inset-0 text-black p-8 flex items-center justify-center">
-                    <p className=" text-2xl font-bold text-darkgray">
+                    <p className=" text-2xl font-bold text-white">
                       Transparency
                     </p>
                   </div>
@@ -188,7 +188,7 @@ function About() {
               <div className="h-full rounded-lg ">
                 <div className="h-60 w-full  flex justify-center relative">
                   <div
-                    className="w-[300px] contrast-50
+                    className="w-[300px] brightness-50 
                      h-full relative"
                   >
                     <Image
@@ -201,7 +201,7 @@ function About() {
                   </div>
                   <div className="absolute inset-0 "></div>
                   <div className="absolute inset-0   p-8 flex items-center justify-center">
-                    <p className=" text-2xl font-bold  text-darkgray">
+                    <p className=" text-2xl font-bold  text-white">
                       Accountability
                     </p>
                   </div>
