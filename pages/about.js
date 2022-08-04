@@ -112,7 +112,7 @@ function About() {
                   </div>
                   <div className="absolute inset-0 "></div>
                   <div className="absolute inset-0 text-black p-8 flex items-center justify-center">
-                    <p className=" text-3xl font-semibold text-darkgray">
+                    <p className=" text-2xl font-bold text-darkgray">
                       Expertise
                     </p>
                   </div>
@@ -141,7 +141,7 @@ function About() {
                   </div>
                   <div className="absolute inset-0 "></div>
                   <div className="absolute inset-0 text-black p-8 flex items-center justify-center">
-                    <p className=" text-3xl font-semibold text-darkgray">
+                    <p className=" text-2xl font-bold text-darkgray">
                       Commitment
                     </p>
                   </div>
@@ -169,7 +169,7 @@ function About() {
                   </div>
                   <div className="absolute inset-0 "></div>
                   <div className="absolute inset-0 text-black p-8 flex items-center justify-center">
-                    <p className=" text-3xl font-semibold text-darkgray">
+                    <p className=" text-2xl font-bold text-darkgray">
                       Transparency
                     </p>
                   </div>
@@ -201,7 +201,7 @@ function About() {
                   </div>
                   <div className="absolute inset-0 "></div>
                   <div className="absolute inset-0   p-8 flex items-center justify-center">
-                    <p className=" text-3xl font-semibold  text-darkgray">
+                    <p className=" text-2xl font-bold  text-darkgray">
                       Accountability
                     </p>
                   </div>
