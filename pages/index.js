@@ -345,21 +345,21 @@ export default function Home() {
         }}
       >
         <div className=" container mx-auto  lg:rounded-lg text-left">
-          <div className="lg:w-full mx-auto flex flex-col lg:flex-col ">
-            <div className="lg:w-full w-full lg:mr-9  mt-6 lg:mt-0 ">
+          <div className="lg:w-full mx-auto flex flex-col  lg:flex-col ">
+            <div className="lg:w-full w-full   mt-6 lg:mt-0 ">
               <div className="w-full flex gap-4 lg:justify-center ">
                 <h1 className=" capitalize text-3xl lg:text-4xl  text-white text-center ">
                   Why Work With Us
                 </h1>
               </div>
             </div>
-            <div className="p-10">
+            <div className="p-10  flex justify-center">
               <ul className="grid lg:grid-cols-3 grid-cols-1 lg: lg:gap-14 ">
                 {whyworkwithus.map(({ text, id }) => {
                   return (
                     <li
                       key={id}
-                      className="mt-4 text-lg lg:w-[350px] text-center lg:p-0 p-5 font-semibold leading-relaxed text-white "
+                      className="mt-4 text-lg lg:w-[350px] text-center lg:p-0 p-5 font-semibold  text-white "
                     >
                       {text}
                     </li>
