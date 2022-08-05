@@ -284,7 +284,7 @@ export default function Layout({ children }) {
               <a>NetZero</a>
             </Link>
             <Link href="/team">
-              <a>Success Stories</a>
+              <a>Projects</a>
             </Link>
           </div>
 
