@@ -3,28 +3,28 @@ function About() {
   const team = [
     {
       name: "Dr A Mohan Reddy ",
-      image: "",
+      image: "/about/.jpg",
       role: "Founder & MD",
       description:
         "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     },
     {
       name: "Dr. Chandrashekar Hariharan",
-      image: "",
+      image: "/about/.jpg",
       role: "Sustainability Expert & Advisor",
       description:
         "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     },
     {
       name: "Dr. U. V. Krishna Rao",
-      image: "",
+      image: "/about/.jpg",
       role: "Sustainability Expert & Advisor",
       description:
         "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     },
     {
       name: "Sindhu Jannareddy",
-      image: "",
+      image: "/about/.jpg",
       role: "Director",
 
       description:
