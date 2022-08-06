@@ -2,40 +2,54 @@ import Image from "next/image";
 function About() {
   const team = [
     {
-      name: "tom",
+      name: "Dr A Mohan Reddy ",
       image: "/about/team1.jpg",
-      role: "Founder & Managing Director",
+      role: "Founder & MD",
       description:
         "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     },
     {
-      name: "jerry",
+      name: "Dr. Chandrashekar Hariharan",
       image: "/about/team2.jpg",
-      role: "CEO",
+      role: "Sustainability Expert & Advisor",
       description:
         "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     },
     {
-      name: "james",
+      name: "Dr. U. V. Krishna Rao",
       image: "/about/team3.jpg",
-      role: "General Manager",
+      role: "Sustainability Expert & Advisor",
       description:
         "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     },
     {
-      name: "james",
+      name: "Sindhu Jannareddy",
       image: "/about/team4.jpg",
-      role: "Head of Sourcing",
+      role: "Director",
 
       description:
         "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     },
     {
-      name: "james",
-      image: "/about/team5.jpg",
-      role: "Head of Quality",
+      name: "Seshan Ranganathan",
+      image: "/about/seshan.png",
+      role: "CDM Expert",
       description:
-        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+        "Seshan Ranganathan holds a Bachelor's Degree in Chemical Engineering, Industrial Engineering and a Post-Graduate Diploma in Management. He has over 25 years of experience in chemical process industries (fertilizer & petrochemical manufacturing) covering production, technical services, energy /safety audits and efficiency studies. He has 8 years of experience in certifying organizations and is involved in the validation/verification/technical review of over 150 projects under various GHG schemes.  He is also a Lead Auditor for ISO systems on Quality, Environment, Energy, Safety, Food and Sustainability.",
+    },
+    {
+      name: "Ravi Kumar Prabhu S",
+      image: "/about/ravi.png",
+      role: "CDM Expert",
+      description:
+        "Ravi holds a Bachelor's Degree in Chemical Engineering and a Post Graduate Diploma in Management.  He has an overall experience of 23 years in the operations of Chemical industry, where he was involved in day-to-day operations of large fertilizer plants, process design, development of process flow diagrams, P&IDs, equipment design, EIA and HAZOP studies, procurement and commissioning activities etc. Thereafter, he worked for seven years in DNV-GL Climate Change Services in validation, verification and technical Review of CDM, VCS and GS projects. During this period, he was involved in nearly 200 GHG projects.",
+    },
+    {
+      name: "Krishnan Namboodiri K C",
+      image: "/about/krishnan.png",
+      role: "CDM Expert",
+      description:
+        "Krishnan holds a Bachelor's Degree in Chemical Engineering and a Post Graduate Diploma in Management. He has an overall experience of 38 years in the functional areas of Project Management, Technical Services & Environmental Management, Process Design, Engineering and Consultancy. Thereafter, he worked for seven years in DNV-GL Climate Change Services in validation and verification of GHG emission reduction projects in accordance with UNFCCC Clean Development Mechanism (CDM), Voluntary Carbon Standard (VCS) and Gold Standard (GS). During this period, he Successfully completed the registration of CDM/VCS/GS validations projects and issuance of certified emission reductions for verification jobs for about 60 project activities and Conducted Technical Reviews of about 30 validation/verification reports for projects from India and abroad.",
     },
     {
       name: "james",
@@ -66,7 +80,7 @@ function About() {
             </p>
           </div>
 
-          <div className="w-full flex lg:flex-row  mb-8 flex-1 lg:w-full md:h-fit lg:gap-0 gap-10 items-center  md:flex-col flex-col   ">
+          <div className="w-full flex lg:flex-row   mb-8 flex-1 lg:w-full md:h-fit lg:gap-0 gap-10 items-center  md:flex-col flex-col   ">
             <div className="lg:w-full  flex   lg:min-w-[357px]   lg:h-full  md:h-[400px]  h-[300px] relative">
               <Image
                 className=" "
@@ -76,7 +90,7 @@ function About() {
                 src="/ourvison/ov.png"
               />
 
-              <div className="w-full h-full text-white    lg:p-20  p-24 flex flex-col justify-center items-center relative ">
+              <div className="w-full h-full text-white    lg:p-20    flex flex-col justify-center items-center relative ">
                 <p className="text-center text-2xl mb-2 font-semibold ">
                   Our Vision
                 </p>
@@ -227,10 +241,10 @@ function About() {
             Meet Our Team
           </h1>
 
-          <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
+          <div className="grid grid-cols-1  gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
             {team.map(({ name, image, role, description, id }) => {
               return (
-                <div key={id} className="flex flex-col items-center p-5">
+                <div key={id} className="flex   flex-col items-center p-5">
                   <div className="relative lg:w-[300px] lg:h-[300px]  md:w-[300px] md:h-[300px] w-[200px]  h-[200px]  rounded-full">
                     <Image
                       className="rounded-full"
@@ -240,16 +254,16 @@ function About() {
                       layout="fill"
                     />
                   </div>
-                  <h1 className="mt-4 text-2xl  text-black capitalize font-bold ">
+                  <h1 className="mt-4 md:h-[50px] text-2xl  text-black capitalize font-bold ">
                     {name}
                   </h1>
-                  <div className="flex flex-col gap-5 justify-center">
-                    <p className=" text-black capitalize text-center  ">
+                  <div className="flex flex-col justify-center">
+                    <p className=" text-black mt-12  capitalize text-center  ">
                       {role}
                     </p>
                     <h1 className="md:w-[255px] h-[2px]  bg-blue mb-5"></h1>
                   </div>
-                  <p className="text-center">{description}</p>
+                  <p className="text-center ">{description}</p>
                 </div>
               );
             })}
