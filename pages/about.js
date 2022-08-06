@@ -2,59 +2,59 @@ import Image from "next/image";
 function About() {
   const team = [
     {
-      name: "Dr A Mohan Reddy ",
-      image: "/about/.jpg",
-      role: "Founder & MD",
+      name: "",
+      image: "/about/",
+      role: "",
       description:
         "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     },
     {
-      name: "Dr. Chandrashekar Hariharan",
-      image: "/about/.jpg",
-      role: "Sustainability Expert & Advisor",
+      name: "",
+      image: "/about/",
+      role: "",
       description:
         "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     },
     {
-      name: "Dr. U. V. Krishna Rao",
-      image: "/about/.jpg",
-      role: "Sustainability Expert & Advisor",
+      name: "",
+      image: "/about/",
+      role: "",
       description:
         "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     },
     {
-      name: "Sindhu Jannareddy",
-      image: "/about/.jpg",
-      role: "Director",
+      name: "",
+      image: "/about/",
+      role: "",
 
       description:
         "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     },
     {
-      name: "Seshan Ranganathan",
-      image: "/about/seshan.png",
-      role: "CDM Expert",
+      name: "",
+      image: "/about/",
+      role: "",
       description:
-        "Seshan Ranganathan holds a Bachelor's Degree in Chemical Engineering, Industrial Engineering and a Post-Graduate Diploma in Management. He has over 25 years of experience in chemical process industries (fertilizer & petrochemical manufacturing) covering production, technical services, energy /safety audits and efficiency studies. He has 8 years of experience in certifying organizations and is involved in the validation/verification/technical review of over 150 projects under various GHG schemes.  He is also a Lead Auditor for ISO systems on Quality, Environment, Energy, Safety, Food and Sustainability.",
+      "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     },
     {
-      name: "Ravi Kumar Prabhu S",
-      image: "/about/ravi.png",
-      role: "CDM Expert",
+      name: "",
+      image: "/about/g",
+      role: "",
       description:
-        "Ravi holds a Bachelor's Degree in Chemical Engineering and a Post Graduate Diploma in Management.  He has an overall experience of 23 years in the operations of Chemical industry, where he was involved in day-to-day operations of large fertilizer plants, process design, development of process flow diagrams, P&IDs, equipment design, EIA and HAZOP studies, procurement and commissioning activities etc. Thereafter, he worked for seven years in DNV-GL Climate Change Services in validation, verification and technical Review of CDM, VCS and GS projects. During this period, he was involved in nearly 200 GHG projects.",
+      "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     },
     {
-      name: "Krishnan Namboodiri  K C",
-      image: "/about/krishnan.png",
-      role: "CDM Expert",
-      description:
-        "Krishnan holds a Bachelor's Degree in Chemical Engineering and a Post Graduate Diploma in Management. He has an overall experience of 38 years in the functional areas of Project Management, Technical Services & Environmental Management, Process Design, Engineering and Consultancy. Thereafter, he worked for seven years in DNV-GL Climate Change Services in validation and verification of GHG emission reduction projects in accordance with UNFCCC Clean Development Mechanism (CDM), Voluntary Carbon Standard (VCS) and Gold Standard (GS).",
+      name: "",
+      image: "/abo",
+      role: "",
+      description: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+        
     },
     {
-      name: "james",
-      image: "/about/.jpg",
-      role: "Head of Research",
+      name: "",
+      image: "/about/",
+      role: "",
       description:
         "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     },
@@ -254,12 +254,16 @@ function About() {
                       layout="fill"
                     />
                   </div>
-                  <h1 className="mt-4  text-lg h-[60px]  text-black text-center capitalize font-bold ">
+                  <h1 className="mt-4 md: text-2xl  text-black capitalize font-bold ">
                     {name}
                   </h1>
-                <p className="text-center h-[30px]">{role}</p>
-                  <h1 className="w-[255px] h-[2px]  bg-blue mb-5"></h1>
-                  <p className="text-center  text-sm ">{description}</p>
+                  <div className="flex flex-col justify-center">
+                    <p className=" text-black mt- capitalize text-center  ">
+                      {role}
+                    </p>
+                    <h1 className="md:w-[255px] h-[2px]  bg-blue mb-5"></h1>
+                  </div>
+                  <p className="text-center ">{description}</p>
                 </div>
               );
             })}
