@@ -53,7 +53,7 @@ function About() {
     },
     {
       name: "james",
-      image: "",
+      image: "/about/.jpg",
       role: "Head of Research",
       description:
         "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
@@ -254,10 +254,10 @@ function About() {
                       layout="fill"
                     />
                   </div>
-                  <h1 className="mt-4  text-xl h-[40px]  text-black text-center capitalize font-bold ">
+                  <h1 className="mt-4  text-lg h-[60px]  text-black text-center capitalize font-bold ">
                     {name}
                   </h1>
-                <p className="mt-5">{role}</p>
+                <p className="text-center h-[30px]">{role}</p>
                   <h1 className="w-[255px] h-[2px]  bg-blue mb-5"></h1>
                   <p className="text-center  text-sm ">{description}</p>
                 </div>
