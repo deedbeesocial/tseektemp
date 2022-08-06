@@ -3,28 +3,28 @@ function About() {
   const team = [
     {
       name: "Dr A Mohan Reddy ",
-      image: "/about/team1.jpg",
+      image: "",
       role: "Founder & MD",
       description:
         "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     },
     {
       name: "Dr. Chandrashekar Hariharan",
-      image: "/about/team2.jpg",
+      image: "",
       role: "Sustainability Expert & Advisor",
       description:
         "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     },
     {
       name: "Dr. U. V. Krishna Rao",
-      image: "/about/team3.jpg",
+      image: "",
       role: "Sustainability Expert & Advisor",
       description:
         "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     },
     {
       name: "Sindhu Jannareddy",
-      image: "/about/team4.jpg",
+      image: "",
       role: "Director",
 
       description:
@@ -45,15 +45,15 @@ function About() {
         "Ravi holds a Bachelor's Degree in Chemical Engineering and a Post Graduate Diploma in Management.  He has an overall experience of 23 years in the operations of Chemical industry, where he was involved in day-to-day operations of large fertilizer plants, process design, development of process flow diagrams, P&IDs, equipment design, EIA and HAZOP studies, procurement and commissioning activities etc. Thereafter, he worked for seven years in DNV-GL Climate Change Services in validation, verification and technical Review of CDM, VCS and GS projects. During this period, he was involved in nearly 200 GHG projects.",
     },
     {
-      name: "Krishnan Namboodiri K C",
+      name: "Krishnan Namboodiri  K C",
       image: "/about/krishnan.png",
       role: "CDM Expert",
       description:
-        "Krishnan holds a Bachelor's Degree in Chemical Engineering and a Post Graduate Diploma in Management. He has an overall experience of 38 years in the functional areas of Project Management, Technical Services & Environmental Management, Process Design, Engineering and Consultancy. Thereafter, he worked for seven years in DNV-GL Climate Change Services in validation and verification of GHG emission reduction projects in accordance with UNFCCC Clean Development Mechanism (CDM), Voluntary Carbon Standard (VCS) and Gold Standard (GS). During this period, he Successfully completed the registration of CDM/VCS/GS validations projects and issuance of certified emission reductions for verification jobs for about 60 project activities and Conducted Technical Reviews of about 30 validation/verification reports for projects from India and abroad.",
+        "Krishnan holds a Bachelor's Degree in Chemical Engineering and a Post Graduate Diploma in Management. He has an overall experience of 38 years in the functional areas of Project Management, Technical Services & Environmental Management, Process Design, Engineering and Consultancy. Thereafter, he worked for seven years in DNV-GL Climate Change Services in validation and verification of GHG emission reduction projects in accordance with UNFCCC Clean Development Mechanism (CDM), Voluntary Carbon Standard (VCS) and Gold Standard (GS).",
     },
     {
       name: "james",
-      image: "/about/team6.jpg",
+      image: "",
       role: "Head of Research",
       description:
         "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
@@ -254,16 +254,12 @@ function About() {
                       layout="fill"
                     />
                   </div>
-                  <h1 className="mt-4 md:h-[50px] text-2xl  text-black capitalize font-bold ">
+                  <h1 className="mt-4  text-xl h-[40px]  text-black text-center capitalize font-bold ">
                     {name}
                   </h1>
-                  <div className="flex flex-col justify-center">
-                    <p className=" text-black mt-12  capitalize text-center  ">
-                      {role}
-                    </p>
-                    <h1 className="md:w-[255px] h-[2px]  bg-blue mb-5"></h1>
-                  </div>
-                  <p className="text-center ">{description}</p>
+                <p className="mt-5">{role}</p>
+                  <h1 className="w-[255px] h-[2px]  bg-blue mb-5"></h1>
+                  <p className="text-center  text-sm ">{description}</p>
                 </div>
               );
             })}
