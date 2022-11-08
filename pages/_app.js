@@ -1,17 +1,7 @@
-import '../styles/globals.css'
-import Layout from '../components/layout'
-import Head from 'next/head'
+import "../styles/globals.css";
+
 function MyApp({ Component, pageProps }) {
-  return (
-    <Layout>
-      <Head >
-        <title>Zenith Energy</title>
-        <meta name="description" content="Official website for SFJ business solutions" />
-        <link rel="icon" href="/ZLOGO1.png " />
-      </Head>
-      <Component {...pageProps} />
-    </Layout>
-  )
+  return <Component {...pageProps} />;
 }
 
-export default MyApp
+export default MyApp;
